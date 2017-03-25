@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,6 +38,13 @@ msgstr ""
 msgid ""
 "Of course, we could also solve this problem by using the ``count`` method"
 " provided for strings."
+msgstr ""
+
+#: ../../_sources/Labs/lab12_01.rst:35
+msgid ""
+"def countA(text):\n"
+"\n"
+"    return text.count(\"a\")"
 msgstr ""
 
 #: ../../_sources/Labs/lab12_01.rst:45
@@ -74,8 +81,16 @@ msgid ""
 "return the dictionary.  For example,"
 msgstr ""
 
+#: ../../_sources/Labs/lab12_01.rst:60
+msgid "print(countAll(\"banana\"))"
+msgstr ""
+
 #: ../../_sources/Labs/lab12_01.rst:64
 msgid "would return the dictionary"
+msgstr ""
+
+#: ../../_sources/Labs/lab12_01.rst:66
+msgid "{\"a\":3, \"b\":1, \"n\":2}"
 msgstr ""
 
 #: ../../_sources/Labs/lab12_01.rst:73

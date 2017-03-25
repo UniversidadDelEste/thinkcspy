@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,6 +21,39 @@ msgstr ""
 
 #: ../../_sources/PythonModules/modules.rst:15
 msgid "Modules and Getting Help"
+msgstr ""
+
+msgid ""
+"<div id=\"inputvid\" class=\"video_popup\" >\n"
+"<video controls preload=\"none\"  poster=\"../_static/modules.png\">\n"
+"    <source "
+"src=\"http://media.interactivepython.org/thinkcsVideos/modules.mov\" "
+"type=\"video/mp4\"></source>\n"
+"    <source "
+"src=\"http://media.interactivepython.org/thinkcsVideos/modules.webm\" "
+"type=\"video/webm\"></source>\n"
+"    No supported video types\n"
+"</video>\n"
+"</div>\n"
+"<script>\n"
+"   jQuery(function($) {\n"
+"      var rb = new RunestoneBase();\n"
+"      $('#inputvid_thumb').click(function(e) {\n"
+"         $('#inputvid').show();\n"
+"         $('#inputvid_thumb').hide();\n"
+"         rb.logBookEvent({'event':'video','act':'play','div_id': "
+"'inputvid'});\n"
+"         // Log the run event\n"
+"      });\n"
+"      $('#inputvid video').one(\"click\", function(){\n"
+"        this.play();\n"
+"      });\n"
+"      $('#inputvid video').one(\"play\", function(){\n"
+"        rb.logBookEvent({'event':'video','act':'play','div_id': "
+"'inputvid'});\n"
+"      });\n"
+"   });\n"
+"</script>\n"
 msgstr ""
 
 #: ../../_sources/PythonModules/modules.rst:24
@@ -61,11 +94,23 @@ msgid ""
 "encourage you to become familiar with this site and to use it often."
 msgstr ""
 
+#: ../../_sources/PythonModules/modules.rst:65
+msgid ".. image:: PythonModules/Figures/pythondocmedium.png"
+msgstr ""
+
 #: ../../_sources/PythonModules/modules.rst:66
 msgid ""
 "If you have not done so already, take a look at the Global Module Index."
 "  Here you will see an alphabetical listing of all the modules that are "
 "available as part of the standard library.  Find the turtle module."
+msgstr ""
+
+#: ../../_sources/PythonModules/modules.rst:70
+msgid ".. image:: PythonModules/Figures/moduleindexmedium.png"
+msgstr ""
+
+#: ../../_sources/PythonModules/modules.rst:72
+msgid ".. image:: PythonModules/Figures/turtlemodmedium.png"
 msgstr ""
 
 #: ../../_sources/PythonModules/modules.rst:73

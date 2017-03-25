@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,6 +32,20 @@ msgid ""
 "as parameters. You can set the ``event handler`` function using a \"named"
 " parameter\" when you create the widget, or set the widget's ``command`` "
 "attribute using a dictionary lookup. For example:"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/06_command_events.rst:25
+msgid ""
+"def my_function():\n"
+"  print(\"my_function was called.\")\n"
+"\n"
+"my_button = tk.Button(application_window, text=\"Example\", "
+"command=my_function)\n"
+"\n"
+"# or\n"
+"\n"
+"my_button = tk.Button(application_window, text=\"Example\")\n"
+"my_button['command'] = my_function"
 msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/06_command_events.rst:37
@@ -162,6 +176,26 @@ msgid ""
 "called -- which closes the window."
 msgstr ""
 
+#: ../../_sources/GUIandEventDrivenProgramming/06_command_events.rst:80
+msgid ""
+"import tkinter as tk\n"
+"from tkinter import ttk\n"
+"\n"
+"# Create the application window\n"
+"window = tk.Tk()\n"
+"\n"
+"# Create the user interface\n"
+"my_label = ttk.Label(window, text=\"Hello World\")\n"
+"my_label.grid(row=1, column=1)\n"
+"\n"
+"quit_button = ttk.Button(window, text=\"Quit\")\n"
+"quit_button.grid(row=2, column=1)\n"
+"quit_button['command'] = window.destroy\n"
+"\n"
+"# Start the GUI event loop\n"
+"window.mainloop()"
+msgstr ""
+
 #: ../../_sources/GUIandEventDrivenProgramming/06_command_events.rst:100
 msgid "Other Events"
 msgstr ""
@@ -171,5 +205,21 @@ msgid ""
 "Using ``command`` events for simple actions is the easiest way to handle "
 "user events. For more complex situations, the next lesson explains how to"
 " associate \"lower level\" events with ``event handler`` functions."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/06_command_events.rst:106
+msgid "event"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/06_command_events.rst:106
+msgid "event description"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/06_command_events.rst:106
+msgid "event object"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/06_command_events.rst:106
+msgid "widget command property"
 msgstr ""
 

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,5 +38,14 @@ msgid ""
 " they are all turtles, they differ in the specific values of the "
 "individual state attributes (maybe they are in a different location or "
 "have a different heading)."
+msgstr ""
+
+msgid ""
+".. image:: ClassesBasics/Figures/objectpic1.png\n"
+"   :alt: Simple object has state and methods"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/ObjectsRevisited.rst:26
+msgid "compound data type"
 msgstr ""
 

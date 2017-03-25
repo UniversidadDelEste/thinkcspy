@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,5 +46,29 @@ msgstr ""
 
 #: ../../_sources/Strings/Optionalparameters.rst:115
 msgid "The semantics of ``start`` and ``end`` in this function are precisely the same as they are in the ``range`` function."
+msgstr ""
+
+#: ../../_sources/Strings/Optionalparameters.rst:120
+msgid "module"
+msgstr ""
+
+#: ../../_sources/Strings/Optionalparameters.rst:120
+msgid "string module"
+msgstr ""
+
+#: ../../_sources/Strings/Optionalparameters.rst:120
+msgid "dir function"
+msgstr ""
+
+#: ../../_sources/Strings/Optionalparameters.rst:120
+msgid "dot notation"
+msgstr ""
+
+#: ../../_sources/Strings/Optionalparameters.rst:120
+msgid "function type"
+msgstr ""
+
+#: ../../_sources/Strings/Optionalparameters.rst:120
+msgid "docstring"
 msgstr ""
 

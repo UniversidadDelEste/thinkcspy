@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,6 +21,40 @@ msgstr ""
 
 #: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:15
 msgid "Conditional Execution: Binary Selection"
+msgstr ""
+
+msgid ""
+"<div id=\"binaryselection\" class=\"video_popup\" >\n"
+"<video controls preload=\"none\"  "
+"poster=\"../_static/binaryselection.png\">\n"
+"    <source "
+"src=\"http://media.interactivepython.org/thinkcsVideos/binaryselection.mov\""
+" type=\"video/mp4\"></source>\n"
+"    <source "
+"src=\"http://media.interactivepython.org/thinkcsVideos/binaryselection.webm\""
+" type=\"video/webm\"></source>\n"
+"    No supported video types\n"
+"</video>\n"
+"</div>\n"
+"<script>\n"
+"   jQuery(function($) {\n"
+"      var rb = new RunestoneBase();\n"
+"      $('#binaryselection_thumb').click(function(e) {\n"
+"         $('#binaryselection').show();\n"
+"         $('#binaryselection_thumb').hide();\n"
+"         rb.logBookEvent({'event':'video','act':'play','div_id': "
+"'binaryselection'});\n"
+"         // Log the run event\n"
+"      });\n"
+"      $('#binaryselection video').one(\"click\", function(){\n"
+"        this.play();\n"
+"      });\n"
+"      $('#binaryselection video').one(\"play\", function(){\n"
+"        rb.logBookEvent({'event':'video','act':'play','div_id': "
+"'binaryselection'});\n"
+"      });\n"
+"   });\n"
+"</script>\n"
 msgstr ""
 
 #: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:25
@@ -37,12 +71,24 @@ msgstr ""
 msgid "The syntax for an ``if`` statement looks like this:"
 msgstr ""
 
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:42
+msgid ""
+"if BOOLEAN EXPRESSION:\n"
+"    STATEMENTS_1        # executed if condition evaluates to True\n"
+"else:\n"
+"    STATEMENTS_2        # executed if condition evaluates to False"
+msgstr ""
+
 #: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:49
 msgid ""
 "The boolean expression after the ``if`` statement is called the "
 "**condition**. If it is true, then the indented statements get executed. "
 "If not, then the statements indented under the `else` clause get "
 "executed."
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst
+msgid ".. image:: Selection/Figures/flowchart_if_else.png"
 msgstr ""
 
 #: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:59
@@ -102,7 +148,36 @@ msgid ""
 "c or nothing)."
 msgstr ""
 
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:111
+msgid ""
+"if 4 + 5 == 10:\n"
+"    print(\"TRUE\")\n"
+"else:\n"
+"    print(\"FALSE\")"
+msgstr ""
+
 #: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:130
 msgid "select-4-3: What does the following code print?"
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:132
+msgid ""
+"if 4 + 5 == 10:\n"
+"    print(\"TRUE\")\n"
+"else:\n"
+"    print(\"FALSE\")\n"
+"print(\"TRUE\")"
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:158
+msgid "alternative execution"
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:158
+msgid "branch"
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:158
+msgid "wrapping code in a function"
 msgstr ""
 

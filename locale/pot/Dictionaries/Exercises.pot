@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,39 @@ msgstr ""
 
 #: ../../_sources/Dictionaries/Exercises.rst:76
 msgid "Give the Python interpreter's response to each of the following from a continuous interpreter session:"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:80
+msgid ">>> d = {'apples': 15, 'bananas': 35, 'grapes': 12}\n"
+">>> d['banana']"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:86
+msgid ">>> d['oranges'] = 20\n"
+">>> len(d)"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:92
+msgid ">>> 'grapes' in d"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:97
+msgid ">>> d['pears']"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:102
+msgid ">>> d.get('pears', 0)"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:107
+msgid ">>> fruits = d.keys()\n"
+">>> fruits.sort()\n"
+">>> print(fruits)"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:114
+msgid ">>> del d['apples']\n"
+">>> 'apples' in d"
 msgstr ""
 
 #: ../../_sources/Dictionaries/Exercises.rst:120
@@ -101,6 +134,43 @@ msgstr ""
 
 #: ../../_sources/Dictionaries/Exercises.rst:162
 msgid "How many times does the word, ``alice``, occur in the book?  If you are writing this in the activecode window simply print out the results rather than write them to a file."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:169
+msgid "f = open('alice.txt', 'r')\n"
+"\n"
+"count = {}\n"
+"\n"
+"for line in f:\n"
+"    for word in line.split():\n"
+"\n"
+"        # remove punctuation\n"
+"        word = word.replace('_', '').replace('\"', '').replace(',', '').replace('.', '')\n"
+"        word = word.replace('-', '').replace('?', '').replace('!', '').replace(\"'\", \"\")\n"
+"        word = word.replace('(', '').replace(')', '').replace(':', '').replace('[', '')\n"
+"        word = word.replace(']', '').replace(';', '')\n"
+"\n"
+"        # ignore case\n"
+"        word = word.lower()\n"
+"\n"
+"        # ignore numbers\n"
+"        if word.isalpha():\n"
+"            if word in count:\n"
+"                count[word] = count[word] + 1\n"
+"            else:\n"
+"                count[word] = 1\n"
+"\n"
+"keys = count.keys()\n"
+"keys.sort()\n"
+"\n"
+"# save the word count analysis to a file\n"
+"out = open('alice_words.txt', 'w')\n"
+"\n"
+"for word in keys:\n"
+"    out.write(word + \" \" + str(count[word]))\n"
+"    out.write('\\n')\n"
+"\n"
+"print(\"The word 'alice' appears \" + str(count['alice']) + \" times in the book.\")"
 msgstr ""
 
 #: ../../_sources/Dictionaries/Exercises.rst:215

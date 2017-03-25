@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,6 +48,18 @@ msgstr ""
 msgid "So based on the problem description above, we can outline a program as follows:"
 msgstr ""
 
+#: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:35
+msgid "create a window and a turtle\n"
+"\n"
+"while the turtle is still in the window:\n"
+"    generate a random number between 0 and 1\n"
+"    if the number == 0 (heads):\n"
+"        turn left\n"
+"    else:\n"
+"        turn right\n"
+"    move the turtle forward 50"
+msgstr ""
+
 #: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:47
 msgid "Now, probably the only thing that seems a bit confusing to you is the part about whether or not the turtle is still in the screen.  But this is the nice thing about programming, we can delay the tough stuff and get *something* in our program working right away.  The way we are going to do this is to delegate the work of deciding whether the turtle is still in the screen or not to a boolean function.  Let's call this boolean function ``isInScreen`` We can write a very simple version of this boolean function by having it always return ``True``, or by having it decide randomly, the point is to have it do something simple so that we can focus on the parts we already know how to do well and get them working.  Since having it always return true would not be a good idea we will write our version to decide randomly.  Let's say that there is a 90% chance the turtle is still in the window and 10% that the turtle has escaped."
 msgstr ""
@@ -62,6 +74,25 @@ msgstr ""
 
 #: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:107
 msgid "Once we have computed our boundaries we can get the current position of the turtle and then use conditionals to decide.  Here is one implementation:"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:110
+msgid "def isInScreen(wn,t):\n"
+"    leftBound = -(wn.window_width() / 2)\n"
+"    rightBound = wn.window_width() / 2\n"
+"    topBound = wn.window_height() / 2\n"
+"    bottomBound = -(wn.window_height() / 2)\n"
+"\n"
+"    turtleX = t.xcor()\n"
+"    turtleY = t.ycor()\n"
+"\n"
+"    stillIn = True\n"
+"    if turtleX > rightBound or turtleX < leftBound:\n"
+"        stillIn = False\n"
+"    if turtleY > topBound or turtleY < bottomBound:\n"
+"        stillIn = False\n"
+"\n"
+"    return stillIn"
 msgstr ""
 
 #: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:129
@@ -86,5 +117,9 @@ msgstr ""
 
 #: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:214
 msgid "iter-4-2: In the random walk program in this section, what does the isInScreen function do?"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:188
+msgid "3n + 1 sequence"
 msgstr ""
 

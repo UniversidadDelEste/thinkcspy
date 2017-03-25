@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,6 +45,15 @@ msgid ""
 "ignored."
 msgstr ""
 
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:33
+msgid ""
+"from tkinter import messagebox\n"
+"\n"
+"messagebox.showinfo(\"Information\",\"Informative message\")\n"
+"messagebox.showerror(\"Error\", \"Error message\")\n"
+"messagebox.showwarning(\"Warning\",\"Warning message\")"
+msgstr ""
+
 #: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:42
 msgid "Yes/No Questions"
 msgstr ""
@@ -54,6 +63,18 @@ msgid ""
 "The tkinter ``messagebox`` object also allows you to ask a user simple "
 "yes/no type questions and varies the button names based on the type of "
 "question. These functions are:"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:48
+msgid ""
+"from tkinter import messagebox\n"
+"\n"
+"answer = messagebox.askokcancel(\"Question\",\"Do you want to open this "
+"file?\")\n"
+"answer = messagebox.askretrycancel(\"Question\", \"Do you want to try "
+"that again?\")\n"
+"answer = messagebox.askyesno(\"Question\",\"Do you like Python?\")\n"
+"answer = messagebox.askyesnocancel(\"Question\", \"Continue playing?\")"
 msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:57
@@ -76,6 +97,37 @@ msgid ""
 "returned."
 msgstr ""
 
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:69
+msgid ""
+"import tkinter as tk\n"
+"from tkinter import simpledialog\n"
+"\n"
+"application_window = tk.Tk()\n"
+"\n"
+"answer = simpledialog.askstring(\"Input\", \"What is your first name?\",\n"
+"                                parent=application_window)\n"
+"if answer is not None:\n"
+"    print(\"Your first name is \", answer)\n"
+"else:\n"
+"    print(\"You don't have a first name?\")\n"
+"\n"
+"answer = simpledialog.askinteger(\"Input\", \"What is your age?\",\n"
+"                                 parent=application_window,\n"
+"                                 minvalue=0, maxvalue=100)\n"
+"if answer is not None:\n"
+"    print(\"Your age is \", answer)\n"
+"else:\n"
+"    print(\"You don't have an age?\")\n"
+"\n"
+"answer = simpledialog.askfloat(\"Input\", \"What is your salary?\",\n"
+"                               parent=application_window,\n"
+"                               minvalue=0.0, maxvalue=100000.0)\n"
+"if answer is not None:\n"
+"    print(\"Your salary is \", answer)\n"
+"else:\n"
+"    print(\"You don't have a salary?\")"
+msgstr ""
+
 #: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:101
 msgid "File Chooser"
 msgstr ""
@@ -93,6 +145,44 @@ msgid ""
 " user cancels the dialog box, the returned value is an empty string."
 msgstr ""
 
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:113
+msgid ""
+"import tkinter as tk\n"
+"from tkinter import filedialog\n"
+"import os\n"
+"\n"
+"application_window = tk.Tk()\n"
+"\n"
+"# Build a list of tuples for each file type the file dialog should "
+"display\n"
+"my_filetypes = [('all files', '.*'), ('text files', '.txt')]\n"
+"\n"
+"# Ask the user to select a folder.\n"
+"answer = filedialog.askdirectory(parent=application_window,\n"
+"                                 initialdir=os.getcwd(),\n"
+"                                 title=\"Please select a folder:\")\n"
+"\n"
+"# Ask the user to select a single file name.\n"
+"answer = filedialog.askopenfilename(parent=application_window,\n"
+"                                    initialdir=os.getcwd(),\n"
+"                                    title=\"Please select a file:\",\n"
+"                                    filetypes=my_filetypes)\n"
+"\n"
+"# Ask the user to select a one or more file names.\n"
+"answer = filedialog.askopenfilenames(parent=application_window,\n"
+"                                     initialdir=os.getcwd(),\n"
+"                                     title=\"Please select one or more "
+"files:\",\n"
+"                                     filetypes=my_filetypes)\n"
+"\n"
+"# Ask the user to select a single file name for saving.\n"
+"answer = filedialog.asksaveasfilename(parent=application_window,\n"
+"                                      initialdir=os.getcwd(),\n"
+"                                      title=\"Please select a file name "
+"for saving:\",\n"
+"                                      filetypes=my_filetypes)"
+msgstr ""
+
 #: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:148
 msgid "Color Chooser"
 msgstr ""
@@ -105,5 +195,89 @@ msgid ""
 "0)`` which represents red, and 2) a hexadecimal string used in web pages,"
 " such as ``\"#FF0000\"`` which also represents red. If the user cancels "
 "the operation, the return values are ``None`` and ``None``."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:157
+msgid ""
+"from tkinter import colorchooser\n"
+"\n"
+"rgb_color, web_color = colorchooser.askcolor(parent=application_window,\n"
+"                                             initialcolor=(255, 0, 0))"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:164
+msgid "messagebox"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:164
+msgid "showinfo"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:164
+msgid "showerror"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:164
+msgid "showwarning"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:164
+msgid "askokcancel"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:164
+msgid "askretrycancel"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:164
+msgid "askyesno"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:164
+msgid "askyesnocancel"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:164
+msgid "simpledialog"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:164
+msgid "askstring"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:164
+msgid "askinteger"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:164
+msgid "askfloat"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:164
+msgid "filedialog"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:164
+msgid "askdirectory"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:164
+msgid "askopenfilename"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:164
+msgid "askopenfilenames"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:164
+msgid "asksaveasfilename"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:164
+msgid "colorchooser"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/02_standard_dialog_boxes.rst:164
+msgid "askcolor"
 msgstr ""
 

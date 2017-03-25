@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,6 +35,10 @@ msgid ""
 "then assigned to the name. The difference between the left and right hand"
 " sides of the assignment statement is often confusing to new programmers."
 " In the following assignment:"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:23
+msgid "n = n + 1"
 msgstr ""
 
 #: ../../_sources/SimplePythonData/Glossary.rst:27

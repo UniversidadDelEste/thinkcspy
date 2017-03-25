@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,10 @@ msgstr ""
 
 #: ../../_sources/Files/FindingaFileonyourDisk.rst:52
 msgid "If a file is not in the same folder as your python program, you need to tell the computer how to reach it. A *relative file path* starts from the folder that contains your python program and follows a computer's file hierarchy. A file hierarchy contains folders which contains files and other sub-folders. Specifying a sub-folder is easy -- you simply specify the sub-folder's name. To specify a *parent* folder you use the special ``..`` notation because every file and folder has one unique parent. You can use the ``..`` notation multiple times in a file path to move multiple levels up a file hierarchy. Here is an example file hierarchy that contains multiple folders, files, and sub-folders. Folders in the diagram are displayed in **bold** type."
+msgstr ""
+
+#: ../../_sources/Files/FindingaFileonyourDisk.rst:None
+msgid ".. image:: Files/Figures/ExampleFileHierarchy.png"
 msgstr ""
 
 #: ../../_sources/Files/FindingaFileonyourDisk.rst:66
@@ -65,6 +69,7 @@ msgid "Glossary"
 msgstr ""
 
 #: ../../_sources/Files/FindingaFileonyourDisk.rst:84
+#: ../../_sources/Files/FindingaFileonyourDisk.rst:95
 msgid "absolute file path"
 msgstr ""
 
@@ -73,6 +78,7 @@ msgid "The name of a file that includes a path to the file from the *root* direc
 msgstr ""
 
 #: ../../_sources/Files/FindingaFileonyourDisk.rst:89
+#: ../../_sources/Files/FindingaFileonyourDisk.rst:95
 msgid "relative file path"
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,5 +30,29 @@ msgstr ""
 
 #: ../../_sources/Lists/NestedLists.rst:50
 msgid "list-23-1: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Lists/NestedLists.rst:52
+msgid "alist = [ [4, [True, False], 6, 8], [888, 999] ]\n"
+"if alist[0][1][0]:\n"
+"   print(alist[1][0])\n"
+"else:\n"
+"   print(alist[1][1])"
+msgstr ""
+
+#: ../../_sources/Lists/NestedLists.rst:35
+msgid "matrix"
+msgstr ""
+
+#: ../../_sources/Lists/NestedLists.rst:61
+msgid "strings and lists"
+msgstr ""
+
+#: ../../_sources/Lists/NestedLists.rst:61
+msgid "split"
+msgstr ""
+
+#: ../../_sources/Lists/NestedLists.rst:61
+msgid "join"
 msgstr ""
 

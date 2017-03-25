@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,12 +20,45 @@ msgstr ""
 msgid "Functions"
 msgstr ""
 
+#: ../../_sources/Functions/functions.rst:None
+msgid "<div id=\"function_intro\" class=\"video_popup\" >\n"
+"<video controls preload=\"none\"  poster=\"../_static/function_intro.png\">\n"
+"    <source src=\"http://media.interactivepython.org/thinkcsVideos/FunctionsIntro.mov\" type=\"video/mp4\"></source>\n"
+"    <source src=\"http://media.interactivepython.org/thinkcsVideos/FunctionsIntro.webm\" type=\"video/webm\"></source>\n"
+"    No supported video types\n"
+"</video>\n"
+"</div>\n"
+"<script>\n"
+"   jQuery(function($) {\n"
+"      var rb = new RunestoneBase();\n"
+"      $('#function_intro_thumb').click(function(e) {\n"
+"         $('#function_intro').show();\n"
+"         $('#function_intro_thumb').hide();\n"
+"         rb.logBookEvent({'event':'video','act':'play','div_id': 'function_intro'});\n"
+"         // Log the run event\n"
+"      });\n"
+"      $('#function_intro video').one(\"click\", function(){\n"
+"        this.play();\n"
+"      });\n"
+"      $('#function_intro video').one(\"play\", function(){\n"
+"        rb.logBookEvent({'event':'video','act':'play','div_id': 'function_intro'});\n"
+"      });\n"
+"   });\n"
+"</script>\n"
+""
+msgstr ""
+
 #: ../../_sources/Functions/functions.rst:30
 msgid "In Python, a **function** is a named sequence of statements that belong together.  Their primary purpose is to help us organize programs into chunks that match how we think about the solution to the problem."
 msgstr ""
 
 #: ../../_sources/Functions/functions.rst:36
 msgid "The syntax for a **function definition** is:"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:38
+msgid "def name( parameters ):\n"
+"    statements"
 msgstr ""
 
 #: ../../_sources/Functions/functions.rst:43
@@ -60,12 +93,20 @@ msgstr ""
 msgid "The figure below shows this relationship.  A function needs certain information to do its work.  These values, often called **arguments** or **actual parameters**, are passed to the function by the user."
 msgstr ""
 
+#: ../../_sources/Functions/functions.rst:73
+msgid ".. image:: Functions/Figures/blackboxproc.png"
+msgstr ""
+
 #: ../../_sources/Functions/functions.rst:74
 msgid "This type of diagram is often called a **black-box diagram** because it only states the requirements from the perspective of the user.  The user must know the name of the function and what arguments need to be passed.  The details of how the function works are hidden inside the \"black-box\"."
 msgstr ""
 
 #: ../../_sources/Functions/functions.rst:76
 msgid "Suppose we're working with turtles and a common operation we need is to draw squares.  It would make sense if we did not have to duplicate all the steps each time we want to make a square.   \"Draw a square\" can be thought of as an *abstraction* of a number of smaller steps.  We will need to provide two pieces of information for the function to do its work: a turtle to do the drawing and a size for the side of the square.  We could represent this using the following black-box diagram."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:80
+msgid ".. image:: Functions/Figures/turtleproc.png"
 msgstr ""
 
 #: ../../_sources/Functions/functions.rst:81
@@ -128,6 +169,16 @@ msgstr ""
 msgid "func-1-4: What is the name of the following function?"
 msgstr ""
 
+#: ../../_sources/Functions/functions.rst:267
+#: ../../_sources/Functions/functions.rst:290
+#: ../../_sources/Functions/functions.rst:315
+msgid "def drawSquare(t, sz):\n"
+"    \"\"\"Make turtle t draw a square of with side sz.\"\"\"\n"
+"    for i in range(4):\n"
+"        t.forward(sz)\n"
+"        t.left(90)"
+msgstr ""
+
 #: ../../_sources/Functions/functions.rst:288
 msgid "func-1-5: What are the parameters of the following function?"
 msgstr ""
@@ -138,5 +189,18 @@ msgstr ""
 
 #: ../../_sources/Functions/functions.rst:332
 msgid "func-1-7: True or false: A function can be called several times by placing a function call in the body of a loop."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:14
+#: ../../_sources/Functions/functions.rst:14
+msgid "function"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:14
+msgid "function definition"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:14
+msgid "definition"
 msgstr ""
 

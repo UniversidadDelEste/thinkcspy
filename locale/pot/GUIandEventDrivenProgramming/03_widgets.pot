@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,14 @@ msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:25
 msgid "Widgets are basically images on a computer screen and they have a \"look-and-feel\" depending on the details of how the image is drawn. The \"look-and-feel\" of a widget is typically controlled by the operating system. For example, GUI programs on a Macintosh computer typically look different from programs on a Microsoft Windows computer. The ``tkinter`` module implements two versions of widgets: one is \"generic,\" which makes widgets look the same regardless of what computer your program is running on, and the other implements widgets that emulate a computer's \"look-and-feel\". How you import the ``tkinter`` module determines which widgets are defined. Using the import statements shown below, the standard convention uses the name ``tk`` to access the \"generic\" widgets and the name ``ttk`` to access the stylized, \"look-and-feel\" widgets. You always need to import the ``tk`` functionality because that allows you to create an application window. You can import the ``ttk`` functionality if you want \"look-and-feel\" widgets. You can inter-mix the ``tk`` and ``ttk`` widgets in an interface if you so choose."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:42
+msgid "# To use the \"generic\" widgets\n"
+"import tkinter as tk\n"
+"\n"
+"# To use the stylized, \"look-and-feel\" widgets\n"
+"from tkinter import ttk"
 msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:51
@@ -139,6 +147,10 @@ msgid "The following figure shows examples of these widgets. You can download an
 msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:80
+msgid ".. image:: GUIandEventDrivenProgramming/Figures/All_user_input_widgets.png"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:80
 msgid "Examples of user input widgets"
 msgstr ""
 
@@ -198,8 +210,18 @@ msgstr ""
 msgid "After importing the Tkinter modules as shown above, the first thing you need to do is create a window for your application. This is done by creating a ``Tk`` object:"
 msgstr ""
 
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:107
+msgid "application_window = tk.Tk()"
+msgstr ""
+
 #: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:111
 msgid "Then you create widgets and add them to the window's widget hierarchy. For example, to create a button you would call either the ``tk`` or the ``tkk`` ``Button`` method and send the ``application_window`` as the first argument:"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:116
+msgid "cmd_button = tk.Button(application_window, text=\"Example\")\n"
+"# or\n"
+"cmd_button = tkk.Button(application_window, text=\"Example\")"
 msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:122
@@ -208,5 +230,81 @@ msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:127
 msgid "Notice that in the above code, ``Tk()`` and ``Button()`` are both capitalized. By convention, this indicates that the window and the button are instances of a Python class. The Tkinter module is entirely object-oriented and makes extensive use of object-oriented language features."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:132
+msgid "Tkinter"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:132
+msgid "widget"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:132
+msgid "widget hierarchy"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:132
+msgid "Button"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:132
+msgid "Menu"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:132
+msgid "MenuButton"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:132
+msgid "OptionMenu"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:132
+msgid "Entry"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:132
+msgid "Text"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:132
+msgid "Checkbutton"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:132
+msgid "Radiobutton"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:132
+msgid "Listbox"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:132
+msgid "Combobox"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:132
+msgid "Scale"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:132
+msgid "Label"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:132
+msgid "Message"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:132
+msgid "Separator"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:132
+msgid "Progressbar"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/03_widgets.rst:132
+msgid "Treeview"
 msgstr ""
 

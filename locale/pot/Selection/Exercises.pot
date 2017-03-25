@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -160,6 +160,11 @@ msgstr ""
 
 #: ../../_sources/Selection/Exercises.rst:381
 msgid "Hint: floating point arithmetic is not always exactly accurate, so it is not safe to test floating point numbers for equality. If a good programmer wants to know whether ``x`` is equal or close enough to ``y``, they would probably code it up as"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:386
+msgid "if  abs(x - y) < 0.001:      # if x is approximately equal to y\n"
+"    ..."
 msgstr ""
 
 #: ../../_sources/Selection/Exercises.rst:418

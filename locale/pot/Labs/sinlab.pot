@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,6 +30,10 @@ msgstr ""
 
 #: ../../_sources/Labs/sinlab.rst:21
 msgid "The sine function, sometimes called the sine wave, is a smooth, repetitive oscillation that occurs often in many fields including mathematics, physics, and engineering.  A single repetition is shown below.  Note that the x axis is given in degrees."
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:24
+msgid ".. image:: Labs/Figures/sinpic.png"
 msgstr ""
 
 #: ../../_sources/Labs/sinlab.rst:25
@@ -56,8 +60,16 @@ msgstr ""
 msgid "In order to plot a smooth line, we will use the turtle's ``goto`` method.  ``goto`` takes two parameters, ``x`` and ``y``, and moves the turtle to that location.  If the tail is down, a line will be drawn from the previous location to the new location."
 msgstr ""
 
+#: ../../_sources/Labs/sinlab.rst:63
+msgid "fred.goto(50,60)"
+msgstr ""
+
 #: ../../_sources/Labs/sinlab.rst:69
 msgid "Recall that the default turtle screen starts with the turtle in the middle at position (0,0).  You can think of the screen as a piece of graph paper.  The x axis runs horizontally and the y axis runs vertically.  The point where they meet in the middle is (0,0).  Positions to the left of the center have an x value that is negative.  Positions that are below the center have a y value that is negative."
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:72
+msgid ".. image:: Labs/Figures/graphpaper.jpg"
 msgstr ""
 
 #: ../../_sources/Labs/sinlab.rst:73

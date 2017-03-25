@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,10 @@ msgstr ""
 
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:28
 msgid "In the figure below, the pixel of interest is found at column **c** and row **r**."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:31
+msgid ".. image:: MoreAboutIteration/Figures/image.png"
 msgstr ""
 
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:33
@@ -331,6 +335,10 @@ msgstr ""
 msgid "Consider the image shown below.  Assume that the image is stored in a file called \"luther.jpg\".  Line 2 opens the file and uses the contents to create an image object that is referred to by ``img``.  Once we have an image object, we can use the methods described above to access information about the image or to get a specific pixel and check on its basic color intensities."
 msgstr ""
 
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:150
+msgid "<img src=\"../_static/LutherBellPic.jpg\" id=\"luther.jpg\">"
+msgstr ""
+
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:169
 msgid "When you run the program you can see that the image has a width of 400 pixels and a height of 244 pixels.  Also, the pixel at column 45, row 55, has RGB values of 165, 161, and 158.  Try a few other pixel locations by changing the ``getPixel`` arguments and rerunning the program."
 msgstr ""
@@ -351,8 +359,19 @@ msgstr ""
 msgid "Nested iteration simply means that we will place one iteration construct inside of another.  We will call these two iterations the **outer iteration** and the **inner iteration**. To see how this works, consider the iteration below."
 msgstr ""
 
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:199
+msgid "for i in range(5):\n"
+"    print(i)"
+msgstr ""
+
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:204
 msgid "We have seen this enough times to know that the value of ``i`` will be 0, then 1, then 2, and so on up to 4. The ``print`` will be performed once for each pass. However, the body of the loop can contain any statements including another iteration (another ``for`` statement).  For example,"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:208
+msgid "for i in range(5):\n"
+"    for j in range(3):\n"
+"        print(i, j)"
 msgstr ""
 
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:214
@@ -367,12 +386,67 @@ msgstr ""
 msgid "Another way to see this in more detail is to examine the behavior with codelens.  Step through the iterations to see the flow of control as it occurs with the nested iteration.  Again, for every value of ``i``, all of the values of ``j`` will occur.  You can see that the inner iteration completes before going on to the next pass of the outer iteration."
 msgstr ""
 
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:234
+msgid "\n"
+"<div class=\"alert alert-warning cd_section\">\n"
+"<div id=\"nested2\"></div>\n"
+"<p class=\"cl_caption\"><span class=\"cl_caption_text\"> (nested2)</span> </p>\n"
+"</div>\n"
+"<script type=\"text/javascript\">\n"
+"var nested2_trace = {\"code\": \"for i in range(5):\\n    for j in range(3):\\n        print(i, j)\", \"trace\": [{\"ordered_globals\": [], \"stdout\": \"\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {}, \"heap\": {}, \"line\": 1, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\"], \"stdout\": \"\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 0}, \"heap\": {}, \"line\": 2, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 0, \"j\": 0}, \"heap\": {}, \"line\": 3, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 0, \"j\": 0}, \"heap\": {}, \"line\": 2, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 0, \"j\": 1}, \"heap\": {}, \"line\": 3, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 0, \"j\": 1}, \"heap\": {}, \"line\": 2, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 0, \"j\": 2}, \"heap\": {}, \"line\": 3, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 0, \"j\": 2}, \"heap\": {}, \"line\": 2, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 0, \"j\": 2}, \"heap\": {}, \"line\": 1, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 1, \"j\": 2}, \"heap\": {}, \"line\": 2, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 1, \"j\": 0}, \"heap\": {}, \"line\": 3, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 1, \"j\": 0}, \"heap\": {}, \"line\": 2, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 1, \"j\": 1}, \"heap\": {}, \"line\": 3, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 1, \"j\": 1}, \"heap\": {}, \"line\": 2, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 1, \"j\": 2}, \"heap\": {}, \"line\": 3, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 1, \"j\": 2}, \"heap\": {}, \"line\": 2, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 1, \"j\": 2}, \"heap\": {}, \"line\": 1, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 2, \"j\": 2}, \"heap\": {}, \"line\": 2, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 2, \"j\": 0}, \"heap\": {}, \"line\": 3, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 2, \"j\": 0}, \"heap\": {}, \"line\": 2, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 2, \"j\": 1}, \"heap\": {}, \"line\": 3, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n(2, 1)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 2, \"j\": 1}, \"heap\": {}, \"line\": 2, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n(2, 1)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 2, \"j\": 2}, \"heap\": {}, \"line\": 3, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n(2, 1)\\n(2, 2)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 2, \"j\": 2}, \"heap\": {}, \"line\": 2, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n(2, 1)\\n(2, 2)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 2, \"j\": 2}, \"heap\": {}, \"line\": 1, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n(2, 1)\\n(2, 2)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 3, \"j\": 2}, \"heap\": {}, \"line\": 2, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n(2, 1)\\n(2, 2)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 3, \"j\": 0}, \"heap\": {}, \"line\": 3, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n(2, 1)\\n(2, 2)\\n(3, 0)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 3, \"j\": 0}, \"heap\": {}, \"line\": 2, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n(2, 1)\\n(2, 2)\\n(3, 0)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 3, \"j\": 1}, \"heap\": {}, \"line\": 3, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n(2, 1)\\n(2, 2)\\n(3, 0)\\n(3, 1)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 3, \"j\": 1}, \"heap\": {}, \"line\": 2, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n(2, 1)\\n(2, 2)\\n(3, 0)\\n(3, 1)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 3, \"j\": 2}, \"heap\": {}, \"line\": 3, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n(2, 1)\\n(2, 2)\\n(3, 0)\\n(3, 1)\\n(3, 2)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 3, \"j\": 2}, \"heap\": {}, \"line\": 2, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n(2, 1)\\n(2, 2)\\n(3, 0)\\n(3, 1)\\n(3, 2)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 3, \"j\": 2}, \"heap\": {}, \"line\": 1, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n(2, 1)\\n(2, 2)\\n(3, 0)\\n(3, 1)\\n(3, 2)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 4, \"j\": 2}, \"heap\": {}, \"line\": 2, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n(2, 1)\\n(2, 2)\\n(3, 0)\\n(3, 1)\\n(3, 2)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 4, \"j\": 0}, \"heap\": {}, \"line\": 3, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n(2, 1)\\n(2, 2)\\n(3, 0)\\n(3, 1)\\n(3, 2)\\n(4, 0)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 4, \"j\": 0}, \"heap\": {}, \"line\": 2, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n(2, 1)\\n(2, 2)\\n(3, 0)\\n(3, 1)\\n(3, 2)\\n(4, 0)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 4, \"j\": 1}, \"heap\": {}, \"line\": 3, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n(2, 1)\\n(2, 2)\\n(3, 0)\\n(3, 1)\\n(3, 2)\\n(4, 0)\\n(4, 1)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 4, \"j\": 1}, \"heap\": {}, \"line\": 2, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n(2, 1)\\n(2, 2)\\n(3, 0)\\n(3, 1)\\n(3, 2)\\n(4, 0)\\n(4, 1)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 4, \"j\": 2}, \"heap\": {}, \"line\": 3, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n(2, 1)\\n(2, 2)\\n(3, 0)\\n(3, 1)\\n(3, 2)\\n(4, 0)\\n(4, 1)\\n(4, 2)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 4, \"j\": 2}, \"heap\": {}, \"line\": 2, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n(2, 1)\\n(2, 2)\\n(3, 0)\\n(3, 1)\\n(3, 2)\\n(4, 0)\\n(4, 1)\\n(4, 2)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 4, \"j\": 2}, \"heap\": {}, \"line\": 1, \"event\": \"step_line\"}, {\"ordered_globals\": [\"i\", \"j\"], \"stdout\": \"(0, 0)\\n(0, 1)\\n(0, 2)\\n(1, 0)\\n(1, 1)\\n(1, 2)\\n(2, 0)\\n(2, 1)\\n(2, 2)\\n(3, 0)\\n(3, 1)\\n(3, 2)\\n(4, 0)\\n(4, 1)\\n(4, 2)\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"i\": 4, \"j\": 2}, \"heap\": {}, \"line\": 1, \"event\": \"return\"}]};\n"
+"var nested2_vis;\n"
+"\n"
+"$(document).ready(function() {\n"
+"    try {\n"
+"        nested2_vis = new ExecutionVisualizer('nested2',nested2_trace,\n"
+"                                    {embeddedMode: true,\n"
+"                                    verticalStack: false,\n"
+"                                    heightChangeCallback: redrawAllVisualizerArrows,\n"
+"                                    codeDivWidth: 500,\n"
+"                                    lang : 'py2'\n"
+"                                    });\n"
+"        attachLoggers(nested2_vis,'nested2');\n"
+"        styleButtons('nested2');\n"
+"        allVisualizers.push(nested2_vis);\n"
+"    } catch (e) {\n"
+"        console.log(\"Failed to Initialize CodeLens component nested2_vis\" );\n"
+"        console.log(e.toString());\n"
+"    }\n"
+"\n"
+"});\n"
+"\n"
+"$(document).ready(function() {\n"
+"    $(\"#nested2_tracecheck\").click(function() {\n"
+"        logBookEvent({'event':'codelens', 'act': 'check', 'div_id':'nested2'});\n"
+"    });\n"
+"});\n"
+"\n"
+"if (allVisualizers === undefined) {\n"
+"   var allVisualizers = [];\n"
+"}\n"
+"\n"
+"\n"
+"$(window).resize(function() {\n"
+"    if (nested2_vis) {\n"
+"        nested2_vis.redrawConnectors();\n"
+"    }\n"
+"});\n"
+"</script>\n"
+""
+msgstr ""
+
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:235
 msgid "Our goal with image processing is to visit each pixel.  We will use an iteration to process each `row`.  Within that iteration, we will use a nested iteration to process each `column`.  The result is a nested iteration, similar to the one seen above, where the outer ``for`` loop processes the rows, from 0 up to but not including the height of the image. The inner ``for`` loop will process each column of a row, again from 0 up to but not including the width of the image."
 msgstr ""
 
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:239
 msgid "The resulting code will look like the following.  We are now free to do anything we wish to each pixel in the image."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:241
+msgid "for row in range(img.getHeight()):\n"
+"    for col in range(img.getWidth()):\n"
+"        # do something with the pixel at position (col,row)"
 msgstr ""
 
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:247
@@ -385,6 +459,16 @@ msgstr ""
 
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:254
 msgid "The program below implements this algorithm using the previous image (luther.jpg).  Run it to see the resulting negative image.  Note that there is a lot of processing taking place and this may take a few seconds to complete.  In addition, here are two other images that you can use (cy.png and goldygopher.png)."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:257
+msgid "<img src=\"../_static/cy.png\" id=\"cy.png\">\n"
+"<h4 style=\"text-align: center;\">cy.png</h4>"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:262
+msgid "<img src=\"../_static/goldygopher.png\" id=\"goldygopher.png\">\n"
+"<h4 style=\"text-align: center;\">goldygopher.png</h4>"
 msgstr ""
 
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:268
@@ -439,11 +523,29 @@ msgstr ""
 msgid "iter-9-3: What will the following nested for-loop print?  (Note, if you are having trouble with this question, review CodeLens 3)."
 msgstr ""
 
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:342
+msgid "for i in range(3):\n"
+"    for j in range(2):\n"
+"        print(i, j)"
+msgstr ""
+
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:396
 msgid "iter-9-4: What would the image produced from ActiveCode box 16 look like if you replaced the lines:"
 msgstr ""
 
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:398
+msgid "newred = 255 - p.getRed()\n"
+"newgreen = 255 - p.getGreen()\n"
+"newblue = 255 - p.getBlue()"
+msgstr ""
+
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:404
 msgid "with the lines:"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:406
+msgid "newred = p.getRed()\n"
+"newgreen = 0\n"
+"newblue = 0"
 msgstr ""
 

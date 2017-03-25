@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,5 +76,25 @@ msgid ""
 "does not return anything.  Its job is to modify the object itself.  This "
 "type of method is known as a **mutator** method because it mutates or "
 "changes the internal state of the object."
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/ObjectsareMutable.rst:91
+msgid "equality"
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/ObjectsareMutable.rst:91
+msgid "deep"
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/ObjectsareMutable.rst:91
+msgid "shallow"
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/ObjectsareMutable.rst:91
+msgid "shallow equality"
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/ObjectsareMutable.rst:91
+msgid "deep equality"
 msgstr ""
 

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,5 +58,13 @@ msgid ""
 "shows the state of ``myfraction``.  We have also added a few simple "
 "accessor methods, ``getNum`` and ``getDen``, that can return the state "
 "values for the fraction."
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Fractions.rst:60
+msgid ".. image:: ClassesDiggingDeeper/Figures/fractionpic1.png"
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Fractions.rst:61
+msgid "mutable data type"
 msgstr ""
 

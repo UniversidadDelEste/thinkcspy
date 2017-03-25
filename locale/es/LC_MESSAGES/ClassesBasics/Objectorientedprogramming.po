@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,5 +50,9 @@ msgid ""
 "functionality together. Usually, each object definition corresponds to "
 "some object or concept in the real world and the functions that operate "
 "on that object correspond to the ways real-world objects interact."
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Objectorientedprogramming.rst:12
+msgid "object-oriented programming"
 msgstr ""
 

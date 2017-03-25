@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,6 +38,7 @@ msgid "Description"
 msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:33
+#: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:173
 msgid "place"
 msgstr ""
 
@@ -46,6 +47,7 @@ msgid "You specify the exact size and position of each widget."
 msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:34
+#: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:173
 msgid "pack"
 msgstr ""
 
@@ -54,6 +56,7 @@ msgid "You specify the size and position of each widget *relative to each other*
 msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:35
+#: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:173
 msgid "grid"
 msgstr ""
 
@@ -193,6 +196,11 @@ msgstr ""
 msgid "In addition, if you do not want the widget to be rendered as small as possible, you can add space to the widget using ``ipadx`` and ``ipady``, which makes the widget itself larger. (The \"i\" stands for internal padding.) Or you can add space around the widget to force a cell to be larger using ``padx`` and ``pady``. This makes the area inside the table cell larger. You can also have a widget span more than one cell in the grid using ``columnspan`` and ``rowspan`` parameters. Here is an example grid command that stretches a button widget to the full width of a grid cell and adds extra space vertically to the grid cell:"
 msgstr ""
 
+#: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:116
+msgid "my_button = tk.Button(application_window, text=\"Example\")\n"
+"my_button.grid(row=3, column=1, sticky=tk.E + tk.W, pady=10)"
+msgstr ""
+
 #: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:121
 msgid "One final note about grid layouts. You might think that you need to tell ``tkinter`` how big your grid layout is -- but you don't. It will figure out how big the grid table is by simply examining all of the widgets inside a container widget. If there are cells that were not assigned a widget, those cells will be empty in the interface."
 msgstr ""
@@ -217,6 +225,11 @@ msgstr ""
 msgid "Here is an example ``pack`` command for a button widget:"
 msgstr ""
 
+#: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:154
+msgid "my_button = tk.Button(application_window, text=\"Example\")\n"
+"my_button.grid(side=tk.TOP, fill=tk.Y, expand=True, pady=10)"
+msgstr ""
+
 #: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:159
 msgid "To accomplish a desired interface design using a ``pack`` ``layout manager`` is typically a process of experimentation. Don't expect to get your desired layout on the first try."
 msgstr ""
@@ -235,5 +248,9 @@ msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:170
 msgid "You should **never** mix and match ``layout managers``; use only one type of layout manager for the widgets within a particular parent widget."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:173
+msgid "layout manager"
 msgstr ""
 

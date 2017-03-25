@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,6 +86,10 @@ msgid ""
 msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:45
+msgid ".. image:: GUIandEventDrivenProgramming/Figures/Grouping_examples.png"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:45
 msgid "Examples of grouping widgets"
 msgstr ""
 
@@ -108,5 +112,33 @@ msgstr ""
 msgid ""
 "You can download and run this example program, `all_frame_widgets.py`_ "
 "that allows you to interact with the four types of \"contaners.\""
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:59
+msgid "Tkinter"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:59
+msgid "widget"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:59
+msgid "widget hierarchy"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:59
+msgid "Frame"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:59
+msgid "LabelFrame"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:59
+msgid "PanedWindow"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:59
+msgid "Notebook"
 msgstr ""
 

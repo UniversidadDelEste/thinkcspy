@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,26 @@ msgstr ""
 
 #: ../../_sources/navhelp.rst:16
 msgid "Navigation Bar"
+msgstr ""
+
+#: ../../_sources/navhelp.rst:None
+msgid ".. image:: _static/navbar_logo_link.png"
+msgstr ""
+
+#: ../../_sources/navhelp.rst:None
+msgid ".. image:: _static/navbar_title_link.png"
+msgstr ""
+
+#: ../../_sources/navhelp.rst:None
+msgid ".. image:: _static/navbar_page_dropdown.png"
+msgstr ""
+
+#: ../../_sources/navhelp.rst:None
+msgid ".. image:: _static/navbar_search_dropdown.png"
+msgstr ""
+
+#: ../../_sources/navhelp.rst:None
+msgid ".. image:: _static/navbar_user_dropdown.png"
 msgstr ""
 
 #: ../../_sources/navhelp.rst:40
@@ -46,6 +66,55 @@ msgstr ""
 
 #: ../../_sources/navhelp.rst:59
 msgid "In addition to ActiveCode, you can also execute Python code with the assistance of a unique visualization tool.  This tool, known as **CodeLens**, allows you to control the step by step execution of a program.  It also lets you see the values of all variables as they are created and modified.  The following example shows CodeLens in action on the same simple program as we saw above.  Remember that in ActiveCode, the source code executes from beginning to end and you can see the final result.  In Codelens you can see and control the step by step progress.  Try clicking on the *Forward* button below."
+msgstr ""
+
+#: ../../_sources/navhelp.rst:None
+msgid "\n"
+"<div class=\"alert alert-warning cd_section\">\n"
+"<div id=\"firstexample\"></div>\n"
+"<p class=\"cl_caption\"><span class=\"cl_caption_text\"> (firstexample)</span> </p>\n"
+"</div>\n"
+"<script type=\"text/javascript\">\n"
+"var firstexample_trace = {\"code\": \"print(\\\"My first program adds two numbers, 2 and 3:\\\")\\nprint(2 + 3)\", \"trace\": [{\"ordered_globals\": [], \"stdout\": \"\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {}, \"heap\": {}, \"line\": 1, \"event\": \"step_line\"}, {\"ordered_globals\": [], \"stdout\": \"My first program adds two numbers, 2 and 3:\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {}, \"heap\": {}, \"line\": 2, \"event\": \"step_line\"}, {\"ordered_globals\": [], \"stdout\": \"My first program adds two numbers, 2 and 3:\\n5\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {}, \"heap\": {}, \"line\": 2, \"event\": \"return\"}]};\n"
+"var firstexample_vis;\n"
+"\n"
+"$(document).ready(function() {\n"
+"    try {\n"
+"        firstexample_vis = new ExecutionVisualizer('firstexample',firstexample_trace,\n"
+"                                    {embeddedMode: false,\n"
+"                                    verticalStack: false,\n"
+"                                    heightChangeCallback: redrawAllVisualizerArrows,\n"
+"                                    codeDivWidth: 500,\n"
+"                                    lang : 'py2'\n"
+"                                    });\n"
+"        attachLoggers(firstexample_vis,'firstexample');\n"
+"        styleButtons('firstexample');\n"
+"        allVisualizers.push(firstexample_vis);\n"
+"    } catch (e) {\n"
+"        console.log(\"Failed to Initialize CodeLens component firstexample_vis\" );\n"
+"        console.log(e.toString());\n"
+"    }\n"
+"\n"
+"});\n"
+"\n"
+"$(document).ready(function() {\n"
+"    $(\"#firstexample_tracecheck\").click(function() {\n"
+"        logBookEvent({'event':'codelens', 'act': 'check', 'div_id':'firstexample'});\n"
+"    });\n"
+"});\n"
+"\n"
+"if (allVisualizers === undefined) {\n"
+"   var allVisualizers = [];\n"
+"}\n"
+"\n"
+"\n"
+"$(window).resize(function() {\n"
+"    if (firstexample_vis) {\n"
+"        firstexample_vis.redrawConnectors();\n"
+"    }\n"
+"});\n"
+"</script>\n"
+""
 msgstr ""
 
 #: ../../_sources/navhelp.rst:70
@@ -73,11 +142,54 @@ msgstr ""
 msgid "sc-1-2: Which colors might be found in a rainbow? (choose all that are correct)"
 msgstr ""
 
+#: ../../_sources/navhelp.rst:122
+msgid "\n"
+"    <pre data-component=\"parsons\" id=\"question1_100_4\">\n"
+"        <span data-question>sc-1-3: Construct a block of code that correctly implements the accumulator pattern.</span>x = 0\n"
+"for i in range(10)\n"
+"   x = x + 1</pre>\n"
+"    "
+msgstr ""
+
 #: ../../_sources/navhelp.rst:124
 msgid "Embedded Videos"
 msgstr ""
 
 #: ../../_sources/navhelp.rst:126
 msgid "Our toolset provides a number of different things that will help you to learn to program in the Python programming language. Aside from reading the text, it is sometimes useful to hear someone tell you about different aspects of the topic being discussed. In order to accomplish this, we provide a way to integrate simple, short videos into the text.  For example, if you click on the video shown below, you will hear us talk about the tools that will be described shortly."
+msgstr ""
+
+#: ../../_sources/navhelp.rst:None
+msgid "<div id=\"videoinfo\" class=\"video_popup\" >\n"
+"<video controls preload=\"none\"  poster=\"_static/activecodethumb.png\">\n"
+"    <source src=\"http://media.interactivepython.org/thinkcsVideos/activecodelens.mov\" type=\"video/mp4\"></source>\n"
+"    <source src=\"http://media.interactivepython.org/thinkcsVideos/activecodelens.webm\" type=\"video/webm\"></source>\n"
+"    No supported video types\n"
+"</video>\n"
+"</div>\n"
+"<script>\n"
+"   jQuery(function($) {\n"
+"      var rb = new RunestoneBase();\n"
+"      $('#videoinfo_thumb').click(function(e) {\n"
+"         $('#videoinfo').show();\n"
+"         $('#videoinfo_thumb').hide();\n"
+"         rb.logBookEvent({'event':'video','act':'play','div_id': 'videoinfo'});\n"
+"         // Log the run event\n"
+"      });\n"
+"      $('#videoinfo video').one(\"click\", function(){\n"
+"        this.play();\n"
+"      });\n"
+"      $('#videoinfo video').one(\"play\", function(){\n"
+"        rb.logBookEvent({'event':'video','act':'play','div_id': 'videoinfo'});\n"
+"      });\n"
+"   });\n"
+"</script>\n"
+""
+msgstr ""
+
+#: ../../_sources/navhelp.rst:140
+msgid "<link href='_static/guiders-1.3.0.css' rel='stylesheet' type='text/css'>\n"
+"<script src='_static/guiders-1.3.0.js' type='text/javascript'></script>\n"
+"<script src='_static/navhelp.js' type='text/javascript'></script>"
 msgstr ""
 

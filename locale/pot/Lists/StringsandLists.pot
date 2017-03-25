@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,5 +46,14 @@ msgstr ""
 
 #: ../../_sources/Lists/StringsandLists.rst:74
 msgid "list-24-1: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Lists/StringsandLists.rst:76
+msgid "myname = \"Edgar Allan Poe\"\n"
+"namelist = myname.split()\n"
+"init = \"\"\n"
+"for aname in namelist:\n"
+"    init = init + aname[0]\n"
+"print(init)"
 msgstr ""
 

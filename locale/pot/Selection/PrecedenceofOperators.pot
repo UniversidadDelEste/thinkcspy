@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -128,5 +128,70 @@ msgstr ""
 
 #: ../../_sources/Selection/PrecedenceofOperators.rst:55
 msgid "select-3-1: Which of the following properly expresses the precedence of operators (using parentheses) in the following expression: 5*3 > 10 and 4+6==11"
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:57
+msgid "conditional branching"
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:57
+msgid "conditional execution"
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:57
+#: ../../_sources/Selection/PrecedenceofOperators.rst:61
+msgid "if"
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:57
+msgid "elif"
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:57
+msgid "else"
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:57
+msgid "if statement"
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:57
+#: ../../_sources/Selection/PrecedenceofOperators.rst:61
+#: ../../_sources/Selection/PrecedenceofOperators.rst:61
+msgid "compound statement"
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:57
+msgid "statement block"
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:57
+msgid "block"
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:57
+#: ../../_sources/Selection/PrecedenceofOperators.rst:61
+msgid "body"
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:57
+msgid "pass statement"
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:61
+#: ../../_sources/Selection/PrecedenceofOperators.rst:61
+msgid "statement"
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:61
+msgid "header"
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:61
+msgid "conditional statement"
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:61
+msgid "pass"
 msgstr ""
 

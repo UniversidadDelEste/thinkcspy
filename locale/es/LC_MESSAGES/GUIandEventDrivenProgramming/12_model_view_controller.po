@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,10 +69,18 @@ msgid ""
 " what all computer processing is composed of, which is:"
 msgstr ""
 
+#: ../../_sources/GUIandEventDrivenProgramming/12_model_view_controller.rst:44
+msgid "input --> processing --> output"
+msgstr ""
+
 #: ../../_sources/GUIandEventDrivenProgramming/12_model_view_controller.rst:48
 msgid ""
 "The MVC design pattern renames the pieces and restricted which part of "
 "the code can talk to the other parts of code. For MVC design:"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/12_model_view_controller.rst:51
+msgid "controller (input) --> model (processing) --> view (output)"
 msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/12_model_view_controller.rst:55
@@ -106,6 +114,10 @@ msgid ""
 "moles to be placed at random locations inside the left frame. To do this "
 "we must specify an exact size for the left frame. Otherwise the code is "
 "the same as the previous version."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/12_model_view_controller.rst:80
+msgid "Code"
 msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/12_model_view_controller.rst:82
@@ -162,5 +174,17 @@ msgid ""
 "to the widgets in the *view* object. This can easily be accomplished by "
 "passing a reference to the *view* object to the *controller* when it is "
 "created. Summary -------"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/12_model_view_controller.rst:112
+msgid "model-view-controller design pattern"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/12_model_view_controller.rst:112
+msgid "MVC"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/12_model_view_controller.rst:112
+msgid "MVC version of Whack-a-mole game"
 msgstr ""
 

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,5 +29,21 @@ msgid ""
 "represent words or phrases that we wanted to print out.  Our definition "
 "was simple:  a string is simply some characters inside quotes.  In this "
 "chapter we explore strings in much more detail."
+msgstr ""
+
+#: ../../_sources/Strings/StringsRevisited.rst:14
+msgid "compound data type"
+msgstr ""
+
+#: ../../_sources/Strings/StringsRevisited.rst:14
+msgid "character"
+msgstr ""
+
+#: ../../_sources/Strings/StringsRevisited.rst:14
+msgid "subscript operator"
+msgstr ""
+
+#: ../../_sources/Strings/StringsRevisited.rst:14
+msgid "index"
 msgstr ""
 

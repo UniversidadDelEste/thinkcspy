@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,6 +84,19 @@ msgstr ""
 msgid "**Listing 1**"
 msgstr ""
 
+#: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:74
+msgid ""
+"def tree(branchLen,t):\n"
+"    if branchLen > 5:\n"
+"        t.forward(branchLen)\n"
+"        t.right(20)\n"
+"        tree(branchLen-15,t)\n"
+"        t.left(40)\n"
+"        tree(branchLen-10,t)\n"
+"        t.right(20)\n"
+"        t.backward(branchLen)"
+msgstr ""
+
 #: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:88
 msgid ""
 "The complete program for this tree example is shown below.  Before you "
@@ -107,7 +120,15 @@ msgid ""
 msgstr ""
 
 #: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:141
+msgid ".. image:: IntroRecursion/Figures/tree1.png"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:141
 msgid "Figure 1: The Beginning of a Fractal Tree"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:148
+msgid ".. image:: IntroRecursion/Figures/tree2.png"
 msgstr ""
 
 #: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:148

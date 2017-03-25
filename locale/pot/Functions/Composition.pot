@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,8 +32,17 @@ msgstr ""
 msgid "Assume that the center point is stored in the variables ``xc`` and ``yc``, and the perimeter point is in ``xp`` and ``yp``. The first step is to find the radius of the circle, which is the distance between the two points. Fortunately, we've just written a function, ``distance``, that does just that, so now all we have to do is use it:"
 msgstr ""
 
+#: ../../_sources/Functions/Composition.rst:29
+msgid "radius = distance(xc, yc, xp, yp)"
+msgstr ""
+
 #: ../../_sources/Functions/Composition.rst:33
 msgid "The second step is to find the area of a circle with that radius and return it. Again we will use one of our earlier functions:"
+msgstr ""
+
+#: ../../_sources/Functions/Composition.rst:36
+msgid "result = area(radius)\n"
+"return result"
 msgstr ""
 
 #: ../../_sources/Functions/Composition.rst:41
@@ -46,5 +55,14 @@ msgstr ""
 
 #: ../../_sources/Functions/Composition.rst:69
 msgid "Note that we could have written the composition without storing the intermediate results."
+msgstr ""
+
+#: ../../_sources/Functions/Composition.rst:71
+msgid "def area2(xc, yc, xp, yp):\n"
+"    return area(distance(xc, yc, xp, yp))"
+msgstr ""
+
+#: ../../_sources/Functions/Composition.rst:77
+msgid "boolean function"
 msgstr ""
 

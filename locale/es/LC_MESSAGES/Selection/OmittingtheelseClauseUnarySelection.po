@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,6 +21,44 @@ msgstr ""
 
 #: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:15
 msgid "Omitting the `else` Clause: Unary Selection"
+msgstr ""
+
+msgid ""
+"<div id=\"unaryselection\" class=\"video_popup\" >\n"
+"<video controls preload=\"none\"  "
+"poster=\"../_static/unaryselection.png\">\n"
+"    <source "
+"src=\"http://media.interactivepython.org/thinkcsVideos/unaryselection.mov\""
+" type=\"video/mp4\"></source>\n"
+"    <source "
+"src=\"http://media.interactivepython.org/thinkcsVideos/unaryselection.webm\""
+" type=\"video/webm\"></source>\n"
+"    No supported video types\n"
+"</video>\n"
+"</div>\n"
+"<script>\n"
+"   jQuery(function($) {\n"
+"      var rb = new RunestoneBase();\n"
+"      $('#unaryselection_thumb').click(function(e) {\n"
+"         $('#unaryselection').show();\n"
+"         $('#unaryselection_thumb').hide();\n"
+"         rb.logBookEvent({'event':'video','act':'play','div_id': "
+"'unaryselection'});\n"
+"         // Log the run event\n"
+"      });\n"
+"      $('#unaryselection video').one(\"click\", function(){\n"
+"        this.play();\n"
+"      });\n"
+"      $('#unaryselection video').one(\"play\", function(){\n"
+"        rb.logBookEvent({'event':'video','act':'play','div_id': "
+"'unaryselection'});\n"
+"      });\n"
+"   });\n"
+"</script>\n"
+msgstr ""
+
+#: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst
+msgid ".. image:: Selection/Figures/flowchart_if_only.png"
 msgstr ""
 
 #: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:31
@@ -44,7 +82,38 @@ msgstr ""
 msgid "select-5-1: What does the following code print?"
 msgstr ""
 
+#: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:63
+msgid ""
+"x = -10\n"
+"if x < 0:\n"
+"    print(\"The negative number \",  x, \" is not valid here.\")\n"
+"print(\"This is always printed\")"
+msgstr ""
+
 #: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:90
 msgid "select-5-2: Will the following code cause an error?"
+msgstr ""
+
+#: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:92
+msgid ""
+"x = -10\n"
+"if x < 0:\n"
+"    print(\"The negative number \",  x, \" is not valid here.\")\n"
+"else:\n"
+"    print(x, \" is a positive number\")\n"
+"else:\n"
+"    print(\"This is always printed\")"
+msgstr ""
+
+#: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:102
+msgid "nested conditionals"
+msgstr ""
+
+#: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:102
+msgid "conditionals"
+msgstr ""
+
+#: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:102
+msgid "nested"
 msgstr ""
 

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,6 +21,39 @@ msgstr ""
 
 #: ../../_sources/SimplePythonData/StatementsandExpressions.rst:15
 msgid "Statements and Expressions"
+msgstr ""
+
+msgid ""
+"<div id=\"expression_vid\" class=\"video_popup\" >\n"
+"<video controls preload=\"none\"  poster=\"../_static/expressions.png\">\n"
+"    <source "
+"src=\"http://media.interactivepython.org/thinkcsVideos/Expressions.mov\" "
+"type=\"video/mp4\"></source>\n"
+"    <source "
+"src=\"http://media.interactivepython.org/thinkcsVideos/Expressions.webm\""
+" type=\"video/webm\"></source>\n"
+"    No supported video types\n"
+"</video>\n"
+"</div>\n"
+"<script>\n"
+"   jQuery(function($) {\n"
+"      var rb = new RunestoneBase();\n"
+"      $('#expression_vid_thumb').click(function(e) {\n"
+"         $('#expression_vid').show();\n"
+"         $('#expression_vid_thumb').hide();\n"
+"         rb.logBookEvent({'event':'video','act':'play','div_id': "
+"'expression_vid'});\n"
+"         // Log the run event\n"
+"      });\n"
+"      $('#expression_vid video').one(\"click\", function(){\n"
+"        this.play();\n"
+"      });\n"
+"      $('#expression_vid video').one(\"play\", function(){\n"
+"        rb.logBookEvent({'event':'video','act':'play','div_id': "
+"'expression_vid'});\n"
+"      });\n"
+"   });\n"
+"</script>\n"
 msgstr ""
 
 #: ../../_sources/SimplePythonData/StatementsandExpressions.rst:24
@@ -61,6 +94,19 @@ msgid ""
 "one of the distinct differences between statements and expressions."
 msgstr ""
 
+#: ../../_sources/SimplePythonData/StatementsandExpressions.rst:61
+msgid ""
+">>> y = 3.14\n"
+">>> x = len(\"hello\")\n"
+">>> print(x)\n"
+"5\n"
+">>> print(y)\n"
+"3.14\n"
+">>> y\n"
+"3.14\n"
+">>>"
+msgstr ""
+
 #: ../../_sources/SimplePythonData/StatementsandExpressions.rst:73
 msgid ""
 "Note that when we enter the assignment statement, ``y = 3.14``, only the "
@@ -76,5 +122,22 @@ msgid ""
 "  When we execute the print function working on ``y``, we see the value "
 "that y is referring to.  In fact, evaluating ``y`` by itself results in "
 "the same response."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/StatementsandExpressions.rst:30
+#: ../../_sources/SimplePythonData/StatementsandExpressions.rst:79
+msgid "expression"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/StatementsandExpressions.rst:79
+msgid "operator"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/StatementsandExpressions.rst:79
+msgid "operand"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/StatementsandExpressions.rst:79
+msgid "integer division"
 msgstr ""
 

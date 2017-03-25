@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,5 +67,25 @@ msgstr ""
 
 #: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:77
 msgid "data-3-1: What value is printed when the following statement executes?"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:79
+msgid "print( int(53.785) )"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:84
+msgid "variable"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:84
+msgid "assignment"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:84
+msgid "assignment statement"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:84
+msgid "state snapshot"
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -179,16 +179,43 @@ msgstr ""
 msgid "list-14-1: What is printed by the following statements?"
 msgstr ""
 
+#: ../../_sources/Lists/ListMethods.rst:112
+msgid "alist = [4, 2, 8, 6, 5]\n"
+"alist.append(True)\n"
+"alist.append(False)\n"
+"print(alist)"
+msgstr ""
+
 #: ../../_sources/Lists/ListMethods.rst:130
 msgid "list-14-2: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:132
+msgid "alist = [4, 2, 8, 6, 5]\n"
+"alist.insert(2, True)\n"
+"alist.insert(0, False)\n"
+"print(alist)"
 msgstr ""
 
 #: ../../_sources/Lists/ListMethods.rst:149
 msgid "list-14-3: What is printed by the following statements?"
 msgstr ""
 
+#: ../../_sources/Lists/ListMethods.rst:151
+msgid "alist = [4, 2, 8, 6, 5]\n"
+"temp = alist.pop(2)\n"
+"temp = alist.pop()\n"
+"print(alist)"
+msgstr ""
+
 #: ../../_sources/Lists/ListMethods.rst:171
 msgid "list-14-4: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:173
+msgid "alist = [4, 2, 8, 6, 5]\n"
+"alist = alist.pop(0)\n"
+"print(alist)"
 msgstr ""
 
 #: ../../_sources/Lists/ListMethods.rst:183

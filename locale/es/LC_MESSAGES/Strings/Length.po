@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,6 +50,10 @@ msgid ""
 "combining the two lines of code from above."
 msgstr ""
 
+#: ../../_sources/Strings/Length.rst:57
+msgid "lastch = fruit[len(fruit)-1]"
+msgstr ""
+
 #: ../../_sources/Strings/Length.rst:61
 msgid "**Check your understanding**"
 msgstr ""
@@ -58,7 +62,19 @@ msgstr ""
 msgid "strings-6-1: What is printed by the following statements?"
 msgstr ""
 
+#: ../../_sources/Strings/Length.rst:73
+msgid ""
+"s = \"python rocks\"\n"
+"print(len(s))"
+msgstr ""
+
 #: ../../_sources/Strings/Length.rst:92
 msgid "strings-6-2: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Strings/Length.rst:94
+msgid ""
+"s = \"python rocks\"\n"
+"print(s[len(s)-5])"
 msgstr ""
 

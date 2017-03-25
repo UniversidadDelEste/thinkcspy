@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,14 @@ msgid ""
 "In general, you cannot perform mathematical operations on strings, even "
 "if the strings look like numbers. The following are illegal (assuming "
 "that ``message`` has type string):"
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:21
+msgid ""
+"message - 1\n"
+"\"Hello\" / 123\n"
+"message * \"Hello\"\n"
+"\"15\" + 2"
 msgstr ""
 
 #: ../../_sources/Strings/OperationsonStrings.rst:28
@@ -71,7 +79,21 @@ msgstr ""
 msgid "strings-3-1: What is printed by the following statements?"
 msgstr ""
 
+#: ../../_sources/Strings/OperationsonStrings.rst:83
+msgid ""
+"s = \"python\"\n"
+"t = \"rocks\"\n"
+"print(s + t)"
+msgstr ""
+
 #: ../../_sources/Strings/OperationsonStrings.rst:103
 msgid "strings-3-2: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:105
+msgid ""
+"s = \"python\"\n"
+"excl = \"!\"\n"
+"print(s+excl*3)"
 msgstr ""
 

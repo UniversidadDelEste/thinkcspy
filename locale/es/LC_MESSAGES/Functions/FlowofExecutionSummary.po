@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,6 +78,22 @@ msgid ""
 "included on the left."
 msgstr ""
 
+#: ../../_sources/Functions/FlowofExecutionSummary.rst:78
+#: ../../_sources/Functions/FlowofExecutionSummary.rst:108
+msgid ""
+"def pow(b, p):\n"
+"    y = b ** p\n"
+"    return y\n"
+"\n"
+"def square(x):\n"
+"    a = pow(x, 2)\n"
+"    return a\n"
+"\n"
+"n = 5\n"
+"result = square(n)\n"
+"print(result)"
+msgstr ""
+
 #: ../../_sources/Functions/FlowofExecutionSummary.rst:93
 msgid ""
 "Which of the following best reflects the order in which these lines of "
@@ -92,5 +108,37 @@ msgstr ""
 
 #: ../../_sources/Functions/FlowofExecutionSummary.rst:123
 msgid "What does this function print?"
+msgstr ""
+
+#: ../../_sources/Functions/FlowofExecutionSummary.rst:47
+msgid "parameter"
+msgstr ""
+
+#: ../../_sources/Functions/FlowofExecutionSummary.rst:47
+msgid "function"
+msgstr ""
+
+#: ../../_sources/Functions/FlowofExecutionSummary.rst:47
+msgid "argument"
+msgstr ""
+
+#: ../../_sources/Functions/FlowofExecutionSummary.rst:47
+msgid "import statement"
+msgstr ""
+
+#: ../../_sources/Functions/FlowofExecutionSummary.rst:47
+msgid "statement"
+msgstr ""
+
+#: ../../_sources/Functions/FlowofExecutionSummary.rst:47
+msgid "import"
+msgstr ""
+
+#: ../../_sources/Functions/FlowofExecutionSummary.rst:47
+msgid "composition"
+msgstr ""
+
+#: ../../_sources/Functions/FlowofExecutionSummary.rst:58
+msgid "bar chart"
 msgstr ""
 

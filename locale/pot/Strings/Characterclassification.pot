@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,13 @@ msgstr ""
 
 #: ../../_sources/Strings/Characterclassification.rst:23
 msgid "The string ``string.ascii_lowercase`` contains all of the ascii letters that the system considers to be lowercase. Similarly, ``string.ascii_uppercase`` contains all of the uppercase letters. ``string.punctuation`` comprises all the characters considered to be punctuation. Try the following and see what you get."
+msgstr ""
+
+#: ../../_sources/Strings/Characterclassification.rst:28
+msgid "print(string.ascii_lowercase)\n"
+"print(string.ascii_uppercase)\n"
+"print(string.digits)\n"
+"print(string.punctuation)"
 msgstr ""
 
 #: ../../_sources/Strings/Characterclassification.rst:37

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,34 @@ msgstr ""
 
 #: ../../_sources/PythonTurtle/intro-HelloLittleTurtles.rst:11
 msgid "Hello Little Turtles!"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/intro-HelloLittleTurtles.rst:None
+msgid "<div id=\"assignvid\" class=\"video_popup\" >\n"
+"<video controls preload=\"none\"  poster=\"../_static/turtleintro.png\">\n"
+"    <source src=\"http://media.interactivepython.org/thinkcsVideos/turtleintro.mov\" type=\"video/mp4\"></source>\n"
+"    <source src=\"http://media.interactivepython.org/thinkcsVideos/turtleintro.webm\" type=\"video/webm\"></source>\n"
+"    No supported video types\n"
+"</video>\n"
+"</div>\n"
+"<script>\n"
+"   jQuery(function($) {\n"
+"      var rb = new RunestoneBase();\n"
+"      $('#assignvid_thumb').click(function(e) {\n"
+"         $('#assignvid').show();\n"
+"         $('#assignvid_thumb').hide();\n"
+"         rb.logBookEvent({'event':'video','act':'play','div_id': 'assignvid'});\n"
+"         // Log the run event\n"
+"      });\n"
+"      $('#assignvid video').one(\"click\", function(){\n"
+"        this.play();\n"
+"      });\n"
+"      $('#assignvid video').one(\"play\", function(){\n"
+"        rb.logBookEvent({'event':'video','act':'play','div_id': 'assignvid'});\n"
+"      });\n"
+"   });\n"
+"</script>\n"
+""
 msgstr ""
 
 #: ../../_sources/PythonTurtle/intro-HelloLittleTurtles.rst:29
@@ -30,5 +58,50 @@ msgstr ""
 
 #: ../../_sources/PythonTurtle/intro-HelloLittleTurtles.rst:47
 msgid "The turtles are fun, but the real purpose of the chapter is to teach ourselves a little more Python and to develop our theme of *computational thinking*, or *thinking like a computer scientist*.  Most of the Python covered here will be explored in more depth later."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/intro-HelloLittleTurtles.rst:13
+msgid "module"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/intro-HelloLittleTurtles.rst:13
+#: ../../_sources/PythonTurtle/intro-HelloLittleTurtles.rst:13
+msgid "function"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/intro-HelloLittleTurtles.rst:13
+msgid "function definition"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/intro-HelloLittleTurtles.rst:13
+msgid "definition"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/intro-HelloLittleTurtles.rst:13
+msgid "turtle module"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/intro-HelloLittleTurtles.rst:53
+msgid "object"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/intro-HelloLittleTurtles.rst:53
+msgid "invoke"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/intro-HelloLittleTurtles.rst:53
+msgid "method"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/intro-HelloLittleTurtles.rst:53
+msgid "attribute"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/intro-HelloLittleTurtles.rst:53
+msgid "state"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/intro-HelloLittleTurtles.rst:53
+msgid "canvas"
 msgstr ""
 

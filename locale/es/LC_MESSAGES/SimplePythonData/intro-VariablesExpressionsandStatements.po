@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,11 +23,77 @@ msgstr ""
 msgid "Variables, Expressions and Statements"
 msgstr ""
 
+msgid ""
+"<div id=\"typesnconvert\" class=\"video_popup\" >\n"
+"<video controls preload=\"none\"  poster=\"../_static/valuesNtypes.png\">"
+"\n"
+"    <source "
+"src=\"http://media.interactivepython.org/thinkcsVideos/TypesNTypeConversion.mov\""
+" type=\"video/mp4\"></source>\n"
+"    <source "
+"src=\"http://media.interactivepython.org/thinkcsVideos/TypesNTypeConversion.webm\""
+" type=\"video/webm\"></source>\n"
+"    No supported video types\n"
+"</video>\n"
+"</div>\n"
+"<script>\n"
+"   jQuery(function($) {\n"
+"      var rb = new RunestoneBase();\n"
+"      $('#typesnconvert_thumb').click(function(e) {\n"
+"         $('#typesnconvert').show();\n"
+"         $('#typesnconvert_thumb').hide();\n"
+"         rb.logBookEvent({'event':'video','act':'play','div_id': "
+"'typesnconvert'});\n"
+"         // Log the run event\n"
+"      });\n"
+"      $('#typesnconvert video').one(\"click\", function(){\n"
+"        this.play();\n"
+"      });\n"
+"      $('#typesnconvert video').one(\"play\", function(){\n"
+"        rb.logBookEvent({'event':'video','act':'play','div_id': "
+"'typesnconvert'});\n"
+"      });\n"
+"   });\n"
+"</script>\n"
+msgstr ""
+
 #: ../../_sources/SimplePythonData/intro-VariablesExpressionsandStatements.rst:28
 msgid ""
 "In order to get started learning any programming language there are a "
 "number of concepts and ideas that are necessary. The goal of this chapter"
 " is to introduce you to the basic vocabulary of programming and some of "
 "the fundamental building blocks of Python."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/intro-VariablesExpressionsandStatements.rst:14
+msgid "value"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/intro-VariablesExpressionsandStatements.rst:14
+msgid "data type"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/intro-VariablesExpressionsandStatements.rst:14
+msgid "string"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/intro-VariablesExpressionsandStatements.rst:14
+msgid "integer"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/intro-VariablesExpressionsandStatements.rst:14
+msgid "int"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/intro-VariablesExpressionsandStatements.rst:14
+msgid "float"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/intro-VariablesExpressionsandStatements.rst:14
+msgid "class"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/intro-VariablesExpressionsandStatements.rst:16
+msgid "triple quoted string"
 msgstr ""
 

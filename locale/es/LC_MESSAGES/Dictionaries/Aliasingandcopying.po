@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,11 +44,29 @@ msgid ""
 "dictionary, changes to it will not effect the original."
 msgstr ""
 
+#: ../../_sources/Dictionaries/Aliasingandcopying.rst:39
+msgid ""
+"acopy = opposites.copy()\n"
+"acopy['right'] = 'left'    # does not change opposites"
+msgstr ""
+
 #: ../../_sources/Dictionaries/Aliasingandcopying.rst:44
 msgid "**Check your understanding**"
 msgstr ""
 
 #: ../../_sources/Dictionaries/Aliasingandcopying.rst:57
 msgid "dict-4-1: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Aliasingandcopying.rst:59
+msgid ""
+"mydict = {\"cat\":12, \"dog\":6, \"elephant\":23, \"bear\":20}\n"
+"yourdict = mydict\n"
+"yourdict[\"elephant\"] = 999\n"
+"print(mydict[\"elephant\"])"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Aliasingandcopying.rst:67
+msgid "matrix"
 msgstr ""
 

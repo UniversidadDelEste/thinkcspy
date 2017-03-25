@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,12 +29,22 @@ msgid ""
 "the elements in square brackets ( ``[`` and ``]``)."
 msgstr ""
 
+#: ../../_sources/Lists/ListValues.rst:20
+msgid ""
+"[10, 20, 30, 40]\n"
+"[\"spam\", \"bungee\", \"swallow\"]"
+msgstr ""
+
 #: ../../_sources/Lists/ListValues.rst:25
 msgid ""
 "The first example is a list of four integers. The second is a list of "
 "three strings. As we said above, the elements of a list don't have to be "
 "the same type.  The following list contains a string, a float, an "
 "integer, and another list."
+msgstr ""
+
+#: ../../_sources/Lists/ListValues.rst:30
+msgid "[\"hello\", 2.0, 5, [10, 20]]"
 msgstr ""
 
 #: ../../_sources/Lists/ListValues.rst:34
@@ -56,5 +66,17 @@ msgstr ""
 
 #: ../../_sources/Lists/ListValues.rst:63
 msgid "list-2-1: A list can contain only integer items."
+msgstr ""
+
+#: ../../_sources/Lists/ListValues.rst:65
+msgid "list index"
+msgstr ""
+
+#: ../../_sources/Lists/ListValues.rst:65
+msgid "index"
+msgstr ""
+
+#: ../../_sources/Lists/ListValues.rst:65
+msgid "list traversal"
 msgstr ""
 

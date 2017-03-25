@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,6 +32,11 @@ msgstr ""
 msgid "As an example, suppose you want to find the distance between two points, given by the coordinates (x\\ :sub:`1`\\ , y\\ :sub:`1`\\ ) and (x\\ :sub:`2`\\ , y\\ :sub:`2`\\ ).  By the Pythagorean theorem, the distance is:"
 msgstr ""
 
+#: ../../_sources/Functions/ProgramDevelopment.rst:None
+msgid ".. image:: Functions/Figures/distance_formula.png\n"
+"   :alt: Distance formula"
+msgstr ""
+
 #: ../../_sources/Functions/ProgramDevelopment.rst:34
 msgid "The first step is to consider what a ``distance`` function should look like in Python. In other words, what are the inputs (parameters) and what is the output (return value)?"
 msgstr ""
@@ -42,6 +47,11 @@ msgstr ""
 
 #: ../../_sources/Functions/ProgramDevelopment.rst:41
 msgid "Already we can write an outline of the function that captures our thinking so far."
+msgstr ""
+
+#: ../../_sources/Functions/ProgramDevelopment.rst:43
+msgid "def distance(x1, y1, x2, y2):\n"
+"    return 0.0"
 msgstr ""
 
 #: ../../_sources/Functions/ProgramDevelopment.rst:48
@@ -64,8 +74,23 @@ msgstr ""
 msgid "A logical first step in the computation is to find the differences x\\ :sub:`2`\\ - x\\ :sub:`1`\\  and y\\ :sub:`2`\\ - y\\ :sub:`1`\\ .  We will store those values in temporary variables named ``dx`` and ``dy``."
 msgstr ""
 
+#: ../../_sources/Functions/ProgramDevelopment.rst:76
+msgid "def distance(x1, y1, x2, y2):\n"
+"    dx = x2 - x1\n"
+"    dy = y2 - y1\n"
+"    return 0.0"
+msgstr ""
+
 #: ../../_sources/Functions/ProgramDevelopment.rst:84
 msgid "Next we compute the sum of squares of ``dx`` and ``dy``."
+msgstr ""
+
+#: ../../_sources/Functions/ProgramDevelopment.rst:86
+msgid "def distance(x1, y1, x2, y2):\n"
+"    dx = x2 - x1\n"
+"    dy = y2 - y1\n"
+"    dsquared = dx**2 + dy**2\n"
+"    return 0.0"
 msgstr ""
 
 #: ../../_sources/Functions/ProgramDevelopment.rst:94
@@ -98,5 +123,13 @@ msgstr ""
 
 #: ../../_sources/Functions/ProgramDevelopment.rst:128
 msgid "Once the program is working, you might want to consolidate multiple statements into compound expressions, but only do this if it does not make the program more difficult to read."
+msgstr ""
+
+#: ../../_sources/Functions/ProgramDevelopment.rst:133
+msgid "composition"
+msgstr ""
+
+#: ../../_sources/Functions/ProgramDevelopment.rst:133
+msgid "function composition"
 msgstr ""
 

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,6 +54,14 @@ msgid ""
 "variable will contain the current line of the file as a string of "
 "characters. The general pattern for processing each line of a text file "
 "is as follows:"
+msgstr ""
+
+#: ../../_sources/Files/Iteratingoverlinesinafile.rst:80
+msgid ""
+"for line in myFile:\n"
+"    statement1\n"
+"    statement2\n"
+"    ..."
 msgstr ""
 
 #: ../../_sources/Files/Iteratingoverlinesinafile.rst:85

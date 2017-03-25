@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,6 +75,21 @@ msgid ""
 "session shown below.  When we ask the shell to evaluate ``type(\"Hello, "
 "World!\")``, it responds with the appropriate answer and then goes on to "
 "display the prompt for the next use."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/ValuesandDataTypes.rst:54
+msgid ""
+"Python 3.1.2 (r312:79360M, Mar 24 2010, 01:33:18)\n"
+"[GCC 4.0.1 (Apple Inc. build 5493)] on darwin\n"
+"Type \"help\", \"copyright\", \"credits\" or \"license\" for more "
+"information.\n"
+">>> type(\"Hello, World!\")\n"
+"<class 'str'>\n"
+">>> type(17)\n"
+"<class 'int'>\n"
+">>> \"Hello, World\"\n"
+"'Hello, World'\n"
+">>>"
 msgstr ""
 
 #: ../../_sources/SimplePythonData/ValuesandDataTypes.rst:65
@@ -171,5 +186,25 @@ msgstr ""
 
 #: ../../_sources/SimplePythonData/ValuesandDataTypes.rst:196
 msgid "data-2-2: What is the data type of 'this is what kind of data'?"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/ValuesandDataTypes.rst:199
+msgid "type converter functions"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/ValuesandDataTypes.rst:199
+msgid "int"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/ValuesandDataTypes.rst:199
+msgid "float"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/ValuesandDataTypes.rst:199
+msgid "str"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/ValuesandDataTypes.rst:199
+msgid "truncation"
 msgstr ""
 

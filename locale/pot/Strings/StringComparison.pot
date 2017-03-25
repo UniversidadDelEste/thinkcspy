@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,11 +60,35 @@ msgstr ""
 msgid "strings-8-1: Evaluate the following comparison:"
 msgstr ""
 
+#: ../../_sources/Strings/StringComparison.rst:100
+msgid "\"Dog\" < \"Doghouse\""
+msgstr ""
+
 #: ../../_sources/Strings/StringComparison.rst:115
 msgid "strings-8-2: Evaluate the following comparison:"
 msgstr ""
 
+#: ../../_sources/Strings/StringComparison.rst:117
+msgid "\"dog\" < \"Dog\""
+msgstr ""
+
 #: ../../_sources/Strings/StringComparison.rst:130
 msgid "strings-8-3: Evaluate the following comparison:"
+msgstr ""
+
+#: ../../_sources/Strings/StringComparison.rst:132
+msgid "\"dog\" < \"Doghouse\""
+msgstr ""
+
+#: ../../_sources/Strings/StringComparison.rst:139
+msgid "mutable"
+msgstr ""
+
+#: ../../_sources/Strings/StringComparison.rst:139
+msgid "immutable"
+msgstr ""
+
+#: ../../_sources/Strings/StringComparison.rst:139
+msgid "runtime error"
 msgstr ""
 

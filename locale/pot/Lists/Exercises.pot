@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,6 +22,12 @@ msgstr ""
 
 #: ../../_sources/Lists/Exercises.rst:20
 msgid "Draw a reference diagram for ``a`` and ``b`` before and after the third line of the following python code is executed:"
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:23
+msgid "a = [1, 2, 3]\n"
+"b = a[:]\n"
+"b[0] = 5"
 msgstr ""
 
 #: ../../_sources/Lists/Exercises.rst:31

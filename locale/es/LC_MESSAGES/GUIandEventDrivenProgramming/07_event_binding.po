@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -99,12 +99,27 @@ msgstr ""
 msgid "Here is an example of binding an ``\"<Enter>\"`` event to a Button."
 msgstr ""
 
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:74
+msgid ""
+"def process_event(event):\n"
+"  print(\"The process_event function was called.\")\n"
+"\n"
+"my_button = tk.Button(application_window, text=\"Example\")\n"
+"my_button.bind(\"<Enter>\", process_event)"
+msgstr ""
+
 #: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:82
 msgid ""
 "It is best practice to \"stub out\" event handlers and verify that events"
 " are being processed correctly before you start developing an "
 "application's actual processing code. Here is an example of a \"stubbed\""
 " out ``event handler``:"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:86
+msgid ""
+"def my_function():\n"
+"  print(\"my_function was called.\")"
 msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:92
@@ -512,6 +527,13 @@ msgid ""
 "example,"
 msgstr ""
 
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:186
+msgid ""
+"def process_event(event):\n"
+"  if event.x > 10 and event.y > 20:\n"
+"    # do something"
+msgstr ""
+
 #: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:193
 msgid "Event Processing"
 msgstr ""
@@ -554,5 +576,21 @@ msgid ""
 "or change these types of event bindings because a user expects a certain "
 "behaviour from a particular type of widget and changing that behaviour "
 "can make the entire user interface confusing to a user."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:224
+msgid "focus"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:224
+msgid "event binding"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:224
+msgid "event descriptors"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:224
+msgid "event object"
 msgstr ""
 

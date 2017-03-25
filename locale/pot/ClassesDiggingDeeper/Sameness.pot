@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,8 +40,16 @@ msgstr ""
 msgid "Even though ``myfraction`` and ``yourfraction`` contain the same numerator and denominator, they are not the same object."
 msgstr ""
 
+#: ../../_sources/ClassesDiggingDeeper/Sameness.rst:54
+msgid ".. image:: ClassesDiggingDeeper/Figures/fractionpic2.png"
+msgstr ""
+
 #: ../../_sources/ClassesDiggingDeeper/Sameness.rst:55
 msgid "If we assign ``myfraction`` to ``ourfraction``, then the two variables are aliases of the same object."
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Sameness.rst:60
+msgid ".. image:: ClassesDiggingDeeper/Figures/fractionpic3.png"
 msgstr ""
 
 #: ../../_sources/ClassesDiggingDeeper/Sameness.rst:61
@@ -50,6 +58,11 @@ msgstr ""
 
 #: ../../_sources/ClassesDiggingDeeper/Sameness.rst:66
 msgid "Of course, we could define equality to mean the fractions are the same in that they have the same numerator and the same denominator.  For example, here is a boolean function that performs this check."
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Sameness.rst:69
+msgid "def sameFraction(f1, f2):\n"
+"    return (f1.getNum() == f2.getNum()) and (f1.getDen() == f2.getDen())"
 msgstr ""
 
 #: ../../_sources/ClassesDiggingDeeper/Sameness.rst:74
@@ -70,6 +83,16 @@ msgstr ""
 
 #: ../../_sources/ClassesDiggingDeeper/Sameness.rst:111
 msgid "Python has a powerful feature that allows a designer of a class to decide what an operation like ``==`` or ``<`` should mean.  (We've just shown how we can control how our own objects are converted to strings, so we've already made a start!)  We'll cover more detail later. But sometimes the implementors will attach shallow equality semantics, and sometimes deep equality, as shown in this little experiment:"
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Sameness.rst:117
+msgid "p = Point(4, 2)\n"
+"s = Point(4, 2)\n"
+"print(\"== on Points returns\", p == s)  # by default, == does a shallow equality test here\n"
+"\n"
+"a = [2, 3]\n"
+"b = [2, 3]\n"
+"print(\"== on lists returns\",  a == b)  # by default, == does a deep equality test on lists"
 msgstr ""
 
 #: ../../_sources/ClassesDiggingDeeper/Sameness.rst:127

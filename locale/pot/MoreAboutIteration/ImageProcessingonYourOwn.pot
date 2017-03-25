@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,6 +22,11 @@ msgstr ""
 
 #: ../../_sources/MoreAboutIteration/ImageProcessingonYourOwn.rst:17
 msgid "If you want to try some image processing on your own, outside of the textbook you can do so using the cImage module.  You can download ``cImage.py`` from `The github page <https://github.com/bnmnetp/cImage>`_ .   If you put ``cImage.py`` in the same folder as your program you can then do the following to be fully compatible with the code in this book."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/ImageProcessingonYourOwn.rst:19
+msgid "import cImage as image\n"
+"img = image.Image(\"myfile.gif\")"
 msgstr ""
 
 #: ../../_sources/MoreAboutIteration/ImageProcessingonYourOwn.rst:24

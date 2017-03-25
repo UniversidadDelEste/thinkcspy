@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,12 @@ msgstr ""
 
 #: ../../_sources/SimplePythonData/VariableNamesandKeywords.rst:32
 msgid "If you give a variable an illegal name, you get a syntax error.  In the example below, each of the variable names is illegal."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/VariableNamesandKeywords.rst:37
+msgid "76trombones = \"big parade\"\n"
+"more$ = 1000000\n"
+"class = \"Computer Science 101\""
 msgstr ""
 
 #: ../../_sources/SimplePythonData/VariableNamesandKeywords.rst:42
@@ -202,5 +208,9 @@ msgstr ""
 
 #: ../../_sources/SimplePythonData/VariableNamesandKeywords.rst:93
 msgid "data-5-1: True or False:  the following is a legal variable name in Python:   A_good_grade_is_A+"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/VariableNamesandKeywords.rst:96
+msgid "statement"
 msgstr ""
 

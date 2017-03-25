@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,5 +42,35 @@ msgstr ""
 
 #: ../../_sources/Strings/StringsareImmutable.rst:54
 msgid "strings-9-1: What is printed by the following statements:"
+msgstr ""
+
+#: ../../_sources/Strings/StringsareImmutable.rst:56
+msgid "s = \"Ball\"\n"
+"s[0] = \"C\"\n"
+"print(s)"
+msgstr ""
+
+#: ../../_sources/Strings/StringsareImmutable.rst:64
+msgid "traversal"
+msgstr ""
+
+#: ../../_sources/Strings/StringsareImmutable.rst:64
+msgid "for loop"
+msgstr ""
+
+#: ../../_sources/Strings/StringsareImmutable.rst:64
+msgid "concatenation"
+msgstr ""
+
+#: ../../_sources/Strings/StringsareImmutable.rst:64
+msgid "abecedarian series"
+msgstr ""
+
+#: ../../_sources/Strings/StringsareImmutable.rst:66
+msgid "McCloskey, Robert"
+msgstr ""
+
+#: ../../_sources/Strings/StringsareImmutable.rst:66
+msgid "Make Way for Ducklings"
 msgstr ""
 

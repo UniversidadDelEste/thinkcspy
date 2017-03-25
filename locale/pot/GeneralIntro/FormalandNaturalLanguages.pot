@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,11 @@ msgstr ""
 
 #: ../../_sources/GeneralIntro/FormalandNaturalLanguages.rst:21
 msgid "**Formal languages** are languages that are designed by people for specific applications. For example, the notation that mathematicians use is a formal language that is particularly good at denoting relationships among numbers and symbols. Chemists use a formal language to represent the chemical structure of molecules. And most importantly::"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/FormalandNaturalLanguages.rst:28
+msgid "Programming languages are formal languages that have been designed to\n"
+"    express computations."
 msgstr ""
 
 #: ../../_sources/GeneralIntro/FormalandNaturalLanguages.rst:32

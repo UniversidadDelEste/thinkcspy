@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -169,6 +169,12 @@ msgstr ""
 msgid ""
 "The formula for computing the final amount if one is earning compound "
 "interest is given on Wikipedia as"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst
+msgid ""
+".. image:: SimplePythonData/Figures/compoundInterest.png\n"
+"   :alt: formula for compound interest"
 msgstr ""
 
 #: ../../_sources/SimplePythonData/Exercises.rst:185

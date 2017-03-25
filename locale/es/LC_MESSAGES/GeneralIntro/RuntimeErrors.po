@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,5 +43,13 @@ msgstr ""
 
 #: ../../_sources/GeneralIntro/RuntimeErrors.rst:36
 msgid "intro-8-1: Which of the following is a run-time error?"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/RuntimeErrors.rst:38
+msgid "semantics"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/RuntimeErrors.rst:38
+msgid "semantic error"
 msgstr ""
 

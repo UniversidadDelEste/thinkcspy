@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,5 +30,29 @@ msgstr ""
 
 #: ../../_sources/GeneralIntro/intro-TheWayoftheProgram.rst:28
 msgid "On one level, you will be learning to program, a useful skill by itself. On another level, you will use programming as a means to an end. As we go along, that end will become clearer."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/intro-TheWayoftheProgram.rst:33
+msgid "programming language"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/intro-TheWayoftheProgram.rst:33
+msgid "portable"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/intro-TheWayoftheProgram.rst:33
+msgid "high-level language"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/intro-TheWayoftheProgram.rst:33
+msgid "low-level language"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/intro-TheWayoftheProgram.rst:33
+msgid "compile"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/intro-TheWayoftheProgram.rst:33
+msgid "interpret"
 msgstr ""
 

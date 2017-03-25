@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,5 +68,21 @@ msgid ""
 "because as soon as we find what we are looking for, we can cry Eureka!  "
 "and stop looking.  The way we stop looking is by setting ``found`` to "
 "True which causes the condition to fail."
+msgstr ""
+
+#: ../../_sources/Strings/Afindfunction.rst:70
+msgid "optional parameter"
+msgstr ""
+
+#: ../../_sources/Strings/Afindfunction.rst:70
+msgid "default value"
+msgstr ""
+
+#: ../../_sources/Strings/Afindfunction.rst:70
+msgid "parameter"
+msgstr ""
+
+#: ../../_sources/Strings/Afindfunction.rst:70
+msgid "optional"
 msgstr ""
 

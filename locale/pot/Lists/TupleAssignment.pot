@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,6 +24,10 @@ msgstr ""
 msgid "Python has a very powerful **tuple assignment** feature that allows a tuple of variables on the left of an assignment to be assigned values from a tuple on the right of the assignment."
 msgstr ""
 
+#: ../../_sources/Lists/TupleAssignment.rst:21
+msgid "(name, surname, birth_year, movie, movie_year, profession, birth_place) = julia"
+msgstr ""
+
 #: ../../_sources/Lists/TupleAssignment.rst:25
 msgid "This does the equivalent of seven assignment statements, all on one easy line. One requirement is that the number of variables on the left must match the number of elements in the tuple."
 msgstr ""
@@ -32,8 +36,18 @@ msgstr ""
 msgid "Once in a while, it is useful to swap the values of two variables.  With conventional assignment statements, we have to use a temporary variable. For example, to swap ``a`` and ``b``:"
 msgstr ""
 
+#: ../../_sources/Lists/TupleAssignment.rst:33
+msgid "temp = a\n"
+"a = b\n"
+"b = temp"
+msgstr ""
+
 #: ../../_sources/Lists/TupleAssignment.rst:39
 msgid "Tuple assignment solves this problem neatly:"
+msgstr ""
+
+#: ../../_sources/Lists/TupleAssignment.rst:41
+msgid "(a, b) = (b, a)"
 msgstr ""
 
 #: ../../_sources/Lists/TupleAssignment.rst:45
@@ -42,5 +56,18 @@ msgstr ""
 
 #: ../../_sources/Lists/TupleAssignment.rst:50
 msgid "Naturally, the number of variables on the left and the number of values on the right have to be the same."
+msgstr ""
+
+#: ../../_sources/Lists/TupleAssignment.rst:53
+msgid ">>> (a, b, c, d) = (1, 2, 3)\n"
+"ValueError: need more than 3 values to unpack"
+msgstr ""
+
+#: ../../_sources/Lists/TupleAssignment.rst:58
+msgid "tuple"
+msgstr ""
+
+#: ../../_sources/Lists/TupleAssignment.rst:58
+msgid "return value"
 msgstr ""
 

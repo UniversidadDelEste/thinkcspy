@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,12 +52,33 @@ msgstr ""
 msgid "Let's suppose that a program contains complex logic that is appropriately subdivided into functions. The program is running and it currently is executing function D, which was called by function C, which was called by function B, which was called by function A, which was called from the main function. This is illustrated by the following simplistic code example:"
 msgstr ""
 
+#: ../../_sources/Exceptions/01_intro_exceptions.rst:53
+msgid "def main()\n"
+"  A()\n"
+"\n"
+"def A():\n"
+"  B()\n"
+"\n"
+"def B():\n"
+"  C()\n"
+"\n"
+"def C():\n"
+"  D()\n"
+"\n"
+"def D()\n"
+"  # processing"
+msgstr ""
+
 #: ../../_sources/Exceptions/01_intro_exceptions.rst:70
 msgid "Function D determines that the current processing won't work for some reason and needs to send a message to the main function to try something different. However, all that function D can do using normal flow-of-control is to return a value to function C. So function D returns a special value to function C that means \"try something else\". Function C has to recognize this value, quit its processing, and return the special value to function B. And so forth and so on. It would be very helpful if function D could communicate directly with the main function (or functions A and B) without sending a special value through the intermediate calling functions. Well, that is exactly what an *exception* does. An *exception* is a message to any function currently on the executing program's \"run-time-stack\". (The \"run-time-stack\" is what keeps track of the active function calls while a program is executing.)"
 msgstr ""
 
 #: ../../_sources/Exceptions/01_intro_exceptions.rst:83
 msgid "In Python, your create an *exception* message using the ``raise`` command. The simplest format for a ``raise`` command is the keyword ``raise`` followed by the name of an exception. For example:"
+msgstr ""
+
+#: ../../_sources/Exceptions/01_intro_exceptions.rst:87
+msgid "raise ExceptionName"
 msgstr ""
 
 #: ../../_sources/Exceptions/01_intro_exceptions.rst:91
@@ -68,12 +89,78 @@ msgstr ""
 msgid "Let's take a look at several code examples to illustrate this process. If function D had a ``try: except:`` block around the code that ``raised`` a ``MyException`` message, then the flow-of-control would be passed to the local ``except`` block. That is, function D would handle it's own issues."
 msgstr ""
 
+#: ../../_sources/Exceptions/01_intro_exceptions.rst:107
+msgid "def main()\n"
+"  A()\n"
+"\n"
+"def A():\n"
+"  B()\n"
+"\n"
+"def B():\n"
+"  C()\n"
+"\n"
+"def C():\n"
+"  D()\n"
+"\n"
+"def D()\n"
+"  try:\n"
+"    # processing code\n"
+"    if something_special_happened:\n"
+"      raise MyException\n"
+"  except MyException:\n"
+"    # execute if the MyException message happened"
+msgstr ""
+
 #: ../../_sources/Exceptions/01_intro_exceptions.rst:129
 msgid "But perhaps function C is better able to handle the issue, so you could put the ``try: except:`` block in function C:"
 msgstr ""
 
+#: ../../_sources/Exceptions/01_intro_exceptions.rst:132
+msgid "def main()\n"
+"  A()\n"
+"\n"
+"def A():\n"
+"  B()\n"
+"\n"
+"def B():\n"
+"  C()\n"
+"\n"
+"def C():\n"
+"  try:\n"
+"    D()\n"
+"  except MyException:\n"
+"    # execute if the MyException message happened\n"
+"\n"
+"def D()\n"
+"  # processing code\n"
+"  if something_special_happened:\n"
+"    raise MyException"
+msgstr ""
+
 #: ../../_sources/Exceptions/01_intro_exceptions.rst:154
 msgid "But perhaps the main function is better able to handle the issue, so you could put the ``try: except:`` block in the main function:"
+msgstr ""
+
+#: ../../_sources/Exceptions/01_intro_exceptions.rst:157
+msgid "def main()\n"
+"  try:\n"
+"    A()\n"
+"  except MyException:\n"
+"    # execute if the MyException message happened\n"
+"\n"
+"def A():\n"
+"  B()\n"
+"\n"
+"def B():\n"
+"  C()\n"
+"\n"
+"def C():\n"
+"  D()\n"
+"\n"
+"def D()\n"
+"  # processing code\n"
+"  if something_special_happened:\n"
+"    raise MyException"
 msgstr ""
 
 #: ../../_sources/Exceptions/01_intro_exceptions.rst:180
@@ -86,5 +173,43 @@ msgstr ""
 
 #: ../../_sources/Exceptions/01_intro_exceptions.rst:191
 msgid "As our final example, here is a program that crashes because no valid ``try: except:`` block was found to process the ``MyException`` message. Notice that the ``try: except:`` block in the main function only knows how to deal with ``ZeroDivisonError`` messages, not ``MyException`` messages."
+msgstr ""
+
+#: ../../_sources/Exceptions/01_intro_exceptions.rst:196
+msgid "def main()\n"
+"  try:\n"
+"    A()\n"
+"  except ZeroDivisonError:\n"
+"    # execute if a ZeroDivisonError message happened\n"
+"\n"
+"def A():\n"
+"  B()\n"
+"\n"
+"def B():\n"
+"  C()\n"
+"\n"
+"def C():\n"
+"  D()\n"
+"\n"
+"def D()\n"
+"  # processing code\n"
+"  if something_special_happened:\n"
+"    raise MyException"
+msgstr ""
+
+#: ../../_sources/Exceptions/01_intro_exceptions.rst:219
+msgid "exception"
+msgstr ""
+
+#: ../../_sources/Exceptions/01_intro_exceptions.rst:219
+msgid "flow-of-control"
+msgstr ""
+
+#: ../../_sources/Exceptions/01_intro_exceptions.rst:219
+msgid "raise"
+msgstr ""
+
+#: ../../_sources/Exceptions/01_intro_exceptions.rst:219
+msgid "try: except:"
 msgstr ""
 

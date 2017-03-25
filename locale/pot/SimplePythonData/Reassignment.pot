@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,34 @@ msgstr ""
 
 #: ../../_sources/SimplePythonData/Reassignment.rst:15
 msgid "Reassignment"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Reassignment.rst:None
+msgid "<div id=\"reassignmentvid\" class=\"video_popup\" >\n"
+"<video controls preload=\"none\"  poster=\"../_static/reassignmentthumb.png\">\n"
+"    <source src=\"http://media.interactivepython.org/thinkcsVideos/reassignment.mov\" type=\"video/mp4\"></source>\n"
+"    <source src=\"http://media.interactivepython.org/thinkcsVideos/reassignment.webm\" type=\"video/webm\"></source>\n"
+"    No supported video types\n"
+"</video>\n"
+"</div>\n"
+"<script>\n"
+"   jQuery(function($) {\n"
+"      var rb = new RunestoneBase();\n"
+"      $('#reassignmentvid_thumb').click(function(e) {\n"
+"         $('#reassignmentvid').show();\n"
+"         $('#reassignmentvid_thumb').hide();\n"
+"         rb.logBookEvent({'event':'video','act':'play','div_id': 'reassignmentvid'});\n"
+"         // Log the run event\n"
+"      });\n"
+"      $('#reassignmentvid video').one(\"click\", function(){\n"
+"        this.play();\n"
+"      });\n"
+"      $('#reassignmentvid video').one(\"play\", function(){\n"
+"        rb.logBookEvent({'event':'video','act':'play','div_id': 'reassignmentvid'});\n"
+"      });\n"
+"   });\n"
+"</script>\n"
+""
 msgstr ""
 
 #: ../../_sources/SimplePythonData/Reassignment.rst:25
@@ -30,6 +58,11 @@ msgstr ""
 
 #: ../../_sources/SimplePythonData/Reassignment.rst:41
 msgid "Here is what **reassignment** looks like in a reference diagram:"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Reassignment.rst:None
+msgid ".. image:: SimplePythonData/Figures/reassign1.png\n"
+"   :alt: reassignment"
 msgstr ""
 
 #: ../../_sources/SimplePythonData/Reassignment.rst:48
@@ -50,5 +83,11 @@ msgstr ""
 
 #: ../../_sources/SimplePythonData/Reassignment.rst:86
 msgid "data-10-1: After the following statements, what are the values of x and y?"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Reassignment.rst:88
+msgid "x = 15\n"
+"y = x\n"
+"x = 22"
 msgstr ""
 

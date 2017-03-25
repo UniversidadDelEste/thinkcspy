@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,10 +30,24 @@ msgid ""
 "**chained conditional**"
 msgstr ""
 
+#: ../../_sources/Selection/Chainedconditionals.rst:21
+msgid ""
+"if x < y:\n"
+"    print(\"x is less than y\")\n"
+"elif x > y:\n"
+"    print(\"x is greater than y\")\n"
+"else:\n"
+"    print(\"x and y must be equal\")"
+msgstr ""
+
 #: ../../_sources/Selection/Chainedconditionals.rst:30
 msgid ""
 "The flow of control can be drawn in a different orientation but the "
 "resulting pattern is identical to the one shown above."
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:33
+msgid ".. image:: Selection/Figures/flowchart_chained_conditional.png"
 msgstr ""
 
 #: ../../_sources/Selection/Chainedconditionals.rst:34
@@ -72,7 +86,66 @@ msgid ""
 "following nested if?"
 msgstr ""
 
+#: ../../_sources/Selection/Chainedconditionals.rst:85
+msgid ""
+"# nested if-else statement\n"
+"x = -10\n"
+"if x < 0:\n"
+"    print(\"The negative number \",  x, \" is not valid here.\")\n"
+"else:\n"
+"    if x > 0:\n"
+"        print(x, \" is a positive number\")\n"
+"    else:\n"
+"        print(x, \" is 0\")"
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:98
+msgid ""
+"I.\n"
+"\n"
+"if x < 0:\n"
+"    print(\"The negative number \",  x, \" is not valid here.\")\n"
+"else x > 0:\n"
+"    print(x, \" is a positive number\")\n"
+"else:\n"
+"    print(x, \" is 0\")"
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:110
+msgid ""
+"II.\n"
+"\n"
+"if x < 0:\n"
+"    print(\"The negative number \",  x, \" is not valid here.\")\n"
+"elif x > 0:\n"
+"    print(x, \" is a positive number\")\n"
+"else:\n"
+"    print(x, \" is 0\")"
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:121
+msgid ""
+"III.\n"
+"\n"
+"if x < 0:\n"
+"    print(\"The negative number \",  x, \" is not valid here.\")\n"
+"if x > 0:\n"
+"    print(x, \" is a positive number\")\n"
+"else:\n"
+"    print(x, \" is 0\")"
+msgstr ""
+
 #: ../../_sources/Selection/Chainedconditionals.rst:142
 msgid "select-7-2: What will the following code print if x = 3, y = 5, and z = 2?"
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:144
+msgid ""
+"if x < y and x < z:\n"
+"    print(\"a\")\n"
+"elif y < x and y < z:\n"
+"    print(\"b\")\n"
+"else:\n"
+"    print(\"c\")"
 msgstr ""
 

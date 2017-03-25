@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,5 +22,21 @@ msgstr ""
 
 #: ../../_sources/Strings/StringsRevisited.rst:19
 msgid "Throughout the first chapters of this book we have used strings to represent words or phrases that we wanted to print out.  Our definition was simple:  a string is simply some characters inside quotes.  In this chapter we explore strings in much more detail."
+msgstr ""
+
+#: ../../_sources/Strings/StringsRevisited.rst:14
+msgid "compound data type"
+msgstr ""
+
+#: ../../_sources/Strings/StringsRevisited.rst:14
+msgid "character"
+msgstr ""
+
+#: ../../_sources/Strings/StringsRevisited.rst:14
+msgid "subscript operator"
+msgstr ""
+
+#: ../../_sources/Strings/StringsRevisited.rst:14
+msgid "index"
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,6 +22,11 @@ msgstr ""
 
 #: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:17
 msgid "The **indexing operator** (Python uses square brackets to enclose the index) selects a single character from a string.  The characters are accessed by their position or index value.  For example, in the string shown below, the 14 characters are indexed left to right from postion 0 to position 13."
+msgstr ""
+
+#: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:None
+msgid ".. image:: Strings/Figures/indexvalues.png\n"
+"   :alt: index values"
 msgstr ""
 
 #: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:25
@@ -56,7 +61,17 @@ msgstr ""
 msgid "strings-4-1: What is printed by the following statements?"
 msgstr ""
 
+#: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:73
+msgid "s = \"python rocks\"\n"
+"print(s[3])"
+msgstr ""
+
 #: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:93
 msgid "strings-4-2: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:95
+msgid "s = \"python rocks\"\n"
+"print(s[2] + s[-5])"
 msgstr ""
 

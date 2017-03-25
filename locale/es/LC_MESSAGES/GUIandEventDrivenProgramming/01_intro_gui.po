@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -92,6 +92,26 @@ msgid ""
 "looks something like this:"
 msgstr ""
 
+#: ../../_sources/GUIandEventDrivenProgramming/01_intro_gui.rst:60
+msgid ""
+"while True:\n"
+"  # Get the next event from the operating system\n"
+"  event = get_next_event()\n"
+"\n"
+"  # Get the function that is assigned to handle this event\n"
+"  a_function_to_handle_the_event = event-handlers[event]\n"
+"\n"
+"  # If a function has been assigned to handle this event, call the "
+"function\n"
+"  if a_function_to_handle_the_event:\n"
+"    a_function_to_handle_the_event()  # Call the event-handler function\n"
+"\n"
+"  # Stop processing events if the user gives a command to stop the "
+"application\n"
+"  if window_needs_to_close:\n"
+"    break  # out of the event-loop"
+msgstr ""
+
 #: ../../_sources/GUIandEventDrivenProgramming/01_intro_gui.rst:77
 msgid ""
 "Again, you do not implement an event-loop in a GUI program. The event "
@@ -121,6 +141,7 @@ msgid ""
 msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/01_intro_gui.rst:98
+#: ../../_sources/GUIandEventDrivenProgramming/01_intro_gui.rst:153
 msgid "TKinter"
 msgstr ""
 
@@ -199,5 +220,45 @@ msgid ""
 "how to display \"Hello world!\" on the screen. This is considered to be "
 "the simplest possible program you can write in the language. In that "
 "spirit, here is a GUI program that displays \"Hello World!:"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/01_intro_gui.rst:138
+msgid ""
+"import tkinter as tk\n"
+"from tkinter import ttk\n"
+"\n"
+"# Create the application window\n"
+"window = tk.Tk()\n"
+"\n"
+"# Create the user interface\n"
+"my_label = ttk.Label(window, text=\"Hello World!\")\n"
+"my_label.grid(row=1, column=1)\n"
+"\n"
+"# Start the GUI event loop\n"
+"window.mainloop()"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/01_intro_gui.rst:153
+msgid "graphical user interface"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/01_intro_gui.rst:153
+msgid "GUI"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/01_intro_gui.rst:153
+msgid "event-driven programming"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/01_intro_gui.rst:153
+msgid "event loop"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/01_intro_gui.rst:153
+msgid "event-handler"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/01_intro_gui.rst:153
+msgid "dialog box"
 msgstr ""
 

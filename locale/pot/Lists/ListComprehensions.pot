@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,6 +24,10 @@ msgstr ""
 msgid "The previous example creates a list from a sequence of values based on some selection criteria.  An easy way to do this type of processing in Python is to use a **list comprehension**.  List comprehensions are concise ways to create lists.  The general syntax is::"
 msgstr ""
 
+#: ../../_sources/Lists/ListComprehensions.rst:19
+msgid "[<expression> for <item> in <sequence> if  <condition>]"
+msgstr ""
+
 #: ../../_sources/Lists/ListComprehensions.rst:21
 msgid "where the if clause is optional.  For example,"
 msgstr ""
@@ -36,6 +40,14 @@ msgstr ""
 msgid "To write the ``primes_upto`` function we will use the ``is_prime`` function to filter the sequence of integers coming from the ``range`` function.  In other words, for every integer from 2 up to but not including ``n``, if the integer is prime, keep it in the list."
 msgstr ""
 
+#: ../../_sources/Lists/ListComprehensions.rst:37
+msgid "def primes_upto(n):\n"
+"    \"\"\" Return a list of all prime numbers less than n using a list comprehension. \"\"\"\n"
+"\n"
+"    result = [num for num in range(2,n) if is_prime(num)]\n"
+"    return result"
+msgstr ""
+
 #: ../../_sources/Lists/ListComprehensions.rst:49
 msgid "This workspace is provided for your convenience.  You can use this activecode window to try out anything you like."
 msgstr ""
@@ -46,5 +58,23 @@ msgstr ""
 
 #: ../../_sources/Lists/ListComprehensions.rst:68
 msgid "list-22-1: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Lists/ListComprehensions.rst:70
+msgid "alist = [4,2,8,6,5]\n"
+"blist = [num*2 for num in alist if num%2==1]\n"
+"print(blist)"
+msgstr ""
+
+#: ../../_sources/Lists/ListComprehensions.rst:77
+msgid "nested list"
+msgstr ""
+
+#: ../../_sources/Lists/ListComprehensions.rst:77
+msgid "list"
+msgstr ""
+
+#: ../../_sources/Lists/ListComprehensions.rst:77
+msgid "nested"
 msgstr ""
 

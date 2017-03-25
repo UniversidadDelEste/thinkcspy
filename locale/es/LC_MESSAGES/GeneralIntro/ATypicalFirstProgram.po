@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,11 +30,19 @@ msgid ""
 "In Python, the source code looks like this."
 msgstr ""
 
+#: ../../_sources/GeneralIntro/ATypicalFirstProgram.rst:21
+msgid "print(\"Hello, World!\")"
+msgstr ""
+
 #: ../../_sources/GeneralIntro/ATypicalFirstProgram.rst:25
 msgid ""
 "This is an example of using the **print function**, which doesn't "
 "actually print anything on paper. It displays a value on the screen. In "
 "this case, the result is the phrase:"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ATypicalFirstProgram.rst:30
+msgid "Hello, World!"
 msgstr ""
 
 #: ../../_sources/GeneralIntro/ATypicalFirstProgram.rst:32
@@ -60,5 +68,9 @@ msgstr ""
 
 #: ../../_sources/GeneralIntro/ATypicalFirstProgram.rst:58
 msgid "intro-12-1: The print function:"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ATypicalFirstProgram.rst:61
+msgid "comments"
 msgstr ""
 

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,6 +40,12 @@ msgid ""
 "conventional to enclose tuples in parentheses:"
 msgstr ""
 
+#: ../../_sources/Lists/TuplesandMutability.rst:28
+msgid ""
+"julia = (\"Julia\", \"Roberts\", 1967, \"Duplicity\", 2009, \"Actress\", "
+"\"Atlanta, Georgia\")"
+msgstr ""
+
 #: ../../_sources/Lists/TuplesandMutability.rst:32
 msgid ""
 "Tuples are useful for representing what other languages often call "
@@ -61,6 +67,12 @@ msgid ""
 "elements of the tuple, we get an error."
 msgstr ""
 
+#: ../../_sources/Lists/TuplesandMutability.rst:44
+msgid ""
+"julia[0] = 'X'\n"
+"TypeError: 'tuple' object does not support item assignment"
+msgstr ""
+
 #: ../../_sources/Lists/TuplesandMutability.rst:49
 msgid ""
 "Of course, even if we can't modify the elements of a tuple, we can make a"
@@ -77,5 +89,13 @@ msgid ""
 "to do that too often), we have to include the final comma, because "
 "without the final comma, Python treats the ``(5)`` below as an integer in"
 " parentheses:"
+msgstr ""
+
+#: ../../_sources/Lists/TuplesandMutability.rst:82
+msgid "assignment"
+msgstr ""
+
+#: ../../_sources/Lists/TuplesandMutability.rst:82
+msgid "tuple"
 msgstr ""
 

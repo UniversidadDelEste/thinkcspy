@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,6 +69,14 @@ msgstr ""
 
 #: ../../_sources/MoreAboutIteration/Exercises.rst:244
 msgid "Write a function to remove all the red from an image."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Exercises.rst:246
+msgid ""
+"<img src=\"../_static/LutherBellPic.jpg\" id=\"luther.jpg\">\n"
+"<h4 style=\"text-align: left;\">For this and the following exercises, use"
+" the\n"
+"luther.jpg photo.</h4>"
 msgstr ""
 
 #: ../../_sources/MoreAboutIteration/Exercises.rst:289

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,7 +48,19 @@ msgstr ""
 msgid "strings-10-1: How many times is the word HELLO printed by the following statements?"
 msgstr ""
 
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:69
+msgid "s = \"python rocks\"\n"
+"for ch in s:\n"
+"    print(\"HELLO\")"
+msgstr ""
+
 #: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:90
 msgid "strings-10-2: How many times is the word HELLO printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:92
+msgid "s = \"python rocks\"\n"
+"for ch in s[3:8]:\n"
+"    print(\"HELLO\")"
 msgstr ""
 

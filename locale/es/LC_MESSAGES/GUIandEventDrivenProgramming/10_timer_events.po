@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,6 +45,15 @@ msgid ""
 "created."
 msgstr ""
 
+#: ../../_sources/GUIandEventDrivenProgramming/10_timer_events.rst:32
+msgid ""
+"def a_callback_function():\n"
+"    print(\"a_callback_function was called.\")\n"
+"\n"
+"my_button = tk.Button(application_window, text=\"Example\")\n"
+"my_button.after(1000, a_callback_function)"
+msgstr ""
+
 #: ../../_sources/GUIandEventDrivenProgramming/10_timer_events.rst:42
 msgid "Animations and Repeated Tasks"
 msgstr ""
@@ -56,6 +65,16 @@ msgid ""
 "event each time it is called. The following example creates a callback "
 "function that is called 30 times per second. (Note that 1/30th of a "
 "second is 0.033 seconds, or 33 milliseconds.)"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/10_timer_events.rst:50
+msgid ""
+"def animate():\n"
+"    # Draw something\n"
+"    my_button.after(33, animate)\n"
+"\n"
+"my_button = tk.Button(application_window, text=\"Example\")\n"
+"my_button.after(33, animate)"
 msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/10_timer_events.rst:59
@@ -88,6 +107,18 @@ msgid ""
 "Here is an example:"
 msgstr ""
 
+#: ../../_sources/GUIandEventDrivenProgramming/10_timer_events.rst:79
+msgid ""
+"def do_something():\n"
+"  # Some processing\n"
+"\n"
+"my_button = tk.Button(application_window, text=\"Example\")\n"
+"timer_object = my_button.after(1000, do_something)\n"
+"...\n"
+"\n"
+"my_button.after_cancel(timer_object)"
+msgstr ""
+
 #: ../../_sources/GUIandEventDrivenProgramming/10_timer_events.rst:91
 msgid "Multiple Parameters to Timer Callbacks"
 msgstr ""
@@ -100,5 +131,37 @@ msgid ""
 "an example of three different callback functions, each of which receives "
 "a different number of arguments. You must specify the correct number of "
 "arguments for the callback function when you create the timer event."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/10_timer_events.rst:100
+msgid ""
+"def task1():\n"
+"  # Do some processing\n"
+"\n"
+"def task2(alpha):\n"
+"  # Do some processing\n"
+"\n"
+"def task3(beta, gamma):\n"
+"  # Do some processing\n"
+"\n"
+"my_button = tk.Button(application_window, text=\"Example\")\n"
+"my_button.after(1000, task1)\n"
+"my_button.after(2000, task2, 3)     # 3 gets passed to the parameter "
+"alpha\n"
+"my_button.after(5000, task3, a, b)  # a gets passed to the parameter beta"
+"\n"
+"                                    # b gets passed to the parameter gamma"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/10_timer_events.rst:118
+msgid "timer events"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/10_timer_events.rst:118
+msgid "after method"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/10_timer_events.rst:118
+msgid "after_cancel method"
 msgstr ""
 

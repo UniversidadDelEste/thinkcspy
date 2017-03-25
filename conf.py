@@ -59,6 +59,7 @@ release = '3.0'
 locale_dirs = ['../locale/']    # path outside PyMOTW source directory
 gettext_compact = False         # optional.
 gettext_uuid = False            # add uid line and calculate similarity
+gettext_additional_targets = ['literal-block', 'index', 'raw', 'image']
 language = None                 # for translations, use locale code (i.e. "es")
 
 # There are two options for replacing |today|: either, you set today to some

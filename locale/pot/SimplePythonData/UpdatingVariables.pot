@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,8 +20,40 @@ msgstr ""
 msgid "Updating Variables"
 msgstr ""
 
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:None
+msgid "<div id=\"updatevid\" class=\"video_popup\" >\n"
+"<video controls preload=\"none\"  poster=\"../_static/updatethumb.png\">\n"
+"    <source src=\"http://media.interactivepython.org/thinkcsVideos/update.mov\" type=\"video/mp4\"></source>\n"
+"    <source src=\"http://media.interactivepython.org/thinkcsVideos/update.webm\" type=\"video/webm\"></source>\n"
+"    No supported video types\n"
+"</video>\n"
+"</div>\n"
+"<script>\n"
+"   jQuery(function($) {\n"
+"      var rb = new RunestoneBase();\n"
+"      $('#updatevid_thumb').click(function(e) {\n"
+"         $('#updatevid').show();\n"
+"         $('#updatevid_thumb').hide();\n"
+"         rb.logBookEvent({'event':'video','act':'play','div_id': 'updatevid'});\n"
+"         // Log the run event\n"
+"      });\n"
+"      $('#updatevid video').one(\"click\", function(){\n"
+"        this.play();\n"
+"      });\n"
+"      $('#updatevid video').one(\"play\", function(){\n"
+"        rb.logBookEvent({'event':'video','act':'play','div_id': 'updatevid'});\n"
+"      });\n"
+"   });\n"
+"</script>\n"
+""
+msgstr ""
+
 #: ../../_sources/SimplePythonData/UpdatingVariables.rst:24
 msgid "One of the most common forms of reassignment is an **update** where the new value of the variable depends on the old.  For example,"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:27
+msgid "x = x + 1"
 msgstr ""
 
 #: ../../_sources/SimplePythonData/UpdatingVariables.rst:31
@@ -56,8 +88,31 @@ msgstr ""
 msgid "data-11-1: What is printed when the following statements execute?"
 msgstr ""
 
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:88
+msgid "x = 12\n"
+"x = x - 1\n"
+"print(x)"
+msgstr ""
+
 #: ../../_sources/SimplePythonData/UpdatingVariables.rst:106
 msgid "data-11-2: What is printed when the following statements execute?"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:108
+msgid "x = 12\n"
+"x = x - 3\n"
+"x = x + 5\n"
+"x = x + 1\n"
+"print(x)"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:124
+msgid "\n"
+"    <pre data-component=\"parsons\" id=\"question2_10_3\">\n"
+"        <span data-question>data-11-3: Construct the code that will result in the value 134 being printed.</span>mybankbalance = 100\n"
+"mybankbalance = mybankbalance + 34\n"
+"print(mybankbalance)</pre>\n"
+"    "
 msgstr ""
 
 #: ../../_sources/SimplePythonData/UpdatingVariables.rst:127

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,20 +32,40 @@ msgstr ""
 msgid "Use the drawsquare function we wrote in this chapter in a program to draw the image shown below. Assume each side is 20 units. (Hint: notice that the turtle has already moved away from the ending point of the last square when the program ends.)"
 msgstr ""
 
+#: ../../_sources/Functions/thinkcspyExercises.rst:0
+msgid ".. image:: Functions/Figures/five_squares.png"
+msgstr ""
+
 #: ../../_sources/Functions/thinkcspyExercises.rst:87
 msgid "Write a program to draw this. Assume the innermost square is 20 units per side, and each successive square is 20 units bigger, per side, than the one inside it."
+msgstr ""
+
+#: ../../_sources/Functions/thinkcspyExercises.rst:0
+msgid ".. image:: Functions/Figures/nested_squares.png"
 msgstr ""
 
 #: ../../_sources/Functions/thinkcspyExercises.rst:102
 msgid "Write a non-fruitful function ``drawPoly(someturtle, somesides, somesize)`` which makes a turtle draw a regular polygon. When called with ``drawPoly(tess, 8, 50)``, it will draw a shape like this:"
 msgstr ""
 
+#: ../../_sources/Functions/thinkcspyExercises.rst:0
+msgid ".. image:: Functions/Figures/regularpolygon.png"
+msgstr ""
+
 #: ../../_sources/Functions/thinkcspyExercises.rst:139
 msgid "Draw this pretty pattern."
 msgstr ""
 
+#: ../../_sources/Functions/thinkcspyExercises.rst:0
+msgid ".. image:: Functions/Figures/tess08.png"
+msgstr ""
+
 #: ../../_sources/Functions/thinkcspyExercises.rst:151
 msgid "The two spirals in this picture differ only by the turn angle.  Draw both."
+msgstr ""
+
+#: ../../_sources/Functions/thinkcspyExercises.rst:0
+msgid ".. image:: Functions/Figures/tess_spirals.png"
 msgstr ""
 
 #: ../../_sources/Functions/thinkcspyExercises.rst:207
@@ -64,8 +84,16 @@ msgstr ""
 msgid "Write a non-fruitful function to draw a five pointed star, where the length of each side is 100 units."
 msgstr ""
 
+#: ../../_sources/Functions/thinkcspyExercises.rst:0
+msgid ".. image:: Functions/Figures/star.png"
+msgstr ""
+
 #: ../../_sources/Functions/thinkcspyExercises.rst:324
 msgid "Extend your program above.  Draw five stars, but between each, pick up the pen, move forward by 350 units, turn right by 144, put the pen down, and draw the next star. You'll get something like this (note that you will need to move to the left before drawing your first star in order to fit everything in the window):"
+msgstr ""
+
+#: ../../_sources/Functions/thinkcspyExercises.rst:0
+msgid ".. image:: Functions/Figures/five_stars.png"
 msgstr ""
 
 #: ../../_sources/Functions/thinkcspyExercises.rst:330

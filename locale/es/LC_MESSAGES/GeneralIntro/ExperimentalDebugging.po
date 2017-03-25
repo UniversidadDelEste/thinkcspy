@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,5 +80,21 @@ msgstr ""
 
 #: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:60
 msgid "intro-10-1: The difference between programming and debugging is:"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:62
+msgid "formal language"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:62
+msgid "natural language"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:62
+msgid "parse"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:62
+msgid "token"
 msgstr ""
 

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,6 +41,16 @@ msgid ""
 "abnormal condition."
 msgstr ""
 
+#: ../../_sources/Exceptions/04_exceptions_syntax.rst:27
+msgid ""
+"try:\n"
+"  # Your normal code goes here.\n"
+"  # Your code should include function calls which might raise exceptions."
+"\n"
+"except:\n"
+"  # If any exception was raised, then execute this code block."
+msgstr ""
+
 #: ../../_sources/Exceptions/04_exceptions_syntax.rst:36
 msgid "Catch A Specific Exception"
 msgstr ""
@@ -51,8 +61,32 @@ msgid ""
 "condition and tries to re-cover from the condition."
 msgstr ""
 
+#: ../../_sources/Exceptions/04_exceptions_syntax.rst:41
+msgid ""
+"try:\n"
+"  # Your normal code goes here.\n"
+"  # Your code should include function calls which might raise exceptions."
+"\n"
+"except ExceptionName:\n"
+"  # If ExceptionName was raised, then execute this block."
+msgstr ""
+
 #: ../../_sources/Exceptions/04_exceptions_syntax.rst:50
 msgid "Catch Multiple Specific Exceptions"
+msgstr ""
+
+#: ../../_sources/Exceptions/04_exceptions_syntax.rst:52
+msgid ""
+"try:\n"
+"  # Your normal code goes here.\n"
+"  # Your code should include function calls which might raise exceptions."
+"\n"
+"except Exception_one:\n"
+"  # If Exception_one was raised, then execute this block.\n"
+"except Exception_two:\n"
+"  # If Exception_two was raised, then execute this block.\n"
+"else:\n"
+"  # If there was no exception then execute this block."
 msgstr ""
 
 #: ../../_sources/Exceptions/04_exceptions_syntax.rst:65
@@ -63,6 +97,18 @@ msgstr ""
 msgid ""
 "If you have code that you want to be executed even if exceptions occur, "
 "you can include a ``finally`` code block:"
+msgstr ""
+
+#: ../../_sources/Exceptions/04_exceptions_syntax.rst:70
+msgid ""
+"try:\n"
+"  # Your normal code goes here.\n"
+"  # Your code might include function calls which might raise exceptions.\n"
+"  # If an exception is raised, some of these statements might not be "
+"executed.\n"
+"finally:\n"
+"  # This block of code will always execute, even if there are exceptions "
+"raised"
 msgstr ""
 
 #: ../../_sources/Exceptions/04_exceptions_syntax.rst:81
@@ -79,5 +125,22 @@ msgid ""
 "errors, such as trying to write to a device that is full. The ``finally``"
 " code guarantees that the file is closed properly, even if there are "
 "errors during writing."
+msgstr ""
+
+#: ../../_sources/Exceptions/04_exceptions_syntax.rst:91
+msgid ""
+"try:\n"
+"   f = open(\"my_file.txt\", \"w\")\n"
+"   try:\n"
+"      f.write(\"Writing some data to the file\")\n"
+"   finally:\n"
+"      f.close()\n"
+"except IOError:\n"
+"   print \"Error: my_file.txt does not exist or it can't be opened for "
+"output.\""
+msgstr ""
+
+#: ../../_sources/Exceptions/04_exceptions_syntax.rst:102
+msgid "exceptions syntax"
 msgstr ""
 

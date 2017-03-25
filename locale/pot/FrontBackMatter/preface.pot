@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -98,6 +98,13 @@ msgstr ""
 
 #: ../../_sources/FrontBackMatter/preface.rst:85
 msgid "The ease of constructing lists and the ``for`` loop seem to be winners in Python, so rather than use the traditional command-line ``input`` for data, I've favoured using loops and lists right up front, like this:"
+msgstr ""
+
+#: ../../_sources/FrontBackMatter/preface.rst:89
+msgid "friends = [\"Amy\", \"Joe\", \"Bill\"]\n"
+"for f in friends:\n"
+"   invitation = \"Hi \" + f + \".  Please come to my party on Saturday!\"\n"
+"   print(invitation)"
 msgstr ""
 
 #: ../../_sources/FrontBackMatter/preface.rst:96

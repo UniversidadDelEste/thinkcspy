@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -190,8 +190,22 @@ msgid ""
 "looks like this:"
 msgstr ""
 
+#: ../../_sources/FrontBackMatter/preface2e.rst:126
+msgid ""
+"class Hello {\n"
+"\n"
+"  public static void main (String[] args) {\n"
+"      System.out.println (\"Hello, world.\");\n"
+"  }\n"
+"}"
+msgstr ""
+
 #: ../../_sources/FrontBackMatter/preface2e.rst:135
 msgid "in the Python version it becomes:"
+msgstr ""
+
+#: ../../_sources/FrontBackMatter/preface2e.rst:137
+msgid "print \"Hello, World!\""
 msgstr ""
 
 #: ../../_sources/FrontBackMatter/preface2e.rst:141

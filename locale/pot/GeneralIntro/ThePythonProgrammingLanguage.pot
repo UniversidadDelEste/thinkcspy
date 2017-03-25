@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,8 +40,18 @@ msgstr ""
 msgid "Two kinds of programs process high-level languages into low-level languages: **interpreters** and **compilers**. An interpreter reads a high-level program and executes it, meaning that it does what the program says. It processes the program a little at a time, alternately reading lines and performing computations."
 msgstr ""
 
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:None
+msgid ".. image:: GeneralIntro/Figures/interpret.png\n"
+"   :alt: Interpret illustration"
+msgstr ""
+
 #: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:52
 msgid "A compiler reads the program and translates it completely before the program starts running. In this case, the high-level program is called the **source code**, and the translated program is called the **object code** or the **executable**. Once a program is compiled, you can execute it repeatedly without further translation."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:None
+msgid ".. image:: GeneralIntro/Figures/compile.png\n"
+"   :alt: Compile illustration"
 msgstr ""
 
 #: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:61
@@ -50,6 +60,16 @@ msgstr ""
 
 #: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:66
 msgid "There are two ways to use the Python interpreter: *shell mode* and *program mode*. In shell mode, you type Python expressions into the **Python shell**, and the interpreter immediately shows the result.  The example below shows the Python shell at work."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:72
+msgid "$ python3\n"
+"Python 3.2 (r32:88445, Mar 25 2011, 19:28:28)\n"
+"[GCC 4.5.2] on linux2\n"
+"Type \"help\", \"copyright\", \"credits\" or \"license\" for more information.\n"
+">>> 2 + 3\n"
+"5\n"
+">>>"
 msgstr ""
 
 #: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:80
@@ -64,8 +84,19 @@ msgstr ""
 msgid "Alternatively, you can write an entire program by placing lines of Python instructions in a file and then use the interpreter to execute the contents of the file as a whole. Such a file is often referred to as **source code**.  For example, we used a text editor to create a source code file named ``firstprogram.py`` with the following contents:"
 msgstr ""
 
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:95
+msgid "print(\"My first program adds two numbers, 2 and 3:\")\n"
+"print(2 + 3)"
+msgstr ""
+
 #: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:101
 msgid "By convention, files that contain Python programs have names that end with ``.py`` .  Following this convention will help your operating system and other programs identify a file as containing python code."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:107
+msgid "$ python firstprogram.py\n"
+"My first program adds two numbers, 2 and 3:\n"
+"5"
 msgstr ""
 
 #: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:111

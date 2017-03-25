@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -92,6 +92,12 @@ msgid ""
 msgstr ""
 
 #: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:72
+msgid ""
+".. image:: IntroRecursion/Figures/toStr.png\n"
+"   :alt: image"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:72
 msgid "Figure 3: Converting an Integer to a String in Base 10"
 msgstr ""
 
@@ -114,6 +120,12 @@ msgstr ""
 msgid ""
 "Let’s trace the algorithm again; this time we will convert the number 10 "
 "to its base 2 string representation (``\"1010\"``)."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:106
+msgid ""
+".. image:: IntroRecursion/Figures/toStrBase2.png\n"
+"   :alt: image"
 msgstr ""
 
 #: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:106

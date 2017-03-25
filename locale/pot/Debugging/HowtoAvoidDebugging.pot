@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,5 +70,17 @@ msgstr ""
 
 #: ../../_sources/Debugging/HowtoAvoidDebugging.rst:101
 msgid "Of course even in this simple progression, there are other ways you could have gone astray.  We'll look at some of those and how you track them down in the next section."
+msgstr ""
+
+#: ../../_sources/Debugging/HowtoAvoidDebugging.rst:81
+msgid "boundary conditions"
+msgstr ""
+
+#: ../../_sources/Debugging/HowtoAvoidDebugging.rst:81
+msgid "testing"
+msgstr ""
+
+#: ../../_sources/Debugging/HowtoAvoidDebugging.rst:81
+msgid "debugging"
 msgstr ""
 

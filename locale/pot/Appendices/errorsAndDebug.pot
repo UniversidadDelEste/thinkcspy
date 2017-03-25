@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -171,6 +171,16 @@ msgstr ""
 #: ../../_sources/Appendices/errorsAndDebug.rst:146
 #: ../../_sources/Appendices/errorsAndDebug.rst:366
 msgid "For example:"
+msgstr ""
+
+#: ../../_sources/Appendices/errorsAndDebug.rst:148
+msgid "while x > 0 and y < 0:\n"
+"    # do something to x\n"
+"    # do something to y\n"
+"\n"
+"    print(\"x: \", x)\n"
+"    print(\"y: \", y)\n"
+"    print(\"condition: \", (x > 0 and y < 0))"
 msgstr ""
 
 #: ../../_sources/Appendices/errorsAndDebug.rst:158
@@ -385,8 +395,18 @@ msgstr ""
 msgid "Writing complex expressions is fine as long as they are readable, but they can be hard to debug. It is often a good idea to break a complex expression into a series of assignments to temporary variables."
 msgstr ""
 
+#: ../../_sources/Appendices/errorsAndDebug.rst:368
+msgid "self.hands[i].addCard (self.hands[self.findNeighbor(i)].popCard())"
+msgstr ""
+
 #: ../../_sources/Appendices/errorsAndDebug.rst:372
 msgid "This can be rewritten as:"
+msgstr ""
+
+#: ../../_sources/Appendices/errorsAndDebug.rst:374
+msgid "neighbor = self.findNeighbor (i)\n"
+"pickedCard = self.hands[neighbor].popCard()\n"
+"self.hands[i].addCard (pickedCard)"
 msgstr ""
 
 #: ../../_sources/Appendices/errorsAndDebug.rst:381
@@ -397,12 +417,20 @@ msgstr ""
 msgid "Another problem that can occur with big expressions is that the order of evaluation may not be what you expect. For example, if you are translating the expression ``x/2pi`` into Python, you might write:"
 msgstr ""
 
+#: ../../_sources/Appendices/errorsAndDebug.rst:389
+msgid "y = x / 2 * math.pi;"
+msgstr ""
+
 #: ../../_sources/Appendices/errorsAndDebug.rst:393
 msgid "That is not correct because multiplication and division have the same precedence and are evaluated from left to right. So this expression computes ``(x/2)pi``."
 msgstr ""
 
 #: ../../_sources/Appendices/errorsAndDebug.rst:397
 msgid "A good way to debug expressions is to add parentheses to make the order of evaluation explicit:"
+msgstr ""
+
+#: ../../_sources/Appendices/errorsAndDebug.rst:400
+msgid "y = x / (2 * math.pi);"
 msgstr ""
 
 #: ../../_sources/Appendices/errorsAndDebug.rst:404
@@ -417,8 +445,17 @@ msgstr ""
 msgid "If you have a ``return`` statement with a complex expression, you don't have a chance to print the ``return`` value before returning. Again, you can use a temporary variable. For example, instead of:"
 msgstr ""
 
+#: ../../_sources/Appendices/errorsAndDebug.rst:417
+msgid "return self.hands[i].removeMatches()"
+msgstr ""
+
 #: ../../_sources/Appendices/errorsAndDebug.rst:421
 msgid "you could write:"
+msgstr ""
+
+#: ../../_sources/Appendices/errorsAndDebug.rst:423
+msgid "count = self.hands[i].removeMatches()\n"
+"return count"
 msgstr ""
 
 #: ../../_sources/Appendices/errorsAndDebug.rst:428

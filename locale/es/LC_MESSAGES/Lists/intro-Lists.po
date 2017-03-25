@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,5 +30,17 @@ msgid ""
 "called its **elements**. Lists are similar to strings, which are ordered "
 "collections of characters, except that the elements of a list can have "
 "any type and for any one list, the items can be of different types."
+msgstr ""
+
+#: ../../_sources/Lists/intro-Lists.rst:22
+msgid "nested list"
+msgstr ""
+
+#: ../../_sources/Lists/intro-Lists.rst:22
+msgid "list"
+msgstr ""
+
+#: ../../_sources/Lists/intro-Lists.rst:22
+msgid "nested"
 msgstr ""
 

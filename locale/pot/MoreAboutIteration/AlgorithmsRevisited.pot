@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,5 +46,37 @@ msgstr ""
 
 #: ../../_sources/MoreAboutIteration/AlgorithmsRevisited.rst:58
 msgid "This workspace is provided for your convenience.  You can use this activecode window to try out anything you like."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/AlgorithmsRevisited.rst:52
+msgid "table"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/AlgorithmsRevisited.rst:52
+msgid "logarithm"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/AlgorithmsRevisited.rst:52
+msgid "Intel"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/AlgorithmsRevisited.rst:52
+msgid "Pentium"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/AlgorithmsRevisited.rst:52
+msgid "escape sequence"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/AlgorithmsRevisited.rst:52
+msgid "tab"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/AlgorithmsRevisited.rst:52
+msgid "newline"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/AlgorithmsRevisited.rst:52
+msgid "cursor"
 msgstr ""
 

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,6 +51,7 @@ msgid "Description"
 msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:33
+#: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:173
 msgid "place"
 msgstr ""
 
@@ -59,6 +60,7 @@ msgid "You specify the exact size and position of each widget."
 msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:34
+#: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:173
 msgid "pack"
 msgstr ""
 
@@ -67,6 +69,7 @@ msgid "You specify the size and position of each widget *relative to each other*
 msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:35
+#: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:173
 msgid "grid"
 msgstr ""
 
@@ -256,6 +259,12 @@ msgid ""
 "cell and adds extra space vertically to the grid cell:"
 msgstr ""
 
+#: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:116
+msgid ""
+"my_button = tk.Button(application_window, text=\"Example\")\n"
+"my_button.grid(row=3, column=1, sticky=tk.E + tk.W, pady=10)"
+msgstr ""
+
 #: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:121
 msgid ""
 "One final note about grid layouts. You might think that you need to tell "
@@ -304,6 +313,12 @@ msgstr ""
 msgid "Here is an example ``pack`` command for a button widget:"
 msgstr ""
 
+#: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:154
+msgid ""
+"my_button = tk.Button(application_window, text=\"Example\")\n"
+"my_button.grid(side=tk.TOP, fill=tk.Y, expand=True, pady=10)"
+msgstr ""
+
 #: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:159
 msgid ""
 "To accomplish a desired interface design using a ``pack`` ``layout "
@@ -329,5 +344,9 @@ msgstr ""
 msgid ""
 "You should **never** mix and match ``layout managers``; use only one type"
 " of layout manager for the widgets within a particular parent widget."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/04_layout_managers.rst:173
+msgid "layout manager"
 msgstr ""
 

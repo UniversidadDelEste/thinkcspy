@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,5 +47,17 @@ msgstr ""
 
 #: ../../_sources/GeneralIntro/SemanticErrors.rst:38
 msgid "intro-9-1: Which of the following is a semantic error?"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SemanticErrors.rst:41
+msgid "Holmes, Sherlock"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SemanticErrors.rst:41
+msgid "Doyle, Arthur Conan"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SemanticErrors.rst:41
+msgid "Linux"
 msgstr ""
 

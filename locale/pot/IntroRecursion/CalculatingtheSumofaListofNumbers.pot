@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,11 +53,21 @@ msgid ":ref:`Figure 1 <fig_recsumin>` shows the series of **recursive calls** th
 msgstr ""
 
 #: ../../_sources/IntroRecursion/CalculatingtheSumofaListofNumbers.rst:115
+msgid ".. image:: IntroRecursion/Figures/sumlistIn.png\n"
+"   :alt: image"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/CalculatingtheSumofaListofNumbers.rst:115
 msgid "Figure 1: Series of Recursive Calls Adding a List of Numbers"
 msgstr ""
 
 #: ../../_sources/IntroRecursion/CalculatingtheSumofaListofNumbers.rst:117
 msgid "When we reach the point where the problem is as simple as it can get, we begin to piece together the solutions of each of the small problems until the initial problem is solved. :ref:`Figure 2 <fig_recsumout>` shows the additions that are performed as ``listsum`` works its way backward through the series of calls. When ``listsum`` returns from the topmost problem, we have the solution to the whole problem."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/CalculatingtheSumofaListofNumbers.rst:130
+msgid ".. image:: IntroRecursion/Figures/sumlistOut.png\n"
+"   :alt: image"
 msgstr ""
 
 #: ../../_sources/IntroRecursion/CalculatingtheSumofaListofNumbers.rst:130

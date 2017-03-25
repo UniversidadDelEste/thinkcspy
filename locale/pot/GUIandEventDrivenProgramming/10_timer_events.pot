@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,12 +28,29 @@ msgstr ""
 msgid "Every widget has an ``after`` method that will generate an event at a specific time interval from the time it is called. The method takes at least 2 arguments: the amount of time (in milliseconds) to wait before generating the event, and the callback function to call after the time has elapsed. In the example below, the function ``a_callback_function`` will be called one second (1000 milliseconds) after the timer-event was created."
 msgstr ""
 
+#: ../../_sources/GUIandEventDrivenProgramming/10_timer_events.rst:32
+msgid "def a_callback_function():\n"
+"    print(\"a_callback_function was called.\")\n"
+"\n"
+"my_button = tk.Button(application_window, text=\"Example\")\n"
+"my_button.after(1000, a_callback_function)"
+msgstr ""
+
 #: ../../_sources/GUIandEventDrivenProgramming/10_timer_events.rst:42
 msgid "Animations and Repeated Tasks"
 msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/10_timer_events.rst:44
 msgid "If you want a specific task to be repeated on a regular interval, then the callback function that performs the task should create a new timer event each time it is called. The following example creates a callback function that is called 30 times per second. (Note that 1/30th of a second is 0.033 seconds, or 33 milliseconds.)"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/10_timer_events.rst:50
+msgid "def animate():\n"
+"    # Draw something\n"
+"    my_button.after(33, animate)\n"
+"\n"
+"my_button = tk.Button(application_window, text=\"Example\")\n"
+"my_button.after(33, animate)"
 msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/10_timer_events.rst:59
@@ -52,11 +69,51 @@ msgstr ""
 msgid "In some cases you may need to cancel a timer event to prevent it from executing. This is straightforward using the ``after_cancel`` method. Remember that a widget can have multiple active timers, so the ``after_cancel`` method requires one parameter which specifies which timer event to cancel. If you need to cancel an event, you must capture the return value from the call to ``after`` when you created the event. Here is an example:"
 msgstr ""
 
+#: ../../_sources/GUIandEventDrivenProgramming/10_timer_events.rst:79
+msgid "def do_something():\n"
+"  # Some processing\n"
+"\n"
+"my_button = tk.Button(application_window, text=\"Example\")\n"
+"timer_object = my_button.after(1000, do_something)\n"
+"...\n"
+"\n"
+"my_button.after_cancel(timer_object)"
+msgstr ""
+
 #: ../../_sources/GUIandEventDrivenProgramming/10_timer_events.rst:91
 msgid "Multiple Parameters to Timer Callbacks"
 msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/10_timer_events.rst:93
 msgid "Timer callback function can have zero or more arguments passed to them when they are called. You specify the arguments when you create the event. This makes timer callback functions extremely flexible. Below is an example of three different callback functions, each of which receives a different number of arguments. You must specify the correct number of arguments for the callback function when you create the timer event."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/10_timer_events.rst:100
+msgid "def task1():\n"
+"  # Do some processing\n"
+"\n"
+"def task2(alpha):\n"
+"  # Do some processing\n"
+"\n"
+"def task3(beta, gamma):\n"
+"  # Do some processing\n"
+"\n"
+"my_button = tk.Button(application_window, text=\"Example\")\n"
+"my_button.after(1000, task1)\n"
+"my_button.after(2000, task2, 3)     # 3 gets passed to the parameter alpha\n"
+"my_button.after(5000, task3, a, b)  # a gets passed to the parameter beta\n"
+"                                    # b gets passed to the parameter gamma"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/10_timer_events.rst:118
+msgid "timer events"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/10_timer_events.rst:118
+msgid "after method"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/10_timer_events.rst:118
+msgid "after_cancel method"
 msgstr ""
 

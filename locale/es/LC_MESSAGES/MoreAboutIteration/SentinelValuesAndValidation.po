@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,6 +83,14 @@ msgid ""
 "body of the loop looks something like this::"
 msgstr ""
 
+#: ../../_sources/MoreAboutIteration/SentinelValuesAndValidation.rst:44
+msgid ""
+"while moreItems\n"
+"    ask for price\n"
+"    add price to total\n"
+"    add one to count"
+msgstr ""
+
 #: ../../_sources/MoreAboutIteration/SentinelValuesAndValidation.rst:49
 msgid ""
 "This pseudocode has no option to set ``moreItems`` to ``False``, so it "
@@ -138,5 +146,29 @@ msgid ""
 " method which is described in :ref:`stringMethods` to convert a string to"
 " upper case. When you run the following code, try typing something other "
 "than Y or N to see how the code reacts:"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/SentinelValuesAndValidation.rst:122
+msgid "validation"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/SentinelValuesAndValidation.rst:122
+msgid "input"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/SentinelValuesAndValidation.rst:122
+msgid "validating"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/SentinelValuesAndValidation.rst:122
+msgid "sentinel value"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/SentinelValuesAndValidation.rst:122
+msgid "value"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/SentinelValuesAndValidation.rst:122
+msgid "sentinel"
 msgstr ""
 

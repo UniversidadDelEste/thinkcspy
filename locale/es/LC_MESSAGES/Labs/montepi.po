@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,6 +57,10 @@ msgid ""
 "that we have a round dartboard mounted on a square piece of wood.  The "
 "dartboard has a radius of one unit.  The piece of wood is exactly two "
 "units square so that the round board fits perfectly inside the square."
+msgstr ""
+
+#: ../../_sources/Labs/montepi.rst:30
+msgid ".. image:: Labs/Figures/dartboards.png"
 msgstr ""
 
 #: ../../_sources/Labs/montepi.rst:31

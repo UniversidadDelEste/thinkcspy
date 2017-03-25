@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -180,6 +180,7 @@ msgid "Returns the rightmost index where the substring item is found"
 msgstr ""
 
 #: ../../_sources/Strings/StringMethods.rst:62
+#: ../../_sources/Strings/StringMethods.rst:148
 msgid "index"
 msgstr ""
 
@@ -207,7 +208,41 @@ msgstr ""
 msgid "strings-5-1: What is printed by the following statements?"
 msgstr ""
 
+#: ../../_sources/Strings/StringMethods.rst:120
+msgid "s = \"python rocks\"\n"
+"print(s.count(\"o\") + s.count(\"p\"))"
+msgstr ""
+
 #: ../../_sources/Strings/StringMethods.rst:140
 msgid "strings-5-2: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:142
+msgid "s = \"python rocks\"\n"
+"print(s[1] * s.index(\"n\"))"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:148
+msgid "len function"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:148
+msgid "function"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:148
+msgid "len"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:148
+msgid "runtime error"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:148
+msgid "negative index"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:148
+msgid "negative"
 msgstr ""
 

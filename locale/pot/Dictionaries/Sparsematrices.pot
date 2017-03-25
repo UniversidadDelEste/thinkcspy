@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,8 +24,21 @@ msgstr ""
 msgid "A matrix is a two dimensional collection, typically thought of as having rows and columns of data.  One of the easiest ways to create a matrix is to use a list of lists.  For example, consider the matrix shown below."
 msgstr ""
 
+#: ../../_sources/Dictionaries/Sparsematrices.rst:None
+msgid ".. image:: Dictionaries/Figures/sparse.png\n"
+"   :alt: sparse matrix"
+msgstr ""
+
 #: ../../_sources/Dictionaries/Sparsematrices.rst:25
 msgid "We can represent this collection as five rows, each row having five columns.  Using a list of lists representation, we will have a list of five items, each of which is a list of five items.  The outer items represent the rows and the items in the nested lists represent the data in each column."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Sparsematrices.rst:29
+msgid "matrix = [[0, 0, 0, 1, 0],\n"
+"          [0, 0, 0, 0, 0],\n"
+"          [0, 2, 0, 0, 0],\n"
+"          [0, 0, 0, 0, 0],\n"
+"          [0, 0, 0, 3, 0]]"
 msgstr ""
 
 #: ../../_sources/Dictionaries/Sparsematrices.rst:42
@@ -36,12 +49,20 @@ msgstr ""
 msgid "Since there is really no need to store all of the zeros, the list of lists representation is considered to be inefficient. An alternative representation is to use a dictionary. For the keys, we can use tuples that contain the row and column numbers. Here is the dictionary representation of the same matrix."
 msgstr ""
 
+#: ../../_sources/Dictionaries/Sparsematrices.rst:50
+msgid "matrix = {(0, 3): 1, (2, 1): 2, (4, 3): 3}"
+msgstr ""
+
 #: ../../_sources/Dictionaries/Sparsematrices.rst:54
 msgid "We only need three key-value pairs, one for each nonzero element of the matrix. Each key is a tuple, and each value is an integer."
 msgstr ""
 
 #: ../../_sources/Dictionaries/Sparsematrices.rst:57
 msgid "To access an element of the matrix, we could use the ``[]`` operator::"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Sparsematrices.rst:59
+msgid "matrix[(0, 3)]"
 msgstr ""
 
 #: ../../_sources/Dictionaries/Sparsematrices.rst:61

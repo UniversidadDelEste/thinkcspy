@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -98,6 +98,14 @@ msgstr ""
 
 #: ../../_sources/Strings/Exercises.rst:50
 msgid "In Robert McCloskey's book *Make Way for Ducklings*, the names of the ducklings are Jack, Kack, Lack, Mack, Nack, Ouack, Pack, and Quack.  This loop tries to output these names in order."
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:54
+msgid "prefixes = \"JKLMNOPQ\"\n"
+"suffix = \"ack\"\n"
+"\n"
+"for p in prefixes:\n"
+"    print(p + suffix)"
 msgstr ""
 
 #: ../../_sources/Strings/Exercises.rst:63

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -131,19 +131,55 @@ msgstr ""
 msgid "dict-3-1: What is printed by the following statements?"
 msgstr ""
 
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:140
+msgid "mydict = {\"cat\":12, \"dog\":6, \"elephant\":23, \"bear\":20}\n"
+"keylist = list(mydict.keys())\n"
+"keylist.sort()\n"
+"print(keylist[3])"
+msgstr ""
+
 #: ../../_sources/Dictionaries/Dictionarymethods.rst:161
 msgid "dict-3-2: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:163
+msgid "mydict = {\"cat\":12, \"dog\":6, \"elephant\":23, \"bear\":20}\n"
+"answer = mydict.get(\"cat\") // mydict.get(\"dog\")\n"
+"print(answer)"
 msgstr ""
 
 #: ../../_sources/Dictionaries/Dictionarymethods.rst:178
 msgid "dict-3-3: What is printed by the following statements?"
 msgstr ""
 
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:180
+msgid "mydict = {\"cat\":12, \"dog\":6, \"elephant\":23, \"bear\":20}\n"
+"print(\"dog\" in mydict)"
+msgstr ""
+
 #: ../../_sources/Dictionaries/Dictionarymethods.rst:194
 msgid "dict-3-4: What is printed by the following statements?"
 msgstr ""
 
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:196
+msgid "mydict = {\"cat\":12, \"dog\":6, \"elephant\":23, \"bear\":20}\n"
+"print(23 in mydict)"
+msgstr ""
+
 #: ../../_sources/Dictionaries/Dictionarymethods.rst:215
 msgid "dict-3-5: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:217
+msgid "total = 0\n"
+"mydict = {\"cat\":12, \"dog\":6, \"elephant\":23, \"bear\":20}\n"
+"for akey in mydict:\n"
+"   if len(akey) > 3:\n"
+"      total = total + mydict[akey]\n"
+"print(total)"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:228
+msgid "aliases"
 msgstr ""
 

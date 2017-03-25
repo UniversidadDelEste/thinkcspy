@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,6 +76,65 @@ msgstr ""
 msgid "An octagon (eight sides)"
 msgstr ""
 
+#: ../../_sources/PythonTurtle/Exercises.rst:109
+msgid "# draw an equilateral triangle\n"
+"import turtle\n"
+"\n"
+"wn = turtle.Screen()\n"
+"norvig = turtle.Turtle()\n"
+"\n"
+"for i in range(3):\n"
+"    norvig.forward(100)\n"
+"\n"
+"    # the angle of each vertice of a regular polygon\n"
+"    # is 360 divided by the number of sides\n"
+"    norvig.left(360/3)\n"
+"\n"
+"wn.exitonclick()"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Exercises.rst:126
+msgid "# draw a square\n"
+"import turtle\n"
+"\n"
+"wn = turtle.Screen()\n"
+"kurzweil = turtle.Turtle()\n"
+"\n"
+"for i in range(4):\n"
+"    kurzweil.forward(100)\n"
+"    kurzweil.left(360/4)\n"
+"\n"
+"wn.exitonclick()"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Exercises.rst:140
+msgid "# draw a hexagon\n"
+"import turtle\n"
+"\n"
+"wn = turtle.Screen()\n"
+"dijkstra = turtle.Turtle()\n"
+"\n"
+"for i in range(6):\n"
+"    dijkstra.forward(100)\n"
+"    dijkstra.left(360/6)\n"
+"\n"
+"wn.exitonclick()"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Exercises.rst:154
+msgid "# draw an octogon\n"
+"import turtle\n"
+"\n"
+"wn = turtle.Screen()\n"
+"knuth = turtle.Turtle()\n"
+"\n"
+"for i in range(8):\n"
+"    knuth.forward(75)\n"
+"    knuth.left(360/8)\n"
+"\n"
+"wn.exitonclick()"
+msgstr ""
+
 #: ../../_sources/PythonTurtle/Exercises.rst:179
 msgid "Write a program that asks the user for the number of sides, the length of the side, the color, and the fill color of a regular polygon.  The program should draw the polygon and then fill it in."
 msgstr ""
@@ -92,8 +151,16 @@ msgstr ""
 msgid "Write a program to draw a shape like this:"
 msgstr ""
 
+#: ../../_sources/PythonTurtle/Exercises.rst:0
+msgid ".. image:: PythonTurtle/Figures/star.png"
+msgstr ""
+
 #: ../../_sources/PythonTurtle/Exercises.rst:288
 msgid "Write a program to draw a face of a clock that looks something like this:"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Exercises.rst:0
+msgid ".. image:: PythonTurtle/Figures/tess_clock1.png"
 msgstr ""
 
 #: ../../_sources/PythonTurtle/Exercises.rst:302

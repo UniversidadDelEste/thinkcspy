@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,11 +44,29 @@ msgstr ""
 msgid "strings-7-1: What is printed by the following statements?"
 msgstr ""
 
+#: ../../_sources/Strings/TheSliceOperator.rst:63
+msgid "s = \"python rocks\"\n"
+"print(s[3:8])"
+msgstr ""
+
 #: ../../_sources/Strings/TheSliceOperator.rst:82
 msgid "strings-7-2: What is printed by the following statements?"
 msgstr ""
 
+#: ../../_sources/Strings/TheSliceOperator.rst:84
+msgid "s = \"python rocks\"\n"
+"print(s[7:11] * 3)"
+msgstr ""
+
 #: ../../_sources/Strings/TheSliceOperator.rst:93
 msgid "This workspace is provided for your convenience.  You can use this activecode window to try out anything you like."
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:99
+msgid "string comparison"
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:99
+msgid "comparison of strings"
 msgstr ""
 

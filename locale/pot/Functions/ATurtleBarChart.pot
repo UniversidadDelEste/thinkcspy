@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,8 +48,28 @@ msgstr ""
 msgid "Corresponding to each data measurement, we'll draw a simple rectangle of that height, with a fixed width. Here is a simplified version of what we would like to create."
 msgstr ""
 
+#: ../../_sources/Functions/ATurtleBarChart.rst:38
+msgid ".. image:: Functions/Figures/tess_bar_1.png"
+msgstr ""
+
 #: ../../_sources/Functions/ATurtleBarChart.rst:39
 msgid "We can quickly see that drawing a bar will be similar to drawing a rectangle or a square.  Since we will need to do it a number of times, it makes sense to create a function, ``drawBar``, that will need a turtle and the height of the bar.  We will assume that the width of the bar will be 40 units.  Once we have the function, we can use a basic for loop to process the list of data values."
+msgstr ""
+
+#: ../../_sources/Functions/ATurtleBarChart.rst:42
+msgid "def drawBar(t, height):\n"
+"    \"\"\" Get turtle t to draw one bar, of height. \"\"\"\n"
+"    t.left(90)               # Point up\n"
+"    t.forward(height)        # Draw up the left side\n"
+"    t.right(90)\n"
+"    t.forward(40)            # width of bar, along the top\n"
+"    t.right(90)\n"
+"    t.forward(height)        # And down again!\n"
+"    t.left(90)               # put the turtle facing the way we found it.\n"
+"\n"
+"...\n"
+"for v in xs:                 # assume xs and tess are ready\n"
+"    drawBar(tess, v)"
 msgstr ""
 
 #: ../../_sources/Functions/ATurtleBarChart.rst:60

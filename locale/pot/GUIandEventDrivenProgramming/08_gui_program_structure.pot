@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,8 +28,76 @@ msgstr ""
 msgid "To demonstrate this, let's look at two versions of a simple program that increments a counter each time a user clicks a button. The first version of this code does not use a ``class`` definition and requires that a global variable called my_counter be used. This is because the label that represents the counter is created in the ``create_user_interface`` function but it must be accessed in the event handler function ``increment_counter``. In fact, the event handlers of a GUI program almost always need access to multiple widgets in the program's interface and the values can't be passed as parameters because an ``command`` ``event handler`` function receives no parameters and a ``bind`` ``event handler`` function receives exactly one parameter -- an ``event object``. Study the following example and pay close attention to where the ``my_counter`` global variable is used."
 msgstr ""
 
+#: ../../_sources/GUIandEventDrivenProgramming/08_gui_program_structure.rst:38
+msgid "import tkinter as tk\n"
+"from tkinter import ttk\n"
+"\n"
+"global my_counter\n"
+"\n"
+"\n"
+"def create_user_interface(application_window):\n"
+"    global my_counter\n"
+"\n"
+"    my_counter = ttk.Label(application_window, text=\"0\")\n"
+"    my_counter.grid(row=0, column=0)\n"
+"\n"
+"    increment_button = ttk.Button(application_window, text=\"Add 1 to counter\")\n"
+"    increment_button.grid(row=1, column=0)\n"
+"    increment_button['command'] = increment_counter\n"
+"\n"
+"    quit_button = ttk.Button(application_window, text=\"Quit\")\n"
+"    quit_button.grid(row=2, column=0)\n"
+"    quit_button['command'] = window.destroy\n"
+"\n"
+"\n"
+"def increment_counter():\n"
+"    global my_counter\n"
+"    my_counter['text'] = str(int(my_counter['text']) + 1)\n"
+"\n"
+"# Create the application window\n"
+"window = tk.Tk()\n"
+"\n"
+"create_user_interface(window)\n"
+"\n"
+"# Start the GUI event loop\n"
+"window.mainloop()"
+msgstr ""
+
 #: ../../_sources/GUIandEventDrivenProgramming/08_gui_program_structure.rst:73
 msgid "Let's compare the above program to an identical application that is designed as a Python ``class``. The ``class`` encapsulates all of the values needed for the GUI interface and the ``event handlers`` and we don't need global variables!"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/08_gui_program_structure.rst:78
+msgid "import tkinter as tk\n"
+"from tkinter import ttk\n"
+"\n"
+"class CounterProgram:\n"
+"\n"
+"    def __init__(self):\n"
+"        self.window = tk.Tk()\n"
+"        self.my_counter = None  # All attributes should be initialize in init\n"
+"        self.create_widgets()\n"
+"\n"
+"    def create_widgets(self):\n"
+"        self.my_counter = ttk.Label(self.window, text=\"0\")\n"
+"        self.my_counter.grid(row=0, column=0)\n"
+"\n"
+"        increment_button = ttk.Button(self.window, text=\"Add 1 to counter\")\n"
+"        increment_button.grid(row=1, column=0)\n"
+"        increment_button['command'] = self.increment_counter\n"
+"\n"
+"        quit_button = ttk.Button(self.window, text=\"Quit\")\n"
+"        quit_button.grid(row=2, column=0)\n"
+"        quit_button['command'] = self.window.destroy\n"
+"\n"
+"    def increment_counter(self):\n"
+"        self.my_counter['text'] = str(int(self.my_counter['text']) + 1)\n"
+"\n"
+"# Create the entire GUI program\n"
+"program = CounterProgram()\n"
+"\n"
+"# Start the GUI event loop\n"
+"program.window.mainloop()"
 msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/08_gui_program_structure.rst:111
@@ -50,5 +118,33 @@ msgstr ""
 
 #: ../../_sources/GUIandEventDrivenProgramming/08_gui_program_structure.rst:121
 msgid "It is recommended that you develop all of your GUI programs as Python Classes. For complex designs, a Python ``Class`` can help manage the complexity of the code and the scoping of variables."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/08_gui_program_structure.rst:125
+msgid "graphical user interface"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/08_gui_program_structure.rst:125
+msgid "GUI"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/08_gui_program_structure.rst:125
+msgid "event-driven programming"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/08_gui_program_structure.rst:125
+msgid "event loop"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/08_gui_program_structure.rst:125
+msgid "event-handler"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/08_gui_program_structure.rst:125
+msgid "TKinter"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/08_gui_program_structure.rst:125
+msgid "dialog box"
 msgstr ""
 

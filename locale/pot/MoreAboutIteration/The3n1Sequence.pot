@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,5 +90,9 @@ msgstr ""
 
 #: ../../_sources/MoreAboutIteration/The3n1Sequence.rst:117
 msgid "iter-5-1: Consider the code that prints the 3n+1 sequence in ActiveCode box 6.  Will the while loop in this code always terminate for any positive integer value of n?"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/The3n1Sequence.rst:103
+msgid "Newton's method"
 msgstr ""
 

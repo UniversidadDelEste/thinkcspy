@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,5 +34,13 @@ msgstr ""
 
 #: ../../_sources/Strings/ACollectionDataType.rst:33
 msgid "A string that contains no characters, often referred to as the **empty string**, is still considered to be a string.  It is simply a sequence of zero characters and is represented by '' or \"\" (two single or two double quotes with nothing in between)."
+msgstr ""
+
+#: ../../_sources/Strings/ACollectionDataType.rst:35
+msgid "string operations"
+msgstr ""
+
+#: ../../_sources/Strings/ACollectionDataType.rst:35
+msgid "concatenation"
 msgstr ""
 

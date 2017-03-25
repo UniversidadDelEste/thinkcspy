@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,6 +60,10 @@ msgid ""
 "you have it started up."
 msgstr ""
 
+#: ../../_sources/Labs/pythonshell.rst:36
+msgid ".. image:: Labs/Figures/python_shell.png"
+msgstr ""
+
 #: ../../_sources/Labs/pythonshell.rst:37
 msgid ""
 "To run the Python shell you will first need to start up the Terminal "
@@ -79,6 +83,10 @@ msgid ""
 "shell and you will see the result printed out for you right underneath.  "
 "Here are some examples using the functions and expressions introduced in "
 "this chapter."
+msgstr ""
+
+#: ../../_sources/Labs/pythonshell.rst:54
+msgid ".. image:: Labs/Figures/shell_expressions.png"
 msgstr ""
 
 #: ../../_sources/Labs/pythonshell.rst:55
@@ -110,6 +118,12 @@ msgstr ""
 msgid "Here is a simple example of a Python program."
 msgstr ""
 
+#: ../../_sources/Labs/pythonshell.rst:75
+msgid ""
+"print('Hello World')\n"
+"print('2 + 3 = ', 2+3)"
+msgstr ""
+
 #: ../../_sources/Labs/pythonshell.rst:80
 msgid ""
 "Let's assume that you have typed in the lines above in Notepad or "
@@ -117,6 +131,13 @@ msgid ""
 "a awesome!  Now save the file as `testprog1.py` and then head back to the"
 " terminal.  Now at the command line of the terminal type `python "
 "testprog1.py` and you will see the following output"
+msgstr ""
+
+#: ../../_sources/Labs/pythonshell.rst:86
+msgid ""
+"bmiller@chronos> python testprog1.py\n"
+"Hello World\n"
+"2 + 3 =  5"
 msgstr ""
 
 #: ../../_sources/Labs/pythonshell.rst:93
@@ -141,6 +162,13 @@ msgstr ""
 msgid ""
 "If you are using windows you will need to install Python for yourself.  "
 "Here is a video that explains how to do it."
+msgstr ""
+
+#: ../../_sources/Labs/pythonshell.rst:111
+msgid ""
+"<iframe width=\"425\" height=\"349\" "
+"src=\"http://www.youtube.com/embed/9EfGpN1Pnsg\"\n"
+"        frameborder=\"0\" allowfullscreen></iframe>"
 msgstr ""
 
 #: ../../_sources/Labs/pythonshell.rst:116

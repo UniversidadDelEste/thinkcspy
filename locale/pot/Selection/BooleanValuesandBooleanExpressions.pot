@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,34 @@ msgstr ""
 
 #: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:15
 msgid "Boolean Values and Boolean Expressions"
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:None
+msgid "<div id=\"booleanexpressions\" class=\"video_popup\" >\n"
+"<video controls preload=\"none\"  poster=\"../_static/booleanexpressions.png\">\n"
+"    <source src=\"http://media.interactivepython.org/thinkcsVideos/booleanexpressions.mov\" type=\"video/mp4\"></source>\n"
+"    <source src=\"http://media.interactivepython.org/thinkcsVideos/booleanexpressions.webm\" type=\"video/webm\"></source>\n"
+"    No supported video types\n"
+"</video>\n"
+"</div>\n"
+"<script>\n"
+"   jQuery(function($) {\n"
+"      var rb = new RunestoneBase();\n"
+"      $('#booleanexpressions_thumb').click(function(e) {\n"
+"         $('#booleanexpressions').show();\n"
+"         $('#booleanexpressions_thumb').hide();\n"
+"         rb.logBookEvent({'event':'video','act':'play','div_id': 'booleanexpressions'});\n"
+"         // Log the run event\n"
+"      });\n"
+"      $('#booleanexpressions video').one(\"click\", function(){\n"
+"        this.play();\n"
+"      });\n"
+"      $('#booleanexpressions video').one(\"play\", function(){\n"
+"        rb.logBookEvent({'event':'video','act':'play','div_id': 'booleanexpressions'});\n"
+"      });\n"
+"   });\n"
+"</script>\n"
+""
 msgstr ""
 
 #: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:24
@@ -48,6 +76,14 @@ msgstr ""
 msgid "The ``==`` operator is one of six common **comparison operators**; the others are:"
 msgstr ""
 
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:64
+msgid "x != y               # x is not equal to y\n"
+"x > y                # x is greater than y\n"
+"x < y                # x is less than y\n"
+"x >= y               # x is greater than or equal to y\n"
+"x <= y               # x is less than or equal to y"
+msgstr ""
+
 #: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:72
 msgid "Although these operations are probably familiar to you, the Python symbols are different from the mathematical symbols. A common error is to use a single equal sign (``=``) instead of a double equal sign (``==``). Remember that ``=`` is an assignment operator and ``==`` is a comparison operator. Also, there is no such thing as ``=<`` or ``=>``."
 msgstr ""
@@ -62,5 +98,17 @@ msgstr ""
 
 #: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:106
 msgid "select-1-1: Which of the following is a Boolean expression?  Select all that apply."
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:108
+msgid "logical operator"
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:108
+msgid "operator"
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:108
+msgid "logical"
 msgstr ""
 

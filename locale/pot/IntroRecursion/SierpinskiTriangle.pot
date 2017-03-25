@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,6 +22,10 @@ msgstr ""
 
 #: ../../_sources/IntroRecursion/SierpinskiTriangle.rst:18
 msgid "Another fractal that exhibits the property of self-similarity is the Sierpinski triangle. An example is shown in :ref:`Figure 3 <fig_sierpinski>`. The Sierpinski triangle illustrates a three-way recursive algorithm. The procedure for drawing a Sierpinski triangle by hand is simple. Start with a single large triangle. Divide this large triangle into four new triangles by connecting the midpoint of each side. Ignoring the middle triangle that you just created, apply the same procedure to each of the three corner triangles. Each time you create a new set of triangles, you recursively apply this procedure to the three smaller corner triangles. You can continue to apply this procedure indefinitely if you have a sharp enough pencil. Before you continue reading, you may want to try drawing the Sierpinski triangle yourself, using the method described."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/SierpinskiTriangle.rst:37
+msgid ".. image:: IntroRecursion/Figures/sierpinski.png"
 msgstr ""
 
 #: ../../_sources/IntroRecursion/SierpinskiTriangle.rst:37
@@ -42,6 +46,10 @@ msgstr ""
 
 #: ../../_sources/IntroRecursion/SierpinskiTriangle.rst:115
 msgid "Sometimes it is helpful to think of a recursive algorithm in terms of a diagram of function calls. :ref:`Figure 4 <fig_stcalltree>` shows that the recursive calls are always made going to the left. The active functions are outlined in black, and the inactive function calls are in gray. The farther you go toward the bottom of :ref:`Figure 4 <fig_stcalltree>`, the smaller the triangles. The function finishes drawing one level at a time; once it is finished with the bottom left it moves to the bottom middle, and so on."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/SierpinskiTriangle.rst:129
+msgid ".. image:: IntroRecursion/Figures/stCallTree.png"
 msgstr ""
 
 #: ../../_sources/IntroRecursion/SierpinskiTriangle.rst:129

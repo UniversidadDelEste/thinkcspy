@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,12 +67,24 @@ msgstr ""
 msgid "Each rule set contains an axiom which represents the starting point in the transformations that will follow.  The rules are of the form::"
 msgstr ""
 
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:41
+msgid "left hand side -> right hand side"
+msgstr ""
+
 #: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:43
 msgid "where the left hand side is a single symbol and the right had side is a sequence of symbols.  You can think of both sides as being simple strings. The way the rules are used is to replace occurrences of the left hand side with the corresponding right hand side."
 msgstr ""
 
 #: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:46
 msgid "Now let's look at these simple rules in action, starting with the string A::"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:48
+msgid "A\n"
+"B      Apply Rule 1  (A is replaced by B)\n"
+"AB     Apply Rule 2  (B is replaced by AB)\n"
+"BAB    Apply Rule 1 to A then Rule 2 to B\n"
+"ABBAB  Apply Rule 2 to B, Rule 1 to A, and Rule 2 to B"
 msgstr ""
 
 #: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:54
@@ -176,6 +188,17 @@ msgstr ""
 msgid "Here is the ``applyRules`` function for this L-system."
 msgstr ""
 
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:139
+msgid "def applyRules(ch):\n"
+"    newstr = \"\"\n"
+"    if ch == 'F':\n"
+"        newstr = 'F-F++F-F'   # Rule 1\n"
+"    else:\n"
+"        newstr = ch    # no rules apply so keep the character\n"
+"\n"
+"    return newstr"
+msgstr ""
+
 #: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:150
 msgid "Pretty simple so far.  As you can imagine this string will get pretty long with a few applications of the rules.  You might try to expand the string a couple of times on your own just to see."
 msgstr ""
@@ -204,11 +227,28 @@ msgstr ""
 msgid "A distance to move forward or backward"
 msgstr ""
 
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:169
+msgid "def drawLsystem(aTurtle,instructions,angle,distance):\n"
+"    for cmd in instructions:\n"
+"        if cmd == 'F':\n"
+"            aTurtle.forward(distance)\n"
+"        elif cmd == 'B':\n"
+"            aTurtle.backward(distance)\n"
+"        elif cmd == '+':\n"
+"            aTurtle.right(angle)\n"
+"        elif cmd == '-':\n"
+"            aTurtle.left(angle)"
+msgstr ""
+
 #: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:182
 msgid "Here is the complete program in activecode.  The ``main`` function first creates the L-system string and then it creates a turtle and passes it and the string to the drawing function."
 msgstr ""
 
 #: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:242
 msgid "Feel free to try some different angles and segment lengths to see how the drawing changes."
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:244
+msgid "counting pattern"
 msgstr ""
 

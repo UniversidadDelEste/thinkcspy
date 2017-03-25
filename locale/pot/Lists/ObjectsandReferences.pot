@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"POT-Creation-Date: 2017-03-25 15:11-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,6 +24,11 @@ msgstr ""
 msgid "If we execute these assignment statements,"
 msgstr ""
 
+#: ../../_sources/Lists/ObjectsandReferences.rst:19
+msgid "a = \"banana\"\n"
+"b = \"banana\""
+msgstr ""
+
 #: ../../_sources/Lists/ObjectsandReferences.rst:24
 msgid "we know that ``a`` and ``b`` will refer to a string with the letters ``\"banana\"``. But we don't know yet whether they point to the *same* string."
 msgstr ""
@@ -32,8 +37,18 @@ msgstr ""
 msgid "There are two possible ways the Python interpreter could arrange its internal states:"
 msgstr ""
 
+#: ../../_sources/Lists/ObjectsandReferences.rst:None
+msgid ".. image:: Lists/Figures/refdiag1.png\n"
+"   :alt: List illustration"
+msgstr ""
+
 #: ../../_sources/Lists/ObjectsandReferences.rst:32
 msgid "or"
+msgstr ""
+
+#: ../../_sources/Lists/ObjectsandReferences.rst:None
+msgid ".. image:: Lists/Figures/refdiag2.png\n"
+"   :alt: List illustration"
 msgstr ""
 
 #: ../../_sources/Lists/ObjectsandReferences.rst:38
@@ -56,6 +71,11 @@ msgstr ""
 msgid "The reference diagram for this example looks like this:"
 msgstr ""
 
+#: ../../_sources/Lists/ObjectsandReferences.rst:None
+msgid ".. image:: Lists/Figures/refdiag3.png\n"
+"   :alt: Reference diagram for equal different lists"
+msgstr ""
+
 #: ../../_sources/Lists/ObjectsandReferences.rst:73
 msgid "``a`` and ``b`` have the same value but do not refer to the same object."
 msgstr ""
@@ -66,5 +86,58 @@ msgstr ""
 
 #: ../../_sources/Lists/ObjectsandReferences.rst:77
 msgid "Here is the example in codelens.  Pay particular attention to the `id` values."
+msgstr ""
+
+#: ../../_sources/Lists/ObjectsandReferences.rst:None
+msgid "\n"
+"<div class=\"alert alert-warning cd_section\">\n"
+"<div id=\"chp09_istrace\"></div>\n"
+"<p class=\"cl_caption\"><span class=\"cl_caption_text\"> (chp09_istrace)</span> </p>\n"
+"</div>\n"
+"<script type=\"text/javascript\">\n"
+"var chp09_istrace_trace = {\"code\": \"a = [81, 82, 83]\\nb = [81, 82, 83]\\n\\nprint(a is b)\\nprint(a == b)\", \"trace\": [{\"ordered_globals\": [], \"stdout\": \"\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {}, \"heap\": {}, \"line\": 1, \"event\": \"step_line\"}, {\"ordered_globals\": [\"a\"], \"stdout\": \"\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"a\": [\"REF\", 1]}, \"heap\": {\"1\": [\"LIST\", 81, 82, 83]}, \"line\": 2, \"event\": \"step_line\"}, {\"ordered_globals\": [\"a\", \"b\"], \"stdout\": \"\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"a\": [\"REF\", 1], \"b\": [\"REF\", 2]}, \"heap\": {\"1\": [\"LIST\", 81, 82, 83], \"2\": [\"LIST\", 81, 82, 83]}, \"line\": 4, \"event\": \"step_line\"}, {\"ordered_globals\": [\"a\", \"b\"], \"stdout\": \"False\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"a\": [\"REF\", 1], \"b\": [\"REF\", 2]}, \"heap\": {\"1\": [\"LIST\", 81, 82, 83], \"2\": [\"LIST\", 81, 82, 83]}, \"line\": 5, \"event\": \"step_line\"}, {\"ordered_globals\": [\"a\", \"b\"], \"stdout\": \"False\\nTrue\\n\", \"func_name\": \"<module>\", \"stack_to_render\": [], \"globals\": {\"a\": [\"REF\", 1], \"b\": [\"REF\", 2]}, \"heap\": {\"1\": [\"LIST\", 81, 82, 83], \"2\": [\"LIST\", 81, 82, 83]}, \"line\": 5, \"event\": \"return\"}]};\n"
+"var chp09_istrace_vis;\n"
+"\n"
+"$(document).ready(function() {\n"
+"    try {\n"
+"        chp09_istrace_vis = new ExecutionVisualizer('chp09_istrace',chp09_istrace_trace,\n"
+"                                    {embeddedMode: false,\n"
+"                                    verticalStack: false,\n"
+"                                    heightChangeCallback: redrawAllVisualizerArrows,\n"
+"                                    codeDivWidth: 500,\n"
+"                                    lang : 'py2'\n"
+"                                    });\n"
+"        attachLoggers(chp09_istrace_vis,'chp09_istrace');\n"
+"        styleButtons('chp09_istrace');\n"
+"        allVisualizers.push(chp09_istrace_vis);\n"
+"    } catch (e) {\n"
+"        console.log(\"Failed to Initialize CodeLens component chp09_istrace_vis\" );\n"
+"        console.log(e.toString());\n"
+"    }\n"
+"\n"
+"});\n"
+"\n"
+"$(document).ready(function() {\n"
+"    $(\"#chp09_istrace_tracecheck\").click(function() {\n"
+"        logBookEvent({'event':'codelens', 'act': 'check', 'div_id':'chp09_istrace'});\n"
+"    });\n"
+"});\n"
+"\n"
+"if (allVisualizers === undefined) {\n"
+"   var allVisualizers = [];\n"
+"}\n"
+"\n"
+"\n"
+"$(window).resize(function() {\n"
+"    if (chp09_istrace_vis) {\n"
+"        chp09_istrace_vis.redrawConnectors();\n"
+"    }\n"
+"});\n"
+"</script>\n"
+""
+msgstr ""
+
+#: ../../_sources/Lists/ObjectsandReferences.rst:88
+msgid "aliases"
 msgstr ""
 

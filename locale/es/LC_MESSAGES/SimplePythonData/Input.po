@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,6 +21,39 @@ msgstr ""
 
 #: ../../_sources/SimplePythonData/Input.rst:15
 msgid "Input"
+msgstr ""
+
+msgid ""
+"<div id=\"inputvid\" class=\"video_popup\" >\n"
+"<video controls preload=\"none\"  poster=\"../_static/inputthumb.png\">\n"
+"    <source "
+"src=\"http://media.interactivepython.org/thinkcsVideos/input.mov\" "
+"type=\"video/mp4\"></source>\n"
+"    <source "
+"src=\"http://media.interactivepython.org/thinkcsVideos/input.webm\" "
+"type=\"video/webm\"></source>\n"
+"    No supported video types\n"
+"</video>\n"
+"</div>\n"
+"<script>\n"
+"   jQuery(function($) {\n"
+"      var rb = new RunestoneBase();\n"
+"      $('#inputvid_thumb').click(function(e) {\n"
+"         $('#inputvid').show();\n"
+"         $('#inputvid_thumb').hide();\n"
+"         rb.logBookEvent({'event':'video','act':'play','div_id': "
+"'inputvid'});\n"
+"         // Log the run event\n"
+"      });\n"
+"      $('#inputvid video').one(\"click\", function(){\n"
+"        this.play();\n"
+"      });\n"
+"      $('#inputvid video').one(\"play\", function(){\n"
+"        rb.logBookEvent({'event':'video','act':'play','div_id': "
+"'inputvid'});\n"
+"      });\n"
+"   });\n"
+"</script>\n"
 msgstr ""
 
 #: ../../_sources/SimplePythonData/Input.rst:25
@@ -38,6 +71,10 @@ msgid ""
 "In order to do this, we need a way to get **input** from the user.  "
 "Luckily, in Python there is a built-in function to accomplish this task."
 "  As you might expect, it is called ``input``."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Input.rst:32
+msgid "n = input(\"Please enter your name: \")"
 msgstr ""
 
 #: ../../_sources/SimplePythonData/Input.rst:36
@@ -83,5 +120,20 @@ msgstr ""
 
 #: ../../_sources/SimplePythonData/Input.rst:86
 msgid "data-8-1: What is printed when the following statements execute?"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Input.rst:88
+msgid ""
+"n = input(\"Please enter your age: \")\n"
+"# user types in 18\n"
+"print ( type(n) )"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Input.rst:95
+msgid "order of operations"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Input.rst:95
+msgid "rules of precedence"
 msgstr ""
 

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-25 14:52-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,19 @@ msgstr ""
 msgid "list-5-1: What is printed by the following statements?"
 msgstr ""
 
+#: ../../_sources/Lists/ListMembership.rst:38
+msgid ""
+"alist = [3, 67, \"cat\", [56, 57, \"dog\"], [ ], 3.14, False]\n"
+"print(3.14 in alist)"
+msgstr ""
+
 #: ../../_sources/Lists/ListMembership.rst:51
 msgid "list-5-2: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Lists/ListMembership.rst:53
+msgid ""
+"alist = [3, 67, \"cat\", [56, 57, \"dog\"], [ ], 3.14, False]\n"
+"print(57 in alist)"
 msgstr ""
 
