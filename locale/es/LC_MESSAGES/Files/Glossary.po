@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Files/Glossary.rst:11
+msgid "Glossary"
+msgstr ""
+
+#: ../../_sources/Files/Glossary.rst:15
+msgid "open"
+msgstr ""
+
+#: ../../_sources/Files/Glossary.rst:17
+msgid "You must open a file before you can read its contents."
+msgstr ""
+
+#: ../../_sources/Files/Glossary.rst:18
+msgid "close"
+msgstr ""
+
+#: ../../_sources/Files/Glossary.rst:20
+msgid "When you are done with a file, you should close it."
+msgstr ""
+
+#: ../../_sources/Files/Glossary.rst:21
+msgid "read"
+msgstr ""
+
+#: ../../_sources/Files/Glossary.rst:23
+msgid ""
+"Will read the entire contents of a file as a string.  This is often used "
+"in an assignment statement so that a variable can reference the contents "
+"of the file."
+msgstr ""
+
+#: ../../_sources/Files/Glossary.rst:25
+msgid "readline"
+msgstr ""
+
+#: ../../_sources/Files/Glossary.rst:27
+msgid ""
+"Will read a single line from the file, up to and including the first "
+"instance of the newline character."
+msgstr ""
+
+#: ../../_sources/Files/Glossary.rst:28
+msgid "readlines"
+msgstr ""
+
+#: ../../_sources/Files/Glossary.rst:30
+msgid ""
+"Will read the entire contents of a file into a list where each line of "
+"the file is a string and is an element in the list."
+msgstr ""
+
+#: ../../_sources/Files/Glossary.rst:31
+msgid "write"
+msgstr ""
+
+#: ../../_sources/Files/Glossary.rst:33
+msgid "Will add characters to the end of a file that has been opened for writing."
+msgstr ""
+

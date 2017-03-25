@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Lists/ListSlices.rst:15
+msgid "List Slices"
+msgstr ""
+
+#: ../../_sources/Lists/ListSlices.rst:17
+msgid ""
+"The slice operation we saw with strings also work on lists.  Remember "
+"that the first index is the starting point for the slice and the second "
+"number is one index past the end of the slice (up to but not including "
+"that element).  Recall also that if you omit the first index (before the "
+"colon), the slice starts at the beginning of the sequence. If you omit "
+"the second index, the slice goes to the end of the sequence."
+msgstr ""
+
+#: ../../_sources/Lists/ListSlices.rst:30
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Lists/ListSlices.rst:41
+msgid "list-7-1: What is printed by the following statements?"
+msgstr ""
+

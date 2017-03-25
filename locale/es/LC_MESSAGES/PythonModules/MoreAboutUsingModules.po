@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/PythonModules/MoreAboutUsingModules.rst:15
+msgid "More About Using Modules"
+msgstr ""
+
+#: ../../_sources/PythonModules/MoreAboutUsingModules.rst:17
+msgid ""
+"Before we move on to exploring other modules, we should say a bit more "
+"about what modules are and how we typically use them.  One of the most "
+"important things to realize about modules is the fact that they are data "
+"objects, just like any other data in Python.  Module objects simply "
+"contain other Python elements."
+msgstr ""
+
+#: ../../_sources/PythonModules/MoreAboutUsingModules.rst:22
+msgid ""
+"The first thing we need to do when we wish to use a module is perform an "
+"``import``.  In the example above, the statement ``import turtle`` "
+"creates a new name, ``turtle``, and makes it refer to a `module object`."
+"  This looks very much like the reference diagrams we saw earlier for "
+"simple variables."
+msgstr ""
+
+#: ../../_sources/PythonModules/MoreAboutUsingModules.rst:29
+msgid ""
+"In order to use something contained in a module, we use the `dot` "
+"notation, providing the module name and the specific item joined together"
+" with a \"dot\".  For example, to use the ``Turtle`` class, we say "
+"``turtle.Turtle``.  You should read this as: \"In the module turtle, "
+"access the Python element called Turtle\"."
+msgstr ""
+
+#: ../../_sources/PythonModules/MoreAboutUsingModules.rst:32
+msgid ""
+"We will now turn our attention to a few other modules that you might find"
+" useful."
+msgstr ""
+

@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/GUIandEventDrivenProgramming/Glossary.rst:11
+msgid "Glossary"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/Glossary.rst:15
+msgid "icon"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/Glossary.rst:17
+msgid ""
+"A small picture that represents some functionality in a computer program."
+" A user clicks on an icon to cause an action to be performed by a "
+"program."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/Glossary.rst:20
+msgid "widget"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/Glossary.rst:22
+msgid ""
+"A visual element of a graphical user interface that allows a user to give"
+" commands to an executing program. Example widgets include a ``command "
+"button``, a ``slider bar``, or a ``list box``."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/Glossary.rst:25
+msgid "graphical user interface"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/Glossary.rst:27
+msgid ""
+"A user interacts with a computer program by pointing, clicking, and "
+"dragging icons and widgets in a window on a computer screen."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/Glossary.rst:29
+msgid "GUI"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/Glossary.rst:31
+msgid "An abbreviation for a \"graphical user interface.\""
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/Glossary.rst:32
+msgid "event-driven programming"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/Glossary.rst:34
+msgid "A program that only executes tasks when a user specially requests a task."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/Glossary.rst:35
+msgid "event loop"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/Glossary.rst:37
+msgid ""
+"A built-in function of a GUI toolkit that \"listens\" for operating "
+"system events and then calls an appropriate event-handler for each event."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/Glossary.rst:39
+msgid "event-handler"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/Glossary.rst:41
+msgid ""
+"A function that processes an event. These functions are also called "
+"``callback functions``."
+msgstr ""
+

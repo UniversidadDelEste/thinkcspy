@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Dictionaries/Dictionaryoperations.rst:15
+msgid "Dictionary Operations"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionaryoperations.rst:17
+msgid ""
+"The ``del`` statement removes a key-value pair from a dictionary. For "
+"example, the following dictionary contains the names of various fruits "
+"and the number of each fruit in stock.  If someone buys all of the pears,"
+" we can remove the entry from the dictionary."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionaryoperations.rst:28
+msgid ""
+"Dictionaries are also mutable.  As we've seen before with lists, this "
+"means that the dictionary can be modified by referencing an association "
+"on the left hand side of the assignment statement.  In the previous "
+"example, instead of deleting the entry for ``pears``, we could have set "
+"the inventory to ``0``."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionaryoperations.rst:40
+msgid ""
+"Similarily, a new shipment of 200 bananas arriving could be handled like "
+"this."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionaryoperations.rst:51
+msgid ""
+"Notice that there are now 512 bananas---the dictionary has been modified."
+"  Note also that the ``len`` function also works on dictionaries.  It "
+"returns the number of key-value pairs:"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionaryoperations.rst:57
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionaryoperations.rst:71
+msgid "dict-2-1: What is printed by the following statements?"
+msgstr ""
+

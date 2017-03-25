@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:15
+msgid "Experimental Debugging"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:17
+msgid ""
+"One of the most important skills you will acquire is debugging.  Although"
+" it can be frustrating, debugging is one of the most intellectually rich,"
+" challenging, and interesting parts of programming."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:21
+msgid ""
+"In some ways, debugging is like detective work. You are confronted with "
+"clues, and you have to infer the processes and events that led to the "
+"results you see."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:24
+msgid ""
+"Debugging is also like an experimental science. Once you have an idea "
+"what is going wrong, you modify your program and try again. If your "
+"hypothesis was correct, then you can predict the result of the "
+"modification, and you take a step closer to a working program. If your "
+"hypothesis was wrong, you have to come up with a new one. As Sherlock "
+"Holmes pointed out, When you have eliminated the impossible, whatever "
+"remains, however improbable, must be the truth. (A. Conan Doyle, *The "
+"Sign of Four*)"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:32
+msgid ""
+"For some people, programming and debugging are the same thing. That is, "
+"programming is the process of gradually debugging a program until it does"
+" what you want. The idea is that you should start with a program that "
+"does *something* and make small modifications, debugging them as you go, "
+"so that you always have a working program."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:38
+msgid ""
+"For example, Linux is an operating system kernel that contains millions "
+"of lines of code, but it started out as a simple program Linus Torvalds "
+"used to explore the Intel 80386 chip. According to Larry Greenfield, one "
+"of Linus's earlier projects was a program that would switch between "
+"displaying AAAA and BBBB. This later evolved to Linux (*The Linux Users' "
+"Guide* Beta Version 1)."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:44
+msgid ""
+"Later chapters will make more suggestions about debugging and other "
+"programming practices."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:47
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:60
+msgid "intro-10-1: The difference between programming and debugging is:"
+msgstr ""
+

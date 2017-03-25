@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/GeneralIntro/MoreAboutPrograms.rst:15
+msgid "More About Programs"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/MoreAboutPrograms.rst:17
+msgid ""
+"A **program** is a sequence of instructions that specifies how to perform"
+" a computation. The computation might be something as complex as "
+"rendering an html page in a web browser or encoding a video and streaming"
+" it across the network.  It can also be a symbolic computation, such as "
+"searching for and replacing text in a document or (strangely enough) "
+"compiling a program."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/MoreAboutPrograms.rst:23
+msgid ""
+"The details look different in different languages, but a few basic "
+"instructions appear in just about every language."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/MoreAboutPrograms.rst:27
+msgid "input"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/MoreAboutPrograms.rst:27
+msgid "Get data from the keyboard, a file, or some other device."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/MoreAboutPrograms.rst:30
+msgid "output"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/MoreAboutPrograms.rst:30
+msgid "Display data on the screen or send data to a file or other device."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/MoreAboutPrograms.rst:34
+msgid "math and logic"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/MoreAboutPrograms.rst:33
+msgid ""
+"Perform basic mathematical operations like addition and multiplication "
+"and logical operations like ``and``, ``or``, and ``not``."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/MoreAboutPrograms.rst:38
+msgid "conditional execution"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/MoreAboutPrograms.rst:37
+msgid ""
+"Check for certain conditions and execute the appropriate sequence of "
+"statements."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/MoreAboutPrograms.rst:41
+msgid "repetition"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/MoreAboutPrograms.rst:41
+msgid "Perform some action repeatedly, usually with some variation."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/MoreAboutPrograms.rst:43
+msgid ""
+"Believe it or not, that's pretty much all there is to it. Every program "
+"you've ever used, no matter how complicated, is made up of instructions "
+"that look more or less like these. Thus, we can describe programming as "
+"the process of breaking a large, complex task into smaller and smaller "
+"subtasks until the subtasks are simple enough to be performed with "
+"sequences of these basic instructions."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/MoreAboutPrograms.rst:53
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/MoreAboutPrograms.rst:66
+msgid "intro-5-1: A program is:"
+msgstr ""
+

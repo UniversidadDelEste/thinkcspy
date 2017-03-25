@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Functions/ProgrammingWithStyle.rst:11
+msgid "Programming With Style"
+msgstr ""
+
+#: ../../_sources/Functions/ProgrammingWithStyle.rst:13
+msgid ""
+"Readability is very important to programmers, since in practice programs "
+"are read and modified far more often then they are written."
+msgstr ""
+
+#: ../../_sources/Functions/ProgrammingWithStyle.rst:20
+msgid ""
+"We'll have more to say about style as our programs become more complex, "
+"but a few pointers will be helpful already:"
+msgstr ""
+
+#: ../../_sources/Functions/ProgrammingWithStyle.rst:23
+msgid "use 4 spaces for indentation"
+msgstr ""
+
+#: ../../_sources/Functions/ProgrammingWithStyle.rst:24
+msgid "imports should go at the top of the file"
+msgstr ""
+
+#: ../../_sources/Functions/ProgrammingWithStyle.rst:25
+msgid "separate function definitions with two blank lines"
+msgstr ""
+
+#: ../../_sources/Functions/ProgrammingWithStyle.rst:26
+msgid "keep function definitions together"
+msgstr ""
+
+#: ../../_sources/Functions/ProgrammingWithStyle.rst:27
+msgid ""
+"keep top level statements, including function calls, together at the "
+"bottom of the program"
+msgstr ""
+

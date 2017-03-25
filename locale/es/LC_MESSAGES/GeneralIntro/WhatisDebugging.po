@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/GeneralIntro/WhatisDebugging.rst:15
+msgid "What is Debugging?"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/WhatisDebugging.rst:17
+msgid ""
+"Programming is a complex process.  Since it is done by human beings, "
+"errors may often occur. Programming errors are called **bugs** and the "
+"process of tracking them down and correcting them is called "
+"**debugging**.  Some claim that in 1945, a dead moth caused a problem on "
+"relay number 70, panel F, of one of the first computers at Harvard, and "
+"the term **bug** has remained in use since. For more about this historic "
+"event, see `first bug <http://en.wikipedia.org/wiki/File:H96566k.jpg>`__."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/WhatisDebugging.rst:24
+msgid ""
+"Three kinds of errors can occur in a program: `syntax errors "
+"<http://en.wikipedia.org/wiki/Syntax_error>`__, `runtime errors "
+"<http://en.wikipedia.org/wiki/Runtime_error>`__, and `semantic errors "
+"<http://en.wikipedia.org/wiki/Logic_error>`__.  It is useful to "
+"distinguish between them in order to track them down more quickly."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/WhatisDebugging.rst:30
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/WhatisDebugging.rst:43
+msgid "intro-6-1: Debugging is:"
+msgstr ""
+

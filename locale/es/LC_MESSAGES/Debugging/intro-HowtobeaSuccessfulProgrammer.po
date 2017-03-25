@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Debugging/intro-HowtobeaSuccessfulProgrammer.rst:11
+msgid "How to be a Successful Programmer"
+msgstr ""
+
+#: ../../_sources/Debugging/intro-HowtobeaSuccessfulProgrammer.rst:13
+msgid ""
+"One of the most important skills you need to aquire to complete this book"
+" successfully is the ability to debug your programs.  Debugging might be "
+"the most under-appreciated, and under-taught, skill in introductory "
+"computer science.  For that reason we are introducing a series of "
+"\"debugging interludes.\"  Debugging is a skill that you need to master "
+"over time, and some of the tips and tricks are specific to different "
+"aspects of Python programming.  So look for additional debugging "
+"interludes throughout the rest of this book."
+msgstr ""
+
+#: ../../_sources/Debugging/intro-HowtobeaSuccessfulProgrammer.rst:15
+#, python-format
+msgid ""
+"Programming is an odd thing in a way.  Here is why.  As programmers we "
+"spend 99% of our time trying to get our program to work.  We struggle, we"
+" stress, we spend hours deep in frustration trying to get our program to "
+"execute correctly.  Then when we do get it going we celebrate, hand it "
+"in, and move on to the next homework assignment or programming task.  But"
+" here is the secret, when you are successful, you are happy, your brain "
+"releases a bit of chemical that makes you feel good.  You need to "
+"organize your programming so that you have lots of little successess.  It"
+" turns out your brain doesn't care all that much if you have successfully"
+" written hello world, or a fast fourier transform (trust me its hard) you"
+" still get that little release that makes you happy.  When you are happy "
+"you want to go on and solve the next little problem.  Essentially I'm "
+"telling you once again, start small, get something small working, and "
+"then add to it."
+msgstr ""
+

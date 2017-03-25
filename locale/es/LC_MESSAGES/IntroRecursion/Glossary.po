@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/IntroRecursion/Glossary.rst:11
+msgid "Glossary"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:14
+msgid "base case"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:16
+msgid ""
+"A branch of the conditional statement in a recursive function that does "
+"not give rise to further recursive calls."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:18
+msgid "data structure"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:20
+msgid "An organization of data for the purpose of making it easier to use."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:21
+msgid "exception"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:23
+msgid "An error that occurs at runtime."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:24
+msgid "handle an exception"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:26
+msgid ""
+"To prevent an exception from terminating a program by wrapping the block "
+"of code in a ``try`` / ``except`` construct."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:28
+msgid "immutable data type"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:30
+msgid ""
+"A data type which cannot be modified.  Assignments to elements or slices "
+"of immutable types cause a runtime error."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:32
+msgid "infinite recursion"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:34
+msgid ""
+"A function that calls itself recursively without ever reaching the base "
+"case. Eventually, an infinite recursion causes a runtime error."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:36
+msgid "mutable data type"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:38
+msgid ""
+"A data type which can be modified. All mutable types are compound types."
+"  Lists and dictionaries (see next chapter) are mutable data types; "
+"strings and tuples are not."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:41
+msgid "raise"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:43
+msgid "To cause an exception by using the ``raise`` statement."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:44
+msgid "recursion"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:46
+msgid "The process of calling the function that is already executing."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:47
+msgid "recursive call"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:49
+msgid ""
+"The statement that calls an already executing function.  Recursion can "
+"even be indirect --- function `f` can call `g` which calls `h`, and `h` "
+"could make a call back to `f`."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:52
+msgid "recursive definition"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:54
+msgid ""
+"A definition which defines something in terms of itself. To be useful it "
+"must include *base cases* which are not recursive. In this way it differs"
+" from a *circular definition*.  Recursive definitions often provide an "
+"elegant way to express complex data structures."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:58
+msgid "tuple"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:60
+msgid ""
+"A data type that contains a sequence of elements of any type, like a "
+"list, but is immutable. Tuples can be used wherever an immutable type is "
+"required, such as a key in a dictionary (see next chapter)."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:63
+msgid "tuple assignment"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/Glossary.rst:65
+msgid ""
+"An assignment to all of the elements in a tuple using a single assignment"
+" statement. Tuple assignment occurs in parallel rather than in sequence, "
+"making it useful for swapping values."
+msgstr ""
+

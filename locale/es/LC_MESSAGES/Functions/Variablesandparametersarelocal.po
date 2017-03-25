@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:15
+msgid "Variables and Parameters are Local"
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:17
+msgid ""
+"An assignment statement in a function creates a **local variable** for "
+"the variable on the left hand side of the assignment operator. It is "
+"called local because this variable only exists inside the function and "
+"you cannot use it outside. For example, consider again the ``square`` "
+"function:"
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:32
+msgid ""
+"If you press the 'last >>' button you will see an error message. When we "
+"try to use ``y`` on line 6 (outside the function) Python looks for a "
+"global variable named ``y`` but does not find one.  This results in the "
+"error: ``Name Error: 'y' is not defined.``"
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:37
+msgid ""
+"The variable ``y`` only exists while the function is being executed --- "
+"we call this its **lifetime**. When the execution of the function "
+"terminates (returns), the local variables  are destroyed.  Codelens helps"
+" you  visualize this because the local variables disappear after the "
+"function returns.  Go back and step through the statements paying "
+"particular attention to the variables that are created when the function "
+"is called. Note when they are subsequently destroyed as the function "
+"returns."
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:45
+msgid ""
+"Formal parameters are also local and act like local variables. For "
+"example, the lifetime of ``x`` begins when ``square`` is called, and its "
+"lifetime ends when the function completes its execution."
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:50
+msgid ""
+"So it is not possible for a function to set some local variable to a "
+"value, complete its execution, and then when it is called again next "
+"time, recover the local variable.  Each call of the function creates new "
+"local variables, and their lifetimes expire when the function returns to "
+"the caller."
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:56
+msgid ""
+"On the other hand, it is legal for a function to access a global "
+"variable.  However, this is considered **bad form** by nearly all "
+"programmers and should be avoided.  Look at the following, nonsensical "
+"variation of the square function."
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:71
+msgid ""
+"Although the ``badsquare`` function works, it is silly and poorly "
+"written.  We have done it here to illustrate an important rule about how "
+"variables are looked up in Python. First, Python looks at the variables "
+"that are defined as local variables in the function.  We call this the "
+"**local scope**.  If the variable name is not found in the local scope, "
+"then Python looks at the global variables, or **global scope**.  This is "
+"exactly the case illustrated in the code above. ``power`` is not found "
+"locally in ``badsquare`` but it does exist globally. The appropriate way "
+"to write this function would be to pass power as a parameter. For "
+"practice, you should rewrite the badsquare example to have a second "
+"parameter called power."
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:81
+msgid ""
+"There is another variation on this theme of local versus global "
+"variables.  Assignment statements in the local function cannot change "
+"variables defined outside the function.  Consider the following codelens "
+"example:"
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:96
+msgid ""
+"Now step through the code.  What do you notice about the values of "
+"variable ``power`` in the local scope compared to the variable ``power`` "
+"in the global scope?"
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:99
+msgid ""
+"The value of ``power`` in the local scope was different than the global "
+"scope. That is because in this example ``power`` was used on the left "
+"hand side of the assignment statement ``power = p``.  When a variable "
+"name is used on the left hand side of an assignment statement Python "
+"creates a local variable. When a local variable has the same name as a "
+"global variable we say that the local shadows the global.  A **shadow** "
+"means that the global variable cannot be accessed by Python because the "
+"local variable will be found first. This is another good reason not to "
+"use global variables. As you can see, it makes your code confusing and "
+"difficult to understand."
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:110
+msgid ""
+"To cement all of these ideas even further lets look at one final example."
+" Inside the ``square`` function we are going to make an assignment to the"
+" parameter ``x``  There's no good reason to do this other than to "
+"emphasize the fact that the parameter ``x`` is a local variable.  If you "
+"step through the example in codelens you will see that although ``x`` is "
+"0 in the local variables for ``square``, the ``x`` in the global scope "
+"remains 2.  This is confusing to many beginning programmers who think "
+"that an assignment to a formal parameter will cause a change to the value"
+" of the variable that was used as the actual parameter, especially when "
+"the two share the same name. But this example demonstrates that that is "
+"clearly not how Python operates."
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:135
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:146
+msgid "func-3-1: What is a variable's scope?"
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:157
+msgid "func-3-2: What is a local variable?"
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:168
+msgid ""
+"func-3-3: Can you use the same name for a local variable as a global "
+"variable?"
+msgstr ""
+

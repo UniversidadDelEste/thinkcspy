@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Functions/functions.rst:21
+msgid "Functions"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:30
+msgid ""
+"In Python, a **function** is a named sequence of statements that belong "
+"together.  Their primary purpose is to help us organize programs into "
+"chunks that match how we think about the solution to the problem."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:36
+msgid "The syntax for a **function definition** is:"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:43
+msgid ""
+"You can make up any names you want for the functions you create, except "
+"that you can't use a name that is a Python keyword, and the names must "
+"follow the rules for legal identifiers that were given previously. The "
+"parameters specify what information, if any, you have to provide in order"
+" to use the new function.  Another way to say this is that the parameters"
+" specify what the function needs to do its work."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:48
+msgid ""
+"There can be any number of statements inside the function, but they have "
+"to be indented from the ``def``. In the examples in this book, we will "
+"use the standard indentation of four spaces. Function definitions are the"
+" second of several **compound statements** we will see, all of which have"
+" the same pattern:"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:54
+msgid "A header line which begins with a keyword and ends with a colon."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:55
+msgid ""
+"A **body** consisting of one or more Python statements, each indented the"
+" same amount -- *4 spaces is the Python standard* -- from the header "
+"line."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:59
+msgid "We've already seen the ``for`` loop which follows this pattern."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:61
+msgid ""
+"In a function definition, the keyword in the header is ``def``, which is "
+"followed by the name of the function and some *parameters* enclosed in "
+"parentheses. The parameter list may be empty, or it may contain any "
+"number of parameters separated from one another by commas. In either "
+"case, the parentheses are required."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:66
+msgid ""
+"We need to say a bit more about the parameters.  In the definition, the "
+"parameter list is more specifically known as the **formal parameters**.  "
+"This list of names describes those things that the function will need to "
+"receive from the user of the function.  When you use a function, you "
+"provide values to the formal parameters."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:70
+msgid ""
+"The figure below shows this relationship.  A function needs certain "
+"information to do its work.  These values, often called **arguments** or "
+"**actual parameters**, are passed to the function by the user."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:74
+msgid ""
+"This type of diagram is often called a **black-box diagram** because it "
+"only states the requirements from the perspective of the user.  The user "
+"must know the name of the function and what arguments need to be passed."
+"  The details of how the function works are hidden inside the \"black-"
+"box\"."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:76
+msgid ""
+"Suppose we're working with turtles and a common operation we need is to "
+"draw squares.  It would make sense if we did not have to duplicate all "
+"the steps each time we want to make a square.   \"Draw a square\" can be "
+"thought of as an *abstraction* of a number of smaller steps.  We will "
+"need to provide two pieces of information for the function to do its "
+"work: a turtle to do the drawing and a size for the side of the square.  "
+"We could represent this using the following black-box diagram."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:81
+msgid ""
+"Here is a program containing a function to capture this idea.  Give it a "
+"try."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:104
+msgid ""
+"This function is named ``drawSquare``.  It has two parameters --- one to "
+"tell the function which turtle to move around and the other to tell it "
+"the size of the square we want drawn.  In the function definition they "
+"are called ``t`` and ``sz`` respectively.   Make sure you know where the "
+"body of the function ends --- it depends on the indentation and the blank"
+" lines don't count for this purpose!"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:110
+msgid "docstrings"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:112
+msgid ""
+"If the first thing after the function header is a string (some tools "
+"insist that it must be a triple-quoted string), it is called a "
+"**docstring** and gets special treatment in Python and in some of the "
+"programming tools."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:116
+msgid ""
+"Another way to retrieve this information is to use the interactive "
+"interpreter, and enter the expression ``<function_name>.__doc__``, which "
+"will retrieve the docstring for the function.  So the string you write as"
+" documentation at the start of a function is retrievable by python tools "
+"*at runtime*.  This is different from comments in your code, which are "
+"completely eliminated when the program is parsed."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:122
+msgid ""
+"By convention, Python programmers use docstrings for the key "
+"documentation of their functions."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:125
+msgid ""
+"Defining a new function does not make the function run. To do that we "
+"need a **function call**.  This is also known as a **function "
+"invocation**. We've already seen how to call some built-in functions like"
+" ``print``, ``range`` and ``int``. Function calls contain the name of the"
+" function to be executed followed by a list of values, called "
+"*arguments*, which are assigned to the parameters in the function "
+"definition.  So in the second to the last line of the program, we call "
+"the function, and pass ``alex`` as the turtle to be manipulated, and 50 "
+"as the size of the square we want."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:140
+msgid ""
+"Once we've defined a function, we can call it as often as we like and its"
+" statements will be executed each time we call it.  In this case, we "
+"could use it to get one of our turtles to draw a square and then we can "
+"move the turtle and have it draw a different square in a different "
+"location.  Note that we lift the tail so that when ``alex`` moves there "
+"is no trace.  We put the tail back down before drawing the next square.  "
+"Make sure you can identify both invocations of the ``drawSquare`` "
+"function."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:173
+msgid ""
+"In the next example, we've changed the ``drawSquare`` function a little "
+"and we get ``tess`` to draw 15 squares with some variations.  Once the "
+"function has been defined, we can call it as many times as we like with "
+"whatever actual parameters we like."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:207
+msgid ""
+"This workspace is provided for your convenience.  You can use this "
+"activecode window to try out anything you like."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:213
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:226
+msgid "func-1-1: What is a function in Python?"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:239
+msgid "func-1-2: What is one main purpose of a function?"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:252
+msgid ""
+"func-1-3: Which of the following is a valid function header (first line "
+"of a function definition)?"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:265
+msgid "func-1-4: What is the name of the following function?"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:288
+msgid "func-1-5: What are the parameters of the following function?"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:313
+msgid ""
+"func-1-6: Considering the function below, which of the following "
+"statements correctly invokes, or calls, this function (i.e., causes it to"
+" run)?  Assume we already have a turtle named alex."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:332
+msgid ""
+"func-1-7: True or false: A function can be called several times by "
+"placing a function call in the body of a loop."
+msgstr ""
+

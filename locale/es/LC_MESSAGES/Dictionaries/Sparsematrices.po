@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Dictionaries/Sparsematrices.rst:15
+msgid "Sparse Matrices"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Sparsematrices.rst:17
+msgid ""
+"A matrix is a two dimensional collection, typically thought of as having "
+"rows and columns of data.  One of the easiest ways to create a matrix is "
+"to use a list of lists.  For example, consider the matrix shown below."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Sparsematrices.rst:25
+msgid ""
+"We can represent this collection as five rows, each row having five "
+"columns.  Using a list of lists representation, we will have a list of "
+"five items, each of which is a list of five items.  The outer items "
+"represent the rows and the items in the nested lists represent the data "
+"in each column."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Sparsematrices.rst:42
+msgid ""
+"One thing that you might note about this example matrix is that there are"
+" many items that are zero.  In fact, only three of the data values are "
+"nonzero.  This type of matrix has a special name.  It is called a `sparse"
+" matrix <http://en.wikipedia.org/wiki/Sparse_matrix>`__."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Sparsematrices.rst:45
+msgid ""
+"Since there is really no need to store all of the zeros, the list of "
+"lists representation is considered to be inefficient. An alternative "
+"representation is to use a dictionary. For the keys, we can use tuples "
+"that contain the row and column numbers. Here is the dictionary "
+"representation of the same matrix."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Sparsematrices.rst:54
+msgid ""
+"We only need three key-value pairs, one for each nonzero element of the "
+"matrix. Each key is a tuple, and each value is an integer."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Sparsematrices.rst:57
+msgid "To access an element of the matrix, we could use the ``[]`` operator::"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Sparsematrices.rst:61
+msgid ""
+"Notice that the syntax for the dictionary representation is not the same "
+"as the syntax for the nested list representation. Instead of two integer "
+"indices, we use one index, which is a tuple of integers."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Sparsematrices.rst:65
+msgid ""
+"There is one problem. If we specify an element that is zero, we get an "
+"error, because there is no entry in the dictionary with that key. The "
+"alternative version of the ``get`` method solves this problem. The first "
+"argument will be the key.  The second argument is the value ``get`` "
+"should return if the key is not in the dictionary (which would be 0 since"
+" it is sparse)."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Sparsematrices.rst:79
+#: ../../_sources/Dictionaries/Sparsematrices.rst:86
+msgid "Lab"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Sparsematrices.rst:81
+msgid ""
+"`Counting Letters <../Labs/lab12_01.html>`_ In this guided lab exercise "
+"we will work through a problem solving exercise that will use "
+"dictionaries to generalize the solution to counting the occurrences of "
+"all letters in a string."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Sparsematrices.rst:88
+msgid ""
+"`Letter Count Histogram <../Labs/lab12_02.html>`_ Combine the previous "
+"lab with the histogram example."
+msgstr ""
+

@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Lists/UsingListsasParameters.rst:15
+msgid "Using Lists as Parameters"
+msgstr ""
+
+#: ../../_sources/Lists/UsingListsasParameters.rst:17
+msgid ""
+"Functions which take lists as arguments and change them during execution "
+"are called **modifiers** and the changes they make are called **side "
+"effects**. Passing a list as an argument actually passes a reference to "
+"the list, not a copy of the list. Since lists are mutable, changes made "
+"to the elements referenced by the parameter change the same list that the"
+" argument is referencing. For example, the function below takes a list as"
+" an argument and multiplies each element in the list by 2:"
+msgstr ""
+
+#: ../../_sources/Lists/UsingListsasParameters.rst:40
+msgid ""
+"The parameter ``aList`` and the variable ``things`` are aliases for the "
+"same object."
+msgstr ""
+
+#: ../../_sources/Lists/UsingListsasParameters.rst:46
+msgid ""
+"Since the list object is shared by two references, there is only one "
+"copy. If a function modifies the elements of a list parameter, the caller"
+" sees the change since the change is occurring to the original."
+msgstr ""
+
+#: ../../_sources/Lists/UsingListsasParameters.rst:50
+msgid ""
+"This can be easily seen in codelens.  Note that after the call to "
+"``doubleStuff``, the formal parameter ``aList`` refers to the same object"
+" as the actual parameter ``things``.  There is only one copy of the list "
+"object itself."
+msgstr ""
+

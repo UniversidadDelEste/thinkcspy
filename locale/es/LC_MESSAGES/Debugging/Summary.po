@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Debugging/Summary.rst:11
+msgid "Summary"
+msgstr ""
+
+#: ../../_sources/Debugging/Summary.rst:13
+msgid ""
+"Make sure you take the time to understand error messages.  They can help "
+"you a lot."
+msgstr ""
+
+#: ../../_sources/Debugging/Summary.rst:15
+msgid ""
+"``print`` statements are your friends.  Use them to help you uncover what"
+" is **really** happening in your code."
+msgstr ""
+
+#: ../../_sources/Debugging/Summary.rst:17
+msgid ""
+"Work backward from the error.  Many times an error message is caused by "
+"something that has happened before it in the program.  Always remember "
+"that python evaluates a program top to bottom."
+msgstr ""
+

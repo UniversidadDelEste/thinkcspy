@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Functions/Composition.rst:15
+msgid "Composition"
+msgstr ""
+
+#: ../../_sources/Functions/Composition.rst:17
+msgid ""
+"As we have already seen, you can call one function from within another. "
+"This ability to build functions by using other functions is called "
+"**composition**."
+msgstr ""
+
+#: ../../_sources/Functions/Composition.rst:20
+msgid ""
+"As an example, we'll write a function that takes two points, the center "
+"of the circle and a point on the perimeter, and computes the area of the "
+"circle."
+msgstr ""
+
+#: ../../_sources/Functions/Composition.rst:23
+msgid ""
+"Assume that the center point is stored in the variables ``xc`` and "
+"``yc``, and the perimeter point is in ``xp`` and ``yp``. The first step "
+"is to find the radius of the circle, which is the distance between the "
+"two points. Fortunately, we've just written a function, ``distance``, "
+"that does just that, so now all we have to do is use it:"
+msgstr ""
+
+#: ../../_sources/Functions/Composition.rst:33
+msgid ""
+"The second step is to find the area of a circle with that radius and "
+"return it. Again we will use one of our earlier functions:"
+msgstr ""
+
+#: ../../_sources/Functions/Composition.rst:41
+msgid "Wrapping that up in a function, we get:"
+msgstr ""
+
+#: ../../_sources/Functions/Composition.rst:65
+msgid ""
+"We called this function ``area2`` to distinguish it from the ``area`` "
+"function defined earlier. There can only be one function with a given "
+"name within a module."
+msgstr ""
+
+#: ../../_sources/Functions/Composition.rst:69
+msgid ""
+"Note that we could have written the composition without storing the "
+"intermediate results."
+msgstr ""
+

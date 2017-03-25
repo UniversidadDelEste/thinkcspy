@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/GeneralIntro/RuntimeErrors.rst:15
+msgid "Runtime Errors"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/RuntimeErrors.rst:17
+msgid ""
+"The second type of error is a runtime error, so called because the error "
+"does not appear until you run the program. These errors are also called "
+"**exceptions** because they usually indicate that something exceptional "
+"(and bad) has happened."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/RuntimeErrors.rst:22
+msgid ""
+"Runtime errors are rare in the simple programs you will see in the first "
+"few chapters, so it might be a while before you encounter one."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/RuntimeErrors.rst:25
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/RuntimeErrors.rst:36
+msgid "intro-8-1: Which of the following is a run-time error?"
+msgstr ""
+

@@ -1,0 +1,235 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Strings/Exercises.rst:11
+msgid "Exercises"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:19
+msgid "What is the result of each of the following:"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:21
+msgid "'Python'[1]"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:22
+msgid "\"Strings are sequences of characters.\"[5]"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:23
+msgid "len(\"wonderful\")"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:24
+msgid "'Mystery'[:4]"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:25
+msgid "'p' in 'Pineapple'"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:26
+msgid "'apple' in 'Pineapple'"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:27
+msgid "'pear' not in 'Pineapple'"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:28
+msgid "'apple' > 'pineapple'"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:29
+msgid "'pineapple' < 'Peach'"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:33
+msgid "'Python'[1] = 'y'"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:34
+msgid "'Strings are sequences of characters.'[5] = 'g'"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:35
+msgid "len('wonderful') = 9"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:36
+msgid "'Mystery'[:4] = 'Myst'"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:37
+msgid "'p' in 'Pineapple' = True"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:38
+msgid "'apple' in 'Pineapple' = True"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:39
+msgid "'pear' not in 'Pineapple' = True"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:40
+msgid "'apple' > 'pineapple' = False"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:41
+msgid "'pineapple' < 'Peach' = False"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:50
+msgid ""
+"In Robert McCloskey's book *Make Way for Ducklings*, the names of the "
+"ducklings are Jack, Kack, Lack, Mack, Nack, Ouack, Pack, and Quack.  This"
+" loop tries to output these names in order."
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:63
+msgid ""
+"Of course, that's not quite right because Ouack and Quack are misspelled."
+" Can you fix it?"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:74
+msgid ""
+"Assign to a variable in your program a triple-quoted string that contains"
+" your favorite paragraph of text - perhaps a poem, a speech, instructions"
+" to bake a cake, some inspirational verses, etc."
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:78
+msgid ""
+"Write a function that counts the number of alphabetic characters (a "
+"through z, or A through Z) in your text and then keeps track of how many "
+"are the letter 'e'.  Your function should print an analysis of the text "
+"like this::"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:123
+msgid "Print out a neatly formatted multiplication table, up to 12 x 12."
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:134
+msgid "Write a function that will return the number of digits in an integer."
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:178
+msgid "Write a function that reverses its string argument."
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:208
+msgid "Write a function that mirrors its argument."
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:261
+msgid ""
+"Write a function that removes all occurrences of a given letter from a "
+"string."
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:293
+msgid ""
+"Write a function that recognizes palindromes. (Hint: use your ``reverse``"
+" function to make this easy!)."
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:353
+msgid ""
+"Write a function that counts how many times a substring occurs in a "
+"string."
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:389
+msgid ""
+"Write a function that removes the first occurrence of a string from "
+"another string."
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:442
+msgid ""
+"Write a function that removes all occurrences of a string from another "
+"string."
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:474
+msgid ""
+"Here is another interesting L-System called a Hilbert curve.  Use 90 "
+"degrees::"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:552
+msgid "Here is a dragon curve.  Use 90 degrees.::"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:567
+msgid "Here is something called an arrowhead curve.  Use 60 degrees.::"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:642
+msgid "Try the Peano-Gosper curve.  Use 60 degrees.::"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:657
+msgid "The Sierpinski Triangle.  Use 60 degrees.::"
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:738
+msgid ""
+"Write a function that implements a substitution cipher.  In a "
+"substitution cipher one letter is substituted for another to garble the "
+"message.  For example A -> Q, B -> T, C -> G etc.  your function should "
+"take two parameters, the message you want to encrypt, and a string that "
+"represents the mapping of the 26 letters in the alphabet.  Your function "
+"should return a string that is the encrypted version of the message."
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:753
+msgid ""
+"Write a function that decrypts the message from the previous exercise.  "
+"It should also take two parameters.  The encrypted message, and the mixed"
+" up alphabet.  The function should return a string that is the same as "
+"the original unencrypted message."
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:802
+msgid ""
+"Write a function called  ``remove_dups`` that takes a string and creates "
+"a new string by only adding those characters that are not already "
+"present.  In other words, there will never be a duplicate letter added to"
+" the new string."
+msgstr ""
+
+#: ../../_sources/Strings/Exercises.rst:834
+msgid ""
+"Write a function called ``rot13`` that uses the Caesar cipher to encrypt "
+"a message. The Caesar cipher works like a substitution cipher but each "
+"character is replaced by the character 13 characters to 'its right' in "
+"the alphabet.  So for example the letter a becomes the letter n.  If a "
+"letter is past the middle of the alphabet then the counting wraps around "
+"to the letter a again, so n becomes a, o becomes b and so on.  *Hint:* "
+"Whenever you talk about things wrapping around its a good idea to think "
+"of modulo arithmetic."
+msgstr ""
+

@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Lists/AppendversusConcatenate.rst:15
+msgid "Append versus Concatenate"
+msgstr ""
+
+#: ../../_sources/Lists/AppendversusConcatenate.rst:17
+msgid ""
+"The ``append`` method adds a new item to the end of a list.  It is also "
+"possible to add a new item to the end of a list by using the "
+"concatenation operator.  However, you need to be careful."
+msgstr ""
+
+#: ../../_sources/Lists/AppendversusConcatenate.rst:19
+msgid ""
+"Consider the following example.  The original list has 3 integers.  We "
+"want to add the word \"cat\" to the end of the list."
+msgstr ""
+
+#: ../../_sources/Lists/AppendversusConcatenate.rst:29
+msgid ""
+"Here we have used ``append`` which simply modifies the list.  In order to"
+" use concatenation, we need to write an assignment statement that uses "
+"the accumulator pattern::"
+msgstr ""
+
+#: ../../_sources/Lists/AppendversusConcatenate.rst:33
+msgid ""
+"Note that the word \"cat\" needs to be placed in a list since the "
+"concatenation operator needs two lists to do its work."
+msgstr ""
+
+#: ../../_sources/Lists/AppendversusConcatenate.rst:42
+msgid ""
+"It is also important to realize that with append, the original list is "
+"simply modified. On the other hand, with concatenation, an entirely new "
+"list is created.  This can be seen in the following codelens example "
+"where ``newlist`` refers to a list which is a copy of the original list, "
+"``origlist``, with the new item \"cat\" added to the end.  ``origlist`` "
+"still contains the three values it did before the concatenation.  This is"
+" why the assignment operation is necessary as part of the accumulator "
+"pattern."
+msgstr ""
+
+#: ../../_sources/Lists/AppendversusConcatenate.rst:54
+msgid "**Check you understanding**"
+msgstr ""
+
+#: ../../_sources/Lists/AppendversusConcatenate.rst:63
+msgid "list-16-1: What is printed by the following statements?"
+msgstr ""
+

@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/FrontBackMatter/prefaceinteractive.rst:11
+msgid "Preface to the Interactive Edition"
+msgstr ""
+
+#: ../../_sources/FrontBackMatter/prefaceinteractive.rst:13
+msgid "by Brad Miller and David Ranum"
+msgstr ""
+
+#: ../../_sources/FrontBackMatter/prefaceinteractive.rst:16
+msgid ""
+"There are many books available if you want to learn to program in Python."
+"  In fact, we have written a few of them ourselves.  However, none of the"
+" books are like this one."
+msgstr ""
+
+#: ../../_sources/FrontBackMatter/prefaceinteractive.rst:20
+msgid ""
+"Programming is not a \"spectator sport\".  It is something you do, "
+"something you participate in. It would make sense, then, that the book "
+"you use to learn programming should allow you to be active. That is our "
+"goal."
+msgstr ""
+
+#: ../../_sources/FrontBackMatter/prefaceinteractive.rst:25
+msgid ""
+"This book is meant to provide you with an interactive experience as you "
+"learn to program in Python.  You can read the text, watch videos, and "
+"write and execute Python code.  In addition to simply executing code, "
+"there is a unique feature called 'codelens' that allows you to control "
+"the flow of execution in order to gain a better understanding of how the "
+"program works.."
+msgstr ""
+
+#: ../../_sources/FrontBackMatter/prefaceinteractive.rst:32
+msgid ""
+"We have tried to use these different presentation techniques where they "
+"are most appropriate.  In other words, sometimes it might be best to read"
+" a description of some aspect of Python.  On a different occasion, is "
+"might be best to execute a small example program.  Often we give you many"
+" different options for covering the material.  Our hope is that you will "
+"find that your understanding will be enhanced because you are able to "
+"experience it in more than just one way."
+msgstr ""
+
+#: ../../_sources/FrontBackMatter/prefaceinteractive.rst:41
+msgid "Whats the deal with Logging in?"
+msgstr ""
+
+#: ../../_sources/FrontBackMatter/prefaceinteractive.rst:43
+msgid ""
+"This edition of the book is hosted as a web application on "
+"interactivepython.org. The reason is that for teaching purposes we want "
+"our students to be able to save their work in a browser in the lab and "
+"get back to it when they are in their room or in a different lab. We also"
+" wanted them to be able to turn in homework assignments so that we can "
+"grade them."
+msgstr ""
+
+#: ../../_sources/FrontBackMatter/prefaceinteractive.rst:45
+msgid ""
+"If you are an instructor and want to use this book for your own course do"
+" the following:"
+msgstr ""
+
+#: ../../_sources/FrontBackMatter/prefaceinteractive.rst:47
+msgid "Register as a user yourself for either thinkcspy or pythonds"
+msgstr ""
+
+#: ../../_sources/FrontBackMatter/prefaceinteractive.rst:48
+msgid "Go to the instructors page (pull down the Silouhette menu)"
+msgstr ""
+
+#: ../../_sources/FrontBackMatter/prefaceinteractive.rst:49
+msgid "Follow the instructions there for creating a custom course."
+msgstr ""
+
+#: ../../_sources/FrontBackMatter/prefaceinteractive.rst:51
+msgid ""
+"After you have created the course you can go back to the instructors page"
+" and click on the links to view your students homeworks and quiz scores."
+"  Note that You will only see assignments that your students have "
+"attempted.  From there you can click on an assignment and see all of the "
+"students that have saved the assignment and you can run their code in "
+"your browser and enter a grade."
+msgstr ""
+
+#: ../../_sources/FrontBackMatter/prefaceinteractive.rst:53
+msgid ""
+"From any multiple choice or fill in the blank question in the body of the"
+" book, you can click on 'compare me.'  As an instructor you will see a "
+"summary and the answers of all your students."
+msgstr ""
+
+#: ../../_sources/FrontBackMatter/prefaceinteractive.rst:56
+msgid "How to Contribute"
+msgstr ""
+
+#: ../../_sources/FrontBackMatter/prefaceinteractive.rst:58
+msgid ""
+"We invite you to join our open source project.  Please visit our web page"
+" for more information about obtaining the source: `Runestone Interactive "
+"<http://runestoneinteractive.org>`__"
+msgstr ""
+
+#: ../../_sources/FrontBackMatter/prefaceinteractive.rst:62
+msgid "Acknowledgements"
+msgstr ""
+
+#: ../../_sources/FrontBackMatter/prefaceinteractive.rst:64
+msgid ""
+"This interactive textbook is a triumph of open source.  Not only have we "
+"stood on the shoulders of Jeffrey Elkner et. al. as the starting point "
+"for the prose but the interactive features of this book also make use of "
+"open source software.  We are indebted to Scott Graham (skulpt.org) for "
+"his open source Python interpreter written in Javascript.  In addition we"
+" are indebted to Philip Guo "
+"(https://github.com/pgbovine/OnlinePythonTutor/) for the Online Python "
+"Tutor which forms the basis for Codelens."
+msgstr ""
+
+#: ../../_sources/FrontBackMatter/prefaceinteractive.rst:72
+msgid ""
+"We would also like to acknowledge the Sphinx project for their fine work "
+"in creating a documentation system that allows us to focus on writing not"
+" endless hours of Javascript and html coding.  In particular without the "
+"extension architecture of Sphinx this book would not have made it off the"
+" ground."
+msgstr ""
+

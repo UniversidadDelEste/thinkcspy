@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Labs/lab12_01.rst:13
+msgid "Counting Letters"
+msgstr ""
+
+#: ../../_sources/Labs/lab12_01.rst:17
+msgid "Simple Solution: Counting a Single Letter"
+msgstr ""
+
+#: ../../_sources/Labs/lab12_01.rst:19
+msgid ""
+"We have previously discussed the solution to the problem of counting the "
+"number of times a specific letter appears in a string.  In the case "
+"below, that specific letter is \"a\"."
+msgstr ""
+
+#: ../../_sources/Labs/lab12_01.rst:33
+msgid ""
+"Of course, we could also solve this problem by using the ``count`` method"
+" provided for strings."
+msgstr ""
+
+#: ../../_sources/Labs/lab12_01.rst:45
+msgid "General Solution: Counting All Letters"
+msgstr ""
+
+#: ../../_sources/Labs/lab12_01.rst:47
+msgid ""
+"Now we will generalize the counting problem and consider how to count the"
+" number of times each letter appears in a given string.  In order to do "
+"this we need to realize that writing a function that returns a single "
+"integer will no longer work.  Instead we will need to return some kind of"
+" collection that holds the counts for each character."
+msgstr ""
+
+#: ../../_sources/Labs/lab12_01.rst:51
+msgid ""
+"Although there may be many possible ways to do this, we suggest a "
+"dictionary where the keys of the dictionary will be the letters in the "
+"string and the associated values for each key will be the number of times"
+" that the letter appeared."
+msgstr ""
+
+#: ../../_sources/Labs/lab12_01.rst:55
+msgid ""
+"What about a letter that does not appear in the string?  It will never be"
+" placed in the dictionary.  By assumption, any key that is not in the "
+"dictionary has a count of 0."
+msgstr ""
+
+#: ../../_sources/Labs/lab12_01.rst:58
+msgid ""
+"If we call the function ``countAll``, then a call to ``countAll`` would "
+"return the dictionary.  For example,"
+msgstr ""
+
+#: ../../_sources/Labs/lab12_01.rst:64
+msgid "would return the dictionary"
+msgstr ""
+
+#: ../../_sources/Labs/lab12_01.rst:73
+msgid "Here is a start to the development of the function."
+msgstr ""
+
+#: ../../_sources/Labs/lab12_01.rst:75
+msgid "Define the function to require one parameter, the string."
+msgstr ""
+
+#: ../../_sources/Labs/lab12_01.rst:77
+msgid "Create an empty dictionary of counts."
+msgstr ""
+
+#: ../../_sources/Labs/lab12_01.rst:79
+msgid "Iterate through the characters of the string, one character at a time."
+msgstr ""
+

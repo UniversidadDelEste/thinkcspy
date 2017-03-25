@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/ClassesBasics/ConvertinganObjecttoaString.rst:11
+msgid "Converting an Object to a String"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/ConvertinganObjecttoaString.rst:14
+msgid ""
+"When we're working with classes and objects, it is often necessary to "
+"print an object (that is to print the state of an object). Consider the "
+"example below."
+msgstr ""
+
+#: ../../_sources/ClassesBasics/ConvertinganObjecttoaString.rst:40
+msgid ""
+"The ``print`` function shown above produces a string representation of "
+"the Point ``p``.  The default functionality provided by Python tells you "
+"that ``p`` is an object of type ``Point``.  However, it does not tell you"
+" anything about the specific state of the point."
+msgstr ""
+
+#: ../../_sources/ClassesBasics/ConvertinganObjecttoaString.rst:44
+msgid ""
+"We can improve on this representation if we include a special method call"
+" ``__str__``.  Notice that this method uses the same naming convention as"
+" the constructor, that is two underscores before and after the name.  It "
+"is common that Python uses this naming technique for special methods."
+msgstr ""
+
+#: ../../_sources/ClassesBasics/ConvertinganObjecttoaString.rst:47
+msgid ""
+"The ``__str__`` method is responsible for returning a string "
+"representation as defined by the class creator.  In other words, you as "
+"the programmer, get to choose what a ``Point`` should look like when it "
+"gets printed.  In this case, we have decided that the string "
+"representation will include the values of x and y as well as some "
+"identifying text.  It is required that the ``__str__`` method create and "
+"*return* a string."
+msgstr ""
+
+#: ../../_sources/ClassesBasics/ConvertinganObjecttoaString.rst:77
+msgid ""
+"When we run the program above you can see that the ``print`` function now"
+" shows the string that we chose."
+msgstr ""
+
+#: ../../_sources/ClassesBasics/ConvertinganObjecttoaString.rst:79
+msgid ""
+"Now, you ask, don't we already have an ``str`` type converter that can "
+"turn our object into a string?  Yes we do!"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/ConvertinganObjecttoaString.rst:82
+msgid ""
+"And doesn't ``print`` automatically use this when printing things?  Yes "
+"again!"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/ConvertinganObjecttoaString.rst:86
+msgid ""
+"But, as we saw earlier, these automatic mechanisms do not do exactly what"
+" we want.  Python provides many default implementations for methods that "
+"we as programmers will probably want to change.  When a programmer "
+"changes the meaning of a special method we say that we **override** the "
+"method.  Note also that the ``str`` type converter function uses whatever"
+" ``__str__`` method we provide."
+msgstr ""
+

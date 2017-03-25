@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/PythonTurtle/FlowofExecutionoftheforLoop.rst:15
+msgid "Flow of Execution of the for Loop"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/FlowofExecutionoftheforLoop.rst:17
+msgid ""
+"As a program executes, the interpreter always keeps track of which "
+"statement is about to be executed.  We call this the **control flow**, or"
+" the **flow of execution** of the program.  When humans execute programs,"
+" they often use their finger to point to each statement in turn.  So you "
+"could think of control flow as \"Python's moving finger\"."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/FlowofExecutionoftheforLoop.rst:23
+msgid ""
+"Control flow until now has been strictly top to bottom, one statement at "
+"a time.  We call this type of control **sequential**.  Sequential flow of"
+" control is always assumed to be the default behavior for a computer "
+"program.  The ``for`` statement changes this."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/FlowofExecutionoftheforLoop.rst:26
+msgid ""
+"Flow of control is often easy to visualize and understand if we draw a "
+"flowchart. This flowchart shows the exact steps and logic of how the "
+"``for`` statement executes."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/FlowofExecutionoftheforLoop.rst:35
+msgid ""
+"A codelens demonstration is a good way to help you visualize exactly how "
+"the flow of control works with the for loop.  Try stepping forward and "
+"backward through the program by pressing the buttons.  You can see the "
+"value of ``name`` change as the loop iterates through the list of "
+"friends."
+msgstr ""
+

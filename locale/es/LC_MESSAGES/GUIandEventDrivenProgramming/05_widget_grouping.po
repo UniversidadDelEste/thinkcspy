@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:16
+msgid "Widget Groupings"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:18
+msgid ""
+"You will design a more user friendly interface if you group and organize "
+"your widgets in a coherent design. Tkinter has four basic ways to group "
+"widgets. These are described in the following table. They are often "
+"referred to as \"container\" widgets because in the widget hierarchy of a"
+" GUI program they are the parent widget of a group of related widgets."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:25
+msgid "Widget"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:25
+msgid "Purpose"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:27
+msgid "``tk.Frame``, ``tkk.Frame``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:27
+msgid "Create a container for a set of widgets to be displayed as a unit."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:28
+msgid "``tkk.LabelFrame``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:28
+msgid "Group a number of related widgets using a border and a title."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:29
+msgid "``tk.PanedWindow``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:29
+msgid ""
+"Group one or more widgets into “panes”, where the \"panes\" can be re-"
+"sized by the user by dragging separator lines."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:31
+msgid "``tkk.Notebook``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:31
+msgid "A tabbed set of frames, only one of which is visible at any given time."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:34
+msgid ""
+"Widgets are always organized as a hierarchy, where the main application "
+"window is the root of the hierarchy. Typically, the child widgets of an "
+"application window are a combination of \"frames\". The \"frames\" hold "
+"other widgets. A \"frame\" will not be visible until it is assigned a "
+"size and location using a layout manager. The image below shows examples "
+"of the four types of widget \"containers\". The \"containers\" in this "
+"example used a ``grid`` layout manager on a 2x2 grid."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:45
+msgid "Examples of grouping widgets"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:47
+msgid ""
+"For the ``Frame`` and ``LabelFrame`` groups, the frame is the \"parent\" "
+"of the widgets displayed inside the frame. That is, when the buttons were"
+" created, the frame was the first parameter to the ``tk.Button()`` "
+"function."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:51
+msgid ""
+"For the ``PanedWindow`` and ``Notebook`` groups, you use an "
+"``.add(widget)`` function to add your widgets to the group. You are still"
+" creating a hierarchy of widgets, but the syntax is different."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/05_widget_grouping.rst:55
+msgid ""
+"You can download and run this example program, `all_frame_widgets.py`_ "
+"that allows you to interact with the four types of \"contaners.\""
+msgstr ""
+

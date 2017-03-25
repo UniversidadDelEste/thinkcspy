@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Strings/Glossary.rst:11
+msgid "Glossary"
+msgstr ""
+
+#: ../../_sources/Strings/Glossary.rst:14
+msgid "collection data type"
+msgstr ""
+
+#: ../../_sources/Strings/Glossary.rst:16
+msgid ""
+"A data type in which the values are made up of components, or elements, "
+"that are themselves values."
+msgstr ""
+
+#: ../../_sources/Strings/Glossary.rst:18
+msgid "default value"
+msgstr ""
+
+#: ../../_sources/Strings/Glossary.rst:20
+msgid ""
+"The value given to an optional parameter if no argument for it is "
+"provided in the function call."
+msgstr ""
+
+#: ../../_sources/Strings/Glossary.rst:23
+msgid "dot notation"
+msgstr ""
+
+#: ../../_sources/Strings/Glossary.rst:25
+msgid ""
+"Use of the **dot operator**, ``.``, to access functions inside a module, "
+"or to access methods and attributes of an object."
+msgstr ""
+
+#: ../../_sources/Strings/Glossary.rst:27
+msgid "immutable"
+msgstr ""
+
+#: ../../_sources/Strings/Glossary.rst:29
+msgid "A compound data type whose elements can not be assigned new values."
+msgstr ""
+
+#: ../../_sources/Strings/Glossary.rst:30
+msgid "index"
+msgstr ""
+
+#: ../../_sources/Strings/Glossary.rst:32
+msgid ""
+"A variable or value used to select a member of an ordered collection, "
+"such as a character from a string, or an element from a list."
+msgstr ""
+
+#: ../../_sources/Strings/Glossary.rst:34
+msgid "optional parameter"
+msgstr ""
+
+#: ../../_sources/Strings/Glossary.rst:36
+msgid ""
+"A parameter written in a function header with an assignment to a default "
+"value which it will receive if no corresponding argument is given for it "
+"in the function call."
+msgstr ""
+
+#: ../../_sources/Strings/Glossary.rst:39
+msgid "slice"
+msgstr ""
+
+#: ../../_sources/Strings/Glossary.rst:41
+msgid ""
+"A part of a string (substring) specified by a range of indices. More "
+"generally, a subsequence of any sequence type in Python can be created "
+"using the slice operator (``sequence[start:stop]``)."
+msgstr ""
+
+#: ../../_sources/Strings/Glossary.rst:44
+msgid "traverse"
+msgstr ""
+
+#: ../../_sources/Strings/Glossary.rst:46
+msgid ""
+"To iterate through the elements of a collection, performing a similar "
+"operation on each."
+msgstr ""
+
+#: ../../_sources/Strings/Glossary.rst:48
+msgid "whitespace"
+msgstr ""
+
+#: ../../_sources/Strings/Glossary.rst:50
+msgid ""
+"Any of the characters that move the cursor without printing visible "
+"characters. The constant ``string.whitespace`` contains all the white-"
+"space characters."
+msgstr ""
+

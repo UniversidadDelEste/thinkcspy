@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/ClassesBasics/Objectorientedprogramming.rst:16
+msgid "Object-oriented programming"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Objectorientedprogramming.rst:20
+msgid ""
+"Python is an **object-oriented programming language**.  That means it "
+"provides features that support `object-oriented programming "
+"<http://en.wikipedia.org/wiki/Object-oriented_programming>`__ (**OOP**)."
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Objectorientedprogramming.rst:24
+msgid ""
+"Object-oriented programming has its roots in the 1960s, but it wasn't "
+"until the mid 1980s that it became the main `programming paradigm "
+"<http://en.wikipedia.org/wiki/Programming_paradigm>`__ used in the "
+"creation of new software. It was developed as a way to handle the rapidly"
+" increasing size and complexity of software systems and to make it easier"
+" to modify these large and complex systems over time."
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Objectorientedprogramming.rst:31
+msgid ""
+"Up to now, some of the programs we have been writing use a `procedural "
+"programming <http://en.wikipedia.org/wiki/Procedural_programming>`__ "
+"paradigm. In procedural programming the focus is on writing functions or "
+"*procedures* which operate on data. In object-oriented programming the "
+"focus is on the creation of **objects** which contain both data and "
+"functionality together. Usually, each object definition corresponds to "
+"some object or concept in the real world and the functions that operate "
+"on that object correspond to the ways real-world objects interact."
+msgstr ""
+

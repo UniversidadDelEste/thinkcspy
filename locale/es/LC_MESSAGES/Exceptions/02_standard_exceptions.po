@@ -1,0 +1,345 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:15
+msgid "Standard Exceptions"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:17
+msgid ""
+"Most of the standard *exceptions* built into Python are listed below. "
+"They are organized into related groups based on the types of issues they "
+"deal with."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:21
+msgid "Language Exceptions"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:21
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:49
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:62
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:78
+msgid "Description"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:23
+msgid "StandardError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:23
+msgid ""
+"Base class for all built-in exceptions except StopIteration and "
+"SystemExit."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:25
+msgid "ImportError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:25
+msgid "Raised when an import statement fails."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:26
+msgid "SyntaxError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:26
+msgid "Raised when there is an error in Python syntax."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:27
+msgid "IndentationError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:27
+msgid "Raised when indentation is not specified properly."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:28
+msgid "NameError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:28
+msgid "Raised when an identifier is not found in the local or global namespace."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:30
+msgid "UnboundLocalError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:30
+msgid ""
+"Raised when trying to access a local variable in a function or method but"
+" no value has been assigned to it."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:32
+msgid "TypeError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:32
+msgid ""
+"Raised when an operation or function is attempted that is invalid for the"
+" specified data type."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:34
+msgid "LookupError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:34
+msgid "Base class for all lookup errors."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:35
+msgid "IndexError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:35
+msgid "Raised when an index is not found in a sequence."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:36
+msgid "KeyError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:36
+msgid "Raised when the specified key is not found in the dictionary."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:37
+msgid "ValueError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:37
+msgid ""
+"Raised when the built-in function for a data type has the valid type of "
+"arguments, but the arguments have invalid values specified."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:40
+msgid "RuntimeError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:40
+msgid "Raised when a generated error does not fall into any category."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:41
+msgid "MemoryError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:41
+msgid "Raised when a operation runs our of memory."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:42
+msgid "RecursionError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:42
+msgid "Raised when the maximum recursion depth has been exceeded."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:43
+msgid "SystemError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:43
+msgid ""
+"Raised when the interpreter finds an internal problem, but when this "
+"error is encountered the Python interpreter does not exit."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:49
+msgid "Math Exceptions"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:51
+msgid "ArithmeticError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:51
+msgid ""
+"Base class for all errors that occur for numeric calculation. You know a "
+"math error occurred, but you don't know the specific error."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:54
+msgid "OverflowError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:54
+msgid "Raised when a calculation exceeds maximum limit for a numeric type."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:56
+msgid "FloatingPointError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:56
+msgid "Raised when a floating point calculation fails."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:57
+msgid "ZeroDivisonError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:57
+msgid "Raised when division or modulo by zero takes place for all numeric types."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:62
+msgid "I/O Exceptions"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:64
+msgid "FileNotFoundError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:64
+msgid "Raised when a file or directory is requested but doesn’t exist."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:65
+msgid "IOError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:65
+msgid ""
+"Raised when an input/ output operation fails, such as the print statement"
+" or the open() function when trying to open a file that does not exist. "
+"Also raised for operating system-related errors."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:69
+msgid "PermissionError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:69
+msgid "Raised when trying to run an operation without the adequate access rights."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:71
+msgid "EOFError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:71
+msgid ""
+"Raised when there is no input from either the raw_input() or input() "
+"function and the end of file is reached."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:73
+msgid "KeyboardInterrupt"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:73
+msgid ""
+"Raised when the user interrupts program execution, usually by pressing "
+"Ctrl+c."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:78
+msgid "Other Exceptions"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:80
+msgid "Exception"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:80
+msgid "Base class for all exceptions. This catches most exception messages."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:82
+msgid "StopIteration"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:82
+msgid "Raised when the next() method of an iterator does not point to any object."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:84
+msgid "AssertionError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:84
+msgid "Raised in case of failure of the Assert statement."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:85
+msgid "SystemExit"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:85
+msgid ""
+"Raised when Python interpreter is quit by using the sys.exit() function. "
+"If not handled in the code, it causes the interpreter to exit."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:88
+msgid "OSError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:88
+msgid "Raises for operating system related errors."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:89
+msgid "EnvironmentError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:89
+msgid "Base class for all exceptions that occur outside the Python environment."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:91
+msgid "AttributeError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:91
+msgid "Raised in case of failure of an attribute reference or assignment."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:93
+msgid "NotImplementedError"
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:93
+msgid ""
+"Raised when an abstract method that needs to be implemented in an "
+"inherited class is not actually implemented."
+msgstr ""
+
+#: ../../_sources/Exceptions/02_standard_exceptions.rst:97
+msgid ""
+"All exceptions are objects. The classes that define the objects are "
+"organized in a hierarchy, which is shown below. This is important because"
+" the parent class of a set of related exceptions will catch all exception"
+" messages for itself and its child exceptions. For example, an "
+"``ArithmeticError`` exception will catch itself and all "
+"``FloatingPointError``, ``OverflowError``, and ``ZeroDivisionError`` "
+"exceptions."
+msgstr ""
+

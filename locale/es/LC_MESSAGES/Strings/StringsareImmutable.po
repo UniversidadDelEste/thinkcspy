@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Strings/StringsareImmutable.rst:15
+msgid "Strings are Immutable"
+msgstr ""
+
+#: ../../_sources/Strings/StringsareImmutable.rst:17
+msgid ""
+"One final thing that makes strings different from some other Python "
+"collection types is that you are not allowed to modify the individual "
+"characters in the collection.  It is tempting to use the ``[]`` operator "
+"on the left side of an assignment, with the intention of changing a "
+"character in a string.  For example, in the following code, we would like"
+" to change the first letter of ``greeting``."
+msgstr ""
+
+#: ../../_sources/Strings/StringsareImmutable.rst:27
+msgid ""
+"Instead of producing the output ``Jello, world!``, this code produces the"
+" runtime error ``TypeError: 'str' object does not support item "
+"assignment``."
+msgstr ""
+
+#: ../../_sources/Strings/StringsareImmutable.rst:30
+msgid ""
+"Strings are **immutable**, which means you cannot change an existing "
+"string. The best you can do is create a new string that is a variation on"
+" the original."
+msgstr ""
+
+#: ../../_sources/Strings/StringsareImmutable.rst:40
+msgid ""
+"The solution here is to concatenate a new first letter onto a slice of "
+"``greeting``. This operation has no effect on the original string."
+msgstr ""
+
+#: ../../_sources/Strings/StringsareImmutable.rst:43
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Strings/StringsareImmutable.rst:54
+msgid "strings-9-1: What is printed by the following statements:"
+msgstr ""
+

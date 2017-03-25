@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Lists/Exercises.rst:11
+msgid "Exercises"
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:20
+msgid ""
+"Draw a reference diagram for ``a`` and ``b`` before and after the third "
+"line of the following python code is executed:"
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:31
+msgid ""
+"Your diagram should show two variables referring to two different lists."
+"  ``a`` refers to the original list with 1,2, and 3. ``b`` refers to a "
+"list with 5,2, and 3 since the zero-eth element was replaced with 5."
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:43
+msgid ""
+"Create a list called ``myList`` with the following six items: 76, 92.3, "
+"\"hello\", True, 4, 76.  Do it with both append and with concatenation, "
+"one item at a time."
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:54
+msgid ""
+"Starting with the list in Exercise 2, write Python statements to do the "
+"following:"
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:56
+msgid "Append \"apple\" and 76 to the list."
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:57
+msgid "Insert the value \"cat\" at position 3."
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:58
+msgid "Insert the value 99 at the start of the list."
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:59
+msgid "Find the index of \"hello\"."
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:60
+msgid "Count the number of 76s in the list."
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:61
+msgid "Remove the first occurrence of 76 from the list."
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:62
+msgid "Remove True from the list using ``pop`` and ``index``."
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:94
+msgid ""
+"Create a list containing 100 random integers between 0 and 1000 (use "
+"iteration, append, and the random module).  Write a function called "
+"``average`` that will take the list as a parameter and return the "
+"average."
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:104
+msgid ""
+"Write a Python function that will take a the list of 100 random integers "
+"between 0 and 1000 and return the maximum value.  (Note: there is a "
+"builtin function named ``max`` but pretend you cannot use it.)"
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:137
+msgid ""
+"Write a function ``sum_of_squares(xs)`` that computes the sum of the "
+"squares of the numbers in the list ``xs``.  For example, "
+"``sum_of_squares([2, 3, 4])`` should return 4+9+16 which is 29:"
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:164
+msgid "Write a function to count how many odd numbers are in a list."
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:215
+msgid "Sum up all the even numbers in a list."
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:241
+msgid "Sum up all the negative numbers in a list."
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:291
+msgid "Count how many words in a list have length 5."
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:304
+msgid ""
+"Sum all the elements in a list up to but not including the first even "
+"number."
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:353
+msgid ""
+"Count how many words occur in a list up to and including the first "
+"occurrence of the word \"sam\"."
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:368
+msgid ""
+"Although Python provides us with many list methods, it is good practice "
+"and very instructive to think about how they are implemented.  Implement "
+"a Python function that works like the following:"
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:370
+msgid "count"
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:371
+msgid "in"
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:372
+msgid "reverse"
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:373
+msgid "index"
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:374
+msgid "insert"
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:432
+msgid ""
+"Write a function ``replace(s, old, new)`` that replaces all occurences of"
+" ``old`` with ``new`` in a string ``s``::"
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:444
+msgid "*Hint*: use the ``split`` and ``join`` methods."
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:471
+msgid ""
+"Here are the rules for an L-system that creates something that resembles "
+"a common garden herb.  Implement the following rules and try it.  Use an "
+"angle of 25.7 degrees."
+msgstr ""
+
+#: ../../_sources/Lists/Exercises.rst:564
+msgid "Here is another L-System.  Use an Angle of 25."
+msgstr ""
+

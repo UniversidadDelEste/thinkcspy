@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:15
+msgid "Converting an Integer to a String in Any Base"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:17
+msgid ""
+"Suppose you want to convert an integer to a string in some base between "
+"binary and hexadecimal. For example, convert the integer 10 to its string"
+" representation in decimal as ``\"10\"``, or to its string representation"
+" in binary as ``\"1010\"``. While there are many approaches one can take "
+"to solve this problem, the recursive formulation of the problem is very "
+"elegant."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:25
+msgid ""
+"Let’s look at a concrete example using base 10 and the number 769. "
+"Suppose we have a sequence of characters corresponding to the first 10 "
+"digits, like ``convString = \"0123456789\"``. It is easy to convert a "
+"number less than 10 to its string equivalent by looking it up in the "
+"sequence. For example, if the number is 9, then the string is "
+"``convString[9]`` or ``\"9\"``. If we can arrange to break up the number "
+"769 into three single-digit numbers, 7, 6, and 9, then converting it to a"
+" string is simple. A number less than 10 sounds like a good base case."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:34
+msgid ""
+"Knowing what our base is suggests that the overall algorithm will involve"
+" three components:"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:37
+msgid "Reduce the original number to a series of single-digit numbers."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:39
+msgid "Convert the single digit-number to a string using a lookup."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:41
+msgid "Concatenate the single-digit strings together to form the final result."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:44
+msgid ""
+"The next step is to figure out how to change state and make progress "
+"toward the base case. Since we are working with an integer, let’s "
+"consider what mathematical operations might reduce a number. The most "
+"likely candidates are division and subtraction. While subtraction might "
+"work, it is unclear what we should subtract from what. Integer division "
+"with remainders gives us a clear direction. Let’s look at what happens if"
+" we divide a number by the base we are trying to convert to."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:52
+msgid ""
+"Using integer division to divide 769 by 10, we get 76 with a remainder of"
+" 9. This gives us two good results. First, the remainder is a number less"
+" than our base that can be converted to a string immediately by lookup. "
+"Second, we get a number that is smaller than our original and moves us "
+"toward the base case of having a single number less than our base. Now "
+"our job is to convert 76 to its string representation. Again we will use "
+"integer division plus remainder to get results of 7 and 6 respectively. "
+"Finally, we have reduced the problem to converting 7, which we can do "
+"easily since it satisfies the base case condition of :math:`n < base`, "
+"where :math:`base = 10`. The series of operations we have just performed "
+"is illustrated in :ref:`Figure 3 <fig_tostr>`. Notice that the numbers we"
+" want to remember are in the remainder boxes along the right side of the "
+"diagram."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:72
+msgid "Figure 3: Converting an Integer to a String in Base 10"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:74
+msgid ""
+"The activecode below shows the Python code that implements the algorithm "
+"outlined above for any base between 2 and 16."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:90
+msgid ""
+"Notice that in line 3 we check for the base case where ``n`` is less than"
+" the base we are converting to. When we detect the base case, we stop "
+"recursing and simply return the string from the ``convertString`` "
+"sequence. In line 6 we satisfy both the second and third laws–by making "
+"the recursive call and by reducing the problem size–using division."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:97
+msgid ""
+"Let’s trace the algorithm again; this time we will convert the number 10 "
+"to its base 2 string representation (``\"1010\"``)."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:106
+msgid "Figure 4: Converting the Number 10 to its Base 2 String Representation"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:108
+msgid ""
+":ref:`Figure 4 <fig_tostr2>` shows that we get the results we are looking"
+" for, but it looks like the digits are in the wrong order. The algorithm "
+"works correctly because we make the recursive call first on line 6, then "
+"we add the string representation of the remainder. If we reversed "
+"returning the ``convertString`` lookup and returning the ``toStr`` call, "
+"the resulting string would be backward! But by delaying the concatenation"
+" operation until after the recursive call has returned, we get the result"
+" in the proper order."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:117
+msgid "Self Check"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:119
+msgid ""
+"Write a function that takes a string as a parameter and returns a new "
+"string that is the reverse of the old string."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:132
+msgid ""
+"Write a function that takes a string as a parameter and returns True if "
+"the string is a palindrome, False otherwise.  Remember that a string is a"
+" palindrome if it is spelled the same both forward and backward.  for "
+"example:  radar is a palindrome.  for bonus points palindromes can also "
+"be phrases, but you need to remove the spaces and punctuation before "
+"checking.  for example:  madam i'm adam  is a palindrome.  Other fun "
+"palindromes include:"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:134
+msgid "kayak"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:135
+msgid "aibohphobia"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:136
+msgid "Live not on evil"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:137
+msgid "Reviled did I live, said I, as evil I did deliver"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:138
+msgid "Go hang a salami; I'm a lasagna hog."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:139
+msgid "Able was I ere I saw Elba"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:140
+msgid "Kanakanak --  a town in Alaska"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:141
+msgid "Wassamassaw -- a town in South Dakota"
+msgstr ""
+

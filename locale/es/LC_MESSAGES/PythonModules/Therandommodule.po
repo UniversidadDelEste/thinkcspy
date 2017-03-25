@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/PythonModules/Therandommodule.rst:15
+msgid "The `random` module"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:17
+msgid ""
+"We often want to use **random numbers** in programs.  Here are a few "
+"typical uses:"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:19
+msgid ""
+"To play a game of chance where the computer needs to throw some dice, "
+"pick a number, or flip a coin,"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:20
+msgid "To shuffle a deck of playing cards randomly,"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:21
+msgid "To randomly allow a new enemy spaceship to appear and shoot at you,"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:22
+msgid ""
+"To simulate possible rainfall when we make a computerized model for "
+"estimating the environmental impact of building a dam,"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:24
+msgid "For encrypting your banking session on the Internet."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:26
+msgid ""
+"Python provides a module ``random`` that helps with tasks like this.  You"
+" can take a look at it in the documentation.  Here are the key things we "
+"can do with it."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:39
+msgid ""
+"Press the run button a number of times.  Note that the values change each"
+" time.  These are random numbers."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:41
+msgid ""
+"The ``randrange`` function generates an integer between its lower and "
+"upper argument, using the same semantics as ``range`` --- so the lower "
+"bound is included, but the upper bound is excluded.   All the values have"
+" an equal probability of occurring (i.e. the results are *uniformly* "
+"distributed)."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:46
+msgid ""
+"The ``random()`` function returns a floating point number in the range "
+"[0.0, 1.0) --- the square bracket means \"closed interval on the left\" "
+"and the round parenthesis means \"open interval on the right\".  In other"
+" words, 0.0 is possible, but all returned numbers will be strictly less "
+"than 1.0.  It is usual to *scale* the results after calling this method, "
+"to get them into a range suitable for your application."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:52
+msgid ""
+"In the case shown here, we've converted the result of the method call to "
+"a number in the range [0.0, 5.0).  Once more, these are uniformly "
+"distributed numbers --- numbers close to 0 are just as likely to occur as"
+" numbers close to 0.5, or numbers close to 1.0. If you continue to press "
+"the run button you will see random values between 0.0 and up to but not "
+"including 5.0."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:73
+msgid ""
+"It is important to note that random number generators are based on a "
+"**deterministic** algorithm --- repeatable and predictable. So they're "
+"called **pseudo-random** generators --- they are not genuinely random. "
+"They start with a *seed* value. Each time you ask for another random "
+"number, you'll get one based on the current seed attribute, and the state"
+" of the seed (which is one of the attributes of the generator) will be "
+"updated.  The good news is that each time you run your program, the seed "
+"value is likely to be different meaning that even though the random "
+"numbers are being created algorithmically, you will likely get random "
+"behavior each time you execute."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:83
+msgid "Lab"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:85
+msgid ""
+"`Sine Wave <../Labs/sinlab.html>`_ In this guided lab exercise we will "
+"have the turtle plot a sine wave."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:87
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:100
+msgid ""
+"modules-4-1: Which of the following is the correct way to reference the "
+"value pi within the math module.   Assume you have already imported the "
+"math module."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:113
+msgid ""
+"modules-4-2: Which module would you most likely use if you were writing a"
+" function to simulate rolling dice?"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:127
+msgid ""
+"modules-4-3: The correct code to generate a random number between 1 and "
+"100 (inclusive) is:"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:140
+msgid ""
+"modules-4-4: One reason that lotteries don't use computers to generate "
+"random numbers is:"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:145
+msgid ""
+"This workspace is provided for your convenience.  You can use this "
+"activecode window to try out anything you like."
+msgstr ""
+

@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Debugging/BeginningtipsforDebugging.rst:15
+msgid "Beginning tips for Debugging"
+msgstr ""
+
+#: ../../_sources/Debugging/BeginningtipsforDebugging.rst:17
+msgid ""
+"Debugging a program is a different way of thinking than writing a "
+"program.  The process of debugging is much more like being a detective.  "
+"Here are a few rules to get you thinking about debugging."
+msgstr ""
+
+#: ../../_sources/Debugging/BeginningtipsforDebugging.rst:19
+msgid ""
+"Everyone is a suspect (Except Python)!  It's common for beginner "
+"programmers to blame Python, but that should be your last resort.  "
+"Remember that Python has been used to solve CS1 level problems millions "
+"of times by millions of other programmers.  So, Python is probably not "
+"the problem."
+msgstr ""
+
+#: ../../_sources/Debugging/BeginningtipsforDebugging.rst:21
+msgid ""
+"Find clues.  This is the biggest job of the detective and right now there"
+" are two important kinds of clues for you to understand."
+msgstr ""
+
+#: ../../_sources/Debugging/BeginningtipsforDebugging.rst:23
+msgid "Error Messages"
+msgstr ""
+
+#: ../../_sources/Debugging/BeginningtipsforDebugging.rst:25
+msgid "Print Statements"
+msgstr ""
+

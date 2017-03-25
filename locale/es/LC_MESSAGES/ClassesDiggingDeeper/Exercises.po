@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/ClassesDiggingDeeper/Exercises.rst:11
+msgid "Exercises"
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Exercises.rst:19
+msgid ""
+"We can represent a rectangle by knowing three things: the location of its"
+" lower left corner, its width, and its height. Create a class definition "
+"for a Rectangle class using this idea.  To create a Rectangle object at "
+"location (4,5) with width 6 and height 5, we would do the following::"
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Exercises.rst:74
+msgid ""
+"Add the following accessor methods to the Rectangle class: ``getWidth``, "
+"``getHeight``, ``__str__``."
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Exercises.rst:87
+msgid ""
+"Add a method ``area`` to the Rectangle class that returns the area of any"
+" instance::"
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Exercises.rst:139
+msgid ""
+"Write a ``perimeter`` method in the Rectangle class so that we can find "
+"the perimeter of any rectangle instance::"
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Exercises.rst:154
+msgid ""
+"Write a ``transpose`` method in the Rectangle class that swaps the width "
+"and the height of any rectangle instance::"
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Exercises.rst:212
+msgid ""
+"Write a new method in the Rectangle class to test if a Point falls within"
+" the rectangle.  For this exercise, assume that a rectangle at (0,0) with"
+" width 10 and height 5 has *open* upper bounds on the width and height, "
+"i.e. it stretches in the x direction from [0 to 10), where 0 is included "
+"but 10 is excluded, and from [0 to 5) in the y direction.  So it does not"
+" contain the point (10, 2).  These tests should pass::"
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Exercises.rst:236
+msgid ""
+"Write a new method called ``diagonal`` that will return the length of the"
+" diagonal that runs from the lower left corner to the opposite corner."
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Exercises.rst:286
+msgid ""
+"In games, we often put a rectangular \"bounding box\" around our sprites "
+"in the game.  We can then do *collision detection* between, say, bombs "
+"and spaceships, by comparing whether their rectangles overlap anywhere."
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Exercises.rst:290
+msgid ""
+"Write a function to determine whether two rectangles collide. *Hint: this"
+" might be quite a tough exercise!  Think carefully about all the cases "
+"before you code.*"
+msgstr ""
+

@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Functions/FlowofExecutionSummary.rst:15
+msgid "Flow of Execution Summary"
+msgstr ""
+
+#: ../../_sources/Functions/FlowofExecutionSummary.rst:17
+msgid ""
+"When you are working with functions it is really important to know the "
+"order in which statements are executed. This is called the **flow of "
+"execution** and we've already talked about it a number of times in this "
+"chapter."
+msgstr ""
+
+#: ../../_sources/Functions/FlowofExecutionSummary.rst:22
+msgid ""
+"Execution always begins at the first statement of the program.  "
+"Statements are executed one at a time, in order, from top to bottom. "
+"Function definitions do not alter the flow of execution of the program, "
+"but remember that statements inside the function are not executed until "
+"the function is called. Function calls are like a detour in the flow of "
+"execution. Instead of going to the next statement, the flow jumps to the "
+"first line of the called function, executes all the statements there, and"
+" then comes back to pick up where it left off."
+msgstr ""
+
+#: ../../_sources/Functions/FlowofExecutionSummary.rst:32
+msgid ""
+"That sounds simple enough, until you remember that one function can call "
+"another. While in the middle of one function, the program might have to "
+"execute the statements in another function. But while executing that new "
+"function, the program might have to execute yet another function!"
+msgstr ""
+
+#: ../../_sources/Functions/FlowofExecutionSummary.rst:37
+msgid ""
+"Fortunately, Python is adept at keeping track of where it is, so each "
+"time a function completes, the program picks up where it left off in the "
+"function that called it. When it gets to the end of the program, it "
+"terminates."
+msgstr ""
+
+#: ../../_sources/Functions/FlowofExecutionSummary.rst:41
+msgid ""
+"What's the moral of this sordid tale? When you read a program, don't read"
+" from top to bottom. Instead, follow the flow of execution.  This means "
+"that you will read the def statements as you are scanning from top to "
+"bottom, but you should skip the body of the function until you reach a "
+"point where that function is called."
+msgstr ""
+
+#: ../../_sources/Functions/FlowofExecutionSummary.rst:61
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Functions/FlowofExecutionSummary.rst:76
+msgid ""
+"func-6-1: Consider the following Python code. Note that line numbers are "
+"included on the left."
+msgstr ""
+
+#: ../../_sources/Functions/FlowofExecutionSummary.rst:93
+msgid ""
+"Which of the following best reflects the order in which these lines of "
+"code are processed in Python?"
+msgstr ""
+
+#: ../../_sources/Functions/FlowofExecutionSummary.rst:106
+msgid ""
+"func-6-2: Consider the following Python code. Note that line numbers are "
+"included on the left."
+msgstr ""
+
+#: ../../_sources/Functions/FlowofExecutionSummary.rst:123
+msgid "What does this function print?"
+msgstr ""
+

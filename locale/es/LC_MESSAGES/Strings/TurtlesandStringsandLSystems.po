@@ -1,0 +1,286 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:15
+msgid "Turtles and Strings and L-Systems"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:17
+msgid ""
+"This section describes a much more interested example of string iteration"
+" and the accumulator pattern.  Even though it seems like we are doing "
+"something that is much more complex, the basic processing is the same as "
+"was shown in the previous sections."
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:19
+msgid ""
+"In 1968 Astrid Lindenmayer, a biologist, invented a formal system that "
+"provides a mathematical description of plant growth known as an "
+"**L-system**.  L-systems were designed to model the growth of biological "
+"systems.  You can think of L-systems as containing the instructions for "
+"how a single cell can grow into a complex organism.  L-systems can be "
+"used to specify the **rules** for all kinds of interesting patterns.  In "
+"our case, we are going to use them to specify the rules for drawing "
+"pictures."
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:26
+msgid ""
+"The rules of an L-system are really a set of instructions for "
+"transforming one string into a new string.  After a number of these "
+"string transformations are complete, the string contains a set of "
+"instructions.  Our plan is to let these instructions direct a turtle as "
+"it draws a picture."
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:31
+msgid "To begin, we will look at an example set of rules:"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:34
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:113
+msgid "A"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:34
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:113
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:124
+msgid "Axiom"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:35
+msgid "A -> B"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:35
+msgid "Rule 1 Change A to B"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:36
+msgid "B -> AB"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:36
+msgid "Rule 2 Change B to AB"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:39
+msgid ""
+"Each rule set contains an axiom which represents the starting point in "
+"the transformations that will follow.  The rules are of the form::"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:43
+msgid ""
+"where the left hand side is a single symbol and the right had side is a "
+"sequence of symbols.  You can think of both sides as being simple "
+"strings. The way the rules are used is to replace occurrences of the left"
+" hand side with the corresponding right hand side."
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:46
+msgid ""
+"Now let's look at these simple rules in action, starting with the string "
+"A::"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:54
+msgid ""
+"Notice that each line represents a new transformation for entire string."
+"  Each character that matches a left-hand side of a rule in the original "
+"has been replaced by the corresponding right-hand side of that same rule."
+"  After doing the replacement for each character in the original, we have"
+" one transformation."
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:57
+msgid ""
+"So how would we encode these rules in a Python program?  There are a "
+"couple of very important things to note here:"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:60
+msgid "Rules are very much like if statements."
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:61
+msgid ""
+"We are going to start with a string and iterate over each of its "
+"characters."
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:62
+msgid ""
+"As we apply the rules to one string we leave that string alone and create"
+" a brand new string using the accumulator pattern.  When we are all done "
+"with the original we replace it with the new string."
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:66
+msgid ""
+"Let's look at a simple Python program that implements the example set of "
+"rules described above."
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:102
+msgid ""
+"Try running the example above with different values for the ``numIters`` "
+"parameter.  You should see that for values 1, 2, 3, and 4, the strings "
+"generated follow the example above exactly."
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:106
+msgid ""
+"One of the nice things about the program above is that if you want to "
+"implement a different set of rules, you don't need to re-write the entire"
+" program. All you need to do is re-write the applyRules function."
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:110
+msgid "Suppose you had the following rules:"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:114
+msgid "A -> BAB"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:114
+msgid "Rule 1 Change A to BAB"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:117
+msgid ""
+"What kind of a string would these rules create?  Modify the program above"
+" to implement the rule."
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:120
+msgid ""
+"Now let's look at a real L-system that implements a famous drawing.  This"
+" L-system has just two rules:"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:124
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:131
+msgid "F"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:125
+msgid "F -> F-F++F-F"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:125
+msgid "Rule 1"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:128
+msgid ""
+"This L-system uses symbols that will have special meaning when we use "
+"them later with the turtle to draw a picture."
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:131
+msgid "Go forward by some number of units"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:132
+msgid "B"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:132
+msgid "Go backward by some number of units"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:133
+msgid "\\-"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:133
+msgid "Turn left by some degrees"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:134
+msgid "\\+"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:134
+msgid "Turn right by some degrees"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:137
+msgid "Here is the ``applyRules`` function for this L-system."
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:150
+msgid ""
+"Pretty simple so far.  As you can imagine this string will get pretty "
+"long with a few applications of the rules.  You might try to expand the "
+"string a couple of times on your own just to see."
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:154
+msgid ""
+"The last step is to take the final string and turn it into a picture.  "
+"Let's assume that we are always going to go forward or backward by 5 "
+"units.  In addition we will also assume that when the turtle turns left "
+"or right we'll turn by 60 degrees.  Now look at the string ``F-F++F-F``."
+"  You might try to use the explanation above to show the resulting "
+"picture that this simple string represents.  At this point its not a very"
+" exciting drawing, but once we expand it a few times it will get a lot "
+"more interesting."
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:161
+msgid ""
+"To create a Python function to draw a string we will write a function "
+"called ``drawLsystem``  The function will take four parameters:"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:164
+msgid "A turtle to do the drawing"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:165
+msgid "An expanded string that contains the results of expanding the rules above."
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:166
+msgid "An angle to turn"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:167
+msgid "A distance to move forward or backward"
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:182
+msgid ""
+"Here is the complete program in activecode.  The ``main`` function first "
+"creates the L-system string and then it creates a turtle and passes it "
+"and the string to the drawing function."
+msgstr ""
+
+#: ../../_sources/Strings/TurtlesandStringsandLSystems.rst:242
+msgid ""
+"Feel free to try some different angles and segment lengths to see how the"
+" drawing changes."
+msgstr ""
+

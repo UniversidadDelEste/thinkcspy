@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/index.rst:3
+msgid "An interactive version of the How to Think Like a Computer Scientist book"
+msgstr ""
+
+#: ../../_sources/index.rst:3
+msgid "python, introduction, computer science"
+msgstr ""
+
+#: ../../_sources/index.rst:31
+msgid ""
+"This interactive book is a product of the `Runestone Interactive "
+"<http://runestoneinteractive.org>`_ Project at Luther College, led by "
+"`Brad Miller <http://reputablejournal.com>`_ and David Ranum.  There have"
+" been many contributors to the project.  Our thanks especially to the "
+"following:"
+msgstr ""
+
+#: ../../_sources/index.rst:33
+msgid ""
+"This book is based on the `Original work "
+"<http://www.openbookproject.net/thinkcs/python/english2e/>`_ by:  Jeffrey"
+" Elkner, Allen B. Downey, and Chris Meyers"
+msgstr ""
+
+#: ../../_sources/index.rst:34
+msgid "Activecode based on `Skulpt <http://skulpt.org>`_"
+msgstr ""
+
+#: ../../_sources/index.rst:35
+msgid "Codelens based on `Online Python Tutor <http://www.pythontutor.com>`_"
+msgstr ""
+
+#: ../../_sources/index.rst:36
+msgid ""
+"Many contributions from the `CSLearning4U research group "
+"<http://home.cc.gatech.edu/csl/CSLearning4U>`_ at Georgia Tech."
+msgstr ""
+
+#: ../../_sources/index.rst:37
+msgid ""
+"ACM-SIGCSE for the special projects grant that funded our student Isaac "
+"Dontje Lindell for the summer of 2013."
+msgstr ""
+
+#: ../../_sources/index.rst:38
+msgid "NSF"
+msgstr ""
+
+#: ../../_sources/index.rst:40
+msgid ""
+"The Runestone Interactive tools are open source and we encourage you to "
+"contact us, or grab a copy from GitHub if you would like to use them to "
+"write your own resources."
+msgstr ""
+
+#: ../../_sources/index.rst:46
+msgid "Table of Contents"
+msgstr ""
+
+#: ../../_sources/index.rst:77 ../../_sources/index.rst:79
+msgid "Labs"
+msgstr ""
+
+#: ../../_sources/index.rst:95 ../../_sources/index.rst:97
+msgid "Appendices"
+msgstr ""
+
+#: ../../_sources/index.rst:105 ../../_sources/index.rst:107
+msgid "Acknowledgements"
+msgstr ""
+
+#: ../../_sources/index.rst:120
+msgid "Indices and tables"
+msgstr ""
+
+#: ../../_sources/index.rst:122
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../_sources/index.rst:123
+msgid ":ref:`modindex`"
+msgstr ""
+
+#: ../../_sources/index.rst:124
+msgid ":ref:`search`"
+msgstr ""
+

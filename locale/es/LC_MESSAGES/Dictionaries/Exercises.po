@@ -1,0 +1,281 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Dictionaries/Exercises.rst:11
+msgid "Exercises"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:19
+msgid ""
+"Write a program that allows the user to enter a string.  It then prints a"
+" table of the letters of the alphabet in alphabetical order which occur "
+"in the string together with the number of times each letter occurs. Case "
+"should be ignored. A sample run of the program might look this this::"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:76
+msgid ""
+"Give the Python interpreter's response to each of the following from a "
+"continuous interpreter session:"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:120
+msgid ""
+"Be sure you understand why you get each result. Then apply what you have "
+"learned to fill in the body of the function below:"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:142
+msgid ""
+"Write a program called ``alice_words.py`` that creates a text file named "
+"``alice_words.txt`` containing an alphabetical listing of all the words, "
+"and the number of times each occurs, in the text version of `Alice's "
+"Adventures in Wonderland`. (You can obtain a free plain text version of "
+"the book, along with many others, from http://www.gutenberg.org.) The "
+"first 10 lines of your output file should look something like this"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:150
+msgid "Word"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:150
+msgid "Count"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:152
+msgid "a"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:152
+msgid "631"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:153
+msgid "a-piece"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:153
+#: ../../_sources/Dictionaries/Exercises.rst:154
+#: ../../_sources/Dictionaries/Exercises.rst:155
+#: ../../_sources/Dictionaries/Exercises.rst:158
+msgid "1"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:154
+msgid "abide"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:155
+msgid "able"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:156
+msgid "about"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:156
+msgid "94"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:157
+msgid "above"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:157
+msgid "3"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:158
+msgid "absence"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:159
+msgid "absurd"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:159
+msgid "2"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:162
+msgid ""
+"How many times does the word, ``alice``, occur in the book?  If you are "
+"writing this in the activecode window simply print out the results rather"
+" than write them to a file."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:215
+msgid ""
+"What is the longest word in Alice in Wonderland? How many characters does"
+" it have?"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:225
+msgid "Here's a table of English to Pirate translations"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:228
+msgid "English"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:228
+msgid "Pirate"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:230
+msgid "sir"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:230
+#: ../../_sources/Dictionaries/Exercises.rst:233
+#: ../../_sources/Dictionaries/Exercises.rst:247
+msgid "matey"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:231
+msgid "hotel"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:231
+msgid "fleabag inn"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:232
+msgid "student"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:232
+msgid "swabbie"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:233
+msgid "boy"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:234
+msgid "madam"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:234
+msgid "proud beauty"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:235
+msgid "professor"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:235
+#: ../../_sources/Dictionaries/Exercises.rst:241
+msgid "foul blaggart"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:236
+msgid "restaurant"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:236
+msgid "galley"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:237
+msgid "your"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:237
+msgid "yer"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:238
+msgid "excuse"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:238
+msgid "arr"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:239
+msgid "students"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:239
+msgid "swabbies"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:240
+msgid "are"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:240
+#: ../../_sources/Dictionaries/Exercises.rst:246
+msgid "be"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:241
+msgid "lawyer"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:242
+msgid "the"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:242
+msgid "th'"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:243
+msgid "restroom"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:243
+msgid "head"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:244
+msgid "my"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:244
+msgid "me"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:245
+msgid "hello"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:245
+msgid "avast"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:246
+msgid "is"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:247
+msgid "man"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Exercises.rst:250
+msgid ""
+"Write a program that asks the user for a sentence in English and then "
+"translates that sentence to Pirate."
+msgstr ""
+

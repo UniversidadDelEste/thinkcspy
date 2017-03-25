@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/PythonTurtle/AFewMoreturtleMethodsandObservations.rst:15
+msgid "A Few More turtle Methods and Observations"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/AFewMoreturtleMethodsandObservations.rst:17
+msgid ""
+"Here are a few more things that you might find useful as you write "
+"programs that use turtles."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/AFewMoreturtleMethodsandObservations.rst:19
+msgid ""
+"Turtle methods can use negative angles or distances.  So "
+"``tess.forward(-100)`` will move tess backwards, and ``tess.left(-30)`` "
+"turns her to the right. Additionally, because there are 360 degrees in a "
+"circle, turning 30 to the left will leave you facing in the same "
+"direction as turning 330 to the right! (The on-screen animation will "
+"differ, though --- you will be able to tell if tess is turning clockwise "
+"or counter-clockwise!)"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/AFewMoreturtleMethodsandObservations.rst:26
+msgid ""
+"This suggests that we don't need both a left and a right turn method --- "
+"we could be minimalists, and just have one method.  There is also a "
+"*backward* method.  (If you are very nerdy, you might enjoy saying "
+"``alex.backward(-100)`` to move alex forward!)"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/AFewMoreturtleMethodsandObservations.rst:31
+msgid ""
+"Part of *thinking like a scientist* is to understand more of the "
+"structure and rich relationships in your field.  So revising a few basic "
+"facts about geometry and number lines, like we've done here is a good "
+"start if we're going to play with turtles."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/AFewMoreturtleMethodsandObservations.rst:36
+msgid ""
+"A turtle's pen can be picked up or put down.  This allows us to move a "
+"turtle to a different place without drawing a line.   The methods are "
+"``up`` and ``down``.  Note that the methods ``penup`` and ``pendown`` do "
+"the same thing."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/AFewMoreturtleMethodsandObservations.rst:46
+msgid ""
+"Every turtle can have its own shape.  The ones available \"out of the "
+"box\" are ``arrow``, ``blank``, ``circle``, ``classic``, ``square``, "
+"``triangle``, ``turtle``."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/AFewMoreturtleMethodsandObservations.rst:57
+msgid ""
+"You can speed up or slow down the turtle's animation speed. (Animation "
+"controls how quickly the turtle turns and moves forward).  Speed settings"
+" can be set between 1 (slowest) to 10 (fastest).  But if you set the "
+"speed to 0, it has a special meaning --- turn off animation and go as "
+"fast as possible."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/AFewMoreturtleMethodsandObservations.rst:66
+msgid ""
+"A turtle can \"stamp\" its footprint onto the canvas, and this will "
+"remain after the turtle has moved somewhere else.  Stamping works even "
+"when the pen is up."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/AFewMoreturtleMethodsandObservations.rst:70
+msgid "Let's do an example that shows off some of these new features."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/AFewMoreturtleMethodsandObservations.rst:91
+msgid ""
+"The list of integers shown above is created by printing the "
+"``range(5,60,2)`` result.  It is only done to show you the distances "
+"being used to move the turtle forward.  The actual use appears as part of"
+" the ``for`` loop."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/AFewMoreturtleMethodsandObservations.rst:95
+msgid ""
+"One more thing to be careful about.  All except one of the shapes you see"
+" on the screen here are footprints created by ``stamp``.  But the program"
+" still only has *one* turtle instance --- can you figure out which one is"
+" the real tess?  (Hint: if you're not sure, write a new line of code "
+"after the ``for`` loop to change tess' color, or to put her pen down and "
+"draw a line, or to change her shape, etc.)"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/AFewMoreturtleMethodsandObservations.rst:101
+#: ../../_sources/PythonTurtle/AFewMoreturtleMethodsandObservations.rst:125
+msgid "**Mixed up program**"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/AFewMoreturtleMethodsandObservations.rst:148
+msgid "Lab"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/AFewMoreturtleMethodsandObservations.rst:150
+msgid ""
+"`Turtle Race <../Labs/lab03_01.html>`_ In this guided lab exercise we "
+"will work through a simple problem solving exercise related to having "
+"some turtles race."
+msgstr ""
+

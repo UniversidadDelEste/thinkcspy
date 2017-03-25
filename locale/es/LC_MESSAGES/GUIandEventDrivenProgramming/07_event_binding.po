@@ -1,0 +1,558 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:15
+msgid "Low-Level Event Processing"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:17
+msgid ""
+"In the previous lessons you learned how to associate simple user actions "
+"with the most common user events, such as clicking on a button. For "
+"simple GUI programs this is typically sufficient. But for more complex "
+"programs you might need to process \"lower level\" events, such as "
+"recognizing when the user's cursor is over a widget, or when a widget "
+"becomes the focus of user input. To handle these types of events you need"
+" to implement **event binding**. This lesson provides an overview of how "
+"to process any event that happens on a computer. We will not use these "
+"techniques in most of the simple GUI programs we discuss, but you should "
+"be aware of what is possible."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:30
+msgid "Focus"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:32
+msgid ""
+"Remember from our previous discussion that the operating system is in "
+"control of your computer's screen, keyboard, mouse, and other input "
+"devices. When the user interacts with these input devices the operating "
+"system generates ``event objects`` that capture specific event "
+"information. Your computer is running multiple processes at any given "
+"time, so how does the computer know which process to send an event to? "
+"All GUI operating systems have the concept of an \"active window.\" Only "
+"the \"active window\" receives events. We say that the \"active window\" "
+"has the **focus** of the user. Typically the application whose window is "
+"in front of all other windows on the computer screen has the operating "
+"system's **focus**. Only the process with the **focus** receives user "
+"events; the other running applications do **not** receive user events."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:45
+msgid ""
+"The concept of **focus** goes further than the applications running on a "
+"computer. Inside an application, only one widget at a time can have the "
+"**focus** of the user. The widget with the **focus** is the widget that "
+"receives keyboard events. For example, suppose you had a GUI interface "
+"that contained two different ``Entry`` widgets. If the user hits an \"a\""
+" key, which widget has an \"a\" added to their existing text? It is the "
+"widget that currently has the **focus**."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:54
+msgid "Event Binding"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:56
+msgid ""
+"When your program has the **focus** it can potentially receive many more "
+"events than it desires to process. For example, you may not care that the"
+" pointing device just moved one pixel to the right. All \"low level\" "
+"user events are ignored by your program unless you specifically request "
+"that a particular type of event be sent to a specific function in your "
+"program. The task of associating a specific ``event handler`` function "
+"with a specific \"low level\" event is called **binding**."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:64
+msgid ""
+"An event is always **bound** to a specific widget. For example, if you "
+"wanted to know when the cursor of a pointing device has moved over a "
+"widget, you would bind an  ``\"<Enter>\"`` event to the widget and "
+"specify a function to call when the event happens. This is done with the "
+"``.bind(event_description, event_handler)`` method of a widget. Once this"
+" bind operation is complete and the application's main event loop has "
+"started, every time a pointing device is moved over the widget, the event"
+" handler will be called."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:72
+msgid "Here is an example of binding an ``\"<Enter>\"`` event to a Button."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:82
+msgid ""
+"It is best practice to \"stub out\" event handlers and verify that events"
+" are being processed correctly before you start developing an "
+"application's actual processing code. Here is an example of a \"stubbed\""
+" out ``event handler``:"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:92
+msgid "Event Descriptors"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:94
+msgid ""
+"An event represents an action that needs to be processed. Events are "
+"caused by a user when they click in a window or type on the keyboard. "
+"Events can also be generated by software, such as a request to redraw the"
+" application's window after changes have been made. In a GUI program, "
+"**all** processing is done by responding to events."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:100
+msgid ""
+"In Tkinter, events are defined as strings using a pre-defined syntax. The"
+" general format of an event description is ``<modifier-type-detail>``, "
+"where the ``modifier`` and ``detail`` portions are optional. For example,"
+" a ``<Button>`` event is generated by any change of state of any mouse "
+"button, while a ``<Shift-Button>`` event will only be generated if the "
+"mouse state changes while the SHIFT key on the keyboard is down. And a "
+"``<Shift-Button-1>`` event will only be generated if the left mouse "
+"button (associated with the number 1) changes state. Below is a list of "
+"the most widely used events along with a brief description of each one. "
+"You can add or remove ``modifier`` and ``detail`` values to make events "
+"more or less specific."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:112
+msgid "Pointer Related Events"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:112
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:130
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:166
+msgid "Description"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:114
+msgid "``\"<ButtonPress-1>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:114
+msgid "The left mouse button was pressed."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:115
+msgid "``\"<ButtonPress-2>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:115
+msgid "The middle mouse button was pressed."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:116
+msgid "``\"<ButtonPress-3>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:116
+msgid "The right mouse button was pressed."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:117
+msgid "``\"<B1-Motion>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:117
+msgid "With the left mouse button held down, the mouse changed location."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:118
+msgid "``\"<B2-Motion>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:118
+msgid "With the middle mouse button held down, the mouse changed location."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:119
+msgid "``\"<B3-Motion>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:119
+msgid "With the right mouse button held down, the mouse changed location."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:120
+msgid "``\"<ButtonRelease-1>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:120
+msgid "The left mouse button was released."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:121
+msgid "``\"<Double-Button-1>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:121
+msgid "The left mouse button was double-clicked."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:122
+msgid "``\"<Enter>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:122
+msgid "The mouse pointer just moved over a particular widget."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:123
+msgid "``\"<Leave>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:123
+msgid "The mouse pointer is no longer over a particular widget."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:124
+msgid "``\"<FocusIn>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:124
+msgid "A widget just received the keyboard focus."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:125
+msgid "``\"<FocusOut>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:125
+msgid "A widget just lost the keyboard focus."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:126
+msgid "``\"<Configure>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:126
+msgid "A widget just changed its size or position."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:130
+msgid "Keyboard Related Events"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:132
+msgid "``\"<Key>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:132
+msgid "The user pressed any key on the keyboard."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:133
+msgid "``\"<Return>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:133
+msgid "The user pressed the Enter key."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:134
+msgid "``\"<Backspace>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:134
+msgid "The user pressed the Backspace key."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:135
+msgid "``\"<Tab>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:135
+msgid "The user pressed the Tab key."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:136
+msgid "``\"<Escape>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:136
+msgid "The user pressed the Escape key."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:137
+msgid "``\"<Prior>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:137
+msgid "The user pressed the Page-up key."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:138
+msgid "``\"<Next>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:138
+msgid "The user pressed the Page-down key."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:139
+msgid "``\"<Up>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:139
+msgid "The user pressed the up arrow key."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:140
+msgid "``\"<Down>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:140
+msgid "The user pressed the down arrow key."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:141
+msgid "``\"<Left>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:141
+msgid "The user pressed the left arrow key."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:142
+msgid "``\"<Right>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:142
+msgid "The user pressed the right arrow key."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:143
+msgid "``\"<F1>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:143
+msgid "The user pressed the F1 key."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:144
+msgid "``\"<F2>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:144
+msgid "The user pressed the F2 key."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:145
+msgid "``\"<a>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:145
+msgid "The user pressed the \"a\" key."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:146
+msgid "``\"<b>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:146
+msgid "The user pressed the \"b\" key."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:147
+msgid "``\"<c>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:147
+msgid "The user pressed the \"c\" key."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:148
+msgid "``\"<Shift-Up>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:148
+msgid "The user pressed the up arrow key while the shift key was down."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:149
+msgid "``\"<Alt-Up>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:149
+msgid "The user pressed the up arrow key while the alt key was down."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:150
+msgid "``\"<Control-Up>\"``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:150
+msgid "The user pressed the up arrow key while the control key was down"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:151
+msgid "etc..."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:155
+msgid "Event Objects"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:157
+msgid ""
+"When a user generates an event, or the software generates an event, an "
+"``event object`` is created. This object is automatically passed to the "
+"function that is registered to handle the event. Every event handler "
+"function that is **bound** to an event using the "
+"``.bind(event_description, function_handler)`` function must be defined "
+"to receive one parameter, an ``event object``."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:163
+msgid "An ``event object`` contains the following attributes."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:166
+msgid "Event Object Attribute"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:168
+msgid "``.widget``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:168
+msgid ""
+"The widget this event was **bound** to. This is a reference to a "
+"``Tkinter`` widget instance; it is not a string name."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:170
+msgid "``.x``, ``.y``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:170
+msgid ""
+"The current mouse position, relative to the application's window, in "
+"pixels."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:171
+msgid "``.x_root``, ``.y_root``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:171
+msgid ""
+"The current mouse position relative to the upper left corner of the "
+"screen, in pixels."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:173
+msgid "``.char``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:173
+msgid ""
+"For keyboard events only, this is the character code of the key pressed "
+"or released as a string."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:175
+msgid "``.keysym``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:175
+msgid "For keyboard events only, the key symbol."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:176
+msgid "``.keycode``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:176
+msgid ""
+"For keyboard events only, the key code (i.e., the key's Unicode decimal "
+"value)."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:178
+msgid "``.num``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:178
+msgid "For mouse button events only, the button number."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:180
+msgid "``.width``, ``.height``"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:180
+msgid "For configure events only, the new size of the widget, in pixels."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:183
+msgid ""
+"A typical event handler will use the values in the ``event object`` it "
+"receives to perform an appropriate action related to the event. For "
+"example,"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:193
+msgid "Event Processing"
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:195
+msgid ""
+"The operating system generates events in the order the user or the "
+"program creates them. An application's GUI event loop receives the events"
+" in this same order and then calls the appropriate event handler. "
+"Therefore, events are processed in the same order they are created."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:200
+msgid ""
+"Events can't be processed unless the application's GUI event-loop is "
+"running. If an individual event handler takes a long time to process an "
+"event, other events will get \"queued up\" waiting for a chance to be "
+"processed. It is considered bad GUI programming for any event handler to "
+"take up too much processing time. An event handler should do as little "
+"processing as possible to accomplish its intended task and then quit. "
+"This returns control of the application back to the event loop."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:208
+msgid ""
+"Events are always associated with a widget. If you want to know every "
+"event that happens inside an application's window, then bind events to "
+"the widget that is your application's window. If you only want to know "
+"about button click events on a particular button, then bind an event "
+"handler to that specific button. In general, events should be associated "
+"with the most specific widget possible."
+msgstr ""
+
+#: ../../_sources/GUIandEventDrivenProgramming/07_event_binding.rst:215
+msgid ""
+"Some widgets, such as a Notebook that implements a tabbed set of frames, "
+"have predefined events that are used to manipulate them. These are called"
+" \"bind_class\" event bindings and they bind certain events to all "
+"instances of a particular widget type. In general you should not modify "
+"or change these types of event bindings because a user expects a certain "
+"behaviour from a particular type of widget and changing that behaviour "
+"can make the entire user interface confusing to a user."
+msgstr ""
+

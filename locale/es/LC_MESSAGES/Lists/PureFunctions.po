@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Lists/PureFunctions.rst:15
+msgid "Pure Functions"
+msgstr ""
+
+#: ../../_sources/Lists/PureFunctions.rst:18
+msgid ""
+"A **pure function** does not produce side effects. It communicates with "
+"the calling program only through parameters (which it does not modify) "
+"and a return value. Here is the ``doubleStuff`` function from the "
+"previous section written as a pure function. To use the pure function "
+"version of ``double_stuff`` to modify ``things``, you would assign the "
+"return value back to ``things``."
+msgstr ""
+
+#: ../../_sources/Lists/PureFunctions.rst:40
+msgid ""
+"Once again, codelens helps us to see the actual references and objects as"
+" they are passed and returned."
+msgstr ""
+

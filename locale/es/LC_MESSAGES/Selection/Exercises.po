@@ -1,0 +1,270 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Selection/Exercises.rst:11
+msgid "Exercises"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:20
+msgid "What do these expressions evaluate to?"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:22
+msgid "``3 == 3``"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:23
+msgid "``3 != 3``"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:24
+msgid "``3 >= 4``"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:25
+msgid "``not (3 < 4)``"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:32
+msgid "True"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:33
+#: ../../_sources/Selection/Exercises.rst:34
+#: ../../_sources/Selection/Exercises.rst:35
+msgid "False"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:46
+msgid ""
+"Give the **logical opposites** of these conditions.  You are not allowed "
+"to use the ``not`` operator."
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:48
+msgid "``a > b``"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:49
+msgid "``a >= b``"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:50
+msgid "``a >= 18  and  day == 3``"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:51
+msgid "``a >= 18  or  day != 3``"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:61
+msgid ""
+"Write a function which is given an exam mark, and it returns a string ---"
+" the grade for that mark --- according to this scheme:"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:67
+msgid "Mark"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:67
+msgid "Grade"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:69
+msgid ">= 90"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:69
+msgid "A"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:70
+msgid "[80-90)"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:70
+msgid "B"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:71
+msgid "[70-80)"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:71
+msgid "C"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:72
+msgid "[60-70)"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:72
+msgid "D"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:73
+msgid "< 60"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:73
+msgid "F"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:76
+msgid ""
+"The square and round brackets denote closed and open intervals. A closed "
+"interval includes the number, and open interval excludes it.   So "
+"79.99999 gets grade C , but 80 gets grade B."
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:79
+msgid ""
+"Test your function by printing the mark and the grade for a number of "
+"different marks."
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:133
+msgid ""
+"Modify the turtle bar chart program from the previous chapter so that the"
+" bar for any value of 200 or more is filled with red, values between [100"
+" and 200) are filled yellow, and bars representing values less than 100 "
+"are filled green."
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:146
+msgid ""
+"In the turtle bar chart program, what do you expect to happen if one or "
+"more of the data values in the list is negative?   Go back and try it "
+"out.  Change the program so that when it prints the text value for the "
+"negative bars, it puts the text above the base of the bar (on the 0 "
+"axis)."
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:215
+msgid ""
+"Write a function ``findHypot``.  The function will be given the length of"
+" two sides of a right-angled triangle and it should return the length of "
+"the hypotenuse.  (Hint:  ``x ** 0.5`` will return the square root, or use"
+" ``sqrt`` from the math module)"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:243
+msgid ""
+"Write a function called ``is_even(n)`` that takes an integer as an "
+"argument and returns ``True`` if the argument is an **even number** and "
+"``False`` if it is **odd**."
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:293
+msgid ""
+"Now write the function ``is_odd(n)`` that returns ``True`` when ``n`` is "
+"odd and ``False`` otherwise."
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:321
+msgid ""
+"Modify ``is_odd`` so that it uses a call to ``is_even`` to determine if "
+"its argument is an odd integer."
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:376
+msgid ""
+"Write a function ``is_rightangled`` which, given the length of three "
+"sides of a triangle, will determine whether the triangle is right-angled."
+"  Assume that the third argument to the function is always the longest "
+"side.  It will return ``True`` if the triangle is right-angled, or "
+"``False`` otherwise."
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:381
+msgid ""
+"Hint: floating point arithmetic is not always exactly accurate, so it is "
+"not safe to test floating point numbers for equality. If a good "
+"programmer wants to know whether ``x`` is equal or close enough to ``y``,"
+" they would probably code it up as"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:418
+msgid ""
+"Extend the above program so that the sides can be given to the function "
+"in any order."
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:475
+msgid ""
+"A year is a **leap year** if it is divisible by 4 unless it is a century "
+"that is not divisible by 400. Write a function that takes a year as a "
+"parameter and returns ``True`` if the year is a leap year, ``False`` "
+"otherwise."
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:505
+msgid "Implement the calculator for the date of Easter."
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:507
+msgid ""
+"The following algorithm computes the date for Easter Sunday for any year "
+"between 1900 to 2099."
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:509
+msgid "Ask the user to enter a year. Compute the following:"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:514
+msgid "a = year % 19"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:515
+msgid "b = year % 4"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:516
+msgid "c = year % 7"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:517
+msgid "d = (19 * a + 24) % 30"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:518
+msgid "e = (2 * b + 4 * c + 6 * d + 5) % 7"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:519
+msgid "dateofeaster = 22 + d + e"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:522
+msgid ""
+"Special note: The algorithm can give a date in April.  Also, if the year "
+"is one of four special years (1954, 1981, 2049, or 2076) then subtract 7 "
+"from the date."
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:525
+msgid ""
+"Your program should print an error message if the user provides a date "
+"that is out of range."
+msgstr ""
+

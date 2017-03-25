@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/ClassesBasics/Exercises.rst:11
+msgid "Exercises"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Exercises.rst:20
+msgid ""
+"Add a ``distanceFromPoint`` method that works similar to "
+"``distanceFromOrigin`` except that it takes a ``Point`` as a parameter "
+"and computes the distance between that point and self."
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Exercises.rst:68
+msgid ""
+"Add a method ``reflect_x`` to Point which returns a new Point, one which "
+"is the reflection of the point about the x-axis.  For example, ``Point(3,"
+" 5).reflect_x()`` is (3, -5)"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Exercises.rst:80
+msgid ""
+"Add a method ``slope_from_origin`` which returns the slope of the line "
+"joining the origin to the point.   For example, ::"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Exercises.rst:86
+msgid "What cases will cause your method to fail? Return None when it happens."
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Exercises.rst:131
+msgid ""
+"The equation of a straight line is  \"y = ax + b\", (or perhaps \"y = mx "
+"+ c\"). The coefficients a and b completely describe the line.  Write a "
+"method in the Point class so that if a point instance is given another "
+"point, it will compute the equation of the straight line joining the two "
+"points.  It must return the two coefficients as a tuple of two values.  "
+"For example,   ::"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Exercises.rst:140
+msgid ""
+"This tells us that the equation of the line joining the two points is \"y"
+" = 2x + 3\". When will your method fail?"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Exercises.rst:151
+msgid ""
+"Add a method called ``move`` that will take two parameters, call them "
+"``dx`` and ``dy``.  The method will cause the point to move in the x and "
+"y direction the number of units given. (Hint: you will change the values "
+"of the state of the point)"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Exercises.rst:201
+msgid ""
+"Given three points that fall on the circumference of a circle, find the "
+"center and radius of the circle."
+msgstr ""
+

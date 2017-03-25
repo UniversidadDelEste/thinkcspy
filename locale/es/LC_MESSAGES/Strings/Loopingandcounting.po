@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Strings/Loopingandcounting.rst:15
+msgid "Looping and Counting"
+msgstr ""
+
+#: ../../_sources/Strings/Loopingandcounting.rst:17
+msgid ""
+"We will finish this chapter with a few more examples that show variations"
+" on the theme of iteration through the characters of a string.  We will "
+"implement a few of the methods that we described earlier to show how they"
+" can be done."
+msgstr ""
+
+#: ../../_sources/Strings/Loopingandcounting.rst:20
+msgid ""
+"The following program counts the number of times a particular letter, "
+"``aChar``, appears in a string.  It is another example of the accumulator"
+" pattern that we have seen in previous chapters."
+msgstr ""
+
+#: ../../_sources/Strings/Loopingandcounting.rst:34
+msgid ""
+"The function ``count`` takes a string as its parameter.  The ``for`` "
+"statement iterates through each character in the string and checks to see"
+" if the character is equal to the value of ``aChar``.  If so, the "
+"counting variable, ``lettercount``, is incremented by one. When all "
+"characters have been processed, the ``lettercount`` is returned."
+msgstr ""
+

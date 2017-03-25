@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:16
+msgid "The Python Programming Language"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:18
+msgid ""
+"The programming language you will be learning is Python. Python is an "
+"example of a **high-level language**; other high-level languages you "
+"might have heard of are C++, PHP, and Java."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:22
+msgid ""
+"As you might infer from the name high-level language, there are also "
+"**low-level languages**, sometimes referred to as machine languages or "
+"assembly languages. Machine language is the encoding of instructions in "
+"binary so that they can be directly executed by the computer.  Assembly "
+"language uses a slightly easier format to refer to the low level "
+"instructions. Loosely speaking, computers can only execute programs "
+"written in low-level languages.  To be exact, computers can actually only"
+" execute programs written in machine language. Thus, programs written in "
+"a high-level language (and even those in assembly language) have to be "
+"processed before they can run. This extra processing takes some time, "
+"which is a small disadvantage of high-level languages. However, the "
+"advantages to high-level languages are enormous."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:31
+msgid ""
+"First, it is much easier to program in a high-level language. Programs "
+"written in a high-level language take less time to write, they are "
+"shorter and easier to read, and they are more likely to be correct. "
+"Second, high-level languages are **portable**, meaning that they can run "
+"on different kinds of computers with few or no modifications. Low-level "
+"programs can run on only one kind of computer and have to be rewritten to"
+" run on another."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:39
+msgid ""
+"Due to these advantages, almost all programs are written in high-level "
+"languages. Low-level languages are used only for a few specialized "
+"applications."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:43
+msgid ""
+"Two kinds of programs process high-level languages into low-level "
+"languages: **interpreters** and **compilers**. An interpreter reads a "
+"high-level program and executes it, meaning that it does what the program"
+" says. It processes the program a little at a time, alternately reading "
+"lines and performing computations."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:52
+msgid ""
+"A compiler reads the program and translates it completely before the "
+"program starts running. In this case, the high-level program is called "
+"the **source code**, and the translated program is called the **object "
+"code** or the **executable**. Once a program is compiled, you can execute"
+" it repeatedly without further translation."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:61
+msgid ""
+"Many modern languages use both processes. They are first compiled into a "
+"lower level language, called **byte code**, and then interpreted by a "
+"program called a **virtual machine**. Python uses both processes, but "
+"because of the way programmers interact with it, it is usually considered"
+" an interpreted language."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:66
+msgid ""
+"There are two ways to use the Python interpreter: *shell mode* and "
+"*program mode*. In shell mode, you type Python expressions into the "
+"**Python shell**, and the interpreter immediately shows the result.  The "
+"example below shows the Python shell at work."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:80
+msgid ""
+"The ``>>>`` is called the **Python prompt**. The interpreter uses the "
+"prompt to indicate that it is ready for instructions. We typed ``2 + 3``."
+"  The interpreter evaluated our expression and replied ``5``. On the next"
+" line it gave a new prompt indicating that it is ready for more input."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:85
+msgid ""
+"Working directly in the interpreter is convenient for testing short bits "
+"of code because you get immediate feedback. Think of it as scratch paper "
+"used to help you work out problems."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:89
+msgid ""
+"Alternatively, you can write an entire program by placing lines of Python"
+" instructions in a file and then use the interpreter to execute the "
+"contents of the file as a whole. Such a file is often referred to as "
+"**source code**.  For example, we used a text editor to create a source "
+"code file named ``firstprogram.py`` with the following contents:"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:101
+msgid ""
+"By convention, files that contain Python programs have names that end "
+"with ``.py`` .  Following this convention will help your operating system"
+" and other programs identify a file as containing python code."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:111
+msgid ""
+"These examples show Python being run from a Unix command line. In other "
+"development environments, the details of executing programs may differ. "
+"Also, most programs are more interesting than this one."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:115
+msgid "Want to learn more about Python?"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:117
+msgid ""
+"If you would like to learn more about installing and using Python, here "
+"are some video links. `Installing Python for Windows "
+"<http://youtu.be/9EfGpN1Pnsg>`__ shows you how to install the Python "
+"environment under Windows Vista, `Installing Python for Mac "
+"<http://youtu.be/MEmEJCLLI2k>`__ shows you how to install under Mac OS/X,"
+" and `Installing Python for Linux <http://youtu.be/RLPYBxfAud4>`__ shows "
+"you how to install from the Linux command line. `Using Python "
+"<http://youtu.be/kXbpB5_ywDw>`__ shows you some details about the Python "
+"shell and source code."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:125
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:138
+msgid "intro-3-1: Source code is another name for:"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:152
+msgid ""
+"intro-3-2:  What is the difference between a high-level programming "
+"language and a low-level programming language?"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:165
+msgid ""
+"intro-3-3: Pick the best replacements for 1 and 2 in the following "
+"sentence: When comparing compilers and interpreters, a compiler is like 1"
+" while an interpreter is like 2."
+msgstr ""
+

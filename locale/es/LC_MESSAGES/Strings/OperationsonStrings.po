@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Strings/OperationsonStrings.rst:15
+msgid "Operations on Strings"
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:17
+msgid ""
+"In general, you cannot perform mathematical operations on strings, even "
+"if the strings look like numbers. The following are illegal (assuming "
+"that ``message`` has type string):"
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:28
+msgid ""
+"Interestingly, the ``+`` operator does work with strings, but for "
+"strings, the ``+`` operator represents **concatenation**, not addition.  "
+"Concatenation means joining the two operands by linking them end-to-end. "
+"For example:"
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:39
+msgid ""
+"The output of this program is ``banana nut bread``. The space before the "
+"word ``nut`` is part of the string and is necessary to produce the space "
+"between the concatenated strings.  Take out the space and run it again."
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:43
+msgid ""
+"The ``*`` operator also works on strings.  It performs repetition. For "
+"example, ``'Fun'*3`` is ``'FunFunFun'``. One of the operands has to be a "
+"string and the other has to be an integer."
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:59
+msgid ""
+"This interpretation of ``+`` and ``*`` makes sense by analogy with "
+"addition and multiplication. Just as ``4*3`` is equivalent to ``4+4+4``, "
+"we expect ``\"Go\"*3`` to be the same as ``\"Go\"+\"Go\"+\"Go\"``, and it"
+" is.  Note also in the last example that the order of operations for "
+"``*`` and ``+`` is the same as it was for arithmetic. The repetition is "
+"done before the concatenation.  If you want to cause the concatenation to"
+" be done first, you will need to use parenthesis."
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:67
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:81
+msgid "strings-3-1: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:103
+msgid "strings-3-2: What is printed by the following statements?"
+msgstr ""
+

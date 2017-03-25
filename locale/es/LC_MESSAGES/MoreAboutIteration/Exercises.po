@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/MoreAboutIteration/Exercises.rst:12
+msgid "Exercises"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Exercises.rst:22
+msgid ""
+"Add a print statement to Newton's ``sqrt`` function that prints out "
+"``better`` each time it is calculated. Call your modified function with "
+"25 as an argument and record the results."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Exercises.rst:58
+msgid ""
+"Write a function ``print_triangular_numbers(n)`` that prints out the "
+"first n triangular numbers. A call to ``print_triangular_numbers(5)`` "
+"would produce the following output::"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Exercises.rst:68
+msgid "(*hint: use a web search to find out what a triangular number is.*)"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Exercises.rst:82
+msgid ""
+"Write a function, ``is_prime``, that takes a single integer argument and "
+"returns ``True`` when the argument is a *prime number* and ``False`` "
+"otherwise."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Exercises.rst:129
+msgid ""
+"Modify the walking turtle program so that rather than a 90 degree left or"
+" right turn the angle of the turn is determined randomly at each step."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Exercises.rst:144
+msgid ""
+"Modify the turtle walk program so that you have two turtles each with a "
+"random starting location.  Keep the turtles moving until one of them "
+"leaves the screen."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Exercises.rst:229
+msgid ""
+"Modify the previous turtle walk program so that the turtle turns around "
+"when it hits the wall or when one turtle collides with another turtle."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Exercises.rst:244
+msgid "Write a function to remove all the red from an image."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Exercises.rst:289
+msgid "Write a function to convert the image to grayscale."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Exercises.rst:301
+msgid "Write a function to convert an image to black and white."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Exercises.rst:360
+msgid ""
+"Sepia Tone images are those brownish colored images that may remind you "
+"of times past.  The formula for creating a sepia tone is as follows:"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Exercises.rst:369
+msgid ""
+"Write a function to convert an image to sepia tone. *Hint:* Remember that"
+" rgb values must be integers between 0 and 255."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Exercises.rst:381
+msgid ""
+"Write a function to uniformly enlarge an image by a factor of 2 (double "
+"the size)."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Exercises.rst:427
+msgid ""
+"After you have scaled an image too much it looks blocky.  One way of "
+"reducing the blockiness of the image is to replace each pixel with the "
+"average values of the pixels around it.  This has the effect of smoothing"
+" out the changes in color.  Write a function that takes an image as a "
+"parameter and smooths the image.  Your function should return a new image"
+" that is the same as the old but smoothed."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Exercises.rst:443
+msgid ""
+"Write a general pixel mapper function that will take an image and a pixel"
+" mapping function as parameters.  The pixel mapping function should "
+"perform a manipulation on a single pixel and return a new pixel."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Exercises.rst:493
+msgid ""
+"When you scan in images using a scanner they may have lots of noise due "
+"to dust particles on the image itself or the scanner itself, or the "
+"images may even be damaged.  One way of eliminating this noise is to "
+"replace each pixel by the median value of the pixels surrounding it."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Exercises.rst:507
+msgid "Research the Sobel edge detection algorithm and implement it."
+msgstr ""
+

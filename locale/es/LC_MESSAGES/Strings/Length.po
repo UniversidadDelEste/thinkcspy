@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Strings/Length.rst:15
+msgid "Length"
+msgstr ""
+
+#: ../../_sources/Strings/Length.rst:17
+msgid ""
+"The ``len`` function, when applied to a string, returns the number of "
+"characters in a string."
+msgstr ""
+
+#: ../../_sources/Strings/Length.rst:25
+msgid ""
+"To get the last letter of a string, you might be tempted to try something"
+" like this:"
+msgstr ""
+
+#: ../../_sources/Strings/Length.rst:35
+msgid ""
+"That won't work. It causes the runtime error ``IndexError: string index "
+"out of range``. The reason is that there is no letter at index position 6"
+" in ``\"Banana\"``. Since we started counting at zero, the six indexes "
+"are numbered 0 to 5. To get the last character, we have to subtract 1 "
+"from ``length``.  Give it a try in the example above."
+msgstr ""
+
+#: ../../_sources/Strings/Length.rst:53
+msgid ""
+"Typically, a Python programmer will access the last character by "
+"combining the two lines of code from above."
+msgstr ""
+
+#: ../../_sources/Strings/Length.rst:61
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Strings/Length.rst:71
+msgid "strings-6-1: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Strings/Length.rst:92
+msgid "strings-6-2: What is printed by the following statements?"
+msgstr ""
+

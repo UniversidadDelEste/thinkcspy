@@ -1,0 +1,623 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:15
+msgid "2-Dimensional Iteration: Image Processing"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:17
+msgid ""
+"Two dimensional tables have both rows and columns.  You have probably "
+"seen many tables like this if you have used a spreadsheet program.  "
+"Another object that is organized in rows and columns is a digital image."
+"  In this section we will explore how iteration allows us to manipulate "
+"these images."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:21
+msgid ""
+"A **digital image** is a finite collection of small, discrete picture "
+"elements called **pixels**.  These pixels are organized in a two-"
+"dimensional grid.  Each pixel represents the smallest amount of picture "
+"information that is available.  Sometimes these pixels appear as small "
+"\"dots\"."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:24
+msgid ""
+"Each image (grid of pixels) has its own width and its own height.  The "
+"width is the number of columns and the height is the number of rows.  We "
+"can name the pixels in the grid by using the column number and row "
+"number.  However, it is very important to remember that computer "
+"scientists like to start counting with 0!  This means that if there are "
+"20 rows, they will be named 0,1,2, and so on through 19.  This will be "
+"very useful later when we iterate using range."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:28
+msgid ""
+"In the figure below, the pixel of interest is found at column **c** and "
+"row **r**."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:33
+msgid "The RGB Color Model"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:35
+msgid ""
+"Each pixel of the image will represent a single color.  The specific "
+"color depends on a formula that mixes various amounts of three basic "
+"colors: red, green, and blue.  This technique for creating color is known"
+" as the **RGB Color Model**. The amount of each color, sometimes called "
+"the **intensity** of the color, allows us to have very fine control over "
+"the resulting color."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:40
+msgid ""
+"The minimum intensity value for a basic color is 0.  For example if the "
+"red intensity is 0, then there is no red in the pixel.  The maximum "
+"intensity is 255.  This means that there are actually 256 different "
+"amounts of intensity for each basic color.  Since there are three basic "
+"colors, that means that you can create 256\\ :sup:`3` distinct colors "
+"using the RGB Color Model."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:45
+msgid ""
+"Here are the red, green and blue intensities for some common colors.  "
+"Note that \"Black\" is represented by a pixel having no basic color.  On "
+"the other hand, \"White\" has maximum values for all three basic color "
+"components."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:49
+msgid "Color"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:49
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:51
+msgid "Red"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:49
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:52
+msgid "Green"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:49
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:53
+msgid "Blue"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:51
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:52
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:53
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:54
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:56
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:57
+msgid "255"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:51
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:52
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:53
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:55
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:56
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:57
+msgid "0"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:54
+msgid "White"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:55
+msgid "Black"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:56
+msgid "Yellow"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:57
+msgid "Magenta"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:60
+msgid ""
+"In order to manipulate an image, we need to be able to access individual "
+"pixels.  This capability is provided by a module called **image**.  The "
+"image module defines two classes: ``Image`` and ``Pixel``."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:63
+msgid ""
+"Each Pixel object has three attributes: the red intensity, the green "
+"intensity, and the blue intensity.  A pixel provides three methods that "
+"allow us to ask for the intensity values.  They are called ``getRed``, "
+"``getGreen``, and ``getBlue``.  In addition, we can ask a pixel to change"
+" an intensity value using its ``setRed``, ``setGreen``, and ``setBlue`` "
+"methods."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:69
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:131
+msgid "Method Name"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:69
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:131
+msgid "Example"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:69
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:131
+msgid "Explanation"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:71
+msgid "Pixel(r,g,b)"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:71
+msgid "Pixel(20,100,50)"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:71
+msgid "Create a new pixel with 20 red, 100 green, and 50 blue."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:72
+msgid "getRed()"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:72
+msgid "r = p.getRed()"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:72
+msgid "Return the red component intensity."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:73
+msgid "getGreen()"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:73
+msgid "r = p.getGreen()"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:73
+msgid "Return the green component intensity."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:74
+msgid "getBlue()"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:74
+msgid "r = p.getBlue()"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:74
+msgid "Return the blue component intensity."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:75
+msgid "setRed()"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:75
+msgid "p.setRed(100)"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:75
+msgid "Set the red component intensity to 100."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:76
+msgid "setGreen()"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:76
+msgid "p.setGreen(45)"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:76
+msgid "Set the green component intensity to 45."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:77
+msgid "setBlue()"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:77
+msgid "p.setBlue(156)"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:77
+msgid "Set the blue component intensity to 156."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:80
+msgid ""
+"In the example below, we first create a pixel with 45 units of red, 76 "
+"units of green, and 200 units of blue. We then print the current amount "
+"of red, change the amount of red, and finally, set the amount of blue to "
+"be the same as the current amount of green."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:96
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:172
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:327
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:109
+msgid ""
+"iter-9-1: If you have a pixel whose RGB value is (50, 0, 0), what color "
+"will this pixel appear to be?"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:112
+msgid "Image Objects"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:115
+msgid ""
+"To access the pixels in a real image, we need to first create an "
+"``Image`` object.  Image objects can be created in two ways.  First, an "
+"Image object can be made from the files that store digital images.  The "
+"image object has an attribute corresponding to the width, the height, and"
+" the collection of pixels in the image."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:120
+msgid ""
+"It is also possible to create an Image object that is \"empty\".  An "
+"``EmptyImage`` has a width and a height.  However, the pixel collection "
+"consists of only \"White\" pixels."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:123
+msgid ""
+"We can ask an image object to return its size using the ``getWidth`` and "
+"``getHeight`` methods.  We can also get a pixel from a particular "
+"location in the image using ``getPixel`` and change the pixel at a "
+"particular location using ``setPixel``."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:127
+msgid ""
+"The Image class is shown below.  Note that the first two entries show how"
+" to create image objects.  The parameters are different depending on "
+"whether you are using an image file or creating an empty image."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:133
+msgid "Image(filename)"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:133
+msgid "img = image.Image(\"cy.png\")"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:133
+msgid "Create an Image object from the file cy.png."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:134
+msgid "EmptyImage()"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:134
+msgid "img = image.EmptyImage(100,200)"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:134
+msgid "Create an Image object that has all \"White\" pixels"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:135
+msgid "getWidth()"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:135
+msgid "w = img.getWidth()"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:135
+msgid "Return the width of the image in pixels."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:136
+msgid "getHeight()"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:136
+msgid "h = img.getHeight()"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:136
+msgid "Return the height of the image in pixels."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:137
+msgid "getPixel(col,row)"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:137
+msgid "p = img.getPixel(35,86)"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:137
+msgid "Return the pixel at column 35, row 86."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:138
+msgid "setPixel(col,row,p)"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:138
+msgid "img.setPixel(100,50,mp)"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:138
+msgid "Set the pixel at column 100, row 50 to be mp."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:141
+msgid ""
+"Consider the image shown below.  Assume that the image is stored in a "
+"file called \"luther.jpg\".  Line 2 opens the file and uses the contents "
+"to create an image object that is referred to by ``img``.  Once we have "
+"an image object, we can use the methods described above to access "
+"information about the image or to get a specific pixel and check on its "
+"basic color intensities."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:169
+msgid ""
+"When you run the program you can see that the image has a width of 400 "
+"pixels and a height of 244 pixels.  Also, the pixel at column 45, row 55,"
+" has RGB values of 165, 161, and 158.  Try a few other pixel locations by"
+" changing the ``getPixel`` arguments and rerunning the program."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:185
+msgid ""
+"iter-9-2: Using the previous ActiveCode example, select the answer that "
+"is closest to the RGB values of the pixel at row 100, column 30?  The "
+"values may be off by one or two due to differences in browsers."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:189
+msgid "Image Processing and Nested Iteration"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:191
+msgid ""
+"**Image processing** refers to the ability to manipulate the individual "
+"pixels in a digital image.  In order to process all of the pixels, we "
+"need to be able to systematically visit all of the rows and columns in "
+"the image.  The best way to do this is to use **nested iteration**."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:195
+msgid ""
+"Nested iteration simply means that we will place one iteration construct "
+"inside of another.  We will call these two iterations the **outer "
+"iteration** and the **inner iteration**. To see how this works, consider "
+"the iteration below."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:204
+msgid ""
+"We have seen this enough times to know that the value of ``i`` will be 0,"
+" then 1, then 2, and so on up to 4. The ``print`` will be performed once "
+"for each pass. However, the body of the loop can contain any statements "
+"including another iteration (another ``for`` statement).  For example,"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:214
+msgid ""
+"The ``for i`` iteration is the `outer iteration` and the ``for j`` "
+"iteration is the `inner iteration`.  Each pass through the outer "
+"iteration will result in the complete processing of the inner iteration "
+"from beginning to end.  This means that the output from this nested "
+"iteration will show that for each value of ``i``, all values of ``j`` "
+"will occur."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:218
+msgid ""
+"Here is the same example in activecode.  Try it.  Note that the value of "
+"``i`` stays the same while the value of ``j`` changes.  The inner "
+"iteration, in effect, is moving faster than the outer iteration."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:226
+msgid ""
+"Another way to see this in more detail is to examine the behavior with "
+"codelens.  Step through the iterations to see the flow of control as it "
+"occurs with the nested iteration.  Again, for every value of ``i``, all "
+"of the values of ``j`` will occur.  You can see that the inner iteration "
+"completes before going on to the next pass of the outer iteration."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:235
+msgid ""
+"Our goal with image processing is to visit each pixel.  We will use an "
+"iteration to process each `row`.  Within that iteration, we will use a "
+"nested iteration to process each `column`.  The result is a nested "
+"iteration, similar to the one seen above, where the outer ``for`` loop "
+"processes the rows, from 0 up to but not including the height of the "
+"image. The inner ``for`` loop will process each column of a row, again "
+"from 0 up to but not including the width of the image."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:239
+msgid ""
+"The resulting code will look like the following.  We are now free to do "
+"anything we wish to each pixel in the image."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:247
+msgid ""
+"One of the easiest image processing algorithms will create what is known "
+"as a **negative** image.  A negative image simply means that each pixel "
+"will be the `opposite` of what it was originally.  But what does opposite"
+" mean?"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:250
+msgid ""
+"In the RGB color model, we can consider the opposite of the red component"
+" as the difference between the original red and 255.  For example, if the"
+" original red component was 50, then the opposite, or negative red value "
+"would be ``255-50`` or 205.  In other words, pixels with a lot of red "
+"will have negatives with little red and pixels with little red will have "
+"negatives with a lot.  We do the same for the blue and green as well."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:254
+msgid ""
+"The program below implements this algorithm using the previous image "
+"(luther.jpg).  Run it to see the resulting negative image.  Note that "
+"there is a lot of processing taking place and this may take a few seconds"
+" to complete.  In addition, here are two other images that you can use "
+"(cy.png and goldygopher.png)."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:268
+msgid ""
+"Change the name of the file in the ``image.Image()`` call to see how "
+"these images look as negatives.  Also, note that there is an "
+"``exitonclick`` method call at the very end which will close the window "
+"when you click on it.  This will allow you to \"clear the screen\" before"
+" drawing the next negative."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:296
+msgid ""
+"Let's take a closer look at the code.  After importing the image module, "
+"we create two image objects.  The first, ``img``, represents a typical "
+"digital photo.  The second, ``newimg``, is an empty image that will be "
+"\"filled in\" as we process the original pixel by pixel.  Note that the "
+"width and height of the empty image is set to be the same as the width "
+"and height of the original."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:298
+msgid ""
+"Lines 8 and 9 create the nested iteration that we discussed earlier.  "
+"This allows us to process each pixel in the image. Line 10 gets an "
+"individual pixel."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:301
+msgid ""
+"Lines 12-14 create the negative intensity values by extracting the "
+"original intensity from the pixel and subtracting it from 255.  Once we "
+"have the ``newred``, ``newgreen``, and ``newblue`` values, we can create "
+"a new pixel (Line 15)."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:304
+msgid ""
+"Finally, we need to replace the old pixel with the new pixel in our "
+"image. It is important to put the new pixel into the same location as the"
+" original pixel that it came from in the digital photo."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:306
+msgid ""
+"Try to change the program above so that the outer loop iterates over the "
+"columns and the inner loop iterates over the rows.  We still create a "
+"negative image, but you can see that the pixels update in a very "
+"different order."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:308
+msgid "Other pixel manipulation"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:310
+msgid ""
+"There are a number of different image processing algorithms that follow "
+"the same pattern as shown above.  Namely, take the original pixel, "
+"extract the red, green, and blue intensities, and then create a new pixel"
+" from them.  The new pixel is inserted into an empty image at the same "
+"location as the original."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:312
+msgid ""
+"For example, you can create a **gray scale** pixel by averaging the red, "
+"green and blue intensities and then using that value for all intensities."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:314
+msgid ""
+"From the gray scale you can create **black white** by setting a threshold"
+" and selecting to either insert a white pixel or a black pixel into the "
+"empty image."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:316
+msgid ""
+"You can also do some complex arithmetic and create interesting effects, "
+"such as `Sepia Tone "
+"<http://en.wikipedia.org/wiki/Sepia_tone#Sepia_toning>`_"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:324
+msgid ""
+"You have just passed a very important point in your study of Python "
+"programming.  Even though there is much more that we will do, you have "
+"learned all of the basic building blocks that are necessary to solve many"
+" interesting problems.  From an algorithm point of view, you can now "
+"implement selection and iteration.  You can also solve problems by "
+"breaking them down into smaller parts, writing functions for those parts,"
+" and then calling the functions to complete the implementation. What "
+"remains is to focus on ways that we can better represent our problems in "
+"terms of the data that we manipulate.  We will now turn our attention to "
+"studying the main data collections provided by Python."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:340
+msgid ""
+"iter-9-3: What will the following nested for-loop print?  (Note, if you "
+"are having trouble with this question, review CodeLens 3)."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:396
+msgid ""
+"iter-9-4: What would the image produced from ActiveCode box 16 look like "
+"if you replaced the lines:"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:404
+msgid "with the lines:"
+msgstr ""
+

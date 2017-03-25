@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Lists/TheReturnofLSystems.rst:15
+msgid "The Return of L-Systems"
+msgstr ""
+
+#: ../../_sources/Lists/TheReturnofLSystems.rst:17
+msgid ""
+"Let's return to the L-systems we introduced in the previous chapter and "
+"introduce a very interesting new feature that requires the use of lists."
+msgstr ""
+
+#: ../../_sources/Lists/TheReturnofLSystems.rst:20
+msgid "Suppose we have the following grammar::"
+msgstr ""
+
+#: ../../_sources/Lists/TheReturnofLSystems.rst:26
+msgid ""
+"This L-system looks very similar to the old L-system except that we've "
+"added one change.  We've added the characters '[' and ']'.  The meaning "
+"of these characters adds a very interesting new dimension to our "
+"L-Systems.  The '[' character indicates that we want to save the state of"
+" our turtle, namely its position and its heading so that we can come back"
+" to this position later.  The ']' tells the turtle to warp to the most "
+"recently saved position. The way that we will accomplish this is to use "
+"lists.  We can save the heading and position of the turtle as a list of 3"
+" elements.  ``[heading x y]``  The first index position in the list holds"
+" the heading, the second index position in the list holds the x "
+"coordinate, and the third index position holds the y coordinate."
+msgstr ""
+
+#: ../../_sources/Lists/TheReturnofLSystems.rst:38
+msgid ""
+"Now, if we create an empty list and every time we see a '[' we append the"
+" list that contains ``[heading, x, y]`` we create a history of saved "
+"places the turtle has been where the most recently saved location will "
+"always be at the end of the list.  When we find a ']' in the string we "
+"use the pop function to remove the the most recently appended "
+"information."
+msgstr ""
+
+#: ../../_sources/Lists/TheReturnofLSystems.rst:44
+msgid ""
+"Let's modify our ``drawLsystem`` function to begin to implement this new "
+"behavior."
+msgstr ""
+
+#: ../../_sources/Lists/TheReturnofLSystems.rst:75
+msgid ""
+"When we run this example we can see that the picture is not very "
+"interesting, but notice what gets printed out, and how the saved "
+"information about the turtle gets added and removed from the end of the "
+"list.  In the next example we'll make use of the information from the "
+"list to save and restore the turtle's position and heading when needed.  "
+"We'll use a longer example here so you get an idea of what the kind of "
+"drawing the L-System can really make."
+msgstr ""
+
+#: ../../_sources/Lists/TheReturnofLSystems.rst:113
+msgid ""
+"Rather than use the ``inst`` string supplied here, use the code from the "
+"string chapter, and write your own applyRules function to implement this "
+"L-system. This example only uses 6 expansions.  Try it out with a larger "
+"number of expansions.  You may also want to try this example with "
+"different values for the angle and distance parameters."
+msgstr ""
+

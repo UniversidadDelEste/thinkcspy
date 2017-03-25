@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Functions/Glossary.rst:11
+msgid "Glossary"
+msgstr ""
+
+#: ../../_sources/Functions/Glossary.rst:15
+msgid "chatterbox function"
+msgstr ""
+
+#: ../../_sources/Functions/Glossary.rst:17
+msgid ""
+"A function which interacts with the user (using ``input`` or ``print``) "
+"when it should not. Silent functions that just convert their input "
+"arguments into their output results are usually the most useful ones."
+msgstr ""
+
+#: ../../_sources/Functions/Glossary.rst:20
+msgid "composition (of functions)"
+msgstr ""
+
+#: ../../_sources/Functions/Glossary.rst:22
+msgid ""
+"Calling one function from within the body of another, or using the return"
+" value of one function as an argument to the call of another."
+msgstr ""
+
+#: ../../_sources/Functions/Glossary.rst:24
+msgid "dead code"
+msgstr ""
+
+#: ../../_sources/Functions/Glossary.rst:26
+msgid ""
+"Part of a program that can never be executed, often because it appears "
+"after a ``return`` statement."
+msgstr ""
+
+#: ../../_sources/Functions/Glossary.rst:28
+msgid "fruitful function"
+msgstr ""
+
+#: ../../_sources/Functions/Glossary.rst:30
+msgid "A function that yields a return value instead of ``None``."
+msgstr ""
+
+#: ../../_sources/Functions/Glossary.rst:31
+msgid "incremental development"
+msgstr ""
+
+#: ../../_sources/Functions/Glossary.rst:33
+msgid ""
+"A program development plan intended to simplify debugging by adding and "
+"testing only a small amount of code at a time."
+msgstr ""
+
+#: ../../_sources/Functions/Glossary.rst:35
+msgid "None"
+msgstr ""
+
+#: ../../_sources/Functions/Glossary.rst:37
+msgid ""
+"A special Python value. One use in Python is that it is returned by "
+"functions that do not execute a return statement with a return argument."
+msgstr ""
+
+#: ../../_sources/Functions/Glossary.rst:39
+msgid "return value"
+msgstr ""
+
+#: ../../_sources/Functions/Glossary.rst:41
+msgid "The value provided as the result of a function call."
+msgstr ""
+
+#: ../../_sources/Functions/Glossary.rst:42
+msgid "scaffolding"
+msgstr ""
+
+#: ../../_sources/Functions/Glossary.rst:44
+msgid ""
+"Code that is used during program development to assist with development "
+"and debugging. The unit test code that we added in this chapter are "
+"examples of scaffolding."
+msgstr ""
+
+#: ../../_sources/Functions/Glossary.rst:47
+msgid "temporary variable"
+msgstr ""
+
+#: ../../_sources/Functions/Glossary.rst:49
+msgid "A variable used to store an intermediate value in a complex calculation."
+msgstr ""
+

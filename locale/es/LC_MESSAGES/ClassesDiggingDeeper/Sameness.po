@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/ClassesDiggingDeeper/Sameness.rst:11
+msgid "Sameness"
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Sameness.rst:13
+msgid ""
+"The meaning of the word *same* seems perfectly clear until you give it "
+"some thought and then you realize there is more to it than you expected."
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Sameness.rst:16
+msgid ""
+"For example, if you say, Chris and I have the same car, you mean that his"
+" car and yours are the same make and model, but that they are two "
+"different cars. If you say, Chris and I have the same mother, you mean "
+"that his mother and yours are the same person."
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Sameness.rst:21
+msgid ""
+"When you talk about objects, there is a similar ambiguity. For example, "
+"if two ``Fraction``\\ s are the same, does that mean they contain the "
+"same data (same numerator and denominator) or that they are actually the "
+"same object?"
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Sameness.rst:25
+msgid ""
+"We've already seen the ``is`` operator in the chapter on lists, where we "
+"talked about aliases. It allows us to find out if two references refer to"
+" the same object."
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Sameness.rst:51
+msgid ""
+"Even though ``myfraction`` and ``yourfraction`` contain the same "
+"numerator and denominator, they are not the same object."
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Sameness.rst:55
+msgid ""
+"If we assign ``myfraction`` to ``ourfraction``, then the two variables "
+"are aliases of the same object."
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Sameness.rst:61
+msgid ""
+"This type of equality is called **shallow equality** because it compares "
+"only the references, not the contents of the objects.  Using the == "
+"operator to check equality between two user defined objects will return "
+"the shallow equality result.  In other words, the ``Fraction`` objects "
+"are equal (==) if they are the same object."
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Sameness.rst:66
+msgid ""
+"Of course, we could define equality to mean the fractions are the same in"
+" that they have the same numerator and the same denominator.  For "
+"example, here is a boolean function that performs this check."
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Sameness.rst:74
+msgid ""
+"This type of equality is known as **deep equality** since it compares the"
+" values \"deep\" in the object, not just the reference to the object."
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Sameness.rst:104
+msgid ""
+"Of course, if the two variables refer to the same object, they have both "
+"shallow and deep equality."
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Sameness.rst:107
+msgid "Beware of  =="
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Sameness.rst:109
+msgid ""
+"\"When I use a word,\" Humpty Dumpty said, in a rather scornful tone, "
+"\"it means just what I choose it to mean --- neither more nor less.\"   "
+"*Alice in Wonderland*"
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Sameness.rst:111
+msgid ""
+"Python has a powerful feature that allows a designer of a class to decide"
+" what an operation like ``==`` or ``<`` should mean.  (We've just shown "
+"how we can control how our own objects are converted to strings, so we've"
+" already made a start!)  We'll cover more detail later. But sometimes the"
+" implementors will attach shallow equality semantics, and sometimes deep "
+"equality, as shown in this little experiment:"
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Sameness.rst:127
+msgid "This outputs::"
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Sameness.rst:132
+msgid ""
+"So we conclude that even though the two lists (or tuples, etc.) are "
+"distinct objects with different memory addresses, in one case the ``==`` "
+"operator tests for deep equality, while in the case of points it makes a "
+"shallow test."
+msgstr ""
+

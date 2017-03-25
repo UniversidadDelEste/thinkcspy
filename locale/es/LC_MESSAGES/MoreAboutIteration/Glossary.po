@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:11
+msgid "Glossary"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:15
+msgid "algorithm"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:17
+msgid "A step-by-step process for solving a category of problems."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:18
+msgid "body"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:20
+msgid "The statements inside a loop."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:22
+msgid "counter"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:24
+msgid ""
+"A variable used to count something, usually initialized to zero and "
+"incremented in the body of a loop."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:26
+msgid "cursor"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:28
+msgid ""
+"An invisible marker that keeps track of where the next character will be "
+"printed."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:31
+msgid "definite iteration"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:33
+msgid ""
+"A loop where we have an upper bound on the number of times the body will "
+"be executed.  Definite iteration is usually best coded as a ``for`` loop."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:38
+msgid "escape sequence"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:40
+msgid ""
+"An escape character, \\\\, followed by one or more printable characters "
+"used to designate a nonprintable character."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:42
+msgid "generalize"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:44
+msgid ""
+"To replace something unnecessarily specific (like a constant value) with "
+"something appropriately general (like a variable or parameter). "
+"Generalization makes code more versatile, more likely to be reused, and "
+"sometimes even easier to write."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:50
+msgid "infinite loop"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:52
+msgid "A loop in which the terminating condition is never satisfied."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:53
+msgid "indefinite iteration"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:55
+msgid ""
+"A loop where we just need to keep going until some condition is met. A "
+"``while`` statement is used for this case."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:59
+msgid "iteration"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:61
+msgid "Repeated execution of a set of programming statements."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:62
+msgid "loop"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:64
+msgid ""
+"A statement or group of statements that execute repeatedly until a "
+"terminating condition is satisfied."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:66
+msgid "loop variable"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:68
+msgid "A variable used as part of the terminating condition of a loop."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:72
+msgid "nested loop"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:74
+msgid "A loop inside the body of another loop."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:75
+msgid "newline"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:77
+msgid ""
+"A special character that causes the cursor to move to the beginning of "
+"the next line."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:80
+msgid "reassignment"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:82
+msgid ""
+"Making more than one assignment to the same variable during the execution"
+" of a program."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:87
+msgid "tab"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Glossary.rst:89
+msgid ""
+"A special character that causes the cursor to move to the next tab stop "
+"on the current line."
+msgstr ""
+

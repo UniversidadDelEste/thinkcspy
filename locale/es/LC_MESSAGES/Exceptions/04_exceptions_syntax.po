@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone
+# Interactive
+# This file is distributed under the same license as the How to Think Like a
+# Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../_sources/Exceptions/04_exceptions_syntax.rst:15
+msgid "Exceptions Syntax"
+msgstr ""
+
+#: ../../_sources/Exceptions/04_exceptions_syntax.rst:17
+msgid ""
+"There are many variations on the code that catches exceptions. Here is a "
+"brief summary, but other code variations are possible."
+msgstr ""
+
+#: ../../_sources/Exceptions/04_exceptions_syntax.rst:21
+msgid "Catch All Exceptions"
+msgstr ""
+
+#: ../../_sources/Exceptions/04_exceptions_syntax.rst:23
+msgid ""
+"Catch all exceptions, regardless of their type. This will prevent your "
+"program from crashing, but this type of exception handling is rarely "
+"useful because you can't do anything meaningful to recover from the "
+"abnormal condition."
+msgstr ""
+
+#: ../../_sources/Exceptions/04_exceptions_syntax.rst:36
+msgid "Catch A Specific Exception"
+msgstr ""
+
+#: ../../_sources/Exceptions/04_exceptions_syntax.rst:38
+msgid ""
+"This is perhaps the most often used syntax. It catches one specific "
+"condition and tries to re-cover from the condition."
+msgstr ""
+
+#: ../../_sources/Exceptions/04_exceptions_syntax.rst:50
+msgid "Catch Multiple Specific Exceptions"
+msgstr ""
+
+#: ../../_sources/Exceptions/04_exceptions_syntax.rst:65
+msgid "Clean-up After Exceptions"
+msgstr ""
+
+#: ../../_sources/Exceptions/04_exceptions_syntax.rst:67
+msgid ""
+"If you have code that you want to be executed even if exceptions occur, "
+"you can include a ``finally`` code block:"
+msgstr ""
+
+#: ../../_sources/Exceptions/04_exceptions_syntax.rst:81
+msgid "An Example of File I/O"
+msgstr ""
+
+#: ../../_sources/Exceptions/04_exceptions_syntax.rst:83
+msgid ""
+"One place where you will always want to include exception handling is "
+"when you read or write to a file. Here is a typical example of file "
+"processing. Note that the outer ``try: except:`` block takes care of a "
+"missing file or the fact that the existing file can't be opened for "
+"writing. The inner ``try: except:`` block  protects against output "
+"errors, such as trying to write to a device that is full. The ``finally``"
+" code guarantees that the file is closed properly, even if there are "
+"errors during writing."
+msgstr ""
+
