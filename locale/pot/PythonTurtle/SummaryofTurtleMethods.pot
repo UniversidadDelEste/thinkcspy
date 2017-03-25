@@ -1,0 +1,213 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:13
+msgid "Summary of Turtle Methods"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:16
+msgid "Method"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:16
+msgid "Parameters"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:16
+msgid "Description"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:18
+msgid "Turtle"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:18
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:23
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:24
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:27
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:28
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:30
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:31
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:32
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:33
+msgid "None"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:18
+msgid "Creates and returns a new turtle object"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:19
+msgid "forward"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:19
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:20
+msgid "distance"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:19
+msgid "Moves the turtle forward"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:20
+msgid "backward"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:20
+msgid "Moves the turle backward"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:21
+msgid "right"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:21
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:22
+msgid "angle"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:21
+msgid "Turns the turtle clockwise"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:22
+msgid "left"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:22
+msgid "Turns the turtle counter clockwise"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:23
+msgid "up"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:23
+msgid "Picks up the turtles tail"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:24
+msgid "down"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:24
+msgid "Puts down the turtles tail"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:25
+msgid "color"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:25
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:26
+msgid "color name"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:25
+msgid "Changes the color of the turtle's tail"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:26
+msgid "fillcolor"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:26
+msgid "Changes the color of the turtle will use to fill a polygon"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:27
+msgid "heading"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:27
+msgid "Returns the current heading"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:28
+msgid "position"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:28
+msgid "Returns the current position"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:29
+msgid "goto"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:29
+msgid "x,y"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:29
+msgid "Move the turtle to position x,y"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:30
+msgid "begin_fill"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:30
+msgid "Remember the starting point for a filled polygon"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:31
+msgid "end_fill"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:31
+msgid "Close the polygon and fill with the current fill color"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:32
+msgid "dot"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:32
+msgid "Leave a dot at the current position"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:33
+msgid "stamp"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:33
+msgid "Leaves an impression of a turtle shape at the current location"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:34
+msgid "shape"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:34
+msgid "shapename"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:34
+msgid "Should be 'arrow', 'classic', 'turtle', or 'circle'"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:37
+msgid "Once you are comfortable with the basics of turtle graphics you can read about even more options on the `Python Docs Website <http://docs.python.org/dev/py3k/library/turtle.html>`_.  Note that we will describe Python Docs in more detail in the next chapter."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/SummaryofTurtleMethods.rst:44
+msgid "This workspace is provided for your convenience.  You can use this activecode window to try out anything you like."
+msgstr ""
+

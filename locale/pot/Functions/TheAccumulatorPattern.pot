@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:15
+msgid "The Accumulator Pattern"
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:24
+msgid "In the previous example, we wrote a function that computes the square of a number.  The algorithm we used in the function was simple: multiply the number by itself. In this section we will reimplement the square function and use a different algorithm, one that relies on addition instead of multiplication."
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:29
+msgid "If you want to multiply two numbers together, the most basic approach is to think of it as repeating the process of adding one number to itself.  The number of repetitions is where the second number comes into play.  For example, if we wanted to multiply three and five, we could think about it as adding three to itself five times.  Three plus three is six, plus three is nine, plus three is 12, and finally plus three is 15.  Generalizing this, if we want to implement the idea of squaring a number, call it `n`, we would add `n` to itself `n` times."
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:34
+msgid "Do this by hand first and try to isolate exactly what steps you take.  You'll find you need to keep some \"running total\" of the sum so far, either on a piece of paper, or in your head.  Remembering things from one step to the next is precisely why we have variables in a program.  This means that we will need some variable to remember the \"running total\".  It should be initialized with a value of zero.  Then, we need to **update** the \"running total\" the correct number of times.  For each repetition, we'll want to update the running total by adding the number to it."
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:41
+msgid "In words we could say it this way.  To square the value of `n`, we will repeat the process of updating a running total `n` times.  To update the running total, we take the old value of the \"running total\" and add `n`.  That sum becomes the new value of the \"running total\"."
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:44
+msgid "Here is the program in activecode.  Note that the function definition is the same as it was before.  All that has changed is the details of how the squaring is done.  This is a great example of \"black box\" design.  We can change out the details inside of the box and still use the function exactly as we did before."
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:65
+msgid "In the program above, notice that the variable ``runningtotal`` starts out with a value of 0.  Next, the iteration is performed ``x`` times.  Inside the for loop, the update occurs. ``runningtotal`` is reassigned a new value which is the old value plus the value of ``x``."
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:68
+msgid "This pattern of iterating the updating of a variable is commonly referred to as the **accumulator pattern**.  We refer to the variable as the **accumulator**.  This pattern will come up over and over again.  Remember that the key to making it work successfully is to be sure to initialize the variable before you start the iteration. Once inside the iteration, it is required that you update the accumulator."
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:75
+msgid "What would happen if we put the assignment ``runningTotal = 0`` inside the for statement?  Not sure? Try it and find out."
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:80
+msgid "Here is the same program in codelens.  Step through the function and watch the \"running total\" accumulate the result."
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:107
+msgid "This workspace is provided for your convenience.  You can use this activecode window to try out anything you like."
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:111
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:124
+msgid "func-4-1: Consider the following code:"
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:134
+msgid "What happens if you put the initialization of runningtotal (the line runningtotal = 0) inside the for loop as the first instruction in the loop?"
+msgstr ""
+

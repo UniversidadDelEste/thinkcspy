@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/ClassesDiggingDeeper/ArithmeticMethods.rst:11
+msgid "Arithmetic Methods"
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/ArithmeticMethods.rst:13
+msgid "We will conclude this chapter by adding a few more methods to our ``Fraction`` class.  In particular, we will implement arithmetic.  To begin, consider what it means to add two fractions together. Remember that you can only add fractions if they have the same denominator.  The easiest way to find a common denominator is to multiply the two individual denominators together.  Anything we do to the denominator needs to the done to the numerator.  This gives us the following equation for fraction addition::"
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/ArithmeticMethods.rst:21
+msgid "Our ``add`` method will take a ``Fraction`` as a parameter.  It will return a new ``Fraction`` representing the sum.  We will use the equation shown above to compute the new numerator and the new denominator.  Since this equation will not give us lowest terms, we will utilize a similar technique as was used in the ``simplify`` method to find the greatest common divisor and then divide each part of the new fraction."
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/ArithmeticMethods.rst:37
+msgid "You can try the addition method and then modify the fractions and retry."
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/ArithmeticMethods.rst:84
+msgid "One final modification to this method will be quite useful.  Instead invoking the ``add`` method, we can use the addition operator \"+\".  This requires that we implement another special method, this time called ``__add__``. The details of the method are the same."
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/ArithmeticMethods.rst:99
+msgid "However, now we can perform addition in the same manner that we are used to with other numeric data."
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/ArithmeticMethods.rst:111
+msgid "This workspace is provided for your convenience.  You can use this activecode window to try out anything you like."
+msgstr ""
+

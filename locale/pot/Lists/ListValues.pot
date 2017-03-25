@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Lists/ListValues.rst:15
+msgid "List Values"
+msgstr ""
+
+#: ../../_sources/Lists/ListValues.rst:17
+msgid "There are several ways to create a new list.  The simplest is to enclose the elements in square brackets ( ``[`` and ``]``)."
+msgstr ""
+
+#: ../../_sources/Lists/ListValues.rst:25
+msgid "The first example is a list of four integers. The second is a list of three strings. As we said above, the elements of a list don't have to be the same type.  The following list contains a string, a float, an integer, and another list."
+msgstr ""
+
+#: ../../_sources/Lists/ListValues.rst:34
+msgid "A list within another list is said to be **nested** and the inner list is often called a **sublist**. Finally, there is a special list that contains no elements. It is called the empty list and is denoted ``[]``."
+msgstr ""
+
+#: ../../_sources/Lists/ListValues.rst:38
+msgid "As you would expect, we can also assign list values to variables and pass lists as parameters to functions."
+msgstr ""
+
+#: ../../_sources/Lists/ListValues.rst:54
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Lists/ListValues.rst:63
+msgid "list-2-1: A list can contain only integer items."
+msgstr ""
+

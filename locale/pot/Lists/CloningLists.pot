@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Lists/CloningLists.rst:15
+msgid "Cloning Lists"
+msgstr ""
+
+#: ../../_sources/Lists/CloningLists.rst:17
+msgid "If we want to modify a list and also keep a copy of the original, we need to be able to make a copy of the list itself, not just the reference. This process is sometimes called **cloning**, to avoid the ambiguity of the word copy."
+msgstr ""
+
+#: ../../_sources/Lists/CloningLists.rst:21
+msgid "The easiest way to clone a list is to use the slice operator."
+msgstr ""
+
+#: ../../_sources/Lists/CloningLists.rst:23
+msgid "Taking any slice of ``a`` creates a new list. In this case the slice happens to consist of the whole list."
+msgstr ""
+
+#: ../../_sources/Lists/CloningLists.rst:40
+msgid "Now we are free to make changes to ``b`` without worrying about ``a``.  Again, we can clearly see in codelens that ``a`` and ``b`` are entirely different list objects."
+msgstr ""
+

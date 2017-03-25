@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Labs/lab04_01.rst:14
+msgid "Drawing a Circle"
+msgstr ""
+
+#: ../../_sources/Labs/lab04_01.rst:16
+msgid "In this lesson we are going to develop a function that uses a turtle to draw a circle.  As we develop this function we will investigate several problem solving strategies that illustrate how computer scientists think as they solve problems."
+msgstr ""
+
+#: ../../_sources/Labs/lab04_01.rst:21
+msgid "In figuring out how to write this function we must realize that there are some limitations of our ability to draw a circle.  First, we are limited by the turtle functions we already know about, for example, left, right, forward.  There is not a method for drawing a curved line with a turtle (well, actually there is, but we're not going to use it)."
+msgstr ""
+
+#: ../../_sources/Labs/lab04_01.rst:27
+msgid "One of the first strategies we will employ is called *simplification*.  Let's look at something simpler than drawing a circle and see what we can learn, as we look at some simpler examples we'll try to *generalize* what we learn to help us build a more complex function."
+msgstr ""
+
+#: ../../_sources/Labs/lab04_01.rst:32
+msgid "One thing we already know how to do is to write a function to draw a square. Now a square doesn't look anything like a circle, but maybe if we look at some other simple shapes that will help us.  Just to remind you, here is the code for the ``drawSquare`` function."
+msgstr ""
+
+#: ../../_sources/Labs/lab04_01.rst:48
+msgid "Although this isn't going to do anything if you click on the run button, you could fill in the rest of the code to make it work, right?"
+msgstr ""
+
+#: ../../_sources/Labs/lab04_01.rst:51
+msgid "Now, see if you can modify the code for ``drawSquare`` to make it draw a triangle.  Call this new function ``drawTriangle``  When you finish ``drawTriangle`` write a third function called ``drawOctagon``.  When you are finished follow the link below to the next part of this lesson."
+msgstr ""
+
+#: ../../_sources/Labs/lab04_01.rst:56
+msgid "`OK, they work now <lab04_01a.html>`__"
+msgstr ""
+

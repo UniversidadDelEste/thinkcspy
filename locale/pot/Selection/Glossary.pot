@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Selection/Glossary.rst:11
+msgid "Glossary"
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:14
+msgid "block"
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:16
+msgid "A group of consecutive statements with the same indentation."
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:17
+msgid "body"
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:19
+msgid "The block of statements in a compound statement that follows the header."
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:21
+msgid "boolean expression"
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:23
+msgid "An expression that is either true or false."
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:24
+msgid "boolean function"
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:26
+msgid "A function that returns a boolean value.  The only possible values of the ``bool`` type are ``False`` and ``True``."
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:29
+msgid "boolean value"
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:31
+msgid "There are exactly two boolean values: ``True`` and ``False``. Boolean values result when a boolean expression is evaluated by the Python interepreter.  They have type ``bool``."
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:34
+msgid "branch"
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:36
+msgid "One of the possible paths of the flow of execution determined by conditional execution."
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:38
+msgid "chained conditional"
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:40
+msgid "A conditional branch with more than two possible flows of execution. In Python chained conditionals are written with ``if ... elif ... else`` statements."
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:43
+msgid "comparison operator"
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:45
+msgid "One of the operators that compares two values: ``==``, ``!=``, ``>``, ``<``, ``>=``, and ``<=``."
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:47
+msgid "condition"
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:49
+msgid "The boolean expression in a conditional statement that determines which branch is executed."
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:51
+msgid "conditional statement"
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:53
+msgid "A statement that controls the flow of execution depending on some condition. In Python the keywords ``if``, ``elif``, and ``else`` are used for conditional statements."
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:56
+msgid "logical operator"
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:58
+msgid "One of the operators that combines boolean expressions: ``and``, ``or``, and ``not``."
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:60
+msgid "modulus operator"
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:62
+msgid "An operator, denoted with a percent sign ( ``%``), that works on integers and yields the remainder when one number is divided by another."
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:65
+msgid "nesting"
+msgstr ""
+
+#: ../../_sources/Selection/Glossary.rst:67
+msgid "One program structure within another, such as a conditional statement inside a branch of another conditional statement."
+msgstr ""
+

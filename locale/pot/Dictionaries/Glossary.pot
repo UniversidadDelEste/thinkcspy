@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Dictionaries/Glossary.rst:11
+msgid "Glossary"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Glossary.rst:14
+msgid "dictionary"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Glossary.rst:16
+msgid "A collection of key-value pairs that maps from keys to values. The keys can be any immutable type, and the values can be any type."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Glossary.rst:18
+msgid "key"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Glossary.rst:20
+msgid "A data item that is *mapped to* a value in a dictionary. Keys are used to look up values in a dictionary."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Glossary.rst:22
+msgid "key-value pair"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Glossary.rst:24
+msgid "One of the pairs of items in a dictionary. Values are looked up in a dictionary by key."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Glossary.rst:26
+msgid "mapping type"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Glossary.rst:28
+msgid "A mapping type is a data type comprised of a collection of keys and associated values. Python's only built-in mapping type is the dictionary.  Dictionaries implement the `associative array <http://en.wikipedia.org/wiki/Associative_array>`__ abstract data type."
+msgstr ""
+

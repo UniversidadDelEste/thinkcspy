@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:15
+msgid "Boolean Values and Boolean Expressions"
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:24
+msgid "The Python type for storing true and false values is called ``bool``, named after the British mathematician, George Boole. George Boole created *Boolean Algebra*, which is the basis of all modern computer arithmetic."
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:28
+msgid "There are only two **boolean values**.  They are ``True`` and ``False``.  Capitalization is important, since ``true`` and ``false`` are not boolean values (remember Python is case sensitive)."
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:38
+msgid "Boolean values are not strings!"
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:40
+msgid "It is extremely important to realize that True and False are not strings.   They are not surrounded by quotes.  They are the only two values in the data type ``bool``.  Take a close look at the types shown below."
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:50
+msgid "A **boolean expression** is an expression that evaluates to a boolean value. The equality operator, ``==``, compares two values and produces a boolean value related to whether the two values are equal to one another."
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:59
+msgid "In the first statement, the two operands are equal, so the expression evaluates to ``True``.  In the second statement, 5 is not equal to 6, so we get ``False``."
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:62
+msgid "The ``==`` operator is one of six common **comparison operators**; the others are:"
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:72
+msgid "Although these operations are probably familiar to you, the Python symbols are different from the mathematical symbols. A common error is to use a single equal sign (``=``) instead of a double equal sign (``==``). Remember that ``=`` is an assignment operator and ``==`` is a comparison operator. Also, there is no such thing as ``=<`` or ``=>``."
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:85
+msgid "Note too that an equality test is symmetric, but assignment is not. For example, if ``a == 7`` then ``7 == a``. But in Python, the statement ``a = 7`` is legal and ``7 = a`` is not. (Can you explain why?)"
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:90
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:106
+msgid "select-1-1: Which of the following is a Boolean expression?  Select all that apply."
+msgstr ""
+

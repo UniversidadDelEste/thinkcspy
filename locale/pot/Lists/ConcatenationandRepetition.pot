@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Lists/ConcatenationandRepetition.rst:15
+msgid "Concatenation and Repetition"
+msgstr ""
+
+#: ../../_sources/Lists/ConcatenationandRepetition.rst:17
+msgid "Again, as with strings, the ``+`` operator concatenates lists. Similarly, the ``*`` operator repeats the items in a list a given number of times."
+msgstr ""
+
+#: ../../_sources/Lists/ConcatenationandRepetition.rst:30
+msgid "It is important to see that these operators create new lists from the elements of the operand lists.  If you concatenate a list with 2 items and a list with 4 items, you will get a new list with 6 items (not a list with two sublists).  Similarly, repetition of a list of 2 items 4 times will give a list with 8 items."
+msgstr ""
+
+#: ../../_sources/Lists/ConcatenationandRepetition.rst:32
+msgid "One way for us to make this more clear is to run a part of this example in codelens.  As you step through the code, you will see the variables being created and the lists that they refer to.  Pay particular attention to the fact that when ``newlist`` is created by the statement ``newlist = fruit + numlist``, it refers to a completely new list formed by making copies of the items from ``fruit`` and ``numlist``.  You can see this very clearly in the codelens object diagram.  The objects are different."
+msgstr ""
+
+#: ../../_sources/Lists/ConcatenationandRepetition.rst:49
+msgid "In Python, every object has a unique identification tag.  Likewise, there is a built-in function that can be called on any object to return its unique id.  The function is appropriately called ``id`` and takes a single parameter, the object that you are interested in knowing about.  You can see in the example below that a real id is usually a very large integer value (corresponding to an address in memory)."
+msgstr ""
+
+#: ../../_sources/Lists/ConcatenationandRepetition.rst:58
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Lists/ConcatenationandRepetition.rst:71
+msgid "list-6-1: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Lists/ConcatenationandRepetition.rst:92
+msgid "list-6-2: What is printed by the following statements?"
+msgstr ""
+

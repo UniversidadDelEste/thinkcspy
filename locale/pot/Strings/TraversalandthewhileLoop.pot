@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Strings/TraversalandthewhileLoop.rst:15
+msgid "Traversal and the ``while`` Loop"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandthewhileLoop.rst:17
+msgid "The ``while`` loop can also control the generation of the index values.  Remember that the programmer is responsible for setting up the initial condition, making sure that the condition is correct, and making sure that something changes inside the body to guarantee that the condition will eventually fail."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandthewhileLoop.rst:35
+msgid "The loop condition is ``position < len(fruit)``, so when ``position`` is equal to the length of the string, the condition is false, and the body of the loop is not executed. The last character accessed is the one with the index ``len(fruit)-1``, which is the last character in the string."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandthewhileLoop.rst:41
+msgid "Here is the same example in codelens so that you can trace the values of the variables."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandthewhileLoop.rst:52
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandthewhileLoop.rst:64
+msgid "strings-12-1: How many times is the letter o printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandthewhileLoop.rst:77
+msgid "This workspace is provided for your convenience.  You can use this activecode window to try out anything you like."
+msgstr ""
+

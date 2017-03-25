@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/GeneralIntro/SemanticErrors.rst:15
+msgid "Semantic Errors"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SemanticErrors.rst:17
+msgid "The third type of error is the **semantic error**. If there is a semantic error in your program, it will run successfully in the sense that the computer will not generate any error messages.  However, your program will not do the right thing. It will do something else. Specifically, it will do what you told it to do."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SemanticErrors.rst:22
+msgid "The problem is that the program you wrote is not the program you wanted to write. The meaning of the program (its semantics) is wrong.  Identifying semantic errors can be tricky because it requires you to work backward by looking at the output of the program and trying to figure out what it is doing."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SemanticErrors.rst:27
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SemanticErrors.rst:38
+msgid "intro-9-1: Which of the following is a semantic error?"
+msgstr ""
+

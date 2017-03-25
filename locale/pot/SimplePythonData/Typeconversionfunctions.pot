@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:15
+msgid "Type conversion functions"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:17
+msgid "Sometimes it is necessary to convert values from one type to another.  Python provides a few simple functions that will allow us to do that.  The functions ``int``, ``float`` and ``str`` will (attempt to) convert their arguments into types `int`, `float` and `str` respectively.  We call these **type conversion** functions."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:22
+msgid "The ``int`` function can take a floating point number or a string, and turn it into an int. For floating point numbers, it *discards* the decimal portion of the number - a process we call *truncation towards zero* on the number line. Let us see this in action:"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:40
+msgid "The last case shows that a string has to be a syntactically legal number, otherwise you'll get one of those pesky runtime errors.  Modify the example by deleting the ``bottles`` and rerun the program.  You should see the integer ``23``."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:44
+msgid "The type converter ``float`` can turn an integer, a float, or a syntactically legal string into a float."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:54
+msgid "The type converter ``str`` turns its argument into a string.  Remember that when we print a string, the quotes are removed.  However, if we print the type, we can see that it is definitely `str`."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:64
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:77
+msgid "data-3-1: What value is printed when the following statement executes?"
+msgstr ""
+

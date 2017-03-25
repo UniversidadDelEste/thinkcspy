@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Selection/Nestedconditionals.rst:15
+msgid "Nested conditionals"
+msgstr ""
+
+#: ../../_sources/Selection/Nestedconditionals.rst:17
+msgid "One conditional can also be **nested** within another. For example, assume we have two integer variables, ``x`` and ``y``. The following pattern of selection shows how we might decide how they are related to each other."
+msgstr ""
+
+#: ../../_sources/Selection/Nestedconditionals.rst:30
+msgid "The outer conditional contains two branches. The second branch (the else from the outer) contains another ``if`` statement, which has two branches of its own. Those two branches could contain conditional statements as well."
+msgstr ""
+
+#: ../../_sources/Selection/Nestedconditionals.rst:35
+msgid "The flow of control for this example can be seen in this flowchart illustration."
+msgstr ""
+
+#: ../../_sources/Selection/Nestedconditionals.rst:42
+msgid "Here is a complete program that defines values for ``x`` and ``y``.  Run the program and see the result.  Then change the values of the variables to change the flow of control."
+msgstr ""
+
+#: ../../_sources/Selection/Nestedconditionals.rst:59
+msgid "In some programming languages, matching the if and the else is a problem.  However, in Python this is not the case. The indentation pattern tells us exactly which else belongs to which if."
+msgstr ""
+
+#: ../../_sources/Selection/Nestedconditionals.rst:63
+msgid "If you are still a bit unsure, here is the same selection as part of a codelens example.  Step through it to see how the correct ``print`` is chosen."
+msgstr ""
+
+#: ../../_sources/Selection/Nestedconditionals.rst:80
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Selection/Nestedconditionals.rst:89
+msgid "select-6-1: Will the following code cause an error?"
+msgstr ""
+

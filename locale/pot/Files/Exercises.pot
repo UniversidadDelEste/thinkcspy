@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Files/Exercises.rst:11
+msgid "Exercises"
+msgstr ""
+
+#: ../../_sources/Files/Exercises.rst:20
+msgid "The following sample file called ``studentdata.txt`` contains one line for each student in an imaginary class.  The student's name is the first thing on each line, followed by some exam scores. The number of scores might be different for each student."
+msgstr ""
+
+#: ../../_sources/Files/Exercises.rst:32
+msgid "Using the text file ``studentdata.txt`` write a program that prints out the names of students that have more than six quiz scores."
+msgstr ""
+
+#: ../../_sources/Files/Exercises.rst:66
+msgid "Using the text file ``studentdata.txt`` (shown in exercise 1) write a program that calculates the average grade for each student, and print out the student's name along with their average grade."
+msgstr ""
+
+#: ../../_sources/Files/Exercises.rst:82
+msgid "Using the text file ``studentdata.txt`` (shown in exercise 1) write a program that calculates the minimum and maximum score for each student.  Print out their name as well."
+msgstr ""
+
+#: ../../_sources/Files/Exercises.rst:123
+msgid "Here is a file called ``labdata.txt`` that contains some sample data from a lab experiment."
+msgstr ""
+
+#: ../../_sources/Files/Exercises.rst:150
+msgid "Interpret the data file ``labdata.txt`` such that each line contains a an x,y coordinate pair. Write a function called ``plotRegression`` that reads the data from this file and uses a turtle to plot those points and a best fit line according to the following formulas:"
+msgstr ""
+
+#: ../../_sources/Files/Exercises.rst:155
+msgid ":math:`y = \\bar{y} + m(x - \\bar{x})`"
+msgstr ""
+
+#: ../../_sources/Files/Exercises.rst:157
+msgid ":math:`m = \\frac{\\sum{x_iy_i - n\\bar{x}\\bar{y}}}{\\sum{x_i^2}-n\\bar{x}^2}`"
+msgstr ""
+
+#: ../../_sources/Files/Exercises.rst:159
+msgid "where :math:`\\bar{x}` is the mean of the x-values, :math:`\\bar{y}` is the mean of the y- values and :math:`n` is the number of points.  If you are not familiar with the mathematical :math:`\\sum` it is the sum operation.  For example :math:`\\sum{x_i}` means to add up all the x values."
+msgstr ""
+
+#: ../../_sources/Files/Exercises.rst:164
+msgid "Your program should analyze the points and correctly scale the window using ``setworldcoordinates`` so that that each point can be plotted.  Then you should draw the best fit line, in a different color, through the points."
+msgstr ""
+
+#: ../../_sources/Files/Exercises.rst:181
+msgid "At the bottom of this page is a very long file called ``mystery.txt`` The lines of this file contain either the word UP or DOWN or a pair of numbers.  UP and DOWN are instructions for a turtle to lift up or put down its tail.  The pairs of numbers are some x,y coordinates. Write a program that reads the file ``mystery.txt`` and uses the turtle to draw the picture described by the commands and the set of points."
+msgstr ""
+
+#: ../../_sources/Files/Exercises.rst:234
+msgid "Here is the ``mystery.txt`` file:"
+msgstr ""
+

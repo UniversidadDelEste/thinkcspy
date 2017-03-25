@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Files/AlternativeFileReadingMethods.rst:15
+msgid "Alternative File Reading Methods"
+msgstr ""
+
+#: ../../_sources/Files/AlternativeFileReadingMethods.rst:17
+msgid "Again, recall the contents of the qbdata.txt file."
+msgstr ""
+
+#: ../../_sources/Files/AlternativeFileReadingMethods.rst:60
+msgid "In addition to the ``for`` loop, Python provides three methods to read data from the input file. The ``readline`` method reads one line from the file and returns it as a string. The string returned by ``readline`` will contain the newline character at the end. This method returns the empty string when it reaches the end of the file. The ``readlines`` method returns the contents of the entire file as a list of strings, where each item in the list represents one line of the file. It is also possible to read the entire file into a single string with ``read``. :ref:`Table 2 <filemethods2a>` summarizes these methods and the following session shows them in action."
+msgstr ""
+
+#: ../../_sources/Files/AlternativeFileReadingMethods.rst:70
+msgid "Note that we need to reopen the file before each read so that we start from the beginning. Each file has a marker that denotes the current read position in the file. Any time one of the read methods is called the marker is moved to the character immediately following the last character returned. In the case of ``readline`` this moves the marker to the first character of the next line in the file. In the case of ``read`` or ``readlines`` the marker is moved to the end of the file."
+msgstr ""
+
+#: ../../_sources/Files/AlternativeFileReadingMethods.rst:112
+msgid "**Method Name**"
+msgstr ""
+
+#: ../../_sources/Files/AlternativeFileReadingMethods.rst:112
+msgid "**Use**"
+msgstr ""
+
+#: ../../_sources/Files/AlternativeFileReadingMethods.rst:112
+msgid "**Explanation**"
+msgstr ""
+
+#: ../../_sources/Files/AlternativeFileReadingMethods.rst:114
+msgid "``write``"
+msgstr ""
+
+#: ../../_sources/Files/AlternativeFileReadingMethods.rst:114
+msgid "``filevar.write(astring)``"
+msgstr ""
+
+#: ../../_sources/Files/AlternativeFileReadingMethods.rst:114
+msgid "Add astring to the end of the file. filevar must refer to a file that has been  opened for writing."
+msgstr ""
+
+#: ../../_sources/Files/AlternativeFileReadingMethods.rst:117
+msgid "``read(n)``"
+msgstr ""
+
+#: ../../_sources/Files/AlternativeFileReadingMethods.rst:117
+msgid "``filevar.read()``"
+msgstr ""
+
+#: ../../_sources/Files/AlternativeFileReadingMethods.rst:117
+msgid "Reads and returns a string of ``n`` characters, or the entire file as a single string if  n is not provided."
+msgstr ""
+
+#: ../../_sources/Files/AlternativeFileReadingMethods.rst:120
+msgid "``readline(n)``"
+msgstr ""
+
+#: ../../_sources/Files/AlternativeFileReadingMethods.rst:120
+msgid "``filevar.readline()``"
+msgstr ""
+
+#: ../../_sources/Files/AlternativeFileReadingMethods.rst:120
+msgid "Returns the next line of the file with all text up to and including the newline character. If n is provided as a parameter than only n characters will be returned if the line is longer than ``n``."
+msgstr ""
+
+#: ../../_sources/Files/AlternativeFileReadingMethods.rst:126
+msgid "``readlines(n)``"
+msgstr ""
+
+#: ../../_sources/Files/AlternativeFileReadingMethods.rst:126
+msgid "``filevar.readlines()``"
+msgstr ""
+
+#: ../../_sources/Files/AlternativeFileReadingMethods.rst:126
+msgid "Returns a list of strings, each representing a single line of the file. If n is not provided then all lines of the file are returned. If n is provided then n characters are read but n is rounded up so that an entire line is returned."
+msgstr ""
+
+#: ../../_sources/Files/AlternativeFileReadingMethods.rst:135
+msgid "Now let's look at another method of reading our file using a ``while`` loop.  This is important because many other programming languages do not support the ``for`` loop style for reading files but they do support the pattern we'll show you here."
+msgstr ""
+
+#: ../../_sources/Files/AlternativeFileReadingMethods.rst:149
+msgid "The important thing to notice is that on line 2 we have the statement ``line = infile.readline()``. We call this initial read the **priming read**. It is very important because the while condition needs to have a value for the ``line`` variable.  The ``readline`` method will return the empty string if there is no more data in the file.  The condition ``while line:`` means `while the content of line is not the empty string`.  Remember that a blank line in the file actually has a single character, the ``\\n`` character (newline).  So, the only way that a line of data from the file can be empty is if you are reading at the end of the file."
+msgstr ""
+
+#: ../../_sources/Files/AlternativeFileReadingMethods.rst:156
+msgid "Finally, notice that the last line of the body of the ``while`` loop performs another ``readline``.  This statement will reassign the variable ``line`` to the next line of the file.  It represents the `change of state` that is necessary for the iteration to function correctly.  Without it, there would be an infinite loop processing the same line of data over and over."
+msgstr ""
+

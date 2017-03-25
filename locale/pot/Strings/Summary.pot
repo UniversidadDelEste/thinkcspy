@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Strings/Summary.rst:11
+msgid "Summary"
+msgstr ""
+
+#: ../../_sources/Strings/Summary.rst:13
+msgid "This chapter introduced a lot of new ideas.  The following summary may prove helpful in remembering what you learned."
+msgstr ""
+
+#: ../../_sources/Strings/Summary.rst:17
+msgid "indexing (``[]``)"
+msgstr ""
+
+#: ../../_sources/Strings/Summary.rst:19
+msgid "Access a single character in a string using its position (starting from 0).  Example: ``'This'[2]`` evaluates to ``'i'``."
+msgstr ""
+
+#: ../../_sources/Strings/Summary.rst:21
+msgid "length function (``len``)"
+msgstr ""
+
+#: ../../_sources/Strings/Summary.rst:23
+msgid "Returns the number of characters in a string.  Example: ``len('happy')`` evaluates to ``5``."
+msgstr ""
+
+#: ../../_sources/Strings/Summary.rst:25
+msgid "for loop traversal (``for``)"
+msgstr ""
+
+#: ../../_sources/Strings/Summary.rst:27
+msgid "*Traversing* a string means accessing each character in the string, one at a time.  For example, the following for loop:"
+msgstr ""
+
+#: ../../_sources/Strings/Summary.rst:35
+msgid "executes the body of the loop 7 times with different values of `ix` each time."
+msgstr ""
+
+#: ../../_sources/Strings/Summary.rst:36
+msgid "slicing (``[:]``)"
+msgstr ""
+
+#: ../../_sources/Strings/Summary.rst:38
+msgid "A *slice* is a substring of a string. Example: ``'bananas and cream'[3:6]`` evaluates to ``ana`` (so does ``'bananas and cream'[1:4]``)."
+msgstr ""
+
+#: ../../_sources/Strings/Summary.rst:41
+msgid "string comparison (``>, <, >=, <=, ==, !=``)"
+msgstr ""
+
+#: ../../_sources/Strings/Summary.rst:43
+msgid "The six common comparision operators work with strings, evaluating according to `lexigraphical order <http://en.wikipedia.org/wiki/Lexicographic_order>`__.  Examples: ``'apple' < 'banana'`` evaluates to ``True``.  ``'Zeta' < 'Appricot'`` evaluates to ``False``.  ``'Zebra' <= 'aardvark'`` evaluates to ``True`` because all upper case letters precede lower case letters."
+msgstr ""
+
+#: ../../_sources/Strings/Summary.rst:49
+msgid "in and not in operator (``in``, ``not in``)"
+msgstr ""
+
+#: ../../_sources/Strings/Summary.rst:51
+msgid "The ``in`` operator tests whether one string is contained inside another string.  Examples: ``'heck' in \"I'll be checking for you.\"`` evaluates to ``True``.  ``'cheese' in \"I'll be checking for you.\"`` evaluates to ``False``."
+msgstr ""
+

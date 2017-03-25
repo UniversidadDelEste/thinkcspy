@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:15
+msgid "Our First Turtle Program"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:17
+msgid "Let's try a couple of lines of Python code to create a new turtle and start drawing a simple figure like a rectangle. We will refer to our first turtle using the variable name alex, but remember that you can choose any name you wish as long as you follow the naming rules from the previous chapter."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:23
+msgid "The program as shown will only draw the first two sides of the rectangle. After line 4 you will have a straight line going from the center of the drawing canvas towards the right.  After line 6, you will have a canvas with a turtle and a half drawn rectangle.  Press the run button to try it and see."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:43
+msgid "Here are a couple of things you'll need to understand about this program."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:45
+msgid "The first line tells Python to load a **module** named ``turtle``.  That module brings us two new types that we can use: the ``Turtle`` type, and the ``Screen`` type.  The dot notation ``turtle.Turtle`` means *\"The Turtle type that is defined within the turtle module\"*.   (Remember that Python is case sensitive, so the module name, ``turtle``, with a lowercase `t`, is different from the type ``Turtle`` because of the uppercase `T`.)"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:52
+msgid "We then create and open what the turtle module calls a screen (we would prefer to call it a window, or in the case of this web version of Python simply a canvas), which we assign to variable `wn`. Every window contains a **canvas**, which is the area inside the window on which we can draw."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:57
+msgid "In line 3 we create a turtle. The variable `alex` is made to refer to this turtle.   These first three lines set us up so that we are ready to do some drawing."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:60
+msgid "In lines 4-6, we instruct the **object** alex to move and to turn. We do this by **invoking** or activating alex's **methods** --- these are the instructions that all turtles know how to respond to."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:65
+msgid "Complete the rectangle ..."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:67
+msgid "Modify the program by adding the commands necessary to have *alex* complete the rectangle."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:70
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:186
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:83
+msgid "turtle-2-1: Which direction does the Turtle face when it is created?"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:85
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:250
+msgid "**Mixed up programs**"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:128
+msgid "An object can have various methods --- things it can do --- and it can also have **attributes** --- (sometimes called *properties*).  For example, each turtle has a *color* attribute.  The method invocation  `alex.color(\"red\")` will make alex red and the line that it draws will be red too."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:133
+msgid "The color of the turtle, the width of its pen(tail), the position of the turtle within the window, which way it is facing, and so on are all part of its current **state**.   Similarly, the window object has a background color which is part of its state."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:137
+msgid "Quite a number of methods exist that allow us to modify the turtle and window objects.  In the example below, we show just show a couple and have only commented those lines that are different from the previous example.  Note also that we have decided to call our turtle object *tess*."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:162
+msgid "The last line plays a very important role. The wn variable refers to the window shown above. When we invoke its ``exitonclick`` method, the program pauses execution and waits for the user to click the mouse somewhere in the window. When this click event occurs, the response is to close the turtle window and exit (stop execution of) the Python program."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:167
+msgid "Each time we run this program, a new drawing window pops up, and will remain on the screen until we click on it."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:170
+msgid "Extend this program ..."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:172
+msgid "Modify this program so that before it creates the window, it prompts the user to enter the desired background color. It should store the user's responses in a variable, and modify the color of the window according to the user's wishes. (Hint: you can find a list of permitted color names at http://www.w3schools.com/html/html_colornames.asp.  It includes some quite unusual ones, like \"PeachPuff\"  and \"HotPink\".)"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:179
+msgid "Do similar changes to allow the user, at runtime, to set tess' color."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:180
+msgid "Do the same for the width of tess' pen.  *Hint:* your dialog with the user will return a string, but tess' ``pensize`` method expects its argument to be an ``int``.  That means you need to convert the string to an int before you pass it to ``pensize``."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:199
+msgid "turtle-2-5: Consider the following code:"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:210
+msgid "What does the line \"import turtle\" do?"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:221
+msgid "turtle-2-6: Why do we type ``turtle.Turtle()`` to get a new Turtle object?"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:230
+msgid "turtle-2-7: True or False: A Turtle object can have any name that follows the naming rules from Chapter 2."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:245
+msgid "turtle-2-8: Which of the following code would produce the following image?"
+msgstr ""
+

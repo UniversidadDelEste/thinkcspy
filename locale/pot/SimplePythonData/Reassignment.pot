@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/SimplePythonData/Reassignment.rst:15
+msgid "Reassignment"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Reassignment.rst:25
+msgid "As we have mentioned previously, it is legal to make more than one assignment to the same variable. A new assignment makes an existing variable refer to a new value (and stop referring to the old value)."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Reassignment.rst:37
+msgid "The first time ``bruce`` is printed, its value is 5, and the second time, its value is 7.  The assignment statement changes the value (the object) that ``bruce`` refers to."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Reassignment.rst:41
+msgid "Here is what **reassignment** looks like in a reference diagram:"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Reassignment.rst:48
+msgid "It is important to note that in mathematics, a statement of equality is always true.  If ``a is equal to b`` now, then ``a will always equal to b``. In Python, an assignment statement can make two variables refer to the same object and therefore have the same value.  They appear to be equal.  However, because of the possibility of reassignment, they don't have to stay that way:"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Reassignment.rst:61
+msgid "Line 4 changes the value of ``a`` but does not change the value of ``b``, so they are no longer equal. We will have much more to say about equality in a later chapter."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Reassignment.rst:66
+msgid "In some programming languages, a different symbol is used for assignment, such as ``<-`` or ``:=``.  The intent is that this will help to avoid confusion.  Python chose to use the tokens ``=`` for assignment, and ``==`` for equality.  This is a popular choice also found in languages like C, C++, Java, and C#."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Reassignment.rst:72
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Reassignment.rst:86
+msgid "data-10-1: After the following statements, what are the values of x and y?"
+msgstr ""
+

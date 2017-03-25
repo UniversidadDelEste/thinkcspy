@@ -1,0 +1,270 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/GeneralIntro/Glossary.rst:11
+msgid "Glossary"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:14
+msgid "activecode"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:16
+msgid "A unique interpreter environment that allows Python to be executed from within a web browser."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:17
+msgid "algorithm"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:19
+msgid "A general step by step process for solving a problem."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:20
+msgid "bug"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:22
+msgid "An error in a program."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:23
+msgid "byte code"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:25
+msgid "An intermediate language between source code and object code. Many modern languages first compile source code into byte code and then interpret the byte code with a program called a *virtual machine*."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:28
+msgid "codelens"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:30
+msgid "An interactive environment that allows the user to control the step by step execution of a Python program"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:31
+msgid "comment"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:33
+msgid "Information in a program that is meant for other programmers (or anyone reading the source code) and has no effect on the execution of the program."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:36
+msgid "compile"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:38
+msgid "To translate a program written in a high-level language into a low-level language all at once, in preparation for later execution."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:40
+msgid "debugging"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:42
+msgid "The process of finding and removing any of the three kinds of programming errors."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:44
+msgid "exception"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:46
+msgid "Another name for a runtime error."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:47
+msgid "executable"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:49
+msgid "Another name for object code that is ready to be executed."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:50
+msgid "formal language"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:52
+msgid "Any one of the languages that people have designed for specific purposes, such as representing mathematical ideas or computer programs; all programming languages are formal languages."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:55
+msgid "high-level language"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:57
+msgid "A programming language like Python that is designed to be easy for humans to read and write."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:59
+msgid "interpret"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:61
+msgid "To execute a program in a high-level language by translating it one line at a time."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:63
+msgid "low-level language"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:65
+msgid "A programming language that is designed to be easy for a computer to execute; also called machine language or assembly language."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:67
+msgid "natural language"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:69
+msgid "Any one of the languages that people speak that evolved naturally."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:70
+msgid "object code"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:72
+msgid "The output of the compiler after it translates the program."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:73
+msgid "parse"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:75
+msgid "To examine a program and analyze the syntactic structure."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:76
+msgid "portability"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:78
+msgid "A property of a program that can run on more than one kind of computer."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:79
+msgid "print function"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:81
+msgid "A function used in a program or script that causes the Python interpreter to display a value on its output device."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:83
+msgid "problem solving"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:85
+msgid "The process of formulating a problem, finding a solution, and expressing the solution."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:87
+msgid "program"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:89
+msgid "A sequence of instructions that specifies to a computer actions and computations to be performed."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:91
+msgid "programming language"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:93
+msgid "A formal notation for representing solutions."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:94
+msgid "Python shell"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:96
+msgid "An interactive user interface to the Python interpreter. The user of a Python shell types commands at the prompt (>>>), and presses the return key to send these commands immediately to the interpreter for processing."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:100
+msgid "runtime error"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:102
+msgid "An error that does not occur until the program has started to execute but that prevents the program from continuing."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:104
+msgid "semantic error"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:106
+msgid "An error in a program that makes it do something other than what the programmer intended."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:108
+msgid "semantics"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:110
+msgid "The meaning of a program."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:111
+msgid "shell mode"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:113
+msgid "A style of using Python where we type expressions at the command prompt, and the results are shown immediately.  Contrast with **source code**, and see the entry under **Python shell**."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:116
+msgid "source code"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:118
+msgid "A program, stored in a file, in a high-level language before being compiled or interpreted."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:119
+msgid "syntax"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:121
+msgid "The structure of a program."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:122
+msgid "syntax error"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:124
+msgid "An error in a program that makes it impossible to parse --- and therefore impossible to interpret."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:126
+msgid "token"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Glossary.rst:128
+msgid "One of the basic elements of the syntactic structure of a program, analogous to a word in a natural language."
+msgstr ""
+

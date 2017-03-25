@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:15
+msgid "Traversal and the ``for`` Loop: By Item"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:17
+msgid "A lot of computations involve processing a collection one item at a time.  For strings this means that we would like to process one character at a time. Often we start at the beginning, select each character in turn, do something to it, and continue until the end. This pattern of processing is called a **traversal**."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:23
+msgid "We have previously seen that the ``for`` statement can iterate over the items of a sequence (a list of names in the case below)."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:32
+msgid "Recall that the loop variable takes on each value in the sequence of names.  The body is performed once for each name.  The same was true for the sequence of integers created by the ``range`` function."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:41
+msgid "Since a string is simply a sequence of characters, the ``for`` loop iterates over each character automatically."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:49
+msgid "The loop variable ``achar`` is automatically reassigned each character in the string \"Go Spot Go\". We will refer to this type of sequence iteration as **iteration by item**. Note that it is only possible to process the characters one at a time from left to right."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:53
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:67
+msgid "strings-10-1: How many times is the word HELLO printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:90
+msgid "strings-10-2: How many times is the word HELLO printed by the following statements?"
+msgstr ""
+

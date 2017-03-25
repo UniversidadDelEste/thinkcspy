@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Selection/BooleanFunctions.rst:15
+msgid "Boolean Functions"
+msgstr ""
+
+#: ../../_sources/Selection/BooleanFunctions.rst:17
+msgid "We have already seen that boolean values result from the evaluation of boolean expressions.  Since the result of any expression evaluation can be returned by a function (using the ``return`` statement), functions can return boolean values.  This turns out to be a very convenient way to hide the details of complicated tests. For example:"
+msgstr ""
+
+#: ../../_sources/Selection/BooleanFunctions.rst:33
+msgid "The name of this function is ``isDivisible``. It is common to give **boolean functions** names that sound like yes/no questions.  ``isDivisible`` returns either ``True`` or ``False`` to indicate whether the ``x`` is or is not divisible by ``y``."
+msgstr ""
+
+#: ../../_sources/Selection/BooleanFunctions.rst:38
+msgid "We can make the function more concise by taking advantage of the fact that the condition of the ``if`` statement is itself a boolean expression. We can return it directly, avoiding the ``if`` statement altogether:"
+msgstr ""
+
+#: ../../_sources/Selection/BooleanFunctions.rst:48
+msgid "Boolean functions are often used in conditional statements:"
+msgstr ""
+
+#: ../../_sources/Selection/BooleanFunctions.rst:57
+msgid "It might be tempting to write something like ``if isDivisible(x, y) == True:`` but the extra comparison is  not necessary.  The following example shows the ``isDivisible`` function at work.  Notice how descriptive the code is when we move the testing details into a boolean function.  Try it with a few other actual parameters to see what is printed."
+msgstr ""
+
+#: ../../_sources/Selection/BooleanFunctions.rst:78
+msgid "Here is the same program in codelens.  When we evaluate the ``if`` statement in the main part of the program, the evaluation of the boolean expression causes a call to the ``isDivisible`` function.  This is very easy to see in codelens."
+msgstr ""
+
+#: ../../_sources/Selection/BooleanFunctions.rst:99
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Selection/BooleanFunctions.rst:110
+msgid "select-8-1: What is a Boolean function?"
+msgstr ""
+
+#: ../../_sources/Selection/BooleanFunctions.rst:119
+msgid "select-8-2: Is the following statement legal in Python (assuming x, y and z are defined to be numbers)?"
+msgstr ""
+
+#: ../../_sources/Selection/BooleanFunctions.rst:129
+msgid "This workspace is provided for your convenience.  You can use this activecode window to try out anything you like."
+msgstr ""
+

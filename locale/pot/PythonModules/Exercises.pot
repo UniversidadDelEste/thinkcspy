@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/PythonModules/Exercises.rst:11
+msgid "Exercises"
+msgstr ""
+
+#: ../../_sources/PythonModules/Exercises.rst:19
+msgid "Use a ``for`` statement to print 10 random numbers."
+msgstr ""
+
+#: ../../_sources/PythonModules/Exercises.rst:42
+msgid "Repeat the above exercise but this time print 10 random numbers between 25 and 35."
+msgstr ""
+
+#: ../../_sources/PythonModules/Exercises.rst:52
+msgid "The **Pythagorean Theorem** tells us that the length of the hypotenuse of a right triangle is related to the lengths of the other two sides.  Look through the ``math`` module and see if you can find a function that will compute this relationship for you.  Once you find it, write a short program to try it out."
+msgstr ""
+
+#: ../../_sources/PythonModules/Exercises.rst:75
+msgid "Search on the internet for a way to calculate an approximation for **pi**.  There are many that use simple arithmetic.  Write a program to compute the approximation and then print that value as well as the value of ``math.pi`` from the math module."
+msgstr ""
+

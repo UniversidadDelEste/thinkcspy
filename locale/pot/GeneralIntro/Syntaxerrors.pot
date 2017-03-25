@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/GeneralIntro/Syntaxerrors.rst:15
+msgid "Syntax errors"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Syntaxerrors.rst:17
+msgid "Python can only execute a program if the program is syntactically correct; otherwise, the process fails and returns an error message.  **Syntax** refers to the structure of a program and the rules about that structure. For example, in English, a sentence must begin with a capital letter and end with a period. this sentence contains a **syntax error**. So does this one"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Syntaxerrors.rst:23
+msgid "For most readers, a few syntax errors are not a significant problem, which is why we can read the poetry of e. e. cummings without problems. Python is not so forgiving. If there is a single syntax error anywhere in your program, Python will display an error message and quit.  You will not be able to complete the execution of your program. During the first few weeks of your programming career, you will probably spend a lot of time tracking down syntax errors. However, as you gain experience, you will make fewer errors and you will also be able to find your errors faster."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Syntaxerrors.rst:32
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Syntaxerrors.rst:43
+msgid "intro-7-1: Which of the following is a syntax error?"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Syntaxerrors.rst:58
+msgid "intro-7-2: Who or what typically finds syntax errors?"
+msgstr ""
+

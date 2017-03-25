@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:15
+msgid "The Three Laws of Recursion"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:17
+msgid "Like the robots of Asimov, all recursive algorithms must obey three important laws:"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:20
+msgid "A recursive algorithm must have a **base case**."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:22
+msgid "A recursive algorithm must change its state and move toward the base case."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:25
+msgid "A recursive algorithm must call itself, recursively."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:27
+msgid "Let’s look at each one of these laws in more detail and see how it was used in the ``listsum`` algorithm. First, a base case is the condition that allows the algorithm to stop recursing. A base case is typically a problem that is small enough to solve directly. In the ``listsum`` algorithm the base case is a list of length 1."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:33
+msgid "To obey the second law, we must arrange for a change of state that moves the algorithm toward the base case. A change of state means that some data that the algorithm is using is modified. Usually the data that represents our problem gets smaller in some way. In the ``listsum`` algorithm our primary data structure is a list, so we must focus our state-changing efforts on the list. Since the base case is a list of length 1, a natural progression toward the base case is to shorten the list. This is exactly what happens on line 5 of :ref:`ActiveCode 2 <lst_recsum>` when we call ``listsum`` with a shorter list."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:42
+msgid "The final law is that the algorithm must call itself. This is the very definition of recursion. Recursion is a confusing concept to many beginning programmers. As a novice programmer, you have learned that functions are good because you can take a large problem and break it up into smaller problems. The smaller problems can be solved by writing a function to solve each problem. When we talk about recursion it may seem that we are talking ourselves in circles. We have a problem to solve with a function, but that function solves the problem by calling itself! But the logic is not circular at all; the logic of recursion is an elegant expression of solving a problem by breaking it down into a smaller and easier problems."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:54
+msgid "In the remainder of this chapter we will look at more examples of recursion. In each case we will focus on designing a solution to a problem by using the three laws of recursion."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:59
+msgid "Self Check"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:72
+msgid "rec-3-1: How many recursive calls are made when computing the sum of the list [2,4,6,8,10]?"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:85
+msgid "rec-3-2: Suppose you are going to write a recusive function to calculate the factorial of a number.  fact(n) returns n * n-1 * n-2 * ... Where the factorial of zero is definded to be 1.  What would be the most appropriate base case?"
+msgstr ""
+

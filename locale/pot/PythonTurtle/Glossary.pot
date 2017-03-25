@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/PythonTurtle/Glossary.rst:11
+msgid "Glossary"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:15
+msgid "attribute"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:17
+msgid "Some state or value that belongs to a particular object.  For example, tess has a color."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:19
+msgid "canvas"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:21
+msgid "A surface within a window where drawing takes place."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:22
+msgid "control flow"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:24
+msgid "See *flow of execution* in the next chapter."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:25
+msgid "for loop"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:27
+msgid "A statement in Python for convenient repetition of statements in the *body* of the loop."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:29
+msgid "instance"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:31
+msgid "An object that belongs to a class.  `tess` and `alex` are different instances of the class `Turtle`"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:34
+msgid "invoke"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:36
+msgid "An object has methods.  We use the verb invoke to mean *activate the method*.  Invoking a method is done by putting parentheses after the method name, with some possible arguments.  So  ``wn.exitonclick()`` is an invocation of the ``exitonclick`` method."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:40
+msgid "iteration"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:42
+msgid "A basic building block for algorithms (programs).  It allows steps to be repeated.  Sometimes called *looping*."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:43
+msgid "loop body"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:45
+msgid "Any number of statements nested inside a loop. The nesting is indicated by the fact that the statements are indented under the for loop statement."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:48
+msgid "loop variable"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:50
+msgid "A variable used as part of a for loop. It is assigned a different value on each iteration of the loop, and is used as part of the terminating condition of the loop,"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:55
+msgid "method"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:57
+msgid "A function that is attached to an object.  Invoking or activating the method causes the object to respond in some way, e.g. ``forward`` is the method when we say ``tess.forward(100)``."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:62
+msgid "module"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:64
+msgid "A file containing Python definitions and statements intended for use in other Python programs. The contents of a module are made available to the other program by using the *import* statement."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:67
+msgid "object"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:69
+msgid "A \"thing\" to which a variable can refer.  This could be a screen window, or one of the turtles you have created."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:71
+msgid "range"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:73
+msgid "A built-in function in Python for generating sequences of integers.  It is especially useful when we need to write a for loop that executes a fixed number of times."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:76
+msgid "sequential"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:78
+msgid "The default behavior of a program.  Step by step processing of algorithm."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:79
+msgid "state"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:81
+msgid "The collection of attribute values that a specific data object maintains."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:82
+msgid "terminating condition"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:84
+msgid "A condition that occurs which causes a loop to stop repeating its body. In the ``for`` loops we saw in this chapter, the terminating condition has been when there are no more elements to assign to the loop variable."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:87
+msgid "turtle"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Glossary.rst:89
+msgid "A data object used to create pictures (known as turtle graphics)."
+msgstr ""
+

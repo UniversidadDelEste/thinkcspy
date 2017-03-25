@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Strings/TraversalandtheforLoopByIndex.rst:15
+msgid "Traversal and the ``for`` Loop: By Index"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByIndex.rst:17
+msgid "It is also possible to use the ``range`` function to systematically generate the indices of the characters.  The ``for`` loop can then be used to iterate over these positions. These positions can be used together with the indexing operator to access the individual characters in the string."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByIndex.rst:21
+msgid "Consider the following codelens example."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByIndex.rst:30
+msgid "The index positions in \"apple\" are 0,1,2,3 and 4.  This is exactly the same sequence of integers returned by ``range(5)``.  The first time through the for loop, ``idx`` will be 0 and the \"a\" will be printed.  Then, ``idx`` will be reassigned to 1 and \"p\" will be displayed.  This will repeat for all the range values up to but not including 5.  Since \"e\" has index 4, this will be exactly right to show all of the characters."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByIndex.rst:33
+msgid "In order to make the iteration more general, we can use the ``len`` function to provide the bound for ``range``.  This is a very common pattern for traversing any sequence by position.        Make sure you understand why the range function behaves correctly when using ``len`` of the string as its parameter value."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByIndex.rst:45
+msgid "You may also note that iteration by position allows the programmer to control the direction of the traversal by changing the sequence of index values.  Recall that we can create ranges that count down as well as up so the following code will print the characters from right to left."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByIndex.rst:55
+msgid "Trace the values of ``idx`` and satisfy yourself that they are correct.  In particular, note the start and end of the range."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByIndex.rst:57
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByIndex.rst:71
+msgid "strings-11-1: How many times is the letter o printed by the following statements?"
+msgstr ""
+

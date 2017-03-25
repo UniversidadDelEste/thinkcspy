@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:15
+msgid "Dictionary Methods"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:17
+msgid "Dictionaries have a number of useful built-in methods. The following table provides a summary and more details can be found in the `Python Documentation <http://docs.python.org/py3k/library/stdtypes.html#mapping-types-dict>`_."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:22
+msgid "Method"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:22
+msgid "Parameters"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:22
+msgid "Description"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:24
+msgid "keys"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:24
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:25
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:26
+msgid "none"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:24
+msgid "Returns a view of the keys in the dictionary"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:25
+msgid "values"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:25
+msgid "Returns a view of the values in the dictionary"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:26
+msgid "items"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:26
+msgid "Returns a view of the key-value pairs in the dictionary"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:27
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:28
+msgid "get"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:27
+msgid "key"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:27
+msgid "Returns the value associated with key; None otherwise"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:28
+msgid "key,alt"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:28
+msgid "Returns the value associated with key; alt otherwise"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:31
+msgid "The ``keys`` method returns what Python 3 calls a **view** of its underlying keys. We can iterate over the view or turn the view into a list by using the ``list`` conversion function."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:46
+msgid "It is so common to iterate over the keys in a dictionary that you can omit the ``keys`` method call in the ``for`` loop --- iterating over a dictionary implicitly iterates over its keys."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:58
+msgid "As we saw earlier with strings and lists, dictionary methods use dot notation, which specifies the name of the method to the right of the dot and the name of the object on which to apply the method immediately to the left of the dot. The empty parentheses in the case of ``keys`` indicate that this method takes no parameters."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:63
+msgid "The ``values`` and ``items`` methods are similar to ``keys``. They return  view objects which can be turned into lists or iterated over directly.  Note that the items are shown as tuples containing the key and the associated value."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:79
+msgid "Note that tuples are often useful for getting both the key and the value at the same time while you are looping.  The two loops do the same thing."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:83
+msgid "The ``in`` and ``not in`` operators can test if a key is in the dictionary:"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:97
+msgid "This operator can be very useful since looking up a non-existent key in a dictionary causes a runtime error."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:100
+msgid "The ``get`` method allows us to access the value associated with a key, similar to the ``[ ]`` operator. The important difference is that ``get`` will not cause a runtime error if the key is not present.  It will instead return None.  There exists a variation of ``get`` that allows a second parameter that serves as an alternative return value in the case where the key is not present.  This can be seen in the final example below.  In this case, since \"cherries\" is not a key, return 0 (instead of None)."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:119
+msgid "This workspace is provided for your convenience.  You can use this activecode window to try out anything you like."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:124
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:138
+msgid "dict-3-1: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:161
+msgid "dict-3-2: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:178
+msgid "dict-3-3: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:194
+msgid "dict-3-4: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:215
+msgid "dict-3-5: What is printed by the following statements?"
+msgstr ""
+

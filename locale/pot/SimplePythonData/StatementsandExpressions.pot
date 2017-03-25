@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/SimplePythonData/StatementsandExpressions.rst:15
+msgid "Statements and Expressions"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/StatementsandExpressions.rst:24
+msgid "A **statement** is an instruction that the Python interpreter can execute. We have only seen the assignment statement so far.  Some other kinds of statements that we'll see shortly are ``while`` statements, ``for`` statements, ``if`` statements,  and ``import`` statements.  (There are other kinds too!)"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/StatementsandExpressions.rst:32
+msgid "An **expression** is a combination of values, variables, operators, and calls to functions. Expressions need to be evaluated.  If you ask Python to ``print`` an expression, the interpreter **evaluates** the expression and displays the result."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/StatementsandExpressions.rst:43
+msgid "In this example ``len`` is a built-in Python function that returns the number of characters in a string.  We've previously seen the ``print`` and the ``type`` functions, so this is our third example of a function!"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/StatementsandExpressions.rst:47
+msgid "The *evaluation of an expression* produces a value, which is why expressions can appear on the right hand side of assignment statements. A value all by itself is a simple expression, and so is a variable.  Evaluating a variable gives the value that the variable refers to."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/StatementsandExpressions.rst:59
+msgid "If we take a look at this same example in the Python shell, we will see one of the distinct differences between statements and expressions."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/StatementsandExpressions.rst:73
+msgid "Note that when we enter the assignment statement, ``y = 3.14``, only the prompt is returned.  There is no value.  This is due to the fact that statements, such as the assignment statement, do not return a value.  They are simply executed."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/StatementsandExpressions.rst:76
+msgid "On the other hand, the result of executing the assignment statement is the creation of a reference from a variable, ``y``, to a value, ``3.14``.  When we execute the print function working on ``y``, we see the value that y is referring to.  In fact, evaluating ``y`` by itself results in the same response."
+msgstr ""
+

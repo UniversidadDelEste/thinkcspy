@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Lists/Listsandforloops.rst:15
+msgid "Lists and ``for`` loops"
+msgstr ""
+
+#: ../../_sources/Lists/Listsandforloops.rst:17
+msgid "It is also possible to perform **list traversal** using iteration by item as well as iteration by index."
+msgstr ""
+
+#: ../../_sources/Lists/Listsandforloops.rst:27
+msgid "It almost reads like natural language: For (every) fruit in (the list of) fruits, print (the name of the) fruit."
+msgstr ""
+
+#: ../../_sources/Lists/Listsandforloops.rst:30
+msgid "We can also use the indices to access the items in an iterative fashion."
+msgstr ""
+
+#: ../../_sources/Lists/Listsandforloops.rst:40
+msgid "In this example, each time through the loop, the variable ``position`` is used as an index into the list, printing the ``position``-eth element. Note that we used ``len`` as the upper bound on the range so that we can iterate correctly no matter how many items are in the list."
+msgstr ""
+
+#: ../../_sources/Lists/Listsandforloops.rst:47
+msgid "Any sequence expression can be used in a ``for`` loop.  For example, the ``range`` function returns a sequence of integers."
+msgstr ""
+
+#: ../../_sources/Lists/Listsandforloops.rst:56
+msgid "This example prints all the multiples of 3 between 0 and 19."
+msgstr ""
+
+#: ../../_sources/Lists/Listsandforloops.rst:58
+msgid "Since lists are mutable, it is often desirable to traverse a list, modifying each of its elements as you go. The following code squares all the numbers from ``1`` to ``5`` using iteration by position."
+msgstr ""
+
+#: ../../_sources/Lists/Listsandforloops.rst:72
+msgid "Take a moment to think about ``range(len(numbers))`` until you understand how it works. We are interested here in both the *value* and its *index* within the list, so that we can assign a new value to it."
+msgstr ""
+
+#: ../../_sources/Lists/Listsandforloops.rst:81
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Lists/Listsandforloops.rst:94
+msgid "list-17-1: What is printed by the following statements?"
+msgstr ""
+

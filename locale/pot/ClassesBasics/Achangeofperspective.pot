@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/ClassesBasics/Achangeofperspective.rst:11
+msgid "A change of perspective"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Achangeofperspective.rst:13
+msgid "Throughout the earlier chapters, we wrote functions and called them using a syntax such as ``drawCircle(tess)``.  This suggests that the function is the active agent. It says something like, *\"Hey, drawCircle! Here's a turtle object for you to use to draw with.\"*"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Achangeofperspective.rst:17
+msgid "In object-oriented programming, the objects are considered the active agents. For example, in our early introduction to turtles, we used an object-oriented style. We said ``tess.forward(100)``, which asks the turtle to move itself forward by the given number of steps. An invocation like ``tess.circle()`` says *\"Hey tess! Please use your circle method!\"*"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Achangeofperspective.rst:27
+msgid "This change in perspective is sometimes considered to be a more \"polite\" way to write programming instructions.  However, it may not initially be obvious that it is useful. It turns out that often times shifting responsibility from the functions onto the objects makes it possible to write more versatile functions and makes it easier to maintain and reuse code."
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Achangeofperspective.rst:32
+msgid "The most important advantage of the object-oriented style is that it fits our mental chunking and real-life experience more accurately. In real life our ``cook`` method is part of our microwave oven --- we don't have a ``cook`` function sitting in the corner of the kitchen, into which we pass the microwave!  Similarly, we use the cellphone's own methods to send an sms, or to change its state to silent.  The functionality of real-world objects tends to be tightly bound up inside the objects themselves.  OOP allows us to accurately mirror this when we organize our programs."
+msgstr ""
+

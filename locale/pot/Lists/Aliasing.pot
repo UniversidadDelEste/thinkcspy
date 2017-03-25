@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Lists/Aliasing.rst:15
+msgid "Aliasing"
+msgstr ""
+
+#: ../../_sources/Lists/Aliasing.rst:17
+msgid "Since variables refer to objects, if we assign one variable to another, both variables refer to the same object:"
+msgstr ""
+
+#: ../../_sources/Lists/Aliasing.rst:26
+msgid "In this case, the reference diagram looks like this:"
+msgstr ""
+
+#: ../../_sources/Lists/Aliasing.rst:31
+msgid "Because the same list has two different names, ``a`` and ``b``, we say that it is **aliased**. Changes made with one alias affect the other.  In the codelens example below, you can see that ``a`` and ``b`` refer to the same list after executing the assignment statement ``b = a``."
+msgstr ""
+
+#: ../../_sources/Lists/Aliasing.rst:54
+msgid "Although this behavior can be useful, it is sometimes unexpected or undesirable. In general, it is safer to avoid aliasing when you are working with mutable objects. Of course, for immutable objects, there's no problem. That's why Python is free to alias strings and integers when it sees an opportunity to economize."
+msgstr ""
+
+#: ../../_sources/Lists/Aliasing.rst:60
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Lists/Aliasing.rst:69
+msgid "list-11-1: What is printed by the following statements?"
+msgstr ""
+

@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Selection/Logicaloperators.rst:15
+msgid "Logical operators"
+msgstr ""
+
+#: ../../_sources/Selection/Logicaloperators.rst:17
+msgid "There are three **logical operators**: ``and``, ``or``, and ``not``. The semantics (meaning) of these operators is similar to their meaning in English. For example, ``x > 0 and x < 10`` is true only if ``x`` is greater than 0 *and* at the same time, x is less than 10.  How would you describe this in words?  You would say that x is between 0 and 10, not including the endpoints."
+msgstr ""
+
+#: ../../_sources/Selection/Logicaloperators.rst:23
+msgid "``n % 2 == 0 or n % 3 == 0`` is true if *either* of the conditions is true, that is, if the number is divisible by 2 *or* divisible by 3.  In this case, one, or the other, or both of the parts has to be true for the result to be true."
+msgstr ""
+
+#: ../../_sources/Selection/Logicaloperators.rst:27
+msgid "Finally, the ``not`` operator negates a boolean expression, so ``not  x > y`` is true if ``x > y`` is false, that is, if ``x`` is less than or equal to ``y``."
+msgstr ""
+
+#: ../../_sources/Selection/Logicaloperators.rst:40
+msgid "Common Mistake!"
+msgstr ""
+
+#: ../../_sources/Selection/Logicaloperators.rst:42
+msgid "There is a very common mistake that occurs when programmers try to write boolean expressions.  For example, what if we have a variable ``number`` and we want to check to see if its value is 5,6, or 7.  In words we might say: \"number equal to 5 or 6 or 7\".  However, if we translate this into Python, ``number == 5 or 6 or 7``, it will not be correct.  The ``or`` operator must join the results of three equality checks.  The correct way to write this is ``number == 5 or number == 6 or number == 7``.  This may seem like a lot of typing but it is absolutely necessary.  You cannot take a shortcut."
+msgstr ""
+
+#: ../../_sources/Selection/Logicaloperators.rst:45
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Selection/Logicaloperators.rst:58
+msgid "select-2-1: What is the correct Python expression for checking to see if a number stored in a variable x is between 0 and 5."
+msgstr ""
+

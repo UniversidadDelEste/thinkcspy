@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/SimplePythonData/Exercises.rst:11
+msgid "Exercises"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:20
+msgid "Evaluate the following numerical expressions in your head, then use the active code window to check your results:"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:23
+msgid "``5 ** 2``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:24
+msgid "``9 * 5``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:25
+msgid "``15 / 12``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:26
+msgid "``12 / 15``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:27
+msgid "``15 // 12``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:28
+msgid "``12 // 15``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:29
+msgid "``5 % 2``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:30
+msgid "``9 % 5``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:31
+msgid "``15 % 12``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:32
+msgid "``12 % 15``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:33
+msgid "``6 % 6``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:34
+msgid "``0 % 7``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:42
+msgid "``5 ** 2  = 25``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:43
+msgid "``9 * 5 = 45``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:44
+msgid "``15 / 12 = 1.25``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:45
+msgid "``12 / 15 = 0.8``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:46
+msgid "``15 // 12 = 1``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:47
+msgid "``12 // 15 = 0``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:48
+msgid "``5 % 2 = 1``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:49
+msgid "``9 % 5 = 4``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:50
+msgid "``15 % 12 = 3``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:51
+msgid "``12 % 15 = 12``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:52
+msgid "``6 % 6 = 0``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:53
+msgid "``0 % 7 = 0``"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:63
+msgid "What is the order of the arithmetic operations in the following expression.  Evaluate the expression by hand and then check your work."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:79
+msgid "Many people keep time using a 24 hour clock (11 is 11am and 23 is 11pm, 0 is midnight). If it is currently 13 and you set your alarm to go off in 50 hours, it will be 15 (3pm). Write a Python program to solve the general version of the above problem. Ask the user for the time now (in hours), and then ask for the number of hours to wait for the alarm. Your program should output what the time will be on the clock when the alarm goes off."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:115
+msgid "It is possible to name the days 0 through 6 where day 0 is Sunday and day 6 is Saturday.  If you go on a wonderful holiday leaving on day number 3 (a Wednesday) and you return home after 10 nights. Write a general version of the program which asks for the starting day number, and the length of your stay, and it will tell you the number of day of the week you will return on."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:132
+msgid "Take the sentence: *All work and no play makes Jack a dull boy.* Store each word in a separate variable, then print out the sentence on one line using ``print``."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:167
+msgid "Add parenthesis to the expression ``6 * 1 - 2`` to change its value from 4 to -6."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:179
+msgid "The formula for computing the final amount if one is earning compound interest is given on Wikipedia as"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:185
+msgid "Write a Python program that assigns the principal amount of 10000 to variable `P`, assign to `n` the value 12, and assign to `r` the interest rate of 8% (0.08).  Then have the program prompt the user for the number of years, `t`, that the money will be compounded for.  Calculate and print the final amount after `t` years."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:219
+msgid "Write a program that will compute the area of a circle.  Prompt the user to enter the radius and print a nice message back to the user with the answer."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:231
+msgid "Write a program that will compute the area of a rectangle.  Prompt the user to enter the width and height of the rectangle. Print a nice message with the answer."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:259
+msgid "Write a program that will compute MPG for a car.  Prompt the user to enter the number of miles driven and the number of gallons used.  Print a nice message with the answer."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:271
+msgid "Write a program that will convert degrees celsius to degrees fahrenheit."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:297
+msgid "Write a program that will convert degrees fahrenheit to degrees celsius."
+msgstr ""
+

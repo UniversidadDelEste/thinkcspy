@@ -1,0 +1,213 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Strings/StringMethods.rst:17
+msgid "String Methods"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:19
+msgid "We previously saw that each turtle instance has its own attributes and a number of methods that can be applied to the instance.  For example, we wrote ``tess.right(90)`` when we wanted the turtle object ``tess`` to perform the ``right`` method to turn to the right 90 degrees.  The \"dot notation\" is the way we connect the name of an object to the name of a method it can perform."
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:25
+msgid "Strings are also objects.  Each string instance has its own attributes and methods.  The most important attribute of the string is the collection of characters.  There are a wide variety of methods.  Try the following program."
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:36
+msgid "In this example, ``upper`` is a method that can be invoked on any string object to create a new string in which all the characters are in uppercase.  ``lower`` works in a similar fashion changing all characters in the string to lowercase.  (The original string ``ss`` remains unchanged.  A new string ``tt`` is created.)"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:41
+msgid "In addition to ``upper`` and ``lower``, the following table provides a summary of some other useful string methods.  There are a few activecode examples that follow so that you can try them out."
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:44
+msgid "Method"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:44
+msgid "Parameters"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:44
+msgid "Description"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:46
+msgid "upper"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:46
+#: ../../_sources/Strings/StringMethods.rst:47
+#: ../../_sources/Strings/StringMethods.rst:48
+#: ../../_sources/Strings/StringMethods.rst:50
+#: ../../_sources/Strings/StringMethods.rst:51
+#: ../../_sources/Strings/StringMethods.rst:52
+msgid "none"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:46
+msgid "Returns a string in all uppercase"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:47
+msgid "lower"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:47
+msgid "Returns a string in all lowercase"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:48
+msgid "capitalize"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:48
+msgid "Returns a string with first character capitalized, the rest lower"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:50
+msgid "strip"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:50
+msgid "Returns a string with the leading and trailing whitespace removed"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:51
+msgid "lstrip"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:51
+msgid "Returns a string with the leading whitespace removed"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:52
+msgid "rstrip"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:52
+msgid "Returns a string with the trailing whitespace removed"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:53
+msgid "count"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:53
+#: ../../_sources/Strings/StringMethods.rst:60
+#: ../../_sources/Strings/StringMethods.rst:61
+#: ../../_sources/Strings/StringMethods.rst:62
+#: ../../_sources/Strings/StringMethods.rst:63
+msgid "item"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:53
+msgid "Returns the number of occurrences of item"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:54
+msgid "replace"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:54
+msgid "old, new"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:54
+msgid "Replaces all occurrences of old substring with new"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:56
+msgid "center"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:56
+#: ../../_sources/Strings/StringMethods.rst:57
+#: ../../_sources/Strings/StringMethods.rst:58
+msgid "width"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:56
+msgid "Returns a string centered in a field of width spaces"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:57
+msgid "ljust"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:57
+msgid "Returns a string left justified in a field of width spaces"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:58
+msgid "rjust"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:58
+msgid "Returns a string right justified in a field of width spaces"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:60
+msgid "find"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:60
+msgid "Returns the leftmost index where the substring item is found"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:61
+msgid "rfind"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:61
+msgid "Returns the rightmost index where the substring item is found"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:62
+msgid "index"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:62
+msgid "Like find except causes a runtime error if item is not found"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:63
+msgid "rindex"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:63
+msgid "Like rfind except causes a runtime error if item is not found"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:66
+msgid "You should experiment with these methods so that you understand what they do.  Note once again that the methods that return strings do not change the original.  You can also consult the `Python documentation for strings <http://docs.python.org/py3k/library/stdtypes.html#index-21>`_."
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:106
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:118
+msgid "strings-5-1: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:140
+msgid "strings-5-2: What is printed by the following statements?"
+msgstr ""
+

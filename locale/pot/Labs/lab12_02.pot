@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Labs/lab12_02.rst:13
+msgid "Letter Count Histogram"
+msgstr ""
+
+#: ../../_sources/Labs/lab12_02.rst:15
+msgid "The previous lab wrote a function to return a dictionary of letter counts.  In an earlier chapter, we wrote a turtle program that could draw a histogram."
+msgstr ""
+
+#: ../../_sources/Labs/lab12_02.rst:18
+msgid "Combine these two ideas together to create a function that will take a string and create a histogram of the number of times each letter occurs.  Make sure it is in alphabetical order from left to right."
+msgstr ""
+
+#: ../../_sources/Labs/lab12_02.rst:21
+msgid "Count the number of times each letter occurs.  Keep the count in a dictionary."
+msgstr ""
+
+#: ../../_sources/Labs/lab12_02.rst:23
+msgid "Get the keys from the dictionary, convert them to a list, and sort them."
+msgstr ""
+
+#: ../../_sources/Labs/lab12_02.rst:25
+msgid "Iterate through the keys, in alphabetical order, getting the associated value (count)."
+msgstr ""
+
+#: ../../_sources/Labs/lab12_02.rst:27
+msgid "Make a histogram bar for each."
+msgstr ""
+

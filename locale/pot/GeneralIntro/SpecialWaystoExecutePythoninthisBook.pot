@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/GeneralIntro/SpecialWaystoExecutePythoninthisBook.rst:15
+msgid "Executing Python in this Book"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SpecialWaystoExecutePythoninthisBook.rst:24
+msgid "This book provides two special ways to execute Python programs.  Both techniques are designed to assist you as you learn the Python programming language.  They will help you increase your understanding of how Python programs work."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SpecialWaystoExecutePythoninthisBook.rst:28
+msgid "First, you can write, modify, and execute programs using a unique **activecode** interpreter that allows you to execute Python code right in the text itself (right from the web browser).  Although this is certainly not the way real programs are written, it provides an excellent environment for learning a programming language like Python since you can experiment with the language as you are reading."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SpecialWaystoExecutePythoninthisBook.rst:32
+msgid "Take a look at the activecode interpreter in action.  If we use the Python code from the previous example and make it active, you will see that it can be executed directly by pressing the *run* button.   Try pressing the *run* button below."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SpecialWaystoExecutePythoninthisBook.rst:40
+msgid "Now try modifying the activecode program shown above.  First, modify the string in the first print statement by changing the word *adds* to the word *multiplies*.  Now press *run*.  You can see that the result of the program has changed.  However, it still prints \"5\" as the answer.  Modify the second print statement by changing the addition symbol, the \"+\", to the multiplication symbol, \"*\".  Press *run* to see the new results."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SpecialWaystoExecutePythoninthisBook.rst:45
+msgid "You can also make changes and save them for reloading later. *Save* and *Load* allow you to keep one copy of the program you are working on.  For example, press the *Save* button now.  You have just saved the current contents of the activecode window.  Now make a few changes and press the *Run* button.  You have changed the current program. Press *Load* to return your program to its previously saved state."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SpecialWaystoExecutePythoninthisBook.rst:48
+msgid "In addition to activecode, you can also execute Python code with the assistance of a unique visualization tool.  This tool, known as **codelens**, allows you to control the step by step execution of a program.  It also lets you see the values of all variables as they are created and modified.  The following example shows codelens in action on the same program as we saw above.  Note that in activecode, the source code executes from beginning to end and you can see the final result.  In codelens you can see and control the step by step progress.  Note that the red arrow always points to the next line of code that is going to be executed.  The light green arrow points to the line that was just executed."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SpecialWaystoExecutePythoninthisBook.rst:61
+msgid "The examples in this book use a mixture of the standard Python  interpreter, source code, activecode, and codelens.  You will be able to tell which is which by looking for either the Python prompt in the case of a shell mode program, the *run* button for the activecode, or the *forward/backward* buttons for codelens."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SpecialWaystoExecutePythoninthisBook.rst:65
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SpecialWaystoExecutePythoninthisBook.rst:79
+msgid "intro-4-1: The activecode interpreter allows you to (select all that apply):"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SpecialWaystoExecutePythoninthisBook.rst:93
+msgid "intro-4-2: Codelens allows you to (select all that apply):"
+msgstr ""
+

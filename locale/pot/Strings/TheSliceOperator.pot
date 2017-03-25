@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Strings/TheSliceOperator.rst:15
+msgid "The Slice Operator"
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:17
+msgid "A substring of a string is called a **slice**. Selecting a slice is similar to selecting a character:"
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:28
+msgid "The `slice` operator ``[n:m]`` returns the part of the string from the n'th character to the m'th character, including the first but excluding the last. In other words,  start with the character at index n and go up to but do not include the character at index m. This behavior may seem counter-intuitive but if you recall the ``range`` function, it did not include its end point either."
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:35
+msgid "If you omit the first index (before the colon), the slice starts at the beginning of the string. If you omit the second index, the slice goes to the end of the string."
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:45
+msgid "What do you think ``fruit[:]`` means?"
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:47
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:61
+msgid "strings-7-1: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:82
+msgid "strings-7-2: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:93
+msgid "This workspace is provided for your convenience.  You can use this activecode window to try out anything you like."
+msgstr ""
+

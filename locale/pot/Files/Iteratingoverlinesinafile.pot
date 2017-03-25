@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Files/Iteratingoverlinesinafile.rst:16
+msgid "Iterating over lines in a file"
+msgstr ""
+
+#: ../../_sources/Files/Iteratingoverlinesinafile.rst:18
+msgid "Recall the contents of the qbdata.txt file."
+msgstr ""
+
+#: ../../_sources/Files/Iteratingoverlinesinafile.rst:58
+msgid "We will now use this file as input in a program that will do some data processing. In the program, we will **read** each line of the file and print it with some additional text. Because text files are sequences of lines of text, we can use the *for* loop to iterate through each line of the file."
+msgstr ""
+
+#: ../../_sources/Files/Iteratingoverlinesinafile.rst:64
+msgid "A **line** of a file is defined to be a sequence of characters up to and including a special character called the **newline** character. If you evaluate a string that contains a newline character you will see the character represented as ``\\n``. If you print a string that contains a newline you will not see the ``\\n``, you will just see its effects. When you are typing a Python program and you press the enter or return key on your keyboard, the editor inserts a newline character into your text at that point."
+msgstr ""
+
+#: ../../_sources/Files/Iteratingoverlinesinafile.rst:73
+msgid "As the *for* loop iterates through each line of the file the loop variable will contain the current line of the file as a string of characters. The general pattern for processing each line of a text file is as follows:"
+msgstr ""
+
+#: ../../_sources/Files/Iteratingoverlinesinafile.rst:85
+msgid "To process all of our quarterback data, we will use a *for* loop to iterate over the lines of the file. Using the ``split`` method, we can break each line into a list containing all the fields of interest about the quarterback. We can then take the values corresponding to first name, lastname, and passer rating to construct a simple sentence."
+msgstr ""
+

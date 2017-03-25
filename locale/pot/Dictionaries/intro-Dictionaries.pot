@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:15
+msgid "Dictionaries"
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:20
+msgid "All of the compound data types we have studied in detail so far --- strings, lists, and tuples --- are sequential collections.  This means that the items in the collection are ordered from left to right and they use integers as indices to access the values they contain."
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:25
+msgid "**Dictionaries** are a different kind of collection. They are Python's built-in **mapping type**. A map is an unordered, associative collection.  The association, or mapping, is from a **key**, which can be any immutable type, to a **value**, which can be any Python data object."
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:30
+msgid "As an example, we will create a dictionary to translate English words into Spanish. For this dictionary, the keys are strings and the values will also be strings."
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:33
+msgid "One way to create a dictionary is to start with the empty dictionary and add **key-value pairs**. The empty dictionary is denoted ``{}``"
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:44
+msgid "The first assignment creates an empty dictionary named ``eng2sp``.  The other assignments add new key-value pairs to the dictionary.  The left hand side gives the dictionary and the key being associated.  The right hand side gives the value being associated with that key. We can print the current value of the dictionary in the usual way. The key-value pairs of the dictionary are separated by commas. Each pair contains a key and a value separated by a colon."
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:51
+msgid "The order of the pairs may not be what you expected. Python uses complex algorithms, designed for very fast access, to determine where the key-value pairs are stored in a dictionary. For our purposes we can think of this ordering as unpredictable."
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:56
+msgid "Another way to create a dictionary is to provide a list of key-value pairs using the same syntax as the previous output."
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:65
+msgid "It doesn't matter what order we write the pairs. The values in a dictionary are accessed with keys, not with indices, so there is no need to care about ordering."
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:69
+msgid "Here is how we use a key to look up the corresponding value."
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:80
+msgid "The key ``'two'`` yields the value ``'dos'``."
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:86
+msgid "This workspace is provided for your convenience.  You can use this activecode window to try out anything you like."
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:91
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:100
+msgid "dict-1-1: A dictionary is an unordered collection of key-value pairs."
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:115
+msgid "dict-1-2: What is printed by the following statements?"
+msgstr ""
+

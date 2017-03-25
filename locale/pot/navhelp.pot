@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/navhelp.rst:11
+msgid "Getting Around The Book"
+msgstr ""
+
+#: ../../_sources/navhelp.rst:13
+msgid "This page will help you learn how to get around this interactive textbook and use the embedded tools."
+msgstr ""
+
+#: ../../_sources/navhelp.rst:16
+msgid "Navigation Bar"
+msgstr ""
+
+#: ../../_sources/navhelp.rst:40
+msgid "ActiveCode Windows"
+msgstr ""
+
+#: ../../_sources/navhelp.rst:42
+msgid "One of the most important things that you can do when you are learning a programming language is to write programs.  Unfortunately, typical textbooks allow you to read about programming but don't allow you to practice.  We have created a unique tool called **ActiveCode** that allows you to write, modify, and execute programs right in the text itself (right from the web browser).  Although this is certainly not the way real programs are written, it provides an excellent environment for learning a programming language like Python since you can experiment with the language as you are reading."
+msgstr ""
+
+#: ../../_sources/navhelp.rst:48
+msgid "Take a look at the ActiveCode interpreter in action.  If we take a simple Python program and make it active, you will see that it can be executed directly by pressing the *Run* button.   Try pressing the *Run* button below."
+msgstr ""
+
+#: ../../_sources/navhelp.rst:57
+msgid "The CodeLens Tool"
+msgstr ""
+
+#: ../../_sources/navhelp.rst:59
+msgid "In addition to ActiveCode, you can also execute Python code with the assistance of a unique visualization tool.  This tool, known as **CodeLens**, allows you to control the step by step execution of a program.  It also lets you see the values of all variables as they are created and modified.  The following example shows CodeLens in action on the same simple program as we saw above.  Remember that in ActiveCode, the source code executes from beginning to end and you can see the final result.  In Codelens you can see and control the step by step progress.  Try clicking on the *Forward* button below."
+msgstr ""
+
+#: ../../_sources/navhelp.rst:70
+msgid "Self-Check Questions"
+msgstr ""
+
+#: ../../_sources/navhelp.rst:72
+msgid "Finally, it is also possible to embed simple questions into the text.  These questions provide a way for you to check yourselves as you go along.  The questions also provide feedback so that you can understand why an answer may or may not be correct."
+msgstr ""
+
+#: ../../_sources/navhelp.rst:76
+#: ../../_sources/navhelp.rst:111
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/navhelp.rst:89
+msgid "sc-1-1: What programming language does this site help you to learn?"
+msgstr ""
+
+#: ../../_sources/navhelp.rst:92
+msgid "This next type of question allows more than one correct answer to be required.  The feedback will tell you whether you have the correct number as well as the feedback for each."
+msgstr ""
+
+#: ../../_sources/navhelp.rst:108
+msgid "sc-1-2: Which colors might be found in a rainbow? (choose all that are correct)"
+msgstr ""
+
+#: ../../_sources/navhelp.rst:124
+msgid "Embedded Videos"
+msgstr ""
+
+#: ../../_sources/navhelp.rst:126
+msgid "Our toolset provides a number of different things that will help you to learn to program in the Python programming language. Aside from reading the text, it is sometimes useful to hear someone tell you about different aspects of the topic being discussed. In order to accomplish this, we provide a way to integrate simple, short videos into the text.  For example, if you click on the video shown below, you will hear us talk about the tools that will be described shortly."
+msgstr ""
+

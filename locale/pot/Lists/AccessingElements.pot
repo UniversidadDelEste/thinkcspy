@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Lists/AccessingElements.rst:15
+msgid "Accessing Elements"
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:17
+msgid "The syntax for accessing the elements of a list is the same as the syntax for accessing the characters of a string.  We use the index operator ( ``[]`` -- not to be confused with an empty list). The expression inside the brackets specifies the index. Remember that the indices start at 0.  Any integer expression can be used as an index and as with strings, negative index values will locate items from the right instead of from the left."
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:32
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:43
+msgid "list-4-1: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:60
+msgid "list-4-2: What is printed by the following statements?"
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:79
+msgid "list-4-3: What is printed by the following statements?"
+msgstr ""
+

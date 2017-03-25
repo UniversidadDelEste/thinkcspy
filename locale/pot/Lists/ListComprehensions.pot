@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Lists/ListComprehensions.rst:15
+msgid "List Comprehensions"
+msgstr ""
+
+#: ../../_sources/Lists/ListComprehensions.rst:17
+msgid "The previous example creates a list from a sequence of values based on some selection criteria.  An easy way to do this type of processing in Python is to use a **list comprehension**.  List comprehensions are concise ways to create lists.  The general syntax is::"
+msgstr ""
+
+#: ../../_sources/Lists/ListComprehensions.rst:21
+msgid "where the if clause is optional.  For example,"
+msgstr ""
+
+#: ../../_sources/Lists/ListComprehensions.rst:33
+msgid "The expression describes each element of the list that is being built.  The ``for`` clause iterates through each item in a sequence.  The items are filtered by the ``if`` clause if there is one.  In the example above, the ``for`` statement lets ``item`` take on all the values in the list ``mylist``.  Each item is then squared before it is added to the list that is being built.  The result is a list of squares of the values in ``mylist``."
+msgstr ""
+
+#: ../../_sources/Lists/ListComprehensions.rst:35
+msgid "To write the ``primes_upto`` function we will use the ``is_prime`` function to filter the sequence of integers coming from the ``range`` function.  In other words, for every integer from 2 up to but not including ``n``, if the integer is prime, keep it in the list."
+msgstr ""
+
+#: ../../_sources/Lists/ListComprehensions.rst:49
+msgid "This workspace is provided for your convenience.  You can use this activecode window to try out anything you like."
+msgstr ""
+
+#: ../../_sources/Lists/ListComprehensions.rst:55
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Lists/ListComprehensions.rst:68
+msgid "list-22-1: What is printed by the following statements?"
+msgstr ""
+

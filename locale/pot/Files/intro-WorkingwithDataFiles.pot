@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Files/intro-WorkingwithDataFiles.rst:15
+msgid "Working with Data Files"
+msgstr ""
+
+#: ../../_sources/Files/intro-WorkingwithDataFiles.rst:17
+msgid "So far, the data we have used in this book have all been either coded right into the program, or have been entered by the user.  In real life data reside in files.  For example the images we worked with in the image processing unit ultimately live in files on your hard drive.  Web pages, and word processing documents, and music are other examples of data that live in files.  In this short chapter we will introduce the Python concepts necessary to use data from files in our programs."
+msgstr ""
+
+#: ../../_sources/Files/intro-WorkingwithDataFiles.rst:19
+msgid "For our purposes, we will assume that our data files are text files--that is, files filled with characters. The Python programs that you write are stored as text files.  We can create these files in any of a number of ways. For example, we could use a text editor to type in and save the data.  We could also download the data from a website and then save it in a file. Regardless of how the file is created, Python will allow us to manipulate the contents."
+msgstr ""
+
+#: ../../_sources/Files/intro-WorkingwithDataFiles.rst:21
+msgid "In Python, we must **open** files before we can use them and **close** them when we are done with them. As you might expect, once a file is opened it becomes a Python object just like all other data. :ref:`Table 1<filemethods1a>` shows the functions and methods that can be used to open and close files."
+msgstr ""
+
+#: ../../_sources/Files/intro-WorkingwithDataFiles.rst:26
+msgid "**Method Name**"
+msgstr ""
+
+#: ../../_sources/Files/intro-WorkingwithDataFiles.rst:26
+msgid "**Use**"
+msgstr ""
+
+#: ../../_sources/Files/intro-WorkingwithDataFiles.rst:26
+msgid "**Explanation**"
+msgstr ""
+
+#: ../../_sources/Files/intro-WorkingwithDataFiles.rst:28
+#: ../../_sources/Files/intro-WorkingwithDataFiles.rst:29
+msgid "``open``"
+msgstr ""
+
+#: ../../_sources/Files/intro-WorkingwithDataFiles.rst:28
+msgid "``open(filename,'r')``"
+msgstr ""
+
+#: ../../_sources/Files/intro-WorkingwithDataFiles.rst:28
+msgid "Open a file called filename and use it for reading.  This will return a reference to a file object."
+msgstr ""
+
+#: ../../_sources/Files/intro-WorkingwithDataFiles.rst:29
+msgid "``open(filename,'w')``"
+msgstr ""
+
+#: ../../_sources/Files/intro-WorkingwithDataFiles.rst:29
+msgid "Open a file called filename and use it for writing.  This will also return a reference to a file object."
+msgstr ""
+
+#: ../../_sources/Files/intro-WorkingwithDataFiles.rst:30
+msgid "``close``"
+msgstr ""
+
+#: ../../_sources/Files/intro-WorkingwithDataFiles.rst:30
+msgid "``filevariable.close()``"
+msgstr ""
+
+#: ../../_sources/Files/intro-WorkingwithDataFiles.rst:30
+msgid "File use is complete."
+msgstr ""
+

@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Strings/TheAccumulatorPatternwithStrings.rst:15
+msgid "The Accumulator Pattern with Strings"
+msgstr ""
+
+#: ../../_sources/Strings/TheAccumulatorPatternwithStrings.rst:18
+msgid "Combining the ``in`` operator with string concatenation using ``+`` and the accumulator pattern, we can write a function that removes all the vowels from a string.  The idea is to start with a string and iterate over each character, checking to see if the character is a vowel.  As we process the characters, we will build up a new string consisting of only the nonvowel characters.  To do this, we use the accumulator pattern."
+msgstr ""
+
+#: ../../_sources/Strings/TheAccumulatorPatternwithStrings.rst:21
+msgid "Remember that the accumulator pattern allows us to keep a \"running total\".  With strings, we are not accumulating a numeric total.  Instead we are accumulating characters onto a string."
+msgstr ""
+
+#: ../../_sources/Strings/TheAccumulatorPatternwithStrings.rst:36
+msgid "Line 5 uses the ``not in`` operator to check whether the current character is not in the string ``vowels``. The alternative to using this operator would be to write a very large ``if`` statement that checks each of the individual vowel characters.  Note we would need to use logical ``and`` to be sure that the character is not any of the vowels."
+msgstr ""
+
+#: ../../_sources/Strings/TheAccumulatorPatternwithStrings.rst:50
+msgid "Look carefully at line 6 in the above program (``sWithoutVowels = sWithoutVowels + eachChar``).  We will do this for every character that is not a vowel.  This should look very familiar.  As we were describing earlier, it is an example of the accumulator pattern, this time using a string to \"accumulate\" the final result. In words it says that the new value of ``sWithoutVowels`` will be the old value of ``sWithoutVowels`` concatenated with the value of ``eachChar``.  We are building the result string character by character."
+msgstr ""
+
+#: ../../_sources/Strings/TheAccumulatorPatternwithStrings.rst:55
+msgid "Take a close look also at the initialization of ``sWithoutVowels``.  We start with an empty string and then begin adding new characters to the end."
+msgstr ""
+
+#: ../../_sources/Strings/TheAccumulatorPatternwithStrings.rst:58
+msgid "Step through the function using codelens to see the accumulator variable grow."
+msgstr ""
+
+#: ../../_sources/Strings/TheAccumulatorPatternwithStrings.rst:72
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Strings/TheAccumulatorPatternwithStrings.rst:83
+msgid "strings-14-1: What is printed by the following statements:"
+msgstr ""
+
+#: ../../_sources/Strings/TheAccumulatorPatternwithStrings.rst:96
+msgid "This workspace is provided for your convenience.  You can use this activecode window to try out anything you like."
+msgstr ""
+

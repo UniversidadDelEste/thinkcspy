@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Selection/Chainedconditionals.rst:15
+msgid "Chained conditionals"
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:17
+msgid "Python provides an alternative way to write nested selection such as the one shown in the previous section. This is sometimes referred to as a **chained conditional**"
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:30
+msgid "The flow of control can be drawn in a different orientation but the resulting pattern is identical to the one shown above."
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:34
+msgid "``elif`` is an abbreviation of ``else if``. Again, exactly one branch will be executed. There is no limit of the number of ``elif`` statements but only a single (and optional) final ``else`` statement is allowed and it must be the last branch in the statement."
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:39
+msgid "Each condition is checked in order. If the first is false, the next is checked, and so on. If one of them is true, the corresponding branch executes, and the statement ends. Even if more than one condition is true, only the first true branch executes."
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:44
+msgid "Here is the same program using ``elif``."
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:63
+msgid "This workspace is provided for your convenience.  You can use this activecode window to try out anything you like."
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:68
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:83
+msgid "select-7-1: Which of I, II, and III below gives the same result as the following nested if?"
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:142
+msgid "select-7-2: What will the following code print if x = 3, y = 5, and z = 2?"
+msgstr ""
+

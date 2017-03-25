@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:15
+msgid "Iteration Simplifies our Turtle Program"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:17
+msgid "To draw a square we'd like to do the same thing four times --- move the turtle forward some distance and turn 90 degrees.  We previously used 8 lines of Python code to have alex draw the four sides of a square.  This next program does exactly the same thing but, with the help of the for statement, uses just three lines (not including the setup code).  Remember that the for statement will repeat the `forward` and `left` four times, one time for each value in the list."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:36
+msgid "While \"saving some lines of code\" might be convenient, it is not the big deal here.  What is much more important is that we've found a \"repeating pattern\" of statements, and we reorganized our program to repeat the pattern. Finding the chunks and somehow getting our programs arranged around those chunks is a vital  skill when learning *How to think like a computer scientist*."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:42
+msgid "The values [0,1,2,3] were provided to make the loop body execute 4 times. We could have used any four values.  For example, consider the following program."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:59
+msgid "In the previous example, there were four integers in the list.  This time there are four strings.  Since there are four items in the list, the iteration will still occur four times.  ``aColor`` will take on each color in the list.  We can even take this one step further and use the value of ``aColor`` as part of the computation."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:77
+msgid "In this case, the value of ``aColor`` is used to change the color attribute of ``alex``.  Each iteration causes ``aColor`` to change to the next value in the list."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:79
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:99
+msgid "**Mixed up program**"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:122
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:135
+msgid "turtle-6-3: In the following code, how many lines does this code print?"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:152
+msgid "turtle-6-4: How does python know what lines are contained in the loop body?"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:165
+msgid "turtle-6-5: In the following code, what is the value of number the second time Python executes the loop?"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:182
+msgid "turtle-6-6: Consider the following code:"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:190
+msgid "What does each iteration through the loop do?"
+msgstr ""
+

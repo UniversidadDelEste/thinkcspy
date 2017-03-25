@@ -1,0 +1,34 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Lists/listTypeConversionFunction.rst:15
+msgid "``list`` Type Conversion Function"
+msgstr ""
+
+#: ../../_sources/Lists/listTypeConversionFunction.rst:17
+msgid "Python has a built-in type conversion function called ``list`` that tries to turn whatever you give it into a list.  For example, try the following:"
+msgstr ""
+
+#: ../../_sources/Lists/listTypeConversionFunction.rst:27
+msgid "The string \"Crunchy Frog\" is turned into a list by taking each character in the string and placing it in a list.  In general, any sequence can be turned into a list using this function.  The result will be a list containing the elements in the original sequence.  It is not legal to use the ``list`` conversion function on any argument that is not a sequence."
+msgstr ""
+
+#: ../../_sources/Lists/listTypeConversionFunction.rst:29
+msgid "It is also important to point out that the ``list`` conversion function will place each element of the original sequence in the new list.  When working with strings, this is very different than the result of the ``split`` method.  Whereas ``split`` will break a string into a list of \"words\", ``list`` will always break it into a list of characters."
+msgstr ""
+

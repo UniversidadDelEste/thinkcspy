@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/ClassesBasics/Glossary.rst:11
+msgid "Glossary"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Glossary.rst:15
+msgid "attribute"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Glossary.rst:17
+msgid "One of the named data items that makes up an instance."
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Glossary.rst:18
+msgid "class"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Glossary.rst:20
+msgid "A user-defined compound type. A class can also be thought of as a template for the objects that are instances of it."
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Glossary.rst:22
+msgid "constructor"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Glossary.rst:24
+msgid "Every class has a \"factory\", called by the same name as the class, for making new instances.  If the class has an *initializer method*, this method is used to get the attributes (i.e. the state) of the new object properly set up."
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Glossary.rst:27
+msgid "initializer method"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Glossary.rst:29
+msgid "A special method in Python (called ``__init__``) that is invoked automatically to set a newly-created object's attributes to their initial (factory-default) state."
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Glossary.rst:32
+msgid "instance"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Glossary.rst:34
+msgid "An object whose type is of some class.  Instance and object are used interchangeably."
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Glossary.rst:36
+msgid "instantiate"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Glossary.rst:38
+msgid "To create an instance of a class, and to run its initializer."
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Glossary.rst:39
+msgid "method"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Glossary.rst:41
+msgid "A function that is defined inside a class definition and is invoked on instances of that class."
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Glossary.rst:43
+msgid "object"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Glossary.rst:45
+msgid "A compound data type that is often used to model a thing or concept in the real world.  It bundles together the data and the operations that are relevant for that kind of data.  Instance and object are used interchangeably."
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Glossary.rst:49
+msgid "object-oriented programming"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Glossary.rst:51
+msgid "A powerful style of programming in which data and the operations that manipulate it are organized into classes and methods."
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Glossary.rst:53
+msgid "object-oriented language"
+msgstr ""
+
+#: ../../_sources/ClassesBasics/Glossary.rst:55
+msgid "A language that provides features, such as user-defined classes and inheritance, that facilitate object-oriented programming."
+msgstr ""
+

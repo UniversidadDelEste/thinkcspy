@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:15
+msgid "Order of Operations"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:34
+msgid "When more than one operator appears in an expression, the order of evaluation depends on the **rules of precedence**. Python follows the same precedence rules for its mathematical operators that mathematics does."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:44
+msgid "Parentheses have the highest precedence and can be used to force an expression to evaluate in the order you want. Since expressions in parentheses are evaluated first, ``2 * (3-1)`` is 4, and ``(1+1)**(5-2)`` is 8. You can also use parentheses to make an expression easier to read, as in ``(minute * 100) / 60``, even though it doesn't change the result."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:49
+msgid "Exponentiation has the next highest precedence, so ``2**1+1`` is 3 and not 4, and ``3*1**3`` is 3 and not 27.  Can you explain why?"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:51
+msgid "Multiplication and both division operators have the same precedence, which is higher than addition and subtraction, which also have the same precedence. So ``2*3-1`` yields 5 rather than 4, and ``5-2*2`` is 1, not 6."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:55
+msgid "Operators with the *same* precedence are evaluated from left-to-right. In algebra we say they are *left-associative*. So in the expression ``6-3+2``, the subtraction happens first, yielding 3. We then add 2 to get the result 5. If the operations had been evaluated from right to left, the result would have been ``6-(3+2)``, which is 1."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:69
+msgid "Due to some historical quirk, an exception to the left-to-right left-associative rule is the exponentiation operator `**`. A useful hint is to always use parentheses to force exactly the order you want when exponentiation is involved:"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:83
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:96
+msgid "data-9-1: What is the value of the following expression:"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:115
+msgid "data-9-2: What is the value of the following expression:"
+msgstr ""
+

@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Labs/sinlab.rst:13
+msgid "Plotting a sine Wave"
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:15
+msgid "Have you ever used a graphing calculator?  You can enter an equation, push a few buttons, and the calculator will draw a line.  In this exercise, we will use our turtle to plot a simple math function, the sine wave."
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:19
+msgid "What is the sine function?"
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:21
+msgid "The sine function, sometimes called the sine wave, is a smooth, repetitive oscillation that occurs often in many fields including mathematics, physics, and engineering.  A single repetition is shown below.  Note that the x axis is given in degrees."
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:25
+msgid "For this lab, we will use the math library to generate the values that we need. To help you understand the sine function, consider the following Python program. As you can see, the ``sin`` function from the math library takes a single parameter.  This parameter must be a value in \"radians\" (you may remember this from trigonometry class).  Since most of us are used to stating the size of an angle in \"degrees\", the math module provides a function, ``radians`` that will convert from degrees to radians for us."
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:38
+msgid "The program above shows us that the sine of 90 degrees is 1.  Note that the figure above agrees with that.  Try a few other values, like 0 degrees, 180 degrees, 38 degrees, and so on.  You should be able to match the results up with the picture shown above."
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:40
+msgid "It might be even more interesting to iterate through a sequence of angles and see the value of the sine function change.  Try it for angles between 0 and 180 degrees.  What do you notice about the results?"
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:51
+msgid "Now try it for some other boundary values, like 270 or 360."
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:55
+msgid "Making the Plot"
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:59
+msgid "In order to plot a smooth line, we will use the turtle's ``goto`` method.  ``goto`` takes two parameters, ``x`` and ``y``, and moves the turtle to that location.  If the tail is down, a line will be drawn from the previous location to the new location."
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:69
+msgid "Recall that the default turtle screen starts with the turtle in the middle at position (0,0).  You can think of the screen as a piece of graph paper.  The x axis runs horizontally and the y axis runs vertically.  The point where they meet in the middle is (0,0).  Positions to the left of the center have an x value that is negative.  Positions that are below the center have a y value that is negative."
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:73
+msgid "Let's try the ``goto`` method.  Experiment with the method to make sure you understand the coordinate system of the screen.  Try both positive and negative numbers."
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:93
+msgid "Now we can put the two previous programs together to complete our plot.  Here is our sequence of steps."
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:95
+msgid "Create and set up the turtle and the screen."
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:97
+msgid "Iterate the angle from 0 to 360."
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:99
+msgid "Generate the sine value for each angle."
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:101
+msgid "Move the turtle to that position (leave a line behind)."
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:104
+msgid "Here is a partial program for you to complete."
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:121
+msgid "Making the Plot Better"
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:123
+msgid "You probably think that the program has errors since it does not draw the picture we expect.  Maybe you think it looks a bit like a line?  What do you think the problem is?  Here is a hint...go back and take a look at the values for the sine function as they were calculated and printed in the earlier example."
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:125
+msgid "Now can you see the problem?  The value of ``sin`` always stays between -1 and 1.  This does not give our turtle much room to run."
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:127
+msgid "In order to fix this problem, we need to redesign our \"graph paper\" so that the coordinates give us more room to plot the values of the sine function.  To do this, we will use a method of the ``Screen`` class called ``setworldcoordinates``. This method allows us to change the range of values on the x and y coordinate system for our turtle.  Take a look at the documentation for the turtle module to see how to use this method (`Global Module Index <http://docs.python.org/py3k/py-modindex.html>`_).  Once you have an understanding of the parameters required to use the method, choose an appropriate coordinate system and retry your solution."
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:130
+msgid "Now try this..."
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:132
+msgid "Now that you can plot a sine function, how about trying a different function, such as cosine or log?"
+msgstr ""
+

@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/PythonTurtle/InstancesAHerdofTurtles.rst:15
+msgid "Instances --- A Herd of Turtles"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/InstancesAHerdofTurtles.rst:17
+msgid "Just like we can have many different integers in a program, we can have many turtles.  Each of them is an independent object and we call each one an **instance** of the Turtle type (class).  Each instance has its own attributes and methods --- so alex might draw with a thin black pen and be at some position, while tess might be going in her own direction with a fat pink pen.  So here is what happens when alex completes a square and tess completes her triangle:"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/InstancesAHerdofTurtles.rst:62
+msgid "Here are some *How to think like a computer scientist* observations:"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/InstancesAHerdofTurtles.rst:64
+msgid "There are 360 degrees in a full circle.  If you add up all the turns that a turtle makes, *no matter what steps occurred between the turns*, you can easily figure out if they add up to some multiple of 360.  This should convince you that alex is facing in exactly the same direction as he was when he was first created. (Geometry conventions have 0 degrees facing East and that is the case here too!)"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/InstancesAHerdofTurtles.rst:70
+msgid "We could have left out the last turn for alex, but that would not have been as satisfying.  If you're asked to draw a closed shape like a square or a rectangle, it is a good idea to complete all the turns and to leave the turtle back where it started, facing the same direction as it started in. This makes reasoning about the program and composing chunks of code into bigger programs easier for us humans!"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/InstancesAHerdofTurtles.rst:76
+msgid "We did the same with tess: she drew her triangle and turned through a full 360 degress.  Then we turned her around and moved her aside.  Even the blank line 18 is a hint about how the programmer's *mental chunking* is working: in big terms, tess' movements were chunked as \"draw the triangle\"  (lines 12-17) and then \"move away from the origin\" (lines 19 and 20)."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/InstancesAHerdofTurtles.rst:81
+msgid "One of the key uses for comments is to record your mental chunking, and big ideas.   They're not always explicit in the code."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/InstancesAHerdofTurtles.rst:83
+msgid "And, uh-huh, two turtles may not be enough for a herd, but you get the idea!"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/InstancesAHerdofTurtles.rst:86
+msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/InstancesAHerdofTurtles.rst:95
+msgid "turtle-2-1: True or False: You can only have one active turtle at a time.  If you create a second one, you will no longer be able to access or use the first."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/InstancesAHerdofTurtles.rst:97
+msgid "**Mixed up programs**"
+msgstr ""
+

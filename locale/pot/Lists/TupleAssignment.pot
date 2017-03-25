@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/Lists/TupleAssignment.rst:15
+msgid "Tuple Assignment"
+msgstr ""
+
+#: ../../_sources/Lists/TupleAssignment.rst:17
+msgid "Python has a very powerful **tuple assignment** feature that allows a tuple of variables on the left of an assignment to be assigned values from a tuple on the right of the assignment."
+msgstr ""
+
+#: ../../_sources/Lists/TupleAssignment.rst:25
+msgid "This does the equivalent of seven assignment statements, all on one easy line. One requirement is that the number of variables on the left must match the number of elements in the tuple."
+msgstr ""
+
+#: ../../_sources/Lists/TupleAssignment.rst:29
+msgid "Once in a while, it is useful to swap the values of two variables.  With conventional assignment statements, we have to use a temporary variable. For example, to swap ``a`` and ``b``:"
+msgstr ""
+
+#: ../../_sources/Lists/TupleAssignment.rst:39
+msgid "Tuple assignment solves this problem neatly:"
+msgstr ""
+
+#: ../../_sources/Lists/TupleAssignment.rst:45
+msgid "The left side is a tuple of variables; the right side is a tuple of values. Each value is assigned to its respective variable. All the expressions on the right side are evaluated before any of the assignments. This feature makes tuple assignment quite versatile."
+msgstr ""
+
+#: ../../_sources/Lists/TupleAssignment.rst:50
+msgid "Naturally, the number of variables on the left and the number of values on the right have to be the same."
+msgstr ""
+

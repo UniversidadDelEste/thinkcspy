@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:15
+msgid "Visualizing Recursion"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:18
+msgid "Some problems are easy to solve using recursion; however, it can still be difficult to find a mental model or a way of visualizing what is happening in a recursive function. This can make recursion difficult for people to grasp. In this section we will look at using recursion to draw some interesting pictures. As you watch these pictures take shape you will get some new insight into the recursive process that may be helpful in cementing your understanding of recursion."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:27
+msgid "For our next program we are going to draw a fractal tree. Fractals come from a branch of mathematics, and have much in common with recursion. The definition of a fractal is that when you look at it the fractal has the same basic shape no matter how much you magnify it. Some examples from nature are the coastlines of continents, snowflakes, mountains, and even trees or shrubs. The fractal nature of many of these natural phenomenon makes it possible for programmers to generate very realistic looking scenery for computer generated movies. In our next example we will generate a fractal tree."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:38
+msgid "To understand how this is going to work it is helpful to think of how we might describe a tree using a fractal vocabulary. Remember that we said above that a fractal is something that looks the same at all different levels of magnification. If we translate this to trees and shrubs we might say that even a small twig has the same shape and characteristics as a whole tree. Using this idea we could say that a *tree* is a trunk, with a smaller *tree* going off to the right and another smaller *tree* going off to the left. If you think of this definition recursively it means that we will apply the recursive definition of a tree to both of the smaller left and right trees."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:49
+msgid "Let's translate this idea to some Python code. :ref:`Listing 1 <lst_fractree>` shows how we can use our turtle to generate a fractal tree. Let's look at the code a bit more closely. You will see that on lines 5 and 7 we are making a recursive call. On line 5 we make the recursive call right after the turtle turns to the right by 20 degrees; this is the right tree mentioned above. Then in line 7 the turtle makes another recursive call, but this time after turning left by 40 degrees. The reason the turtle must turn left by 40 degrees is that it needs to undo the original 20 degree turn to the right and then do an additional 20 degree turn to the left in order to draw the left tree. Also notice that each time we make a recursive call to ``tree`` we subtract some amount from the ``branchLen`` parameter; this is to make sure that the recursive trees get smaller and smaller. You should also recognize the initial ``if`` statement on line 2 as a check for the base case of ``branchLen`` getting too small."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:67
+msgid "**Listing 1**"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:88
+msgid "The complete program for this tree example is shown below.  Before you run the code think about how you expect to see the tree take shape. Look at the recursive calls and think about how this tree will unfold. Will it be drawn symmetrically with the right and left halves of the tree taking shape simultaneously? Will it be drawn right side first then left side?"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:125
+msgid "Notice how each branch point on the tree corresponds to a recursive call, and notice how the tree is drawn to the right all the way down to its shortest twig. You can see this in :ref:`Figure 1 <fig_tree1>`. Now, notice how the program works its way back up the trunk until the entire right side of the tree is drawn. You can see the right half of the tree in :ref:`Figure 2 <fig_tree2>`. Then the left side of the tree is drawn, but not by going as far out to the left as possible. Rather, once again the entire right side of the left tree is drawn until we finally make our way out to the smallest twig on the left."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:141
+msgid "Figure 1: The Beginning of a Fractal Tree"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:148
+msgid "Figure 2: The First Half of the Tree"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:151
+msgid "This simple tree program is just a starting point for you, and you will notice that the tree does not look particularly realistic because nature is just not as symmetric as a computer program. Here are a few ideas for how to explore some interesting options to make your tree look more realistic."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:156
+msgid "Self Check"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:158
+msgid "Modify the recursive tree program using one or all of the following ideas:"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:161
+msgid "Modify the thickness of the branches so that as the ``branchLen`` gets smaller, the line gets thinner."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:164
+msgid "Modify the color of the branches so that as the ``branchLen`` gets very short it is colored like a leaf."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:167
+msgid "Modify the angle used in turning the turtle so that at each branch point the angle is selected at random in some range. For example choose the angle between 15 and 45 degrees. Play around to see what looks good."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/intro-VisualizingRecursion.rst:172
+msgid "Modify the ``branchLen`` recursively so that instead of always subtracting the same amount you subtract a random amount in some range."
+msgstr ""
+

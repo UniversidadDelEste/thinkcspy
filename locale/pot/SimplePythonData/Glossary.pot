@@ -1,0 +1,250 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014 Brad Miller, David Ranum, Created using Runestone Interactive
+# This file is distributed under the same license as the How to Think Like a Computer Scientist package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-25 13:50-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_sources/SimplePythonData/Glossary.rst:11
+msgid "Glossary"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:14
+msgid "assignment statement"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:16
+msgid "A statement that assigns a value to a name (variable). To the left of the assignment operator, ``=``, is a name. To the right of the assignment token is an expression which is evaluated by the Python interpreter and then assigned to the name. The difference between the left and right hand sides of the assignment statement is often confusing to new programmers. In the following assignment:"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:27
+msgid "``n`` plays a very different role on each side of the ``=``. On the right it is a *value* and makes up part of the *expression* which will be evaluated by the Python interpreter before assigning it to the name on the left."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:31
+msgid "assignment token"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:33
+msgid "``=`` is Python's assignment token, which should not be confused with the mathematical comparison operator using the same symbol."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:35
+msgid "class"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:37
+msgid "see **data type** below"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:38
+msgid "comment"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:40
+msgid "Information in a program that is meant for other programmers (or anyone reading the source code) and has no effect on the execution of the program."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:43
+msgid "data type"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:45
+msgid "A set of values. The type of a value determines how it can be used in expressions. So far, the types you have seen are integers (``int``), floating-point numbers (``float``), and strings (``str``)."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:48
+msgid "decrement"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:50
+msgid "Decrease by 1."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:52
+msgid "evaluate"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:54
+msgid "To simplify an expression by performing the operations in order to yield a single value."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:56
+msgid "expression"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:58
+msgid "A combination of operators and operands (variables and values) that represents a single result value.  Expressions are evaluated to give that result."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:60
+msgid "float"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:62
+msgid "A Python data type which stores *floating-point* numbers. Floating-point numbers are stored internally in two parts: a *base* and an *exponent*. When printed in the standard format, they look like decimal numbers. Beware of rounding errors when you use ``float``\\ s, and remember that they are only approximate values."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:67
+msgid "increment"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:69
+msgid "Both as a noun and as a verb, increment means to increase by 1."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:70
+msgid "initialization (of a variable)"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:72
+msgid "To initialize a variable is to give it an initial value. Since in Python variables don't exist until they are assigned values, they are initialized when they are created.  In other programming languages this is not the case, and variables can be created without being initialized, in which case they have either default or *garbage* values."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:78
+msgid "int"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:80
+msgid "A Python data type that holds positive and negative **whole** numbers."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:81
+msgid "integer division"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:83
+msgid "An operation that divides one integer by another and yields an integer. Integer division yields only the whole number of times that the numerator is divisible by the denominator and discards any remainder."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:86
+msgid "keyword"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:88
+msgid "A reserved word that is used by the compiler to parse program; you cannot use keywords like ``if``, ``def``, and ``while`` as variable names."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:91
+msgid "modulus operator"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:93
+msgid "Also called remainder operator or integer remainder operator.  Gives the remainder after performing integer division."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:94
+msgid "object"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:96
+msgid "Also known as a data object (or data value).  The fundamental things that programs are designed to manipulate (or that programmers ask to do things for them)."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:98
+msgid "operand"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:100
+msgid "One of the values on which an operator operates."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:101
+msgid "operator"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:103
+msgid "A special symbol that represents a simple computation like addition, multiplication, or string concatenation."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:105
+msgid "prompt string"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:107
+msgid "Used during interactive input to provide the use with hints as to what type of value to enter."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:108
+msgid "reference diagram"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:110
+msgid "A picture showing a variable with an arrow pointing to the value (object) that the variable refers to. See also **state snapshot**."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:111
+msgid "rules of precedence"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:113
+msgid "The set of rules governing the order in which expressions involving multiple operators and operands are evaluated."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:115
+msgid "state snapshot"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:117
+msgid "A graphical representation of a set of variables and the values to which they refer, taken at a particular instant during the program's execution."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:120
+msgid "statement"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:122
+msgid "An instruction that the Python interpreter can execute.  So far we have only seen the assignment statement, but we will soon meet the ``import`` statement and the ``for`` statement."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:125
+msgid "str"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:127
+msgid "A Python data type that holds a string of characters."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:128
+msgid "type conversion function"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:130
+msgid "A function that can convert a data value from one type to another."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:131
+msgid "value"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:133
+msgid "A number or string (or other things to be named later) that can be stored in a variable or computed in an expression."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:135
+msgid "variable"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:137
+msgid "A name that refers to a value."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:138
+msgid "variable name"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Glossary.rst:140
+msgid "A name given to a variable. Variable names in Python consist of a sequence of letters (a..z, A..Z, and _) and digits (0..9) that begins with a letter.  In best programming practice, variable names should be chosen so that they describe their use in the program, making the program *self documenting*."
+msgstr ""
+
