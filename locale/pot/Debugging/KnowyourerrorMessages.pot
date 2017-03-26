@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 17:54-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -300,6 +300,13 @@ msgstr ""
 
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:173
 msgid "Here's an example of a type error created by a Polish learner.  See if you can find and fix the error."
+msgstr ""
+
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:205
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:230
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:257
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:280
+msgid "data-showtitle=\"Show me the Solution\""
 msgstr ""
 
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:193

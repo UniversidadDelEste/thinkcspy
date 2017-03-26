@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
-"PO-Revision-Date: 2017-03-25 15:32-0300\n"
+"POT-Creation-Date: 2017-03-26 17:54-0300\n"
+"PO-Revision-Date: 2017-03-26 17:56-0300\n"
 "Last-Translator: Mariano Reingart <reingart@gmail.com>\n"
 "Language: es\n"
 "Language-Team: \n"
@@ -55,6 +55,15 @@ msgstr ""
 "}\n"
 "</style>\n"
 "</div>"
+
+#: ../../_sources/index.rst:44
+msgid "About this Project"
+msgstr "Sobre este Proyecto"
+
+# button caption
+#: ../../_sources/index.rst:44
+msgid "data-showtitle=\"About this Project\""
+msgstr "data-showtitle=\"Acerca de este Proyecto\""
 
 #: ../../_sources/index.rst:31
 msgid ""
