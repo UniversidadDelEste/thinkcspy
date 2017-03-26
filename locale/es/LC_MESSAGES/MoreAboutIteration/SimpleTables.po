@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,6 +93,44 @@ msgstr ""
 
 #: ../../_sources/MoreAboutIteration/SimpleTables.rst:73
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/SimpleTables.rst:87
+msgid ""
+"A tab will line up items in a second column, regardless of how many "
+"characters were in the first column, while spaces will not."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/SimpleTables.rst:87
+msgid "There is no difference"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/SimpleTables.rst:87
+msgid "A tab is wider than a sequence of spaces"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/SimpleTables.rst:87
+msgid "You must use tabs for creating tables.  You cannot use spaces."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/SimpleTables.rst:87
+msgid ""
+"Assuming the size of the first column is less than the size of the tab "
+"width."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/SimpleTables.rst:87
+msgid "Tabs and spaces will sometimes make output appear visually different."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/SimpleTables.rst:87
+msgid "A tab has a pre-defined width that is equal to a given number of spaces."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/SimpleTables.rst:87
+msgid ""
+"You may use spaces to create tables.  The columns might look jagged, or "
+"they might not, depending on the width of the items in each column."
 msgstr ""
 
 #: ../../_sources/MoreAboutIteration/SimpleTables.rst:86

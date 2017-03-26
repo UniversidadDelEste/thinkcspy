@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -136,10 +136,85 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:97
+msgid "Just one."
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:97
+msgid "Zero or more."
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:97
+msgid "One or more."
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:97
+msgid "One or more, and each must contain the same number."
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:97
+msgid "Each block may also contain more than one."
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:97
+msgid "Each block must contain at least one statement."
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:97
+msgid ""
+"Yes, a block must contain at least one statement and can have many "
+"statements."
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:97
+msgid "The blocks may contain different numbers of statements."
+msgstr ""
+
 #: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:96
 msgid ""
 "select-4-1: How many statements can appear in each block (the if and the "
 "else) in a conditional statement?"
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:118
+msgid "TRUE"
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:118
+msgid "FALSE"
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:118
+msgid "TRUE on one line and FALSE on the next"
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:118
+msgid "Nothing will be printed"
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:118
+msgid ""
+"TRUE is printed by the if-block, which only executes if the conditional "
+"(in this case, 4+5 == 10) is true.  In this case 5+4 is not equal to 10."
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:118
+msgid ""
+"Since 4+5==10 evaluates to False, Python will skip over the if block and "
+"execute the statement in the else block."
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:118
+msgid ""
+"Python would never print both TRUE and FALSE because it will only execute"
+" one of the if-block or the else-block, but not both."
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:118
+msgid ""
+"Python will always execute either the if-block (if the condition is true)"
+" or the else-block (if the condition is false).  It would never skip over"
+" both blocks."
 msgstr ""
 
 #: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:109
@@ -154,6 +229,48 @@ msgid ""
 "    print(\"TRUE\")\n"
 "else:\n"
 "    print(\"FALSE\")"
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:157
+msgid "Output a"
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:157
+msgid "Output b"
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:157
+msgid "Output c"
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:157
+msgid "Output d"
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:157
+msgid ""
+"Although TRUE is printed after the if-else statement completes, both "
+"blocks within the if-else statement print something too.  In this case, "
+"Python would have had to have skipped both blocks in the if-else "
+"statement, which it never would do."
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:157
+msgid ""
+"Because there is a TRUE printed after the if-else statement ends, Python "
+"will always print TRUE as the last statement."
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:157
+msgid ""
+"Python will print FALSE from within the else-block (because 5+4 does not "
+"equal 10), and then print TRUE after the if-else statement completes."
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:157
+msgid ""
+"To print these three lines, Python would have to execute both blocks in "
+"the if-else statement, which it can never do."
 msgstr ""
 
 #: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:130

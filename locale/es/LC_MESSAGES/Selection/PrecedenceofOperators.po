@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -145,6 +145,47 @@ msgstr ""
 
 #: ../../_sources/Selection/PrecedenceofOperators.rst:42
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:56
+msgid "((5*3) &gt; 10) and ((4+6) == 11)"
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:56
+msgid "(5*(3 &gt; 10)) and (4 + (6 == 11))"
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:56
+msgid "((((5*3) &gt; 10) and 4)+6) == 11"
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:56
+msgid "((5*3) &gt; (10 and (4+6))) == 11"
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:56
+msgid ""
+"Yes, * and + have higher precedence, followed by &gt; and ==, and then "
+"the keyword &quot;and&quot;"
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:56
+msgid ""
+"Arithmetic operators (*, +) have higher precedence than comparison "
+"operators (&gt;, ==)"
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:56
+msgid ""
+"This grouping assumes Python simply evaluates from left to right, which "
+"is incorrect.  It follows the precedence listed in the table in this "
+"section."
+msgstr ""
+
+#: ../../_sources/Selection/PrecedenceofOperators.rst:56
+msgid ""
+"This grouping assumes that &quot;and&quot; has a higher precedence than "
+"==, which is not true."
 msgstr ""
 
 #: ../../_sources/Selection/PrecedenceofOperators.rst:55

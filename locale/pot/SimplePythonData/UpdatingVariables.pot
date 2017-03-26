@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,6 +84,41 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:93
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:115
+msgid "12"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:93
+msgid "-1"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:93
+msgid "11"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:93
+msgid "Nothing.  An error occurs because x can never be equal to x - 1."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:93
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:115
+msgid "The value of x changes in the second statement."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:93
+msgid "In the second statement, substitute the current value of x before subtracting 1."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:93
+msgid "Yes, this statement sets the value of x equal to the current value minus 1."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:93
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:115
+msgid "Remember that variables in Python are different from variables in math in that they (temporarily) hold values, but can be reassigned."
+msgstr ""
+
 #: ../../_sources/SimplePythonData/UpdatingVariables.rst:86
 msgid "data-11-1: What is printed when the following statements execute?"
 msgstr ""
@@ -92,6 +127,26 @@ msgstr ""
 msgid "x = 12\n"
 "x = x - 1\n"
 "print(x)"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:115
+msgid "9"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:115
+msgid "15"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:115
+msgid "Nothing.  An error occurs because x cannot be used that many times in assignment statements."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:115
+msgid "Each statement changes the value of x, so 9 is not the final result."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:115
+msgid "Yes, starting with 12, subtract 3, than add 5, and finally add 1."
 msgstr ""
 
 #: ../../_sources/SimplePythonData/UpdatingVariables.rst:106

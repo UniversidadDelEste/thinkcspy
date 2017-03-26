@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,6 +104,30 @@ msgstr ""
 
 #: ../../_sources/Strings/TheAccumulatorPatternwithStrings.rst:72
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Strings/TheAccumulatorPatternwithStrings.rst:93
+msgid "Ball"
+msgstr ""
+
+#: ../../_sources/Strings/TheAccumulatorPatternwithStrings.rst:93
+msgid "BALL"
+msgstr ""
+
+#: ../../_sources/Strings/TheAccumulatorPatternwithStrings.rst:93
+msgid "LLAB"
+msgstr ""
+
+#: ../../_sources/Strings/TheAccumulatorPatternwithStrings.rst:93
+msgid "Each item is converted to upper case before concatenation."
+msgstr ""
+
+#: ../../_sources/Strings/TheAccumulatorPatternwithStrings.rst:93
+msgid "Each character is converted to upper case but the order is wrong."
+msgstr ""
+
+#: ../../_sources/Strings/TheAccumulatorPatternwithStrings.rst:93
+msgid "Yes, the order is reversed due to the order of the concatenation."
 msgstr ""
 
 #: ../../_sources/Strings/TheAccumulatorPatternwithStrings.rst:83

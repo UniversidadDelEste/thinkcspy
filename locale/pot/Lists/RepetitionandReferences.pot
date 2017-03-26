@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -111,6 +111,31 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/Lists/RepetitionandReferences.rst:102
+msgid "[4, 2, 8, 999, 5, 4, 2, 8, 6, 5]"
+msgstr ""
+
+#: ../../_sources/Lists/RepetitionandReferences.rst:102
+msgid "[4, 2, 8, 999, 5]"
+msgstr ""
+
+#: ../../_sources/Lists/RepetitionandReferences.rst:102
+#: ../../_sources/Lists/RepetitionandReferences.rst:126
+msgid "[4, 2, 8, 6, 5]"
+msgstr ""
+
+#: ../../_sources/Lists/RepetitionandReferences.rst:102
+msgid "print(alist) not print(blist)"
+msgstr ""
+
+#: ../../_sources/Lists/RepetitionandReferences.rst:102
+msgid "blist is changed, not alist."
+msgstr ""
+
+#: ../../_sources/Lists/RepetitionandReferences.rst:102
+msgid "Yes, alist was unchanged by the assignment statement. blist was a copy of the references in alist."
+msgstr ""
+
 #: ../../_sources/Lists/RepetitionandReferences.rst:93
 msgid "list-13-1: What is printed by the following statements?"
 msgstr ""
@@ -120,6 +145,34 @@ msgid "alist = [4, 2, 8, 6, 5]\n"
 "blist = alist * 2\n"
 "blist[3] = 999\n"
 "print(alist)"
+msgstr ""
+
+#: ../../_sources/Lists/RepetitionandReferences.rst:126
+msgid "[4, 2, 8, 999, 5, 4, 2, 8, 999, 5]"
+msgstr ""
+
+#: ../../_sources/Lists/RepetitionandReferences.rst:126
+msgid "[[4, 2, 8, 999, 5], [4, 2, 8, 999, 5]]"
+msgstr ""
+
+#: ../../_sources/Lists/RepetitionandReferences.rst:126
+msgid "[[4, 2, 8, 999, 5], [4, 2, 8, 6, 5]]"
+msgstr ""
+
+#: ../../_sources/Lists/RepetitionandReferences.rst:126
+msgid "[alist] * 2 creates a list containing alist repeated 2 times"
+msgstr ""
+
+#: ../../_sources/Lists/RepetitionandReferences.rst:126
+msgid "Yes, blist contains two references, both to alist."
+msgstr ""
+
+#: ../../_sources/Lists/RepetitionandReferences.rst:126
+msgid "print(blist)"
+msgstr ""
+
+#: ../../_sources/Lists/RepetitionandReferences.rst:126
+msgid "blist contains two references, both to alist so changes to alist appear both times."
 msgstr ""
 
 #: ../../_sources/Lists/RepetitionandReferences.rst:114

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -193,14 +193,141 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:139
+msgid "the instructions in a program, stored in a file."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:139
+msgid "the language that you are programming in (e.g., Python)."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:139
+msgid "the environment/tool in which you are programming."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:139
+msgid ""
+"the number (or \"code\") that you must input at the top of each program "
+"to tell the computer how to execute your program."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:139
+msgid ""
+"The file that contains the instructions written in the high level "
+"language is called the source code file."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:139
+msgid ""
+"This language is simply called the programming language, or simply the "
+"language."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:139
+msgid ""
+"The environment may be called the IDE, or integrated development "
+"environment, though not always."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:139
+msgid ""
+"There is no such number that you must type in at the start of your "
+"program."
+msgstr ""
+
 #: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:138
 msgid "intro-3-1: Source code is another name for:"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:153
+msgid "It is high-level if you are standing and low-level if you are sitting."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:153
+msgid ""
+"It is high-level if you are programming for a computer and low-level if "
+"you are programming for a phone or mobile device."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:153
+msgid ""
+"It is high-level if the program must be processed before it can run, and "
+"low-level if the computer can execute it without additional processing."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:153
+msgid ""
+"It is high-level if it easy to program in and is very short; it is low-"
+"level if it is really hard to program in and the programs are really "
+"long."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:153
+msgid "In this case high and low have nothing to do with altitude."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:153
+msgid ""
+"High and low have nothing to do with the type of device you are "
+"programming for.  Instead, look at what it takes to run the program "
+"written in the language."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:153
+msgid ""
+"Python is a high level language but must be interpreted into machine code"
+" (binary) before it can be executed."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:153
+msgid ""
+"While it is true that it is generally easier to program in a high-level "
+"language and programs written in a high-level language are usually "
+"shorter, this is not always the case."
 msgstr ""
 
 #: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:152
 msgid ""
 "intro-3-2:  What is the difference between a high-level programming "
 "language and a low-level programming language?"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:166
+msgid "1 = a process, 2 = a function"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:166
+msgid "1 = translating an entire book, 2 = translating a line at a time"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:166
+msgid "1 = software, 2 = hardware"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:166
+msgid "1 = object code, 2 = byte code"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:166
+msgid ""
+"Compiling is a software process, and running the interpreter is invoking "
+"a function, but how is a process different than a function?"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:166
+msgid ""
+"Compilers take the entire source code and produce object code or the "
+"executable and interpreters execute the code line by line."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:166
+msgid "Both compilers and interpreters are software."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:166
+msgid ""
+"Compilers can produce object code or byte code depending on the language."
+"  An interpreter produces neither."
 msgstr ""
 
 #: ../../_sources/GeneralIntro/ThePythonProgrammingLanguage.rst:165

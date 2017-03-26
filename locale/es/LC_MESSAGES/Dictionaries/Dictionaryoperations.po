@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -262,6 +262,42 @@ msgstr ""
 
 #: ../../_sources/Dictionaries/Dictionaryoperations.rst:57
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionaryoperations.rst:81
+msgid "12"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionaryoperations.rst:81
+msgid "0"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionaryoperations.rst:81
+msgid "18"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionaryoperations.rst:81
+msgid "Error, there is no entry with mouse as the key."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionaryoperations.rst:81
+msgid "12 is associated with the key cat."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionaryoperations.rst:81
+msgid "The key mouse will be associated with the sum of the two values."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionaryoperations.rst:81
+msgid ""
+"Yes, add the value for cat and the value for dog (12 + 6) and create a "
+"new entry for mouse."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionaryoperations.rst:81
+msgid ""
+"Since the new key is introduced on the left hand side of the assignment "
+"statement, a new key-value pair is added to the dictionary."
 msgstr ""
 
 #: ../../_sources/Dictionaries/Dictionaryoperations.rst:71

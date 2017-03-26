@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,6 +42,38 @@ msgstr ""
 
 #: ../../_sources/Lists/StringsandLists.rst:61
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Lists/StringsandLists.rst:86
+msgid "Poe"
+msgstr ""
+
+#: ../../_sources/Lists/StringsandLists.rst:86
+msgid "EdgarAllanPoe"
+msgstr ""
+
+#: ../../_sources/Lists/StringsandLists.rst:86
+msgid "EAP"
+msgstr ""
+
+#: ../../_sources/Lists/StringsandLists.rst:86
+msgid "William Shakespeare"
+msgstr ""
+
+#: ../../_sources/Lists/StringsandLists.rst:86
+msgid "Three characters but not the right ones.  namelist is the list of names."
+msgstr ""
+
+#: ../../_sources/Lists/StringsandLists.rst:86
+msgid "Too many characters in this case.  There should be a single letter from each name."
+msgstr ""
+
+#: ../../_sources/Lists/StringsandLists.rst:86
+msgid "Yes, split creates a list of the three names.  The for loop iterates through the names and creates a string from the first characters."
+msgstr ""
+
+#: ../../_sources/Lists/StringsandLists.rst:86
+msgid "That does not make any sense."
 msgstr ""
 
 #: ../../_sources/Lists/StringsandLists.rst:74

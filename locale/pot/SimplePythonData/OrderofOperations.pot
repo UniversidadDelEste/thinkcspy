@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,12 +104,76 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:103
+msgid "14"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:103
+msgid "24"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:103
+msgid "3"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:103
+msgid "13.667"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:103
+msgid "Using parentheses, the expression is evaluated as (2*5) first, then (10 // 3), then (16-3), and then (13+1)."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:103
+msgid "Remember that * has precedence over -."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:103
+msgid "Remember that // has precedence over -."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:103
+msgid "Remember that // does integer division."
+msgstr ""
+
 #: ../../_sources/SimplePythonData/OrderofOperations.rst:96
 msgid "data-9-1: What is the value of the following expression:"
 msgstr ""
 
 #: ../../_sources/SimplePythonData/OrderofOperations.rst:98
 msgid "16 - 2 * 5 // 3 + 1"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:121
+msgid "768"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:121
+msgid "128"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:121
+msgid "12"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:121
+msgid "256"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:121
+msgid "Exponentiation has precedence over multiplication, but its precedence goes from right to left!  So 2 ** 3 is 8, 2 ** 8 is 256 and 256 * 3 is 768."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:121
+msgid "Exponentiation (**) is processed right to left, so take 2 ** 3 first."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:121
+msgid "There are two exponentiations."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:121
+msgid "Remember to multiply by 3."
 msgstr ""
 
 #: ../../_sources/SimplePythonData/OrderofOperations.rst:115

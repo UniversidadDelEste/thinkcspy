@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,6 +58,22 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/Strings/Length.rst:79
+msgid "11"
+msgstr ""
+
+#: ../../_sources/Strings/Length.rst:79
+msgid "12"
+msgstr ""
+
+#: ../../_sources/Strings/Length.rst:79
+msgid "The blank counts as a character."
+msgstr ""
+
+#: ../../_sources/Strings/Length.rst:79
+msgid "Yes, there are 12 characters in the string."
+msgstr ""
+
 #: ../../_sources/Strings/Length.rst:71
 msgid "strings-6-1: What is printed by the following statements?"
 msgstr ""
@@ -66,6 +82,40 @@ msgstr ""
 msgid ""
 "s = \"python rocks\"\n"
 "print(len(s))"
+msgstr ""
+
+#: ../../_sources/Strings/Length.rst:100
+msgid "o"
+msgstr ""
+
+#: ../../_sources/Strings/Length.rst:100
+msgid "r"
+msgstr ""
+
+#: ../../_sources/Strings/Length.rst:100
+msgid "s"
+msgstr ""
+
+#: ../../_sources/Strings/Length.rst:100
+msgid "Error, len(s) is 12 and there is no index 12."
+msgstr ""
+
+#: ../../_sources/Strings/Length.rst:100
+msgid "Take a look at the index calculation again, len(s)-5."
+msgstr ""
+
+#: ../../_sources/Strings/Length.rst:100
+msgid ""
+"Yes, len(s) is 12 and 12-5 is 7.  Use 7 as index and remember to start "
+"counting with 0."
+msgstr ""
+
+#: ../../_sources/Strings/Length.rst:100
+msgid "s is at index 11"
+msgstr ""
+
+#: ../../_sources/Strings/Length.rst:100
+msgid "You subtract 5 before using the index operator so it will work."
 msgstr ""
 
 #: ../../_sources/Strings/Length.rst:92

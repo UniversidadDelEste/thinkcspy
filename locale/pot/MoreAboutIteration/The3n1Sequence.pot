@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,6 +86,30 @@ msgstr ""
 
 #: ../../_sources/MoreAboutIteration/The3n1Sequence.rst:106
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/The3n1Sequence.rst:119
+msgid "Yes."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/The3n1Sequence.rst:119
+msgid "No."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/The3n1Sequence.rst:119
+msgid "No one knows."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/The3n1Sequence.rst:119
+msgid "The 3n+1 sequence has not been proven to terminate for all values of n."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/The3n1Sequence.rst:119
+msgid "It has not been disproven that the 3n+1 sequence will terminate for all values of n.  In other words, there might be some value for n such that this sequence does not terminate. We just have not found it yet."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/The3n1Sequence.rst:119
+msgid "That this sequence terminates for all values of n has not been proven or disproven so no one knows whether the while loop will always terminate or not."
 msgstr ""
 
 #: ../../_sources/MoreAboutIteration/The3n1Sequence.rst:117

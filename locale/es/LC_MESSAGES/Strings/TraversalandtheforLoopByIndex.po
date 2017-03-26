@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -293,6 +293,42 @@ msgstr ""
 
 #: ../../_sources/Strings/TraversalandtheforLoopByIndex.rst:57
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByIndex.rst:82
+msgid "0"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByIndex.rst:82
+msgid "1"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByIndex.rst:82
+msgid "2"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByIndex.rst:82
+msgid "Error, the for statement cannot have an if inside."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByIndex.rst:82
+msgid "The for loop visits each index but the selection only prints some of them."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByIndex.rst:82
+msgid "o is at positions 4 and 8"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByIndex.rst:82
+msgid ""
+"Yes, it will print all the characters in even index positions and the o "
+"character appears both times in an even location."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByIndex.rst:82
+msgid ""
+"The for statement can have any statements inside, including if as well as"
+" for."
 msgstr ""
 
 #: ../../_sources/Strings/TraversalandtheforLoopByIndex.rst:71

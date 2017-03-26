@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,6 +47,22 @@ msgstr ""
 
 #: ../../_sources/Lists/ListValues.rst:54
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Lists/ListValues.rst:64
+msgid "False"
+msgstr ""
+
+#: ../../_sources/Lists/ListValues.rst:64
+msgid "True"
+msgstr ""
+
+#: ../../_sources/Lists/ListValues.rst:64
+msgid "Yes, unlike strings, lists can consist of any type of Python data."
+msgstr ""
+
+#: ../../_sources/Lists/ListValues.rst:64
+msgid "Lists are heterogeneous, meaning they can have different types of data."
 msgstr ""
 
 #: ../../_sources/Lists/ListValues.rst:63

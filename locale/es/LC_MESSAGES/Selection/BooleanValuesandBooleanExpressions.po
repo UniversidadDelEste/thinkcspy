@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -129,6 +129,53 @@ msgstr ""
 
 #: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:90
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:107
+msgid "True"
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:107
+msgid "3 == 4"
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:107
+msgid "3 + 4"
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:107
+msgid "3 + 4 == 7"
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:107
+msgid "&quot;False&quot;"
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:107
+msgid "True and False are both Boolean literals."
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:107
+msgid ""
+"The comparison between two numbers via == results in either True or False"
+" (in this case False),  both Boolean values."
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:107
+msgid "3 + 4 evaluates to 7, which is a number, not a Boolean value."
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:107
+msgid ""
+"3 + 4 evaluates to 7.  7 == 7 then evaluates to True, which is a Boolean "
+"value."
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:107
+msgid ""
+"With the double quotes surrounding it, False is interpreted as a string, "
+"not a Boolean value.  If the quotes had not been included, False alone is"
+" in fact a Boolean value."
 msgstr ""
 
 #: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:106

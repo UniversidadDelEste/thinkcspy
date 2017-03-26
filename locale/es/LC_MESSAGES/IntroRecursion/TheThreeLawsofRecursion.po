@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,10 +89,84 @@ msgstr ""
 msgid "Self Check"
 msgstr ""
 
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:73
+msgid "6"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:73
+msgid "5"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:73
+msgid "4"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:73
+msgid "3"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:73
+msgid ""
+"There are only five numbers on the list, the number of recursive calls "
+"will not be greater than the size of the list."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:73
+msgid "The initial call to listsum is not a recursive call."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:73
+msgid ""
+"the first recursive call passes the list [4,6,8,10], the second [6,8,10] "
+"and so on until [10]."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:73
+msgid "This would not be enough calls to cover all the numbers on the list"
+msgstr ""
+
 #: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:72
 msgid ""
 "rec-3-1: How many recursive calls are made when computing the sum of the "
 "list [2,4,6,8,10]?"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:85
+msgid "n == 0"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:85
+msgid "n == 1"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:85
+msgid "n &gt;= 0"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:85
+msgid "n &lt;= 1"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:85
+msgid ""
+"Although this would work there are better and slightly more efficient "
+"choices. since fact(1) and fact(0) are the same."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:85
+msgid "A good choice, but what happens if you call fact(0)?"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:85
+msgid ""
+"This basecase would be true for all numbers greater than zero so fact of "
+"any positive number would be 1."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:85
+msgid ""
+"Good, this is the most efficient, and even keeps your program from "
+"crashing if you try to compute the factorial of a negative number."
 msgstr ""
 
 #: ../../_sources/IntroRecursion/TheThreeLawsofRecursion.rst:85

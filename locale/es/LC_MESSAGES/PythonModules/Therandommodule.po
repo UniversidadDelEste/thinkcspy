@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -123,11 +123,86 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/PythonModules/Therandommodule.rst:101
+msgid "math.pi"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:101
+msgid "math(pi)"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:101
+msgid "pi.math"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:101
+msgid "math->pi"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:101
+msgid ""
+"To invoke or reference something contained in a module you use the dot "
+"(.) notation."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:101
+msgid ""
+"This is the syntax for calling a function, not referencing an item in a "
+"module."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:101
+msgid ""
+"The module name must come first when accessing values and functions with "
+"a module."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:101
+msgid "The -> notation is not used in Python."
+msgstr ""
+
 #: ../../_sources/PythonModules/Therandommodule.rst:100
 msgid ""
 "modules-4-1: Which of the following is the correct way to reference the "
 "value pi within the math module.   Assume you have already imported the "
 "math module."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:115
+msgid "the math module"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:115
+msgid "the random module"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:115
+msgid "the turtle module"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:115
+msgid "the game module"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:115
+msgid ""
+"While you might want to use the math module for other numerical "
+"computations in your program, it does not contain functions that are "
+"likely to help you simulate a dice roll."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:115
+msgid "You would likely call the function random.randrange."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:115
+msgid ""
+"The turtle module, while producing interesting graphics, is unlikely to "
+"help you here."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:115
+msgid "Python does not have a game module."
 msgstr ""
 
 #: ../../_sources/PythonModules/Therandommodule.rst:113
@@ -136,10 +211,92 @@ msgid ""
 " function to simulate rolling dice?"
 msgstr ""
 
+#: ../../_sources/PythonModules/Therandommodule.rst:128
+msgid "prob = random.randrange(1, 101)"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:128
+msgid "prob = random.randrange(1, 100)"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:128
+msgid "prob = random.randrange(0, 101)"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:128
+msgid "prob = random.randrange(0, 100)"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:128
+msgid "This will generate a number between 1 and 101, but does not include 101."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:128
+msgid ""
+"This will generate a number between 1 and 100, but does not include 100."
+"  The highest value generated will be 99."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:128
+msgid ""
+"This will generate a number between 0 and 100.  The lowest value "
+"generated is 0.  The highest value generated will be 100."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:128
+msgid ""
+"This will generate a number between 0 and 100, but does not include 100."
+"  The lowest value generated is 0 and the highest value generated will be"
+" 99."
+msgstr ""
+
 #: ../../_sources/PythonModules/Therandommodule.rst:127
 msgid ""
 "modules-4-3: The correct code to generate a random number between 1 and "
 "100 (inclusive) is:"
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:142
+msgid "There is no computer on the stage for the drawing."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:142
+msgid ""
+"Because computers don't really generate random numbers, they generate "
+"pseudo-random numbers."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:142
+msgid "They would just generate the same numbers over and over again."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:142
+msgid ""
+"The computer can't tell what values were already selected, so it might "
+"generate all 5's instead of 5 unique numbers."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:142
+msgid "They could easily put one there."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:142
+msgid ""
+"Computers generate random numbers using a deterministic algorithm.  This "
+"means that if anyone ever found out the algorithm they could accurately "
+"predict the next value to be generated and would always win the lottery."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:142
+msgid ""
+"This might happen if the same seed value was used over and over again, "
+"but they could make sure this was not the case."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:142
+msgid ""
+"While a programmer would need to ensure the computer did not select the "
+"same number more than once, it is easy to ensure this."
 msgstr ""
 
 #: ../../_sources/PythonModules/Therandommodule.rst:140

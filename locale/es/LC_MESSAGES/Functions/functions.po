@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -248,18 +248,173 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/Functions/functions.rst:227
+msgid "A named sequence of statements."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:227
+msgid "Any sequence of statements."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:227
+msgid "A mathematical expression that calculates a value."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:227
+msgid "A statement of the form x = 5 + 4."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:227
+msgid "Yes, a function is a named sequence of statements."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:227
+msgid ""
+"While functions contain sequences of statements, not all sequences of "
+"statements are considered functions."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:227
+msgid ""
+"While some functions do calculate values, the python idea of a function "
+"is slightly different from the mathematical idea of a function in that "
+"not all functions calculate values.  Consider, for example, the turtle "
+"functions in this section.   They made the turtle draw a specific shape, "
+"rather than calculating a value."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:227
+msgid ""
+"This statement is called an assignment statement.  It assigns the value "
+"on the right (9), to the name on the left (x)."
+msgstr ""
+
 #: ../../_sources/Functions/functions.rst:226
 msgid "func-1-1: What is a function in Python?"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:240
+msgid "To improve the speed of execution"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:240
+msgid ""
+"To help the programmer organize programs into chunks that match how they "
+"think about the solution to the problem."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:240
+msgid "All Python programs must be written using functions"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:240
+msgid "To calculate values."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:240
+msgid "Functions have little effect on how fast the program runs."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:240
+msgid ""
+"While functions are not required, they help the programmer better think "
+"about the solution by organizing pieces of the solution into logical "
+"chunks that can be reused."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:240
+msgid ""
+"In the first several chapters, you have seen many examples of Python "
+"programs written without the use of functions.  While writing and using "
+"functions is desirable and essential for good programming style as your "
+"programs get longer, it is not required."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:240
+msgid "Not all functions calculate values."
 msgstr ""
 
 #: ../../_sources/Functions/functions.rst:239
 msgid "func-1-2: What is one main purpose of a function?"
 msgstr ""
 
+#: ../../_sources/Functions/functions.rst:253
+msgid "def drawCircle(t):"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:253
+msgid "def drawCircle:"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:253
+msgid "drawCircle(t, sz):"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:253
+msgid "def drawCircle(t, sz)"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:253
+msgid ""
+"A function may take zero or more parameters.  It does not have to have "
+"two.  In this case the size of the circle might be specified in the body "
+"of the function."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:253
+msgid "A function needs to specify its parameters in its header."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:253
+msgid "A function definition needs to include the keyword def."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:253
+msgid "A function definition header must end in a colon (:)."
+msgstr ""
+
 #: ../../_sources/Functions/functions.rst:252
 msgid ""
 "func-1-3: Which of the following is a valid function header (first line "
 "of a function definition)?"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:276
+#: ../../_sources/Functions/functions.rst:324
+msgid "def drawSquare(t, sz)"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:276
+#: ../../_sources/Functions/functions.rst:324
+msgid "drawSquare"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:276
+msgid "drawSquare(t, sz)"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:276
+msgid "Make turtle t draw a square with side sz."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:276
+msgid ""
+"This line is the complete function header (except for the semi-colon) "
+"which includes the name as well as several other components."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:276
+msgid ""
+"Yes, the name of the function is given after the keyword def and before "
+"the list of parameters."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:276
+msgid "This includes the function name and its parameters"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:276
+msgid "This is a comment stating what the function does."
 msgstr ""
 
 #: ../../_sources/Functions/functions.rst:265
@@ -277,8 +432,85 @@ msgid ""
 "        t.left(90)"
 msgstr ""
 
+#: ../../_sources/Functions/functions.rst:299
+msgid "i"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:299
+msgid "t"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:299
+msgid "t, sz"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:299
+msgid "t, sz, i"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:299
+msgid ""
+"i is a variable used inside of the function, but not a parameter, which "
+"is passed in to the function."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:299
+msgid "t is only one of the parameters to this function."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:299
+msgid "Yes, the function specifies two parameters: t and sz."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:299
+msgid ""
+"the parameters include only those variables whose values that the "
+"function expects to receive as input.  They are specified in the header "
+"of the function."
+msgstr ""
+
 #: ../../_sources/Functions/functions.rst:288
 msgid "func-1-5: What are the parameters of the following function?"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:324
+msgid "drawSquare(10)"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:324
+msgid "drawSquare(alex, 10):"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:324
+msgid "drawSquare(alex, 10)"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:324
+msgid ""
+"No, t and sz are the names of the formal parameters to this function.  "
+"When the function is called, it requires actual values to be passed in."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:324
+msgid ""
+"A function call always requires parentheses after the name of the "
+"function."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:324
+msgid "This function takes two parameters (arguments)"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:324
+msgid ""
+"A colon is only required in a function definition.  It will cause an "
+"error with a function call."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:324
+msgid ""
+"Since alex was already previously defined and 10 is a value, we have "
+"passed in two correct values for this function."
 msgstr ""
 
 #: ../../_sources/Functions/functions.rst:313
@@ -286,6 +518,25 @@ msgid ""
 "func-1-6: Considering the function below, which of the following "
 "statements correctly invokes, or calls, this function (i.e., causes it to"
 " run)?  Assume we already have a turtle named alex."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:333
+msgid "True"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:333
+msgid "False"
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:333
+msgid "Yes, you can call a function multiple times by putting the call in a loop."
+msgstr ""
+
+#: ../../_sources/Functions/functions.rst:333
+msgid ""
+"One of the purposes of a function is to allow you to call it more than "
+"once.   Placing it in a loop allows it to executed multiple times as the "
+"body of the loop runs multiple times."
 msgstr ""
 
 #: ../../_sources/Functions/functions.rst:332

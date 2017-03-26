@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -147,14 +147,109 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/PythonModules/modules.rst:103
+msgid ""
+"A file containing Python definitions and statements intended for use in "
+"other Python programs."
+msgstr ""
+
+#: ../../_sources/PythonModules/modules.rst:103
+msgid "A separate block of code within a program."
+msgstr ""
+
+#: ../../_sources/PythonModules/modules.rst:103
+msgid "One line of code in a program."
+msgstr ""
+
+#: ../../_sources/PythonModules/modules.rst:103
+msgid "A file that contains documentation about functions in Python."
+msgstr ""
+
+#: ../../_sources/PythonModules/modules.rst:103
+msgid "A module can be reused in different programs."
+msgstr ""
+
+#: ../../_sources/PythonModules/modules.rst:103
+msgid "While a module is separate block of code, it is separate from a program."
+msgstr ""
+
+#: ../../_sources/PythonModules/modules.rst:103
+msgid ""
+"The call to a feature within a module may be one line of code, but "
+"modules are usually multiple lines of code separate from the program"
+msgstr ""
+
+#: ../../_sources/PythonModules/modules.rst:103
+msgid ""
+"Each module has its own documentation, but the module itself is more than"
+" just documentation."
+msgstr ""
+
 #: ../../_sources/PythonModules/modules.rst:102
 msgid "modules-1-1: In Python a module is:"
+msgstr ""
+
+#: ../../_sources/PythonModules/modules.rst:116
+msgid "Go to the Python Documentation site."
+msgstr ""
+
+#: ../../_sources/PythonModules/modules.rst:116
+msgid ""
+"Look at the import statements of the program you are working with or "
+"writing."
+msgstr ""
+
+#: ../../_sources/PythonModules/modules.rst:116
+msgid "Ask the professor"
+msgstr ""
+
+#: ../../_sources/PythonModules/modules.rst:116
+msgid "Look in this textbook."
+msgstr ""
+
+#: ../../_sources/PythonModules/modules.rst:116
+msgid ""
+"The site contains a listing of all the standard modules that are "
+"available with Python."
+msgstr ""
+
+#: ../../_sources/PythonModules/modules.rst:116
+msgid ""
+"The import statements only tell you what modules are currently being used"
+" in the program, not how to use them or what they contain."
+msgstr ""
+
+#: ../../_sources/PythonModules/modules.rst:116
+msgid ""
+"While the professor knows a subset of the modules available in Python, "
+"chances are the professor will have to look up the available modules just"
+" like you would."
+msgstr ""
+
+#: ../../_sources/PythonModules/modules.rst:116
+msgid ""
+"This book only explains a portion of the modules available.  For a full "
+"listing you should look elsewhere."
 msgstr ""
 
 #: ../../_sources/PythonModules/modules.rst:115
 msgid ""
 "modules-1-2: To find out information on the standard modules available "
 "with Python you should:"
+msgstr ""
+
+#: ../../_sources/PythonModules/modules.rst:126
+msgid "True"
+msgstr ""
+
+#: ../../_sources/PythonModules/modules.rst:126
+msgid "False"
+msgstr ""
+
+#: ../../_sources/PythonModules/modules.rst:126
+msgid ""
+"Only turtle, math, and random have been ported to work in activecode at "
+"this time."
 msgstr ""
 
 #: ../../_sources/PythonModules/modules.rst:124

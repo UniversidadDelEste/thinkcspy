@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,6 +39,40 @@ msgstr ""
 
 #: ../../_sources/GeneralIntro/RuntimeErrors.rst:25
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/RuntimeErrors.rst:37
+msgid "Attempting to divide by 0."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/RuntimeErrors.rst:37
+msgid "Forgetting a colon at the end of a statement where one is required."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/RuntimeErrors.rst:37
+msgid "Forgetting to divide by 100 when printing a percentage amount."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/RuntimeErrors.rst:37
+msgid ""
+"Python cannot reliably tell if you are trying to divide by 0 until it is "
+"executing your program (e.g., you might be asking the user for a value "
+"and then dividing by that value - you cannot know what value the user "
+"will enter before you run the program)."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/RuntimeErrors.rst:37
+msgid ""
+"This is a problem with the formal structure of the program.  Python knows"
+" where colons are required and can detect when one is missing simply by "
+"looking at the code without running it."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/RuntimeErrors.rst:37
+msgid ""
+"This will produce the wrong answer, but Python will not consider it an "
+"error at all.  The programmer is the one who understands that the answer "
+"produced is wrong."
 msgstr ""
 
 #: ../../_sources/GeneralIntro/RuntimeErrors.rst:36

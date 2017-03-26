@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,6 +90,28 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/Strings/StringComparison.rst:105
+#: ../../_sources/Strings/StringComparison.rst:122
+#: ../../_sources/Strings/StringComparison.rst:138
+msgid "True"
+msgstr ""
+
+#: ../../_sources/Strings/StringComparison.rst:105
+#: ../../_sources/Strings/StringComparison.rst:122
+#: ../../_sources/Strings/StringComparison.rst:138
+msgid "False"
+msgstr ""
+
+#: ../../_sources/Strings/StringComparison.rst:105
+msgid ""
+"Both match up to the g but Dog is shorter than Doghouse so it comes first"
+" in the dictionary."
+msgstr ""
+
+#: ../../_sources/Strings/StringComparison.rst:105
+msgid "Strings are compared character by character."
+msgstr ""
+
 #: ../../_sources/Strings/StringComparison.rst:98
 msgid "strings-8-1: Evaluate the following comparison:"
 msgstr ""
@@ -98,12 +120,40 @@ msgstr ""
 msgid "\"Dog\" < \"Doghouse\""
 msgstr ""
 
+#: ../../_sources/Strings/StringComparison.rst:122
+msgid "They are the same word"
+msgstr ""
+
+#: ../../_sources/Strings/StringComparison.rst:122
+msgid "d is greater than D according to the ord function (68 versus 100)."
+msgstr ""
+
+#: ../../_sources/Strings/StringComparison.rst:122
+msgid ""
+"Yes, upper case is less than lower case according to the ordinal values "
+"of the characters."
+msgstr ""
+
+#: ../../_sources/Strings/StringComparison.rst:122
+msgid ""
+"Python is case sensitive meaning that upper case and lower case "
+"characters are different."
+msgstr ""
+
 #: ../../_sources/Strings/StringComparison.rst:115
 msgid "strings-8-2: Evaluate the following comparison:"
 msgstr ""
 
 #: ../../_sources/Strings/StringComparison.rst:117
 msgid "\"dog\" < \"Dog\""
+msgstr ""
+
+#: ../../_sources/Strings/StringComparison.rst:138
+msgid "d is greater than D."
+msgstr ""
+
+#: ../../_sources/Strings/StringComparison.rst:138
+msgid "The length does not matter.  Lower case d is greater than upper case D."
 msgstr ""
 
 #: ../../_sources/Strings/StringComparison.rst:130

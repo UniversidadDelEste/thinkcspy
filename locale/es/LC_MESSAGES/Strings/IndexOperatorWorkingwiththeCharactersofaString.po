@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,6 +83,38 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:80
+msgid "t"
+msgstr ""
+
+#: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:80
+msgid "h"
+msgstr ""
+
+#: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:80
+msgid "c"
+msgstr ""
+
+#: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:80
+msgid "Error, you cannot use the [ ] operator with a string."
+msgstr ""
+
+#: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:80
+msgid "Index locations do not start with 1, they start with 0."
+msgstr ""
+
+#: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:80
+msgid "Yes, index locations start with 0."
+msgstr ""
+
+#: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:80
+msgid "s[-3] would return c, counting from right to left."
+msgstr ""
+
+#: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:80
+msgid "[ ] is the index operator"
+msgstr ""
+
 #: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:71
 msgid "strings-4-1: What is printed by the following statements?"
 msgstr ""
@@ -91,6 +123,40 @@ msgstr ""
 msgid ""
 "s = \"python rocks\"\n"
 "print(s[3])"
+msgstr ""
+
+#: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:102
+msgid "tr"
+msgstr ""
+
+#: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:102
+msgid "ps"
+msgstr ""
+
+#: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:102
+msgid "nn"
+msgstr ""
+
+#: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:102
+msgid "Error, you cannot use the [ ] operator with the + operator."
+msgstr ""
+
+#: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:102
+msgid "Yes, indexing operator has precedence over concatenation."
+msgstr ""
+
+#: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:102
+msgid "p is at location 0, not 2."
+msgstr ""
+
+#: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:102
+msgid "n is at location 5, not 2."
+msgstr ""
+
+#: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:102
+msgid ""
+"[ ] operator returns a string that can be concatenated with another "
+"string."
 msgstr ""
 
 #: ../../_sources/Strings/IndexOperatorWorkingwiththeCharactersofaString.rst:93

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -175,6 +175,30 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/Lists/ListMethods.rst:120
+msgid "[4, 2, 8, 6, 5, False, True]"
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:120
+msgid "[4, 2, 8, 6, 5, True, False]"
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:120
+msgid "[True, False, 4, 2, 8, 6, 5]"
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:120
+msgid "True was added first, then False was added last."
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:120
+msgid "Yes, each item is added to the end of the list."
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:120
+msgid "append adds at the end, not the beginning."
+msgstr ""
+
 #: ../../_sources/Lists/ListMethods.rst:110
 msgid "list-14-1: What is printed by the following statements?"
 msgstr ""
@@ -184,6 +208,30 @@ msgid "alist = [4, 2, 8, 6, 5]\n"
 "alist.append(True)\n"
 "alist.append(False)\n"
 "print(alist)"
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:139
+msgid "[False, 4, 2, True, 8, 6, 5]"
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:139
+msgid "[4, False, True, 2, 8, 6, 5]"
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:139
+msgid "[False, 2, True, 6, 5]"
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:139
+msgid "Yes, first True was added at index 2, then False was added at index 0."
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:139
+msgid "insert will place items at the index position specified and move everything down to the right."
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:139
+msgid "insert does not remove anything or replace anything."
 msgstr ""
 
 #: ../../_sources/Lists/ListMethods.rst:130
@@ -197,6 +245,30 @@ msgid "alist = [4, 2, 8, 6, 5]\n"
 "print(alist)"
 msgstr ""
 
+#: ../../_sources/Lists/ListMethods.rst:159
+msgid "[4, 8, 6]"
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:159
+msgid "[2, 6, 5]"
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:159
+msgid "[4, 2, 6]"
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:159
+msgid "pop(2) removes the item at index 2, not the 2 itself."
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:159
+msgid "pop() removes the last item, not the first."
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:159
+msgid "Yes, first the 8 was removed, then the last item, which was 5."
+msgstr ""
+
 #: ../../_sources/Lists/ListMethods.rst:149
 msgid "list-14-3: What is printed by the following statements?"
 msgstr ""
@@ -206,6 +278,38 @@ msgid "alist = [4, 2, 8, 6, 5]\n"
 "temp = alist.pop(2)\n"
 "temp = alist.pop()\n"
 "print(alist)"
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:180
+msgid "[2, 8, 6, 5]"
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:180
+msgid "[4, 2, 8, 6, 5]"
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:180
+msgid "4"
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:180
+msgid "None"
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:180
+msgid "alist is now the value that was returned from pop(0)."
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:180
+msgid "pop(0) changes the list by removing the first item."
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:180
+msgid "Yes, first the 4 was removed from the list, then returned and assigned to alist.  The list is lost."
+msgstr ""
+
+#: ../../_sources/Lists/ListMethods.rst:180
+msgid "pop(0) returns the first item in the list so alist has now been changed."
 msgstr ""
 
 #: ../../_sources/Lists/ListMethods.rst:171

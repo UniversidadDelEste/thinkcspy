@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,30 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/Lists/AccessingElements.rst:50
+msgid "[ ]"
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:50
+msgid "3.14"
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:50
+msgid "False"
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:50
+msgid "The empty list is at index 4."
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:50
+msgid "Yes, 3.14 is at index 5 since we start counting at 0 and sublists count as one item."
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:50
+msgid "False is at index 6."
+msgstr ""
+
 #: ../../_sources/Lists/AccessingElements.rst:43
 msgid "list-4-1: What is printed by the following statements?"
 msgstr ""
@@ -37,6 +61,30 @@ msgid "alist = [3, 67, \"cat\", [56, 57, \"dog\"], [ ], 3.14, False]\n"
 "print(alist[5])"
 msgstr ""
 
+#: ../../_sources/Lists/AccessingElements.rst:67
+msgid "Error, you cannot use the upper method on a list."
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:67
+msgid "2"
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:67
+msgid "CAT"
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:67
+msgid "alist[2] is the string cat so the upper method is legal"
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:67
+msgid "2 is the index.  We want the item at that index."
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:67
+msgid "Yes, the string cat is upper cased to become CAT."
+msgstr ""
+
 #: ../../_sources/Lists/AccessingElements.rst:60
 msgid "list-4-2: What is printed by the following statements?"
 msgstr ""
@@ -44,6 +92,38 @@ msgstr ""
 #: ../../_sources/Lists/AccessingElements.rst:62
 msgid "alist = [3, 67, \"cat\", [56, 57, \"dog\"], [ ], 3.14, False]\n"
 "print(alist[2].upper())"
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:86
+msgid "56"
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:86
+msgid "c"
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:86
+msgid "cat"
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:86
+msgid "Error, you cannot have two index values unless you are using slicing."
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:86
+msgid "Indexes start with 0, not 1."
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:86
+msgid "Yes, the first character of the string at index 2 is c"
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:86
+msgid "cat is the item at index 2 but then we index into it further."
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:86
+msgid "Using more than one index is fine.  You read it from left to right."
 msgstr ""
 
 #: ../../_sources/Lists/AccessingElements.rst:79

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,6 +64,46 @@ msgstr ""
 
 #: ../../_sources/GeneralIntro/ATypicalFirstProgram.rst:45
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ATypicalFirstProgram.rst:60
+msgid "sends information to the printer to be printed on paper."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ATypicalFirstProgram.rst:60
+msgid "displays a value on the screen."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ATypicalFirstProgram.rst:60
+msgid ""
+"tells the computer to put the information in print, rather than cursive, "
+"format."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ATypicalFirstProgram.rst:60
+msgid "tells the computer to speak the information."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ATypicalFirstProgram.rst:60
+msgid ""
+"Within the Python programming language, the print function has nothing to"
+" do with the printer."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ATypicalFirstProgram.rst:60
+msgid ""
+"Yes, the print function is used to display the value of the thing being "
+"printed."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ATypicalFirstProgram.rst:60
+msgid ""
+"The format of the information is called its font and has nothing to do "
+"with the print function."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ATypicalFirstProgram.rst:60
+msgid "That would be a different function."
 msgstr ""
 
 #: ../../_sources/GeneralIntro/ATypicalFirstProgram.rst:58

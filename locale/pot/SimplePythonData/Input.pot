@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,6 +78,35 @@ msgstr ""
 
 #: ../../_sources/SimplePythonData/Input.rst:73
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Input.rst:94
+msgid "&lt;class 'str'&gt;"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Input.rst:94
+msgid "&lt;class 'int'&gt;"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Input.rst:94
+msgid "&lt;class 18&gt;"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Input.rst:94
+msgid "18"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Input.rst:94
+msgid "All input from users is read in as a string."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Input.rst:94
+msgid "Even though the user typed in an integer, it does not come into the program as an integer."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Input.rst:94
+#: ../../_sources/SimplePythonData/Input.rst:94
+msgid "18 is the value of what the user typed, not the type of the data."
 msgstr ""
 
 #: ../../_sources/SimplePythonData/Input.rst:86

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -215,12 +215,84 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:147
+msgid "Its value"
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:147
+msgid "The range of statements in the code where a variable can be accessed."
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:147
+msgid "Its name"
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:147
+msgid "Value is the contents of the variable.  Scope concerns where the variable is &quot;known&quot;."
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:147
+msgid ""
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:147
+msgid "The name of a variable is just an identifier or alias.  Scope concerns where the variable is &quot;known&quot;."
+msgstr ""
+
 #: ../../_sources/Functions/Variablesandparametersarelocal.rst:146
 msgid "func-3-1: What is a variable's scope?"
 msgstr ""
 
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:158
+msgid "A temporary variable that is only used inside a function"
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:158
+msgid "The same as a parameter"
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:158
+msgid "Another name for any variable"
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:158
+msgid "Yes, a local variable is a temporary variable that is only known (only exists) in the function it is defined in."
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:158
+msgid "While parameters may be considered local variables, functions may also define and use additional local variables."
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:158
+msgid "Variables that are used outside a function are not local, but rather global variables."
+msgstr ""
+
 #: ../../_sources/Functions/Variablesandparametersarelocal.rst:157
 msgid "func-3-2: What is a local variable?"
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:169
+msgid "Yes, and there is no reason not to."
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:169
+msgid "Yes, but it is considered bad form."
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:169
+msgid "No, it will cause an error."
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:169
+msgid "While there is no problem as far as Python is concerned, it is generally considered bad style because of the potential for the programmer to get confused."
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:169
+msgid "it is generally considered bad style because of the potential for the programmer to get confused.  If you must use global variables (also generally bad form) make sure they have unique names."
+msgstr ""
+
+#: ../../_sources/Functions/Variablesandparametersarelocal.rst:169
+msgid "Python manages global and local scope separately and has clear rules for how to handle variables with the same name in different scopes, so this will not cause a Python error."
 msgstr ""
 
 #: ../../_sources/Functions/Variablesandparametersarelocal.rst:168

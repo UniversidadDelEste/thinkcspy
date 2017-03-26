@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,6 +30,38 @@ msgstr ""
 
 #: ../../_sources/GeneralIntro/WhatisDebugging.rst:30
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/WhatisDebugging.rst:44
+msgid "tracking down programming errors and correcting them."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/WhatisDebugging.rst:44
+msgid "removing all the bugs from your house."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/WhatisDebugging.rst:44
+msgid "finding all the bugs in the program."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/WhatisDebugging.rst:44
+msgid "fixing the bugs in the program."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/WhatisDebugging.rst:44
+msgid "Programming errors are called bugs and the process of finding and removing them from a program is called debugging."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/WhatisDebugging.rst:44
+msgid "Maybe, but that is not what we are talking about in this context."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/WhatisDebugging.rst:44
+msgid "This is partially correct.  But, debugging is more than just finding the bugs.  What do you need to do once you find them?"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/WhatisDebugging.rst:44
+msgid "This is partially correct.  But, debugging is more than just fixing the bugs. What do you need to do before you can fix them?"
 msgstr ""
 
 #: ../../_sources/GeneralIntro/WhatisDebugging.rst:43

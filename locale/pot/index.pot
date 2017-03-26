@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 17:54-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,7 +26,8 @@ msgstr ""
 
 #: ../../_sources/index.rst:11
 msgid "<div style=\"text-align:center\" class=\"center-block\">\n"
-"<h1>How to Think Like a Computer Scientist: Interactive Edition</h1>\n"
+"<h1>Aprenda a pensar como un Programador</h1>\n"
+"<h2>Edición Interactiva en Español  con Python</h2>\n"
 "<style>\n"
 "button.reveal_button {\n"
 "    margin-left: auto;\n"
@@ -82,7 +83,7 @@ msgstr ""
 
 #: ../../_sources/index.rst:48
 msgid "<ul>\n"
-"<li><a href=\"assignments.html\">Assignments</a></li>\n"
+"<li><a href=\"assignments.html\">Tareas (Ejercicios)</a></li>\n"
 "</ul>"
 msgstr ""
 

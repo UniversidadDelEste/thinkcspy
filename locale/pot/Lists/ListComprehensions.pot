@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,6 +54,38 @@ msgstr ""
 
 #: ../../_sources/Lists/ListComprehensions.rst:55
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Lists/ListComprehensions.rst:76
+msgid "[4,2,8,6,5]"
+msgstr ""
+
+#: ../../_sources/Lists/ListComprehensions.rst:76
+msgid "[8,4,16,12,10]"
+msgstr ""
+
+#: ../../_sources/Lists/ListComprehensions.rst:76
+msgid "10"
+msgstr ""
+
+#: ../../_sources/Lists/ListComprehensions.rst:76
+msgid "[10]."
+msgstr ""
+
+#: ../../_sources/Lists/ListComprehensions.rst:76
+msgid "Items from alist are doubled before being placed in blist."
+msgstr ""
+
+#: ../../_sources/Lists/ListComprehensions.rst:76
+msgid "Not all the items in alist are to be included in blist.  Look at the if clause."
+msgstr ""
+
+#: ../../_sources/Lists/ListComprehensions.rst:76
+msgid "The result needs to be a list."
+msgstr ""
+
+#: ../../_sources/Lists/ListComprehensions.rst:76
+msgid "Yes, 5 is the only odd number in alist.  It is doubled before being placed in blist."
 msgstr ""
 
 #: ../../_sources/Lists/ListComprehensions.rst:68

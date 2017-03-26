@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,6 +91,34 @@ msgstr ""
 
 #: ../../_sources/Debugging/HowtoAvoidDebugging.rst:53
 msgid "Hmm, when you run that example you see that something funny has happened."
+msgstr ""
+
+#: ../../_sources/Debugging/HowtoAvoidDebugging.rst:65
+msgid "Python is stupid and does not know how to add properly."
+msgstr ""
+
+#: ../../_sources/Debugging/HowtoAvoidDebugging.rst:65
+msgid "There is nothing wrong here."
+msgstr ""
+
+#: ../../_sources/Debugging/HowtoAvoidDebugging.rst:65
+msgid "Python is doing string concatenation, not integer addition."
+msgstr ""
+
+#: ../../_sources/Debugging/HowtoAvoidDebugging.rst:65
+msgid "No, Python is probabaly not broken."
+msgstr ""
+
+#: ../../_sources/Debugging/HowtoAvoidDebugging.rst:65
+msgid ""
+"No, try adding the two numbers together yourself, you will definitely get"
+" a different result."
+msgstr ""
+
+#: ../../_sources/Debugging/HowtoAvoidDebugging.rst:65
+msgid ""
+"Yes!  Remember that input returns a string.  Now we will need to convert "
+"the string to an integer"
 msgstr ""
 
 #: ../../_sources/Debugging/HowtoAvoidDebugging.rst:64

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -92,6 +92,22 @@ msgstr ""
 
 #: ../../_sources/Lists/Aliasing.rst:60
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Lists/Aliasing.rst:78
+msgid "[4, 2, 8, 6, 5]"
+msgstr ""
+
+#: ../../_sources/Lists/Aliasing.rst:78
+msgid "[4, 2, 8, 999, 5]"
+msgstr ""
+
+#: ../../_sources/Lists/Aliasing.rst:78
+msgid "blist is not a copy of alist, it is a reference to the list alist refers to."
+msgstr ""
+
+#: ../../_sources/Lists/Aliasing.rst:78
+msgid "Yes, since alist and blist both reference the same list, changes to one also change the other."
 msgstr ""
 
 #: ../../_sources/Lists/Aliasing.rst:69

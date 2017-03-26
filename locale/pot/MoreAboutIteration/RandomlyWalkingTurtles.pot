@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -111,8 +111,64 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:202
+msgid "a for-loop or a while-loop"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:202
+msgid "only a for-loop"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:202
+msgid "only a while-loop"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:202
+msgid "Although you do not know how many iterations you loop will run before the program starts running, once you have chosen your random integer, Python knows exactly how many iterations the loop will run, so either a for-loop or a while-loop will work."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:202
+msgid "As you learned in section 7.2, a while-loop can always be used for anything a for-loop can be used for."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:202
+msgid "Although you do not know how many iterations you loop will run before the program starts running, once you have chosen your random integer, Python knows exactly how many iterations the loop will run, so this is an example of definite iteration."
+msgstr ""
+
 #: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:201
 msgid "iter-4-1: Which type of loop can be used to perform the following iteration: You choose a positive integer at random and then print the numbers from 1 up to and including the selected integer."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:215
+msgid "Returns True if the turtle is still on the screen and False if the turtle is no longer on the screen."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:215
+msgid "Uses a while loop to move the turtle randomly until it goes off the screen."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:215
+msgid "Turns the turtle right or left at random and moves the turtle forward 50."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:215
+msgid "Calculates and returns the position of the turtle in the window."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:215
+msgid "The isInScreen function computes the boolean test of whether the turtle is still in the window.  It makes the condition of the while loop in the main part of the code simpler."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:215
+msgid "The isInScreen function does not contain a while-loop.  That loop is outside the isInScreen function."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:215
+msgid "The isInScreen function does not move the turtle."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:215
+msgid "While the isInScreen function does use the size of the window and position of the turtle, it does not return the turtle position."
 msgstr ""
 
 #: ../../_sources/MoreAboutIteration/RandomlyWalkingTurtles.rst:214

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,6 +35,44 @@ msgstr ""
 
 #: ../../_sources/Lists/NestedLists.rst:37
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Lists/NestedLists.rst:60
+msgid "6"
+msgstr ""
+
+#: ../../_sources/Lists/NestedLists.rst:60
+msgid "8"
+msgstr ""
+
+#: ../../_sources/Lists/NestedLists.rst:60
+msgid "888"
+msgstr ""
+
+#: ../../_sources/Lists/NestedLists.rst:60
+msgid "999"
+msgstr ""
+
+#: ../../_sources/Lists/NestedLists.rst:60
+msgid ""
+"6 is in the wrong list.  alist[1] refers to the second item in alist, "
+"namely [888,999]."
+msgstr ""
+
+#: ../../_sources/Lists/NestedLists.rst:60
+msgid ""
+"8 is in the wrong list.  alist[1] refers to the second item in alist, "
+"namely [888,999]."
+msgstr ""
+
+#: ../../_sources/Lists/NestedLists.rst:60
+msgid ""
+"Yes, alist[0][1][0] is True and alist[1] is the second list, the first "
+"item is 888."
+msgstr ""
+
+#: ../../_sources/Lists/NestedLists.rst:60
+msgid "alist[0][1][0] is True.  Take another look at the if statement."
 msgstr ""
 
 #: ../../_sources/Lists/NestedLists.rst:50

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,6 +79,38 @@ msgstr ""
 
 #: ../../_sources/SimplePythonData/Reassignment.rst:72
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Reassignment.rst:94
+msgid "x is 15 and y is 15"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Reassignment.rst:94
+msgid "x is 22 and y is 22"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Reassignment.rst:94
+msgid "x is 15 and y is 22"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Reassignment.rst:94
+msgid "x is 22 and y is 15"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Reassignment.rst:94
+msgid "Look at the last assignment statement which gives x a different value."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Reassignment.rst:94
+msgid "No, x and y are two separate variables.  Just because x changes in the last assignment statement, it does not change the value that was copied into y in the second statement."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Reassignment.rst:94
+msgid "Look at the last assignment statement, which reassigns x, and not y."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Reassignment.rst:94
+msgid "Yes, x has the value 22 and y the value 15."
 msgstr ""
 
 #: ../../_sources/SimplePythonData/Reassignment.rst:86

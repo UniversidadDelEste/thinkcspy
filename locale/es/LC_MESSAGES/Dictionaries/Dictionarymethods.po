@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -165,6 +165,45 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:148
+msgid "cat"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:148
+msgid "dog"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:148
+msgid "elephant"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:148
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:170
+msgid "bear"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:148
+msgid ""
+"keylist is a list of all the keys which is then sorted.  cat would be at "
+"index 1."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:148
+msgid ""
+"keylist is a list of all the keys which is then sorted.  dog would be at "
+"index 2."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:148
+msgid "Yes, the list of keys is sorted and the item at index 3 is printed."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:148
+msgid ""
+"keylist is a list of all the keys which is then sorted.  bear would be at"
+" index 0."
+msgstr ""
+
 #: ../../_sources/Dictionaries/Dictionarymethods.rst:138
 msgid "dict-3-1: What is printed by the following statements?"
 msgstr ""
@@ -175,6 +214,38 @@ msgid ""
 "keylist = list(mydict.keys())\n"
 "keylist.sort()\n"
 "print(keylist[3])"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:170
+msgid "2"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:170
+msgid "0.5"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:170
+msgid "Error, divide is not a valid operation on dictionaries."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:170
+msgid "get returns the value associated with a given key so this divides 12 by 6."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:170
+msgid "12 is divided by 6, not the other way around."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:170
+msgid ""
+"Take another look at the example for get above.  get returns the value "
+"associated with a given key."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:170
+msgid ""
+"The integer division operator is being used on the values returned from "
+"the get method, not on the dictionary."
 msgstr ""
 
 #: ../../_sources/Dictionaries/Dictionarymethods.rst:161
@@ -188,6 +259,26 @@ msgid ""
 "print(answer)"
 msgstr ""
 
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:186
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:202
+msgid "True"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:186
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:202
+msgid "False"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:186
+msgid "Yes, dog is a key in the dictionary."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:186
+msgid ""
+"The in operator returns True if a key is in the dictionary, False "
+"otherwise."
+msgstr ""
+
 #: ../../_sources/Dictionaries/Dictionarymethods.rst:178
 msgid "dict-3-3: What is printed by the following statements?"
 msgstr ""
@@ -198,6 +289,16 @@ msgid ""
 "print(\"dog\" in mydict)"
 msgstr ""
 
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:202
+msgid "23 is a value in the dictionary, not a key."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:202
+msgid ""
+"Yes, the in operator returns True if a key is in the dictionary, False "
+"otherwise."
+msgstr ""
+
 #: ../../_sources/Dictionaries/Dictionarymethods.rst:194
 msgid "dict-3-4: What is printed by the following statements?"
 msgstr ""
@@ -206,6 +307,44 @@ msgstr ""
 msgid ""
 "mydict = {\"cat\":12, \"dog\":6, \"elephant\":23, \"bear\":20}\n"
 "print(23 in mydict)"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:227
+msgid "18"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:227
+msgid "43"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:227
+msgid "0"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:227
+msgid "61"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:227
+msgid "Add the values that have keys greater than 3, not equal to 3."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:227
+msgid ""
+"Yes, the for statement iterates over the keys.  It adds the values of the"
+" keys that have length greater than 3."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:227
+msgid ""
+"This is the accumulator pattern.  total starts at 0 but then changes as "
+"the iteration proceeds."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:227
+msgid ""
+"Not all the values are added together.  The if statement only chooses "
+"some of them."
 msgstr ""
 
 #: ../../_sources/Dictionaries/Dictionarymethods.rst:215

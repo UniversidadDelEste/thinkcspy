@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,6 +73,42 @@ msgstr ""
 
 #: ../../_sources/PythonModules/Themathmodule.rst:60
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/PythonModules/Themathmodule.rst:75
+msgid "import math"
+msgstr ""
+
+#: ../../_sources/PythonModules/Themathmodule.rst:75
+msgid "include math"
+msgstr ""
+
+#: ../../_sources/PythonModules/Themathmodule.rst:75
+msgid "use math"
+msgstr ""
+
+#: ../../_sources/PythonModules/Themathmodule.rst:75
+msgid "You don't need a statement.  You can always use the math module"
+msgstr ""
+
+#: ../../_sources/PythonModules/Themathmodule.rst:75
+msgid ""
+"The module must be imported before you can use anything declared inside "
+"the module."
+msgstr ""
+
+#: ../../_sources/PythonModules/Themathmodule.rst:75
+msgid "The correct term is not include, but you are close."
+msgstr ""
+
+#: ../../_sources/PythonModules/Themathmodule.rst:75
+msgid "You will be using parts of the module, but that is not the right term."
+msgstr ""
+
+#: ../../_sources/PythonModules/Themathmodule.rst:75
+msgid ""
+"You cannot use a Python module without a statement at the top of your "
+"program that explicitly tells Python you want to use the module."
 msgstr ""
 
 #: ../../_sources/PythonModules/Themathmodule.rst:73

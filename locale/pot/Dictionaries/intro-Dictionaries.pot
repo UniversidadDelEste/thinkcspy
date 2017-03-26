@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -215,8 +215,56 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:102
+msgid "False"
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:102
+msgid "True"
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:102
+msgid "Dictionaries associate keys with values but there is no assumed order for the entries."
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:102
+msgid "Yes, dictionaries are associative collections meaning that they store key-value pairs."
+msgstr ""
+
 #: ../../_sources/Dictionaries/intro-Dictionaries.rst:100
 msgid "dict-1-1: A dictionary is an unordered collection of key-value pairs."
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:122
+msgid "12"
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:122
+msgid "6"
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:122
+msgid "23"
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:122
+msgid "Error, you cannot use the index operator with a dictionary."
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:122
+msgid "12 is associated with the key cat."
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:122
+msgid "Yes, 6 is associated with the key dog."
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:122
+msgid "23 is associated with the key elephant."
+msgstr ""
+
+#: ../../_sources/Dictionaries/intro-Dictionaries.rst:122
+msgid "The [ ] operator, when used with a dictionary, will look up a value based on its key."
 msgstr ""
 
 #: ../../_sources/Dictionaries/intro-Dictionaries.rst:115

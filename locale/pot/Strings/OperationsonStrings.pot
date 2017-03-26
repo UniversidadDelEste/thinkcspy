@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,6 +51,38 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/Strings/OperationsonStrings.rst:90
+msgid "python rocks"
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:90
+msgid "python"
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:90
+msgid "pythonrocks"
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:90
+msgid "Error, you cannot add two strings together."
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:90
+msgid "Concatenation does not automatically add a space."
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:90
+msgid "The expression s+t is evaluated first, then the resulting string is printed."
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:90
+msgid "Yes, the two strings are glued end to end."
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:90
+msgid "The + operator has different meanings depending on the operands, in this case, two strings."
+msgstr ""
+
 #: ../../_sources/Strings/OperationsonStrings.rst:81
 msgid "strings-3-1: What is printed by the following statements?"
 msgstr ""
@@ -59,6 +91,38 @@ msgstr ""
 msgid "s = \"python\"\n"
 "t = \"rocks\"\n"
 "print(s + t)"
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:113
+msgid "python!!!"
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:113
+msgid "python!python!python!"
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:113
+msgid "pythonpythonpython!"
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:113
+msgid "Error, you cannot perform concatenation and repetition at the same time."
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:113
+msgid "Yes, repetition has precedence over concatenation"
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:113
+msgid "Repetition is done first."
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:113
+msgid "The repetition operator is working on the excl variable."
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:113
+msgid "The + and * operator are defined for strings as well as numbers."
 msgstr ""
 
 #: ../../_sources/Strings/OperationsonStrings.rst:103

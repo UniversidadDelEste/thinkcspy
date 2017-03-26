@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,6 +42,38 @@ msgstr ""
 
 #: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:64
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:83
+msgid "Nothing is printed. It generates a runtime error."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:83
+msgid "53"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:83
+msgid "54"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:83
+msgid "53.785"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:83
+msgid "The statement is valid Python code.  It calls the int function on 53.785 and then prints the value that is returned."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:83
+msgid "The int function truncates all values after the decimal and prints the integer value."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:83
+msgid "When converting to an integer, the int function does not round."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:83
+msgid "The int function removes the fractional part of 53.785 and returns an integer, which is then printed."
 msgstr ""
 
 #: ../../_sources/SimplePythonData/Typeconversionfunctions.rst:77

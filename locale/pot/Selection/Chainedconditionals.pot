@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,6 +61,46 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/Selection/Chainedconditionals.rst:132
+msgid "I only"
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:132
+msgid "II only"
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:132
+msgid "III only"
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:132
+msgid "II and III"
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:132
+msgid "I, II, and III"
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:132
+msgid "You can not use a Boolean expression after an else."
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:132
+msgid "Yes, II will give the same result."
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:132
+msgid "No, III will not give the same result.  The first if statement will be true, but the second will be false, so the else part will execute."
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:132
+msgid "No, Although II is correct III will not give the same result.  Try it."
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:132
+msgid "No, in I you can not have a Boolean expression after an else."
+msgstr ""
+
 #: ../../_sources/Selection/Chainedconditionals.rst:83
 msgid "select-7-1: Which of I, II, and III below gives the same result as the following nested if?"
 msgstr ""
@@ -108,6 +148,30 @@ msgid "III.\n"
 "    print(x, \" is a positive number\")\n"
 "else:\n"
 "    print(x, \" is 0\")"
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:154
+msgid "a"
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:154
+msgid "b"
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:154
+msgid "c"
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:154
+msgid "While the value in x is less than the value in y (3 is less than 5) it is not less than the value in z (3 is not less than 2)."
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:154
+msgid "The value in y is not less than the value in x (5 is not less than 3)."
+msgstr ""
+
+#: ../../_sources/Selection/Chainedconditionals.rst:154
+msgid "Since the first two Boolean expressions are false the else will be executed."
 msgstr ""
 
 #: ../../_sources/Selection/Chainedconditionals.rst:142

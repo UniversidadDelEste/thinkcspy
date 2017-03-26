@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,6 +50,22 @@ msgstr ""
 
 #: ../../_sources/PythonTurtle/InstancesAHerdofTurtles.rst:86
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/InstancesAHerdofTurtles.rst:96
+msgid "True"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/InstancesAHerdofTurtles.rst:96
+msgid "False"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/InstancesAHerdofTurtles.rst:96
+msgid "You can create and use as many turtles as you like.  As long as they have different names, you can operate them independently, and make them move in any order you like.  To convince yourself this is true, try interleaving the instructions for alex and tess in ActiveCode box 3."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/InstancesAHerdofTurtles.rst:96
+msgid "You can create and use as many turtles as you like.  As long as they have different names, you can operate them independently, and make them move in any order you like.  If you are not totally convinced, try interleaving the instructions for alex and tess in ActiveCode box 3."
 msgstr ""
 
 #: ../../_sources/PythonTurtle/InstancesAHerdofTurtles.rst:95

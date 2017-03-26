@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -139,6 +139,38 @@ msgstr ""
 
 #: ../../_sources/Functions/TheAccumulatorPattern.rst:111
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:138
+msgid "The square function will return x instead of x * x"
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:138
+msgid "The square function will cause an error"
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:138
+msgid "The square function will work as expected and return x * x"
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:138
+msgid "The square function will return 0 instead of x * x"
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:138
+msgid "The variable runningtotal will be reset to 0 each time through the loop.   However because this assignment happens as the first instruction, the next instruction in the loop will set it back to x.   When the loop finishes, it will have the value x, which is what is returned."
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:138
+msgid "Assignment statements are perfectly legal inside loops and will not cause an error."
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:138
+msgid "By putting the statement that sets runningtotal to 0 inside the loop, that statement gets executed every time through the loop, instead of once before the loop begins.  The result is that runningtotal is 'cleared' (reset to 0) each time through the loop."
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:138
+msgid "The line runningtotal = 0 is the first line in the for loop, but immediately after this line, the line runningtotal = runningtotal + x will execute, giving runningtotal a non-zero value  (assuming x is non-zero)."
 msgstr ""
 
 #: ../../_sources/Functions/TheAccumulatorPattern.rst:124

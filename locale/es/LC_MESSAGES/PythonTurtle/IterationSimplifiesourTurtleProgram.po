@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -141,6 +141,48 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:142
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:172
+msgid "1"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:142
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:172
+msgid "5"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:142
+msgid "6"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:142
+msgid "10"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:142
+msgid ""
+"The loop body prints one line, but the body will execute exactly one time"
+" for each element in the list [5, 4, 3, 2, 1, 0]."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:142
+msgid ""
+"Although the biggest number in the list is 5, there are actually 6 "
+"elements in the list."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:142
+msgid ""
+"The loop body will execute (and print one line) for each of the 6 "
+"elements in the list [5, 4, 3, 2, 1, 0]."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:142
+msgid ""
+"The loop body will not execute more times than the number of elements in "
+"the list."
+msgstr ""
+
 #: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:135
 msgid "turtle-6-3: In the following code, how many lines does this code print?"
 msgstr ""
@@ -152,16 +194,103 @@ msgid ""
 "    print(\"I have\", number, \"cookies.  I'm going to eat one.\")"
 msgstr ""
 
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:153
+msgid "They are indented to the same degree from the loop header."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:153
+msgid "There is always exactly one line in the loop body."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:153
+msgid ""
+"The loop body ends with a semi-colon (;) which is not shown in the code "
+"above."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:153
+msgid ""
+"The loop body can have any number of lines, all indented from the loop "
+"header."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:153
+msgid "The loop body may have more than one line."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:153
+msgid ""
+"Python does not use semi-colons in its syntax, but relies mainly on "
+"indentation."
+msgstr ""
+
 #: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:152
 msgid ""
 "turtle-6-4: How does python know what lines are contained in the loop "
 "body?"
 msgstr ""
 
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:172
+msgid "2"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:172
+msgid "4"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:172
+msgid ""
+"Python gives number the value of items in the list, one at a time, in "
+"order (from left to right).  number gets a new value each time the loop "
+"repeats."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:172
+msgid ""
+"Yes, Python will process the items from left to right so the first time "
+"the value of number is 5 and the second time it is 4."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:172
+msgid ""
+"Python gives number the value of items in the list, one at a time, in "
+"order.  number gets a new value each time the loop repeats."
+msgstr ""
+
 #: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:165
 msgid ""
 "turtle-6-5: In the following code, what is the value of number the second"
 " time Python executes the loop?"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:191
+msgid "Draw a square using the same color for each side."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:191
+msgid "Draw a square using a different color for each side."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:191
+msgid "Draw one side of a square."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:191
+msgid ""
+"The items in the list are not actually used to control the color of the "
+"turtle because aColor is never used inside the loop.  But, the loop will "
+"execute once for each color in the list."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:191
+msgid "Notice that aColor is never actually used inside the loop."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:191
+msgid ""
+"The body of the loop only draws one side of the square.  It will be  "
+"repeated once for each item in the list.  However, the color of the "
+"turtle never changes."
 msgstr ""
 
 #: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:182

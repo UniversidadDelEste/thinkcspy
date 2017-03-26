@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -171,6 +171,34 @@ msgstr ""
 
 #: ../../_sources/Strings/TraversalandthewhileLoop.rst:52
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandthewhileLoop.rst:74
+msgid "0"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandthewhileLoop.rst:74
+msgid "1"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandthewhileLoop.rst:74
+msgid "2"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandthewhileLoop.rst:74
+msgid ""
+"Yes, idx goes through the odd numbers starting at 1.  o is at position 4 "
+"and 8."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandthewhileLoop.rst:74
+msgid "o is at positions 4 and 8.  idx starts at 1, not 0."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandthewhileLoop.rst:74
+msgid ""
+"There are 2 o characters but idx does not take on the correct index "
+"values."
 msgstr ""
 
 #: ../../_sources/Strings/TraversalandthewhileLoop.rst:64

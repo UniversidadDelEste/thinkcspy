@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,6 +33,24 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/Lists/ListMembership.rst:43
+#: ../../_sources/Lists/ListMembership.rst:59
+msgid "True"
+msgstr ""
+
+#: ../../_sources/Lists/ListMembership.rst:43
+#: ../../_sources/Lists/ListMembership.rst:59
+msgid "False"
+msgstr ""
+
+#: ../../_sources/Lists/ListMembership.rst:43
+msgid "Yes, 3.14 is an item in the list alist."
+msgstr ""
+
+#: ../../_sources/Lists/ListMembership.rst:43
+msgid "There are 7 items in the list, 3.14 is one of them."
+msgstr ""
+
 #: ../../_sources/Lists/ListMembership.rst:36
 msgid "list-5-1: What is printed by the following statements?"
 msgstr ""
@@ -41,6 +59,14 @@ msgstr ""
 msgid ""
 "alist = [3, 67, \"cat\", [56, 57, \"dog\"], [ ], 3.14, False]\n"
 "print(3.14 in alist)"
+msgstr ""
+
+#: ../../_sources/Lists/ListMembership.rst:59
+msgid "in returns True for top level items only.  57 is in a sublist."
+msgstr ""
+
+#: ../../_sources/Lists/ListMembership.rst:59
+msgid "Yes, 57 is not a top level item in alist.  It is in a sublist."
 msgstr ""
 
 #: ../../_sources/Lists/ListMembership.rst:51

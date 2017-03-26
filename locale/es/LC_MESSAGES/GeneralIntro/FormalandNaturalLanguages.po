@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -193,8 +193,59 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/GeneralIntro/FormalandNaturalLanguages.rst:131
+msgid "natural languages can be parsed while formal languages cannot."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/FormalandNaturalLanguages.rst:131
+msgid "ambiguity, redundancy, and literalness."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/FormalandNaturalLanguages.rst:131
+msgid "there are no differences between natural and formal languages."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/FormalandNaturalLanguages.rst:131
+msgid "tokens, structure, syntax, and semantics."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/FormalandNaturalLanguages.rst:131
+msgid ""
+"Actually both languages can be parsed (determining the structure of the "
+"sentence), but formal languages can be parsed more easily in software."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/FormalandNaturalLanguages.rst:131
+msgid ""
+"All of these can be present in natural languages, but cannot exist in "
+"formal languages."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/FormalandNaturalLanguages.rst:131
+msgid "There are several differences between the two but they are also similar."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/FormalandNaturalLanguages.rst:131
+msgid "These are the similarities between the two."
+msgstr ""
+
 #: ../../_sources/GeneralIntro/FormalandNaturalLanguages.rst:130
 msgid "intro-11-1: The differences between natural and formal languages include:"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/FormalandNaturalLanguages.rst:141
+msgid "True"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/FormalandNaturalLanguages.rst:141
+msgid "False"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/FormalandNaturalLanguages.rst:141
+msgid ""
+"It usually takes longer to read a program because the structure is as "
+"important as the content and must be interpreted in smaller pieces for "
+"understanding."
 msgstr ""
 
 #: ../../_sources/GeneralIntro/FormalandNaturalLanguages.rst:139

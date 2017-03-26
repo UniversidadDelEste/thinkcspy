@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 17:19-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,6 +62,38 @@ msgid ""
 "the error is on line 5.  Thats **really** useful information.  Now look "
 "at line five and you will see that ``wait_time_int`` is used on both the "
 "left and the right hand side of the assignment statement."
+msgstr ""
+
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:59
+msgid ""
+"You cannot use a variable on both the left and right hand sides of an "
+"assignment statement."
+msgstr ""
+
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:59
+msgid ""
+"wait_time_int does not have a value so it cannot be used on the right "
+"hand side."
+msgstr ""
+
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:59
+msgid "This is not really an error, Python is broken."
+msgstr ""
+
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:59
+msgid ""
+"No, You can, as long as all the variables on the right hand side already "
+"have values."
+msgstr ""
+
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:59
+msgid ""
+"Yes.  Variables must already have values in order to be used on the right"
+" hand side."
+msgstr ""
+
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:59
+msgid "No, No, No!"
 msgstr ""
 
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:57
@@ -416,6 +448,10 @@ msgid ""
 "you can find and fix the error."
 msgstr ""
 
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:205
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:230
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:257
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:280
 msgid "data-showtitle=\"Show me the Solution\""
 msgstr ""
 

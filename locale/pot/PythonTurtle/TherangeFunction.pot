@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -215,12 +215,108 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:147
+msgid "Range should generate a list that stops at 9 (including 9)."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:147
+msgid "Range should generate a list that starts at 10 (including 10)."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:147
+msgid "Range should generate a list starting at 3 that stops at 10 (including 10)."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:147
+msgid "Range should generate a list using every 10th number between the start and the stopping number."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:147
+msgid "Range will generate the list [3, 5, 7, 9]."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:147
+msgid "The first argument (3) tells range what number to start at."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:147
+msgid "Range will always stop at the number before (not including) the specified ending point for the list."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:147
+msgid "The third argument (2) tells range how many numbers to skip between each element in the list."
+msgstr ""
+
 #: ../../_sources/PythonTurtle/TherangeFunction.rst:146
 msgid "turtle-8-1: In the command range(3, 10, 2), what does the second argument (10) specify?"
 msgstr ""
 
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:160
+msgid "range(2, 5, 8)"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:160
+msgid "range(2, 8, 3)"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:160
+msgid "range(2, 10, 3)"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:160
+msgid "range(8, 1, -3)"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:160
+msgid "This command generates the list [2] because the first number (2) tells range where to start, the second number tells range where to end (5, not inclusive) and the third number tells range how many numbers to skip between elements (8).  Since 10>= 8, there is only one number in this list."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:160
+msgid "This command generates the list [2, 5] because 8 is not less than 8 (the specified ending number)."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:160
+msgid "The first number is the starting point, the second is the maximum allowed, and the third is the amount to increment by."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:160
+msgid "This command generates the list [8, 5, 3] because it starts at 8, ends at (or above 1), and skips every third number going down."
+msgstr ""
+
 #: ../../_sources/PythonTurtle/TherangeFunction.rst:159
 msgid "turtle-8-2: What command correctly generates the list [2, 5, 8]?"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:176
+msgid "It will generate a list starting at 0, with every number included up to but not including the argument it was passed."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:176
+msgid "It will generate a list starting at 1, with every number up to but not including the argument it was passed."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:176
+msgid "It will generate a list starting at 1, with every number including the argument it was passed."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:176
+msgid "It will cause an error: range always takes exactly 3 arguments."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:176
+msgid "Yes, if you only give one number to range it starts with 0 and ends before the number specified incrementing by 1."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:176
+msgid "Range starts at 0 unless otherwise specified."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:176
+msgid "Range starts at 0 unless otherwise specified, and never includes its ending element (which is the argument it was passed)."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TherangeFunction.rst:176
+msgid "If range is passed only one argument, it interprets that argument as the end of the list (not inclusive)."
 msgstr ""
 
 #: ../../_sources/PythonTurtle/TherangeFunction.rst:172

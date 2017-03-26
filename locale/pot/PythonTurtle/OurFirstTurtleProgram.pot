@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,6 +59,35 @@ msgstr ""
 #: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:70
 #: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:186
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:84
+msgid "North"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:84
+msgid "South"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:84
+msgid "East"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:84
+msgid "West"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:84
+msgid "Some turtle systems start with the turtle facing north, but not this one."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:84
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:84
+msgid "No, look at the first example with a turtle.  Which direction does the turtle move?"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:84
+msgid "Yes, the turtle starts out facing east."
 msgstr ""
 
 #: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:83
@@ -149,6 +178,38 @@ msgstr ""
 msgid "Do the same for the width of tess' pen.  *Hint:* your dialog with the user will return a string, but tess' ``pensize`` method expects its argument to be an ``int``.  That means you need to convert the string to an int before you pass it to ``pensize``."
 msgstr ""
 
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:211
+msgid "It creates a new turtle object that can be used for drawing."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:211
+msgid "It defines the module turtle which will allow you to create a Turtle object and draw with it."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:211
+msgid "It makes the turtle draw half of a rectangle on the screen."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:211
+msgid "Nothing, it is unnecessary."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:211
+msgid "The line &quotalex = turtle.Turtle()&quot is what actually creates the turtle object."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:211
+msgid "This line imports the module called turtle, which has all the built in functions for drawing on the screen with the Turtle object."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:211
+msgid "This functionality is performed with the lines: &quotalex.forward(150)&quot, &quotlex.left(90)&quot, and &quotalex.forward(75)&quot"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:211
+msgid "If we leave it out, Python will give an error saying that it does not know about the name &quotturtle&quot when it reaches the line &quotwn = turtle.Screen()&quot"
+msgstr ""
+
 #: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:199
 msgid "turtle-2-5: Consider the following code:"
 msgstr ""
@@ -166,19 +227,96 @@ msgstr ""
 msgid "What does the line \"import turtle\" do?"
 msgstr ""
 
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:222
+msgid "This is simply for clarity.  It would also work to just type \"Turtle()\" instead of \"turtle.Turtle()\"."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:222
+msgid "The period (.) is what tells Python that we want to invoke a new object."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:222
+msgid "The first \"turtle\" (before the period) tells Python that we are referring to the turtle module, which is where the object \"Turtle\" is found."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:222
+msgid "We must specify the name of the module where Python can find the Turtle object."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:222
+msgid "The period separates the module name from the object name.  The parentheses at the end are what tell Python to invoke a new object."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:222
+msgid "Yes, the Turtle type is defined in the module turtle.  Remember that Python is case sensitive and Turtle is different from turtle."
+msgstr ""
+
 #: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:221
 msgid "turtle-2-6: Why do we type ``turtle.Turtle()`` to get a new Turtle object?"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:231
+msgid "True"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:231
+msgid "False"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:231
+msgid "In this chapter you saw one named alex and one named tess, but any legal variable name is allowed."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:231
+msgid "A variable, including one referring to a Turtle object, can have whatever name you choose as long as it follows the naming conventions from Chapter 2."
 msgstr ""
 
 #: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:230
 msgid "turtle-2-7: True or False: A Turtle object can have any name that follows the naming rules from Chapter 2."
 msgstr ""
 
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:249
+msgid "<img src=\"../_static/test1Alt1.png\" alt=\"right turn of 90 degrees before drawing, draw a line 150 pixels long, turn left 90, and draw a line 75 pixels long\">"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:249
+msgid "<img src=\"../_static/test1Alt2.png\" alt=\"left turn of 180 degrees before drawing,  draw a line 150 pixels long, turn left 90, and draw a line 75 pixels long\">"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:249
+msgid "<img src=\"../_static/test1Alt3.png\" alt=\"left turn of 270 degrees before drawing,  draw a line 150 pixels long, turn left 90, and draw a line 75 pixels long\">"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:249
+msgid "<img src=\"../_static/test1Alt4v2.png\" alt=\"right turn of 270 degrees before drawing, draw a line 150 pixels long, turn right 90, and draw a line 75 pixels long\">"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:249
+msgid "<img src=\"../_static/test1correct.png\" alt=\"left turn of 90 degrees before drawing,  draw a line 150 pixels long, turn left 90, and draw a line 75 pixels long\">"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:249
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:249
+msgid "This code would turn the turtle to the south before drawing"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:249
+msgid "This code would turn the turtle to the west before drawing"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:249
+msgid "This code is almost correct, but the short end would be facing east instead of west."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:249
+msgid "Yes, the turtle starts facing east, so to turn it north you can turn left 90 or right 270 degrees."
+msgstr ""
+
 #: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:245
 msgid "turtle-2-8: Which of the following code would produce the following image?"
 msgstr ""
 
-#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:0
+#: ../../_sources/PythonTurtle/OurFirstTurtleProgram.rst:249
 msgid ".. image:: PythonTurtle/../_static/turtleTest1.png\n"
 "   :alt: long line to north with shorter line to west on top"
 msgstr ""

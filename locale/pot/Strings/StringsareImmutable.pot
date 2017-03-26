@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,6 +38,27 @@ msgstr ""
 
 #: ../../_sources/Strings/StringsareImmutable.rst:43
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Strings/StringsareImmutable.rst:63
+msgid "Ball"
+msgstr ""
+
+#: ../../_sources/Strings/StringsareImmutable.rst:63
+msgid "Call"
+msgstr ""
+
+#: ../../_sources/Strings/StringsareImmutable.rst:63
+msgid "Error"
+msgstr ""
+
+#: ../../_sources/Strings/StringsareImmutable.rst:63
+#: ../../_sources/Strings/StringsareImmutable.rst:63
+msgid "Assignment is not allowed with strings."
+msgstr ""
+
+#: ../../_sources/Strings/StringsareImmutable.rst:63
+msgid "Yes, strings are immutable."
 msgstr ""
 
 #: ../../_sources/Strings/StringsareImmutable.rst:54

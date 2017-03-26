@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,6 +40,38 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/Strings/TheSliceOperator.rst:69
+msgid "python"
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:69
+msgid "rocks"
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:69
+msgid "hon r"
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:69
+msgid "Error, you cannot have two numbers inside the [ ]."
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:69
+msgid "That would be s[0:6]."
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:69
+msgid "That would be s[7:]."
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:69
+msgid "Yes, start with the character at index 3 and go up to but not include the character at index 8."
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:69
+msgid "This is called slicing, not indexing.  It requires a start and an end."
+msgstr ""
+
 #: ../../_sources/Strings/TheSliceOperator.rst:61
 msgid "strings-7-1: What is printed by the following statements?"
 msgstr ""
@@ -47,6 +79,38 @@ msgstr ""
 #: ../../_sources/Strings/TheSliceOperator.rst:63
 msgid "s = \"python rocks\"\n"
 "print(s[3:8])"
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:90
+msgid "rockrockrock"
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:90
+msgid "rock rock rock"
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:90
+msgid "rocksrocksrocks"
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:90
+msgid "Error, you cannot use repetition with slicing."
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:90
+msgid "Yes, rock starts at 7 and goes through 10.  Repeat it 3 times."
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:90
+msgid "Repetition does not add a space."
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:90
+msgid "Slicing will not include the character at index 11.  Just up to it (10 in this case)."
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:90
+msgid "The slice will happen first, then the repetition.  So it is ok."
 msgstr ""
 
 #: ../../_sources/Strings/TheSliceOperator.rst:82

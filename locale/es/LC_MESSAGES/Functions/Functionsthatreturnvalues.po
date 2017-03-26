@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -420,6 +420,49 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/Functions/Functionsthatreturnvalues.rst:219
+msgid "You should never use a print statement in a function definition."
+msgstr ""
+
+#: ../../_sources/Functions/Functionsthatreturnvalues.rst:219
+msgid ""
+"You should not have any statements in a function after the return "
+"statement.  Once the function gets to the return statement it will "
+"immediately stop executing the function."
+msgstr ""
+
+#: ../../_sources/Functions/Functionsthatreturnvalues.rst:219
+msgid "You must calculate the value of x+y+z before you return it."
+msgstr ""
+
+#: ../../_sources/Functions/Functionsthatreturnvalues.rst:219
+msgid "A function cannot return a number."
+msgstr ""
+
+#: ../../_sources/Functions/Functionsthatreturnvalues.rst:219
+msgid ""
+"Although you should not mistake print for return, you may include print "
+"statements inside your functions."
+msgstr ""
+
+#: ../../_sources/Functions/Functionsthatreturnvalues.rst:219
+msgid ""
+"This is a very common mistake so be sure to watch out for it when you "
+"write your code!"
+msgstr ""
+
+#: ../../_sources/Functions/Functionsthatreturnvalues.rst:219
+msgid ""
+"Python will automatically calculate the value x+y+z and then return it in"
+" the statement as it is written"
+msgstr ""
+
+#: ../../_sources/Functions/Functionsthatreturnvalues.rst:219
+msgid ""
+"Functions can return any legal data, including (but not limited to) "
+"numbers, strings, turtles, etc."
+msgstr ""
+
 #: ../../_sources/Functions/Functionsthatreturnvalues.rst:211
 msgid "func-2-1: What is wrong with the following function definition:"
 msgstr ""
@@ -429,6 +472,41 @@ msgid ""
 "def addEm(x, y, z):\n"
 "    return x + y + z\n"
 "    print('the answer is', x + y + z)"
+msgstr ""
+
+#: ../../_sources/Functions/Functionsthatreturnvalues.rst:236
+msgid "Nothing (no value)"
+msgstr ""
+
+#: ../../_sources/Functions/Functionsthatreturnvalues.rst:236
+msgid "The value of x + y + z"
+msgstr ""
+
+#: ../../_sources/Functions/Functionsthatreturnvalues.rst:236
+msgid "The string 'x + y + z'"
+msgstr ""
+
+#: ../../_sources/Functions/Functionsthatreturnvalues.rst:236
+msgid ""
+"We have accidentally used print where we mean return.  Therefore, the "
+"function will return the value None by default.  This is a VERY COMMON "
+"mistake so watch out!  This mistake is also particularly difficult to "
+"find because when you run the function the output looks the same.  It is "
+"not until you try to assign its value to a variable that you can notice a"
+" difference."
+msgstr ""
+
+#: ../../_sources/Functions/Functionsthatreturnvalues.rst:236
+msgid ""
+"Careful!  This is a very common mistake.  Here we have printed the value "
+"x+y+z but we have not returned it.  To return a value we MUST use the "
+"return keyword."
+msgstr ""
+
+#: ../../_sources/Functions/Functionsthatreturnvalues.rst:236
+msgid ""
+"x+y+z calculates a number (assuming x+y+z are numbers) which represents "
+"the sum of the values x, y and z."
 msgstr ""
 
 #: ../../_sources/Functions/Functionsthatreturnvalues.rst:229

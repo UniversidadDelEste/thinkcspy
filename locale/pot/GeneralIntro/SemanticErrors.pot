@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,6 +30,30 @@ msgstr ""
 
 #: ../../_sources/GeneralIntro/SemanticErrors.rst:27
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SemanticErrors.rst:40
+msgid "Attempting to divide by 0."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SemanticErrors.rst:40
+msgid "Forgetting a semi-colon at the end of a statement where one is required."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SemanticErrors.rst:40
+msgid "Forgetting to divide by 100 when printing a percentage amount."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SemanticErrors.rst:40
+msgid "A semantic error is an error in logic. In this case the program does not produce the correct output because the problem is not solved correctly. This would be considered a run-time error."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SemanticErrors.rst:40
+msgid "A semantic error is an error in logic. In this case the program does not produce the correct output because the code can not be processed by the compiler or interpreter. This would be considered a syntax error."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/SemanticErrors.rst:40
+msgid "This will produce the wrong answer because the programmer implemented the solution incorrectly.  This is a semantic error."
 msgstr ""
 
 #: ../../_sources/GeneralIntro/SemanticErrors.rst:38

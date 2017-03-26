@@ -5,53 +5,184 @@
 # Computer Scientist package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"PO-Revision-Date: 2017-03-26 18:51-0300\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.4.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: Mariano Reingart <reingart@gmail.com>\n"
+"Language-Team: \n"
+"Language: es\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: ../../_sources/GeneralIntro/Algorithms.rst:15
 msgid "Algorithms"
-msgstr ""
+msgstr "Algoritmos"
 
 #: ../../_sources/GeneralIntro/Algorithms.rst:17
 msgid ""
 "If problem solving is a central part of computer science, then the "
 "solutions that you create through the problem solving process are also "
 "important.  In computer science, we refer to these solutions as "
-"**algorithms**.  An algorithm is a step by step list of instructions that"
-" if followed exactly will solve the problem under consideration."
+"**algorithms**.  An algorithm is a step by step list of instructions that "
+"if followed exactly will solve the problem under consideration."
 msgstr ""
+"Si la resolución de problemas es una parte central de las ciencias de "
+"computación, entonces la soluciones que ud. crea a traves del proceso son "
+"también importantes. En ciencias de la computación, nos referimos a estas "
+"soluciones como **algoritmos**. Un algoritmo es una lista de instrucciones "
+"paso a paso, que si son seguidas exactamente, resolverán el problema en "
+"consideración."
 
 #: ../../_sources/GeneralIntro/Algorithms.rst:21
 msgid ""
-"Our goal in computer science is to take a problem and develop an "
-"algorithm that can serve as a general solution.  Once we have such a "
-"solution, we can use our computer to automate the execution.  As noted "
-"above, programming is a skill that allows a computer scientist to take an"
-" algorithm and represent it in a notation (a program) that can be "
-"followed by a computer.  These programs are written in **programming "
-"languages**."
+"Our goal in computer science is to take a problem and develop an algorithm "
+"that can serve as a general solution.  Once we have such a solution, we "
+"can use our computer to automate the execution.  As noted above, "
+"programming is a skill that allows a computer scientist to take an "
+"algorithm and represent it in a notation (a program) that can be followed "
+"by a computer.  These programs are written in **programming languages**."
 msgstr ""
+"Nuestra meta en las ciencias de computación es tomar un problema y "
+"desarrollar un algoritmo que puede servir como una solución general. Una "
+"vez que tenemos dicha solución, podemos utilizar nuestra computadora para "
+"automatizar la ejecución. Como se notó anteriormente, la programación es "
+"una habilidad que permite a un científico de la computación tomar un "
+"algoritmo y representarlo en una notación (un programa) que puede ser "
+"seguida por una computadora. Estos programas son escritos en **lenguajes "
+"de programación**."
 
 #: ../../_sources/GeneralIntro/Algorithms.rst:25
 msgid "**Check your understanding**"
+msgstr "**Verifique su entendimiento**"
+
+#: ../../_sources/GeneralIntro/Algorithms.rst:39
+msgid "To think like a computer."
+msgstr "Pensar como una computadora."
+
+#: ../../_sources/GeneralIntro/Algorithms.rst:39
+msgid "To be able to write code really well."
+msgstr "Poder escribir código realmente bien."
+
+#: ../../_sources/GeneralIntro/Algorithms.rst:39
+msgid "To be able to solve problems."
+msgstr "Poder resolver problemas."
+
+#: ../../_sources/GeneralIntro/Algorithms.rst:39
+msgid "To be really good at math."
+msgstr "Ser muy bueno en matemáticas."
+
+#: ../../_sources/GeneralIntro/Algorithms.rst:39
+msgid ""
+"Computers do not think, they only do what we humans tell them to do via "
+"programs."
 msgstr ""
+"Las computadoras no piensan, solo hacen lo que los humanos les dicen que "
+"hagan via programas."
+
+#: ../../_sources/GeneralIntro/Algorithms.rst:39
+msgid ""
+"While it is necessary for most computer scientists to know how to write "
+"code, it is not the most important skill."
+msgstr ""
+"Mientras saber como escribir código es necesario para la mayor parte de "
+"los científicos en computación, no es la habilidad más importante."
+
+#: ../../_sources/GeneralIntro/Algorithms.rst:39
+msgid ""
+"Computer scientists are all about solving problems.  We use computers to "
+"automate solutions to problems and to do things faster and more accurately "
+"than we can do by hand or manually."
+msgstr ""
+"Los cientificos en computación se centran en resolver problemas. Usamos "
+"computadoras para automatizar las soluciones a los problemas y para hacer "
+"las cosas más rápido y con más precisión que lo que podemos hacer "
+"manualmente."
+
+#: ../../_sources/GeneralIntro/Algorithms.rst:39
+msgid ""
+"Computer science and math are similar in many ways and it helps to have a "
+"strong mathematical foundation, but you do not have to be good at math to "
+"be a good computer scientist."
+msgstr ""
+"Las ciencias de computación y matemáticas son similares en muchos "
+"sentidos, y ayuda tener una base sólida en matemática, pero no  tiene que "
+"ser bueno en matemáticas para ser bueno en computación. "
 
 #: ../../_sources/GeneralIntro/Algorithms.rst:38
 msgid "intro-2-1: What is the most important skill for a computer scientist?"
 msgstr ""
+"intro-2-1: ¿Cual es la habilidad más importante para un científico en "
+"computación?"
+
+#: ../../_sources/GeneralIntro/Algorithms.rst:53
+msgid "A solution to a problem that can be solved by a computer."
+msgstr ""
+"Una solución a un problema que puede ser resuelta por una computadora."
+
+#: ../../_sources/GeneralIntro/Algorithms.rst:53
+msgid ""
+"A step by step list of instructions that if followed exactly will solve "
+"the problem under consideration."
+msgstr ""
+"Una lista de instrucciones paso a paso que si son seguidas exactamente "
+"resolverán el problema bajo consideración."
+
+#: ../../_sources/GeneralIntro/Algorithms.rst:53
+msgid "A series of instructions implemented in a programming language."
+msgstr ""
+"Una serie de instrucciones implementadas en un lenguaje de programación."
+
+#: ../../_sources/GeneralIntro/Algorithms.rst:53
+msgid "A special kind of notation used by computer scientists."
+msgstr ""
+"Un tipo de notación especial usado por los científicos de computación."
+
+#: ../../_sources/GeneralIntro/Algorithms.rst:53
+msgid ""
+"While it is true that algorithms often do solve problems, this is not the "
+"best answer.  An algorithm is more than just the solution to the problem "
+"for a computer.  An algorithm can be used to solve all sorts of problems, "
+"including those that have nothing to do with computers."
+msgstr ""
+"Mientras es verdad que los algoritmos usualmente resuleven problemas, esta "
+"no es la mejor respuesta. Un algoritmo es más que sólo la solución a un "
+"problema para una computadora. Un algoritmo puede ser usado para resolver "
+"todo tipo de problemas, incluyendo aquellos que no tienen nada que ver con "
+"computadoras."
+
+#: ../../_sources/GeneralIntro/Algorithms.rst:53
+msgid ""
+"Algorithms are like recipes:  they must be followed exactly, they must be "
+"clear and unambiguous, and they must end."
+msgstr ""
+"Los algoritmos son como recetas: se deben seguir exactamente, deben ser "
+"claros y sin ambigüedades, y deben tener un final."
+
+#: ../../_sources/GeneralIntro/Algorithms.rst:53
+msgid ""
+"Programming languages are used to express algorithms, but an algorithm "
+"does not have to be expressed in terms of a programming language."
+msgstr ""
+"Los lenguajes de programación son utilizados para expresar los algoritmos, "
+"pero un algoritmo no tiene que ser expresado en términos de un lenguaje de "
+"programación."
+
+#: ../../_sources/GeneralIntro/Algorithms.rst:53
+msgid ""
+"Computer scientists sometimes use a special notation to illustrate or "
+"document an algorithm, but this is not the definition of an algorithm."
+msgstr ""
+"Los científicos en computación a veces usan una notación especial para "
+"ilustrar o documentar un algoritmo, pero esta no es la definición de un "
+"algoritmo."
 
 #: ../../_sources/GeneralIntro/Algorithms.rst:51
 msgid "intro-2-2: An algorithm is:"
-msgstr ""
-
+msgstr "intro-2-2: Un algoritmo es:"

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -229,6 +229,30 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/Strings/StringMethods.rst:127
+msgid "0"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:127
+msgid "2"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:127
+msgid "3"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:127
+msgid "There are definitely o and p characters."
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:127
+msgid "There are 2 o characters but what about p?"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:127
+msgid "Yes, add the number of o characters and the number of p characters."
+msgstr ""
+
 #: ../../_sources/Strings/StringMethods.rst:118
 msgid "strings-5-1: What is printed by the following statements?"
 msgstr ""
@@ -237,6 +261,43 @@ msgstr ""
 msgid ""
 "s = \"python rocks\"\n"
 "print(s.count(\"o\") + s.count(\"p\"))"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:147
+msgid "yyyyy"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:147
+msgid "55555"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:147
+msgid "n"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:147
+msgid "Error, you cannot combine all those things together."
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:147
+msgid ""
+"Yes, s[1] is y and the index of n is 5, so 5 y characters.  It is "
+"important to realize that the index method has precedence over the "
+"repetition operator.  Repetition is done last."
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:147
+msgid "Close.  5 is not repeated, it is the number of times to repeat."
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:147
+msgid "This expression uses the index of n"
+msgstr ""
+
+#: ../../_sources/Strings/StringMethods.rst:147
+msgid ""
+"This is fine, the repetition operator used the result of indexing and the"
+" index method."
 msgstr ""
 
 #: ../../_sources/Strings/StringMethods.rst:140

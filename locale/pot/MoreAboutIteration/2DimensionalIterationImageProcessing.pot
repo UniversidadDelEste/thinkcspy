@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -235,6 +235,35 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:110
+msgid "Dark red"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:110
+msgid "Light red"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:110
+msgid "Dark green"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:110
+msgid "Light green"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:110
+msgid "Because all three values are close to 0, the color will be dark.  But because the red value is higher than the other two, the color will appear red."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:110
+msgid "The closer the values are to 0, the darker the color will appear."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:110
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:110
+msgid "The first value in RGB is the red value.  The second is the green.  This color has no green in it."
+msgstr ""
+
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:109
 msgid "iter-9-1: If you have a pixel whose RGB value is (50, 0, 0), what color will this pixel appear to be?"
 msgstr ""
@@ -341,6 +370,38 @@ msgstr ""
 
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:169
 msgid "When you run the program you can see that the image has a width of 400 pixels and a height of 244 pixels.  Also, the pixel at column 45, row 55, has RGB values of 165, 161, and 158.  Try a few other pixel locations by changing the ``getPixel`` arguments and rerunning the program."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:187
+msgid "149 132 122"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:187
+msgid "183 179 170"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:187
+msgid "165 161 158"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:187
+msgid "201 104 115"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:187
+msgid "These are the values for the pixel at row 30, column 100.  Get the values for row 100 and column 30 with p = img.getPixel(100, 30)."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:187
+msgid "Yes, the RGB values are 183 179 170 at row 100 and column 30."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:187
+msgid "These are the values from the original example (row 45, column 55). Get the values for row 100 and column 30 with p = img.getPixel(30, 100)."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:187
+msgid "These are simply made-up values that may or may not appear in the image.  Get the values for row 100 and column 30 with p = img.getPixel(30, 100)."
 msgstr ""
 
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:185
@@ -519,6 +580,38 @@ msgstr ""
 msgid "You have just passed a very important point in your study of Python programming.  Even though there is much more that we will do, you have learned all of the basic building blocks that are necessary to solve many interesting problems.  From an algorithm point of view, you can now implement selection and iteration.  You can also solve problems by breaking them down into smaller parts, writing functions for those parts, and then calling the functions to complete the implementation. What remains is to focus on ways that we can better represent our problems in terms of the data that we manipulate.  We will now turn our attention to studying the main data collections provided by Python."
 msgstr ""
 
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:384
+msgid "Output a"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:384
+msgid "Output b"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:384
+msgid "Output c"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:384
+msgid "Output d"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:384
+msgid "i will start with a value of 0 and then j will iterate from 0 to 1.  Next, i will be 1 and j will iterate from 0 to 1.  Finally, i will be 2 and j will iterate from 0 to 1."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:384
+msgid "The inner for-loop controls the second digit (j).  The inner for-loop must complete before the outer for-loop advances."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:384
+msgid "The inner for-loop controls the second digit (j).  Notice that the inner for-loop is over the list [0, 1]."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:384
+msgid "The outer for-loop runs 3 times (0, 1, 2) and the inner for-loop runs twice for each time the outer for-loop runs, so this code prints exactly 6 lines."
+msgstr ""
+
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:340
 msgid "iter-9-3: What will the following nested for-loop print?  (Note, if you are having trouble with this question, review CodeLens 3)."
 msgstr ""
@@ -527,6 +620,38 @@ msgstr ""
 msgid "for i in range(3):\n"
 "    for j in range(2):\n"
 "        print(i, j)"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:413
+msgid "It would look like a red-washed version of the bell image"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:413
+msgid "It would be a solid red rectangle the same size as the original image"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:413
+msgid "It would look the same as the original image"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:413
+msgid "It would look the same as the negative image in the example code"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:413
+msgid "Because we are removing the green and the blue values, but keeping the variation of the red the same, you will get the same image, but it will look like it has been bathed in red."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:413
+msgid "Because the red value varies from pixel to pixel, this will not look like a solid red rectangle.  For it to look like a solid red rectangle each pixel would have to have exactly the same red value."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:413
+msgid "If you remove the blue and green values from the pixels, the image will look different, even though there does not appear to be any blue or green in the original image (remember that other colors are made of combinations of red, green and blue)."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:413
+msgid "Because we have changed the value of the pixels from what they were in the original ActiveCode box code, the image will not be the same."
 msgstr ""
 
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:396

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,6 +63,38 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:77
+msgid "10"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:77
+msgid "11"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:77
+msgid "12"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:77
+msgid "Error, the for statement needs to use the range function."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:77
+msgid "Iteration by item will process once for each item in the sequence."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:77
+msgid "The blank is part of the sequence."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:77
+msgid "Yes, there are 12 characters, including the blank."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:77
+msgid "The for statement can iterate over a sequence item by item."
+msgstr ""
+
 #: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:67
 msgid ""
 "strings-10-1: How many times is the word HELLO printed by the following "
@@ -74,6 +106,38 @@ msgid ""
 "s = \"python rocks\"\n"
 "for ch in s:\n"
 "    print(\"HELLO\")"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:98
+msgid "4"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:98
+msgid "5"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:98
+msgid "6"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:98
+msgid "Error, the for statement cannot use slice."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:98
+msgid "Slice returns a sequence that can be iterated over."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:98
+msgid "Yes, The blank is part of the sequence returned by slice"
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:98
+msgid "Check the result of s[3:8].  It does not include the item at index 8."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:98
+msgid "Slice returns a sequence."
 msgstr ""
 
 #: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:90

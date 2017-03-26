@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,6 +73,42 @@ msgstr ""
 
 #: ../../_sources/Lists/Listsandforloops.rst:81
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Lists/Listsandforloops.rst:104
+msgid "[4, 2, 8, 6, 5]"
+msgstr ""
+
+#: ../../_sources/Lists/Listsandforloops.rst:104
+msgid "[4, 2, 8, 6, 5, 5]"
+msgstr ""
+
+#: ../../_sources/Lists/Listsandforloops.rst:104
+msgid "[9, 7, 13, 11, 10]"
+msgstr ""
+
+#: ../../_sources/Lists/Listsandforloops.rst:104
+msgid "Error, you cannot concatenate inside an append."
+msgstr ""
+
+#: ../../_sources/Lists/Listsandforloops.rst:104
+msgid "5 is added to each item before the append is peformed."
+msgstr ""
+
+#: ../../_sources/Lists/Listsandforloops.rst:104
+msgid ""
+"There are too many items in this list.  Only 5 append operations are "
+"performed."
+msgstr ""
+
+#: ../../_sources/Lists/Listsandforloops.rst:104
+msgid ""
+"Yes, the for loop processes each item of the list.  5 is added before it "
+"is appended to blist."
+msgstr ""
+
+#: ../../_sources/Lists/Listsandforloops.rst:104
+msgid "5 is added to each item before the append is performed."
 msgstr ""
 
 #: ../../_sources/Lists/Listsandforloops.rst:94

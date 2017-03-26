@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -204,6 +204,32 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/SimplePythonData/OperatorsandOperands.rst:139
+msgid "4.5"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OperatorsandOperands.rst:139
+#: ../../_sources/SimplePythonData/OperatorsandOperands.rst:157
+#: ../../_sources/SimplePythonData/OperatorsandOperands.rst:175
+msgid "5"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OperatorsandOperands.rst:139
+#: ../../_sources/SimplePythonData/OperatorsandOperands.rst:157
+#: ../../_sources/SimplePythonData/OperatorsandOperands.rst:175
+msgid "4"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OperatorsandOperands.rst:139
+#: ../../_sources/SimplePythonData/OperatorsandOperands.rst:157
+#: ../../_sources/SimplePythonData/OperatorsandOperands.rst:175
+msgid "2"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OperatorsandOperands.rst:139
+msgid "The / operator does exact division and returns a floating point result."
+msgstr ""
+
 #: ../../_sources/SimplePythonData/OperatorsandOperands.rst:132
 msgid "data-7-1: What value is printed when the following statement executes?"
 msgstr ""
@@ -212,12 +238,44 @@ msgstr ""
 msgid "print(18 / 4)"
 msgstr ""
 
+#: ../../_sources/SimplePythonData/OperatorsandOperands.rst:157
+#: ../../_sources/SimplePythonData/OperatorsandOperands.rst:175
+msgid "4.25"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OperatorsandOperands.rst:157
+msgid "- The // operator does integer division and returns an integer result"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OperatorsandOperands.rst:157
+msgid ""
+"- The // operator does integer division and returns an integer result, "
+"but it truncates the result of the division.  It does not round."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OperatorsandOperands.rst:157
+msgid ""
+"- The // operator does integer division and returns the truncated integer"
+" result."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OperatorsandOperands.rst:157
+msgid ""
+"- The // operator does integer division and returns the result of the "
+"division on an integer (not the remainder)."
+msgstr ""
+
 #: ../../_sources/SimplePythonData/OperatorsandOperands.rst:151
 msgid "data-7-2: What value is printed when the following statement executes?"
 msgstr ""
 
 #: ../../_sources/SimplePythonData/OperatorsandOperands.rst:153
 msgid "print(18 // 4)"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OperatorsandOperands.rst:175
+#, python-format
+msgid "The % operator returns the remainder after division."
 msgstr ""
 
 #: ../../_sources/SimplePythonData/OperatorsandOperands.rst:169

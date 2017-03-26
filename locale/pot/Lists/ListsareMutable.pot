@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,6 +95,30 @@ msgstr ""
 
 #: ../../_sources/Lists/ListsareMutable.rst:73
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Lists/ListsareMutable.rst:92
+msgid "[4, 2, True, 8, 6, 5]"
+msgstr ""
+
+#: ../../_sources/Lists/ListsareMutable.rst:92
+msgid "[4, 2, True, 6, 5]"
+msgstr ""
+
+#: ../../_sources/Lists/ListsareMutable.rst:92
+msgid "Error, it is illegal to assign"
+msgstr ""
+
+#: ../../_sources/Lists/ListsareMutable.rst:92
+msgid "Item assignment does not insert the new item into the list."
+msgstr ""
+
+#: ../../_sources/Lists/ListsareMutable.rst:92
+msgid "Yes, the value True is placed in the list at index 2.  It replaces 8."
+msgstr ""
+
+#: ../../_sources/Lists/ListsareMutable.rst:92
+msgid "Item assignment is allowed with lists.  Lists are mutable."
 msgstr ""
 
 #: ../../_sources/Lists/ListsareMutable.rst:84

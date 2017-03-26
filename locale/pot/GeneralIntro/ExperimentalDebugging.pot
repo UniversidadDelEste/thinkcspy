@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,6 +46,38 @@ msgstr ""
 
 #: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:47
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:61
+msgid "programming is the process of writing and gradually debugging a program until it does what you want."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:61
+msgid "programming is creative and debugging is routine."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:61
+msgid "programming is fun and debugging is work."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:61
+msgid "there is no difference between them."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:61
+msgid "Programming is the writing of the source code and debugging is the process of finding and correcting all the errors within the program until it is correct."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:61
+msgid "Programming can be creative, but it also follows a process and debugging can involve creativity in how you find the errors."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:61
+msgid "Some people think that debugging is actually more fun than programming (they usually become good software testers).  Debugging is much like solving puzzles, which some people think is fun!"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:61
+msgid "You cannot debug without first having a program, meaning that someone had to do the programming first."
 msgstr ""
 
 #: ../../_sources/GeneralIntro/ExperimentalDebugging.rst:60

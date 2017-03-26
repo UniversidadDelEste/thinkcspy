@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -259,6 +259,24 @@ msgstr ""
 
 #: ../../_sources/Lists/AppendversusConcatenate.rst:54
 msgid "**Check you understanding**"
+msgstr ""
+
+#: ../../_sources/Lists/AppendversusConcatenate.rst:71
+msgid "[4, 2, 8, 6, 5, 999]"
+msgstr ""
+
+#: ../../_sources/Lists/AppendversusConcatenate.rst:71
+msgid "Error, you cannot concatenate a list with an integer."
+msgstr ""
+
+#: ../../_sources/Lists/AppendversusConcatenate.rst:71
+msgid "You cannot concatenate a list with an integer."
+msgstr ""
+
+#: ../../_sources/Lists/AppendversusConcatenate.rst:71
+msgid ""
+"Yes, in order to perform concatenation you would need to write "
+"alist+[999].  You must have two lists."
 msgstr ""
 
 #: ../../_sources/Lists/AppendversusConcatenate.rst:63

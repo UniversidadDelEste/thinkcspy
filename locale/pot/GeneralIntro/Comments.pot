@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,38 @@ msgstr ""
 
 #: ../../_sources/GeneralIntro/Comments.rst:43
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Comments.rst:58
+msgid "To tell the computer what you mean in your program."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Comments.rst:58
+msgid "For the people who are reading your code to know, in natural language, what the program is doing."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Comments.rst:58
+msgid "Nothing, they are extraneous information that is not needed."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Comments.rst:58
+msgid "Nothing in a short program.  They are only needed for really large programs."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Comments.rst:58
+msgid "Comments are ignored by the computer."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Comments.rst:58
+msgid "The computer ignores comments.  It's for the humans that will \"consume\" your program."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Comments.rst:58
+msgid "Comments can provide much needed information for anyone reading the program."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Comments.rst:58
+msgid "Even small programs benefit from comments."
 msgstr ""
 
 #: ../../_sources/GeneralIntro/Comments.rst:56

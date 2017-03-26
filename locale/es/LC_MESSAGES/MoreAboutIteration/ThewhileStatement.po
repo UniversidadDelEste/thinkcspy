@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -424,8 +424,76 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/MoreAboutIteration/ThewhileStatement.rst:144
+msgid "True"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/ThewhileStatement.rst:144
+msgid "False"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/ThewhileStatement.rst:144
+msgid ""
+"Although the while loop uses a different syntax, it is just as powerful "
+"as a for-loop and often more flexible."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/ThewhileStatement.rst:144
+msgid ""
+"Often a for-loop is more natural and convenient for a task, but that same"
+" task can always be expressed using a while loop."
+msgstr ""
+
 #: ../../_sources/MoreAboutIteration/ThewhileStatement.rst:143
 msgid "iter-3-1: True or False: You can rewrite any for-loop as a while-loop."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/ThewhileStatement.rst:168
+msgid ""
+"n starts at 10 and is incremented by 1 each time through the loop, so it "
+"will always be positive"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/ThewhileStatement.rst:168
+msgid ""
+"answer starts at 1 and is incremented by n each time, so it will always "
+"be positive"
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/ThewhileStatement.rst:168
+msgid ""
+"You cannot compare n to 0 in while loop.  You must compare it to another "
+"variable."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/ThewhileStatement.rst:168
+msgid ""
+"In the while loop body, we must set n to False, and this code does not do"
+" that."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/ThewhileStatement.rst:168
+msgid ""
+"The loop will run as long as n is positive.  In this case, we can see "
+"that n will never become non-positive."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/ThewhileStatement.rst:168
+msgid ""
+"While it is true that answer will always be positive, answer is not "
+"considered in the loop condition."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/ThewhileStatement.rst:168
+msgid ""
+"It is perfectly valid to compare n to 0.  Though indirectly, this is what"
+" causes the infinite loop."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/ThewhileStatement.rst:168
+msgid ""
+"The loop condition must become False for the loop to terminate, but n by "
+"itself is not the condition in this case."
 msgstr ""
 
 #: ../../_sources/MoreAboutIteration/ThewhileStatement.rst:156

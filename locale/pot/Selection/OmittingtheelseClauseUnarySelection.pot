@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,6 +64,38 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:82
+msgid "Output a"
+msgstr ""
+
+#: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:82
+msgid "Output b"
+msgstr ""
+
+#: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:82
+msgid "Output c"
+msgstr ""
+
+#: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:82
+msgid "It will cause an error because every if must have an else clause."
+msgstr ""
+
+#: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:82
+msgid "Because -10 is less than 0, Python will execute the body of the if-statement here."
+msgstr ""
+
+#: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:82
+msgid "Python executes the body of the if-block as well as the statement that follows the if-block."
+msgstr ""
+
+#: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:82
+msgid "Python will also execute the statement that follows the if-block (because it is not enclosed in an else-block, but rather just a normal statement)."
+msgstr ""
+
+#: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:82
+msgid "It is valid to have an if-block without a corresponding else-block (though you cannot have an else-block without a corresponding if-block)."
+msgstr ""
+
 #: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:61
 msgid "select-5-1: What does the following code print?"
 msgstr ""
@@ -73,6 +105,22 @@ msgid "x = -10\n"
 "if x < 0:\n"
 "    print(\"The negative number \",  x, \" is not valid here.\")\n"
 "print(\"This is always printed\")"
+msgstr ""
+
+#: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:101
+msgid "No"
+msgstr ""
+
+#: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:101
+msgid "Yes"
+msgstr ""
+
+#: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:101
+msgid "Every else-block must have exactly one corresponding if-block.  If you want to chain if-else statements together, you must use the else if construct, described in the chained conditionals section."
+msgstr ""
+
+#: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:101
+msgid "This will cause an error because the second else-block is not attached to a corresponding if-block."
 msgstr ""
 
 #: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:90

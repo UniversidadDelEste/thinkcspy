@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,22 @@ msgstr ""
 msgid "**Check your understanding**"
 msgstr ""
 
+#: ../../_sources/Lists/ListLength.rst:45
+msgid "4"
+msgstr ""
+
+#: ../../_sources/Lists/ListLength.rst:45
+msgid "5"
+msgstr ""
+
+#: ../../_sources/Lists/ListLength.rst:45
+msgid "len returns the actual number of items in the list, not the maximum index value."
+msgstr ""
+
+#: ../../_sources/Lists/ListLength.rst:45
+msgid "Yes, there are 5 items in this list."
+msgstr ""
+
 #: ../../_sources/Lists/ListLength.rst:38
 msgid "list-3-1: What is printed by the following statements?"
 msgstr ""
@@ -35,6 +51,22 @@ msgstr ""
 #: ../../_sources/Lists/ListLength.rst:40
 msgid "alist = [3, 67, \"cat\", 3.14, False]\n"
 "print(len(alist))"
+msgstr ""
+
+#: ../../_sources/Lists/ListLength.rst:60
+msgid "7"
+msgstr ""
+
+#: ../../_sources/Lists/ListLength.rst:60
+msgid "8"
+msgstr ""
+
+#: ../../_sources/Lists/ListLength.rst:60
+msgid "Yes, there are 7 items in this list even though two of them happen to also be lists."
+msgstr ""
+
+#: ../../_sources/Lists/ListLength.rst:60
+msgid "len returns the number of top level items in the list.  It does not count items in sublists."
 msgstr ""
 
 #: ../../_sources/Lists/ListLength.rst:53

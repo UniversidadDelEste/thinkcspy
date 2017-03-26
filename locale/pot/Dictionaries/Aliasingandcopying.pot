@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,6 +39,38 @@ msgstr ""
 
 #: ../../_sources/Dictionaries/Aliasingandcopying.rst:44
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Aliasingandcopying.rst:66
+msgid "23"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Aliasingandcopying.rst:66
+msgid "None"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Aliasingandcopying.rst:66
+msgid "999"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Aliasingandcopying.rst:66
+msgid "Error, there are two different keys named elephant."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Aliasingandcopying.rst:66
+msgid "mydict and yourdict are both names for the same dictionary."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Aliasingandcopying.rst:66
+msgid "The dictionary is mutable so changes can be made to the keys and values."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Aliasingandcopying.rst:66
+msgid "Yes, since yourdict is an alias for mydict, the value for the key elephant has been changed."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Aliasingandcopying.rst:66
+msgid "There is only one dictionary with only one key named elephant.  The dictionary has two different names, mydict and yourdict."
 msgstr ""
 
 #: ../../_sources/Dictionaries/Aliasingandcopying.rst:57

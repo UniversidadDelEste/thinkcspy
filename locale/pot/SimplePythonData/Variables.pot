@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 15:11-0300\n"
+"POT-Creation-Date: 2017-03-26 18:20-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -223,6 +223,38 @@ msgstr ""
 
 #: ../../_sources/SimplePythonData/Variables.rst:150
 msgid "**Check your understanding**"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Variables.rst:172
+msgid "Nothing is printed. A runtime error occurs."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Variables.rst:172
+msgid "Thursday"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Variables.rst:172
+msgid "32.5"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Variables.rst:172
+msgid "19"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Variables.rst:172
+msgid "It is legal to change the type of data that a variable holds in Python."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Variables.rst:172
+msgid "This is the first value assigned to the variable day, but the next statements reassign that variable to new values."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Variables.rst:172
+msgid "This is the second value assigned to the variable day, but the next statement reassigns that variable to a new value."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Variables.rst:172
+msgid "The variable day will contain the last value assigned to it when it is printed."
 msgstr ""
 
 #: ../../_sources/SimplePythonData/Variables.rst:163
