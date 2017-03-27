@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,6 +22,22 @@ msgstr ""
 
 #: ../../_sources/Lists/UsingListsasParameters.rst:17
 msgid "Functions which take lists as arguments and change them during execution are called **modifiers** and the changes they make are called **side effects**. Passing a list as an argument actually passes a reference to the list, not a copy of the list. Since lists are mutable, changes made to the elements referenced by the parameter change the same list that the argument is referencing. For example, the function below takes a list as an argument and multiplies each element in the list by 2:"
+msgstr ""
+
+#: ../../_sources/Lists/UsingListsasParameters.rst:39
+msgid ""
+msgstr ""
+
+#: ../../_sources/Lists/UsingListsasParameters.rst:39
+msgid "def doubleStuff(aList):\n"
+"    \"\"\" Overwrite each element in aList with double its value. \"\"\"\n"
+"    for position in range(len(aList)):\n"
+"        aList[position] = 2 * aList[position]\n"
+"\n"
+"things = [2, 5, 9]\n"
+"print(things)\n"
+"doubleStuff(things)\n"
+"print(things)"
 msgstr ""
 
 #: ../../_sources/Lists/UsingListsasParameters.rst:40

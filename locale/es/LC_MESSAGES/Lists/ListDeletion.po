@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,6 +30,17 @@ msgid ""
 "statement removes an element from a list by using its position."
 msgstr ""
 
+#: ../../_sources/Lists/ListDeletion.rst:30
+msgid ""
+"a = ['one', 'two', 'three']\n"
+"del a[1]\n"
+"print(a)\n"
+"\n"
+"alist = ['a', 'b', 'c', 'd', 'e', 'f']\n"
+"del alist[1:5]\n"
+"print(alist)"
+msgstr ""
+
 #: ../../_sources/Lists/ListDeletion.rst:31
 msgid ""
 "As you might expect, ``del`` handles negative indices and causes a "
@@ -42,6 +53,10 @@ msgstr ""
 msgid ""
 "This workspace is provided for your convenience.  You can use this "
 "activecode window to try out anything you like."
+msgstr ""
+
+#: ../../_sources/Lists/ListDeletion.rst:42
+msgid "\n"
 msgstr ""
 
 #: ../../_sources/Lists/ListDeletion.rst:47

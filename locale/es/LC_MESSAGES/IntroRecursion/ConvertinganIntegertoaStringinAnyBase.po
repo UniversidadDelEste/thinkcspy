@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -107,6 +107,22 @@ msgid ""
 "outlined above for any base between 2 and 16."
 msgstr ""
 
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:89
+msgid "data-caption='Recursively Converting from Integer to String'"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:89
+msgid ""
+"def toStr(n,base):\n"
+"   convertString = \"0123456789ABCDEF\"\n"
+"   if n < base:\n"
+"      return convertString[n]\n"
+"   else:\n"
+"      return toStr(n//base,base) + convertString[n%base]\n"
+"\n"
+"print(toStr(1453,16))"
+msgstr ""
+
 #: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:90
 msgid ""
 "Notice that in line 3 we check for the base case where ``n`` is less than"
@@ -154,6 +170,18 @@ msgid ""
 "string that is the reverse of the old string."
 msgstr ""
 
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:131
+msgid ""
+"from test import testEqual\n"
+"def reverse(s):\n"
+"    return s\n"
+"\n"
+"testEqual(reverse(\"hello\"),\"olleh\")\n"
+"testEqual(reverse(\"l\"),\"l\")\n"
+"testEqual(reverse(\"follow\"),\"wollof\")\n"
+"testEqual(reverse(\"\"),\"\")"
+msgstr ""
+
 #: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:132
 msgid ""
 "Write a function that takes a string as a parameter and returns True if "
@@ -195,5 +223,22 @@ msgstr ""
 
 #: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:141
 msgid "Wassamassaw -- a town in South Dakota"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/ConvertinganIntegertoaStringinAnyBase.rst:157
+msgid ""
+"from test import testEqual\n"
+"def removeWhite(s):\n"
+"    return s\n"
+"\n"
+"def isPal(s):\n"
+"    return False\n"
+"\n"
+"testEqual(isPal(removeWhite(\"x\")),True)\n"
+"testEqual(isPal(removeWhite(\"radar\")),True)\n"
+"testEqual(isPal(removeWhite(\"hello\")),False)\n"
+"testEqual(isPal(removeWhite(\"\")),True)\n"
+"testEqual(isPal(removeWhite(\"hannah\")),True)\n"
+"testEqual(isPal(removeWhite(\"madam i'm adam\")),True)"
 msgstr ""
 

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,6 +87,12 @@ msgid ""
 " times and try some different names in the input box that appears."
 msgstr ""
 
+#: ../../_sources/SimplePythonData/Input.rst:47
+msgid ""
+"n = input(\"Please enter your name: \")\n"
+"print(\"Hello\", n)"
+msgstr ""
+
 #: ../../_sources/SimplePythonData/Input.rst:48
 msgid ""
 "It is very important to note that the ``input`` function returns a string"
@@ -102,6 +108,21 @@ msgid ""
 "the user to enter the number of seconds.  Then we will convert that "
 "string to an integer.  From there the process is the same as before.  To "
 "complete the example, we will print some appropriate output."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Input.rst:69
+msgid ""
+"str_seconds = input(\"Please enter the number of seconds you wish to "
+"convert\")\n"
+"total_secs = int(str_seconds)\n"
+"\n"
+"hours = total_secs // 3600\n"
+"secs_still_remaining = total_secs % 3600\n"
+"minutes =  secs_still_remaining // 60\n"
+"secs_finally_remaining = secs_still_remaining  % 60\n"
+"\n"
+"print(\"Hrs=\", hours, \"mins=\", minutes, \"secs=\", "
+"secs_finally_remaining)"
 msgstr ""
 
 #: ../../_sources/SimplePythonData/Input.rst:70

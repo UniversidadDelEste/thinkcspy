@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,12 +28,53 @@ msgstr ""
 msgid "Using the text file ``studentdata.txt`` write a program that prints out the names of students that have more than six quiz scores."
 msgstr ""
 
+#: ../../_sources/Files/Exercises.rst:39
+#: ../../_sources/Files/Exercises.rst:54
+#: ../../_sources/Files/Exercises.rst:71
+#: ../../_sources/Files/Exercises.rst:89
+#: ../../_sources/Files/Exercises.rst:103
+#: ../../_sources/Files/Exercises.rst:171
+#: ../../_sources/Files/Exercises.rst:189
+#: ../../_sources/Files/Exercises.rst:218
+msgid ""
+msgstr ""
+
+#: ../../_sources/Files/Exercises.rst:39
+#: ../../_sources/Files/Exercises.rst:71
+#: ../../_sources/Files/Exercises.rst:89
+#: ../../_sources/Files/Exercises.rst:171
+#: ../../_sources/Files/Exercises.rst:189
+msgid "\n"
+""
+msgstr ""
+
+#: ../../_sources/Files/Exercises.rst:54
+msgid "f = open(\"studentdata.txt\", \"r\")\n"
+"\n"
+"for aline in f:\n"
+"    items = aline.split()\n"
+"    if len(items[1:]) > 6:\n"
+"        print(items[0])\n"
+"\n"
+"f.close()"
+msgstr ""
+
 #: ../../_sources/Files/Exercises.rst:66
 msgid "Using the text file ``studentdata.txt`` (shown in exercise 1) write a program that calculates the average grade for each student, and print out the student's name along with their average grade."
 msgstr ""
 
 #: ../../_sources/Files/Exercises.rst:82
 msgid "Using the text file ``studentdata.txt`` (shown in exercise 1) write a program that calculates the minimum and maximum score for each student.  Print out their name as well."
+msgstr ""
+
+#: ../../_sources/Files/Exercises.rst:103
+msgid "f = open(\"studentdata.txt\", \"r\")\n"
+"\n"
+"for aline in f:\n"
+"    items = aline.split()\n"
+"    print(items[0], \"max is\", max(items[1:]), \"min is\", min(items[1:]))\n"
+"\n"
+"f.close()"
 msgstr ""
 
 #: ../../_sources/Files/Exercises.rst:123
@@ -62,6 +103,30 @@ msgstr ""
 
 #: ../../_sources/Files/Exercises.rst:181
 msgid "At the bottom of this page is a very long file called ``mystery.txt`` The lines of this file contain either the word UP or DOWN or a pair of numbers.  UP and DOWN are instructions for a turtle to lift up or put down its tail.  The pairs of numbers are some x,y coordinates. Write a program that reads the file ``mystery.txt`` and uses the turtle to draw the picture described by the commands and the set of points."
+msgstr ""
+
+#: ../../_sources/Files/Exercises.rst:218
+msgid "import turtle\n"
+"\n"
+"t = turtle.Turtle()\n"
+"wn = turtle.Screen()\n"
+"wn.setworldcoordinates(-300, -300, 300, 300)\n"
+"\n"
+"f = open(\"mystery.txt\", \"r\")\n"
+"\n"
+"for aline in f:\n"
+"    items = aline.split()\n"
+"    if items[0] == \"UP\":\n"
+"        t.up()\n"
+"    else:\n"
+"        if items[0] == \"DOWN\":\n"
+"            t.down()\n"
+"        else:\n"
+"            # must be coords\n"
+"            t.goto(int(items[0]), int(items[1]))\n"
+"\n"
+"f.close()\n"
+"wn.exitonclick()"
 msgstr ""
 
 #: ../../_sources/Files/Exercises.rst:234

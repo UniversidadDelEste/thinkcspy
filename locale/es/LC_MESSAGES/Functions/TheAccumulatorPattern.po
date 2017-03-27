@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -107,6 +107,20 @@ msgid ""
 "the squaring is done.  This is a great example of \"black box\" design.  "
 "We can change out the details inside of the box and still use the "
 "function exactly as we did before."
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:64
+msgid ""
+"def square(x):\n"
+"    runningtotal = 0\n"
+"    for counter in range(x):\n"
+"        runningtotal = runningtotal + x\n"
+"\n"
+"    return runningtotal\n"
+"\n"
+"toSquare = 10\n"
+"squareResult = square(toSquare)\n"
+"print(\"The result of\", toSquare, \"squared is\", squareResult)"
 msgstr ""
 
 #: ../../_sources/Functions/TheAccumulatorPattern.rst:65
@@ -443,6 +457,10 @@ msgstr ""
 msgid ""
 "This workspace is provided for your convenience.  You can use this "
 "activecode window to try out anything you like."
+msgstr ""
+
+#: ../../_sources/Functions/TheAccumulatorPattern.rst:109
+msgid "\n"
 msgstr ""
 
 #: ../../_sources/Functions/TheAccumulatorPattern.rst:111

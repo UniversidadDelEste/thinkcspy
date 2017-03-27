@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,6 +37,15 @@ msgstr ""
 
 #: ../../_sources/Lists/ListComprehensions.rst:21
 msgid "where the if clause is optional.  For example,"
+msgstr ""
+
+#: ../../_sources/Lists/ListComprehensions.rst:32
+msgid ""
+"mylist = [1,2,3,4,5]\n"
+"\n"
+"yourlist = [item ** 2 for item in mylist]\n"
+"\n"
+"print(yourlist)"
 msgstr ""
 
 #: ../../_sources/Lists/ListComprehensions.rst:33
@@ -72,6 +81,10 @@ msgstr ""
 msgid ""
 "This workspace is provided for your convenience.  You can use this "
 "activecode window to try out anything you like."
+msgstr ""
+
+#: ../../_sources/Lists/ListComprehensions.rst:51
+msgid "\n"
 msgstr ""
 
 #: ../../_sources/Lists/ListComprehensions.rst:55

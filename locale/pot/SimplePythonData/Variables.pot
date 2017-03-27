@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,6 +91,21 @@ msgstr ""
 msgid "If you ask Python to evaluate a variable, it will produce the value that is currently linked to the variable.  In other words, evaluating a variable will give you the value that is referred to by the variable."
 msgstr ""
 
+#: ../../_sources/SimplePythonData/Variables.rst:77
+#: ../../_sources/SimplePythonData/Variables.rst:113
+msgid ""
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Variables.rst:77
+msgid "message = \"What's up, Doc?\"\n"
+"n = 17\n"
+"pi = 3.14159\n"
+"\n"
+"print(message)\n"
+"print(n)\n"
+"print(pi)"
+msgstr ""
+
 #: ../../_sources/SimplePythonData/Variables.rst:78
 msgid "In each case the result is the value of the variable. To see this in even more detail, we can run the program using codelens."
 msgstr ""
@@ -150,6 +165,16 @@ msgstr ""
 
 #: ../../_sources/SimplePythonData/Variables.rst:99
 msgid "Variables also have types; again, we can ask the interpreter what they are."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Variables.rst:113
+msgid "message = \"What's up, Doc?\"\n"
+"n = 17\n"
+"pi = 3.14159\n"
+"\n"
+"print(type(message))\n"
+"print(type(n))\n"
+"print(type(pi))"
 msgstr ""
 
 #: ../../_sources/SimplePythonData/Variables.rst:114

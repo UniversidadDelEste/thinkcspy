@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,6 +76,14 @@ msgid ""
 "side refer to this new resulting object.  The fact that ``x`` appears on "
 "both sides does not matter.  The semantics of the assignment statement "
 "makes sure that there is no confusion as to the result."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:45
+msgid ""
+"x = 6        # initialize x\n"
+"print(x)\n"
+"x = x + 1    # update x\n"
+"print(x)"
 msgstr ""
 
 #: ../../_sources/SimplePythonData/UpdatingVariables.rst:46
@@ -223,5 +231,9 @@ msgstr ""
 msgid ""
 "This workspace is provided for your convenience.  You can use this "
 "activecode window to try out anything you like."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/UpdatingVariables.rst:129
+msgid "\n"
 msgstr ""
 

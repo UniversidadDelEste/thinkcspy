@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,6 +27,14 @@ msgstr ""
 msgid "The ``in`` operator tests if one string is a substring of another:"
 msgstr ""
 
+#: ../../_sources/Strings/Theinandnotinoperators.rst:25
+msgid ""
+"print('p' in 'apple')\n"
+"print('i' in 'apple')\n"
+"print('ap' in 'apple')\n"
+"print('pa' in 'apple')"
+msgstr ""
+
 #: ../../_sources/Strings/Theinandnotinoperators.rst:26
 msgid ""
 "Note that a string is a substring of itself, and the empty string is a "
@@ -34,7 +42,19 @@ msgid ""
 "to think about these edge cases quite carefully!)"
 msgstr ""
 
+#: ../../_sources/Strings/Theinandnotinoperators.rst:36
+msgid ""
+"print('a' in 'a')\n"
+"print('apple' in 'apple')\n"
+"print('' in 'a')\n"
+"print('' in 'apple')"
+msgstr ""
+
 #: ../../_sources/Strings/Theinandnotinoperators.rst:37
 msgid "The ``not in`` operator returns the logical opposite result of ``in``."
+msgstr ""
+
+#: ../../_sources/Strings/Theinandnotinoperators.rst:42
+msgid "print('x' not in 'apple')"
 msgstr ""
 

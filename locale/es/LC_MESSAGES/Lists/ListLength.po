@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,6 +30,13 @@ msgid ""
 "are themselves lists, it important to note that ``len`` only returns the "
 "top-most length.  In other words, sublists are considered to be a single "
 "item when counting the length of the list."
+msgstr ""
+
+#: ../../_sources/Lists/ListLength.rst:28
+msgid ""
+"alist =  [\"hello\", 2.0, 5, [10, 20]]\n"
+"print(len(alist))\n"
+"print(len(['spam!', 1, ['Brie', 'Roquefort', 'Pol le Veq'], [1, 2, 3]]))"
 msgstr ""
 
 #: ../../_sources/Lists/ListLength.rst:29

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,6 +24,24 @@ msgstr ""
 msgid "To draw a square we'd like to do the same thing four times --- move the turtle forward some distance and turn 90 degrees.  We previously used 8 lines of Python code to have alex draw the four sides of a square.  This next program does exactly the same thing but, with the help of the for statement, uses just three lines (not including the setup code).  Remember that the for statement will repeat the `forward` and `left` four times, one time for each value in the list."
 msgstr ""
 
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:35
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:58
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:76
+msgid ""
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:35
+msgid "import turtle            # set up alex\n"
+"wn = turtle.Screen()\n"
+"alex = turtle.Turtle()\n"
+"\n"
+"for i in [0, 1, 2, 3]:      # repeat four times\n"
+"    alex.forward(50)\n"
+"    alex.left(90)\n"
+"\n"
+"wn.exitonclick()"
+msgstr ""
+
 #: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:36
 msgid "While \"saving some lines of code\" might be convenient, it is not the big deal here.  What is much more important is that we've found a \"repeating pattern\" of statements, and we reorganized our program to repeat the pattern. Finding the chunks and somehow getting our programs arranged around those chunks is a vital  skill when learning *How to think like a computer scientist*."
 msgstr ""
@@ -32,8 +50,33 @@ msgstr ""
 msgid "The values [0,1,2,3] were provided to make the loop body execute 4 times. We could have used any four values.  For example, consider the following program."
 msgstr ""
 
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:58
+msgid "import turtle            # set up alex\n"
+"wn = turtle.Screen()\n"
+"alex = turtle.Turtle()\n"
+"\n"
+"for aColor in [\"yellow\", \"red\", \"purple\", \"blue\"]:      # repeat four times\n"
+"    alex.forward(50)\n"
+"    alex.left(90)\n"
+"\n"
+"wn.exitonclick()"
+msgstr ""
+
 #: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:59
 msgid "In the previous example, there were four integers in the list.  This time there are four strings.  Since there are four items in the list, the iteration will still occur four times.  ``aColor`` will take on each color in the list.  We can even take this one step further and use the value of ``aColor`` as part of the computation."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:76
+msgid "import turtle            # set up alex\n"
+"wn = turtle.Screen()\n"
+"alex = turtle.Turtle()\n"
+"\n"
+"for aColor in [\"yellow\", \"red\", \"purple\", \"blue\"]:\n"
+"   alex.color(aColor)\n"
+"   alex.forward(50)\n"
+"   alex.left(90)\n"
+"\n"
+"wn.exitonclick()"
 msgstr ""
 
 #: ../../_sources/PythonTurtle/IterationSimplifiesourTurtleProgram.rst:77

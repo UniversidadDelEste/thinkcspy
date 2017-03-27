@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,6 +118,34 @@ msgstr ""
 
 #: ../../_sources/Functions/Functionscancallotherfunctions.rst:103
 msgid "Here is the entire example with the necessary set up code."
+msgstr ""
+
+#: ../../_sources/Functions/Functionscancallotherfunctions.rst:131
+msgid ""
+msgstr ""
+
+#: ../../_sources/Functions/Functionscancallotherfunctions.rst:131
+msgid "import turtle\n"
+"\n"
+"def drawRectangle(t, w, h):\n"
+"    \"\"\"Get turtle t to draw a rectangle of width w and height h.\"\"\"\n"
+"    for i in range(2):\n"
+"        t.forward(w)\n"
+"        t.left(90)\n"
+"        t.forward(h)\n"
+"        t.left(90)\n"
+"\n"
+"def drawSquare(tx, sz):        # a new version of drawSquare\n"
+"    drawRectangle(tx, sz, sz)\n"
+"\n"
+"wn = turtle.Screen()             # Set up the window\n"
+"wn.bgcolor(\"lightgreen\")\n"
+"\n"
+"tess = turtle.Turtle()           # create tess\n"
+"\n"
+"drawSquare(tess, 50)\n"
+"\n"
+"wn.exitonclick()"
 msgstr ""
 
 #: ../../_sources/Functions/Functionscancallotherfunctions.rst:132

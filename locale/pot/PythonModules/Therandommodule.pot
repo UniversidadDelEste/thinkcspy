@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,6 +48,22 @@ msgstr ""
 msgid "Python provides a module ``random`` that helps with tasks like this.  You can take a look at it in the documentation.  Here are the key things we can do with it."
 msgstr ""
 
+#: ../../_sources/PythonModules/Therandommodule.rst:38
+#: ../../_sources/PythonModules/Therandommodule.rst:70
+#: ../../_sources/PythonModules/Therandommodule.rst:147
+msgid ""
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:38
+msgid "import random\n"
+"\n"
+"prob = random.random()\n"
+"print(prob)\n"
+"\n"
+"diceThrow = random.randrange(1, 7)       # return an int, one of 1,2,3,4,5,6\n"
+"print(diceThrow)"
+msgstr ""
+
 #: ../../_sources/PythonModules/Therandommodule.rst:39
 msgid "Press the run button a number of times.  Note that the values change each time.  These are random numbers."
 msgstr ""
@@ -62,6 +78,14 @@ msgstr ""
 
 #: ../../_sources/PythonModules/Therandommodule.rst:52
 msgid "In the case shown here, we've converted the result of the method call to a number in the range [0.0, 5.0).  Once more, these are uniformly distributed numbers --- numbers close to 0 are just as likely to occur as numbers close to 0.5, or numbers close to 1.0. If you continue to press the run button you will see random values between 0.0 and up to but not including 5.0."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:70
+msgid "import random\n"
+"\n"
+"prob = random.random()\n"
+"result = prob * 5\n"
+"print(result)"
 msgstr ""
 
 #: ../../_sources/PythonModules/Therandommodule.rst:73
@@ -226,6 +250,11 @@ msgstr ""
 
 #: ../../_sources/PythonModules/Therandommodule.rst:145
 msgid "This workspace is provided for your convenience.  You can use this activecode window to try out anything you like."
+msgstr ""
+
+#: ../../_sources/PythonModules/Therandommodule.rst:147
+msgid "\n"
+""
 msgstr ""
 
 #: ../../_sources/PythonModules/Therandommodule.rst:71

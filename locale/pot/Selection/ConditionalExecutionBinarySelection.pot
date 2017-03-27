@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,6 +50,19 @@ msgstr ""
 
 #: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:25
 msgid "In order to write useful programs, we almost always need the ability to check conditions and change the behavior of the program accordingly. **Selection statements**, sometimes also referred to as **conditional statements**, give us this ability. The simplest form of selection is the **if statement**. This is sometimes referred to as **binary selection** since there are two possible paths of execution."
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:39
+msgid ""
+msgstr ""
+
+#: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:39
+msgid "x = 15\n"
+"\n"
+"if x % 2 == 0:\n"
+"    print(x, \"is even\")\n"
+"else:\n"
+"    print(x, \"is odd\")"
 msgstr ""
 
 #: ../../_sources/Selection/ConditionalExecutionBinarySelection.rst:40

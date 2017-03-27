@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,6 +22,20 @@ msgstr ""
 
 #: ../../_sources/Lists/NestedLists.rst:17
 msgid "A nested list is a list that appears as an element in another list. In this list, the element with index 3 is a nested list. If we print(``nested[3]``), we get ``[10, 20]``. To extract an element from the nested list, we can proceed in two steps.  First, extract the nested list, then extract the item of interest.  It is also possible to combine those steps using bracket operators that evaluate from left to right."
+msgstr ""
+
+#: ../../_sources/Lists/NestedLists.rst:34
+msgid ""
+msgstr ""
+
+#: ../../_sources/Lists/NestedLists.rst:34
+msgid "nested = [\"hello\", 2.0, 5, [10, 20]]\n"
+"innerlist = nested[3]\n"
+"print(innerlist)\n"
+"item = innerlist[1]\n"
+"print(item)\n"
+"\n"
+"print(nested[3][1])"
 msgstr ""
 
 #: ../../_sources/Lists/NestedLists.rst:37

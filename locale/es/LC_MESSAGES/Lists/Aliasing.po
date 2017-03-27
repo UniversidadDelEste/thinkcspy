@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,6 +27,13 @@ msgstr ""
 msgid ""
 "Since variables refer to objects, if we assign one variable to another, "
 "both variables refer to the same object:"
+msgstr ""
+
+#: ../../_sources/Lists/Aliasing.rst:25
+msgid ""
+"a = [81, 82, 83]\n"
+"b = a\n"
+"print(a is b)"
 msgstr ""
 
 #: ../../_sources/Lists/Aliasing.rst:26

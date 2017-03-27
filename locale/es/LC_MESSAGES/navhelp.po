@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,6 +71,12 @@ msgid ""
 " Python program and make it active, you will see that it can be executed "
 "directly by pressing the *Run* button.   Try pressing the *Run* button "
 "below."
+msgstr ""
+
+#: ../../_sources/navhelp.rst:55
+msgid ""
+"print(\"My first program adds two numbers, 2 and 3:\")\n"
+"print(2 + 3)"
 msgstr ""
 
 #: ../../_sources/navhelp.rst:57

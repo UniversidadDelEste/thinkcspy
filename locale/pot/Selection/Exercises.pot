@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,6 +38,37 @@ msgstr ""
 
 #: ../../_sources/Selection/Exercises.rst:25
 msgid "``not (3 < 4)``"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:27
+#: ../../_sources/Selection/Exercises.rst:53
+#: ../../_sources/Selection/Exercises.rst:101
+#: ../../_sources/Selection/Exercises.rst:123
+#: ../../_sources/Selection/Exercises.rst:138
+#: ../../_sources/Selection/Exercises.rst:152
+#: ../../_sources/Selection/Exercises.rst:203
+#: ../../_sources/Selection/Exercises.rst:235
+#: ../../_sources/Selection/Exercises.rst:264
+#: ../../_sources/Selection/Exercises.rst:282
+#: ../../_sources/Selection/Exercises.rst:313
+#: ../../_sources/Selection/Exercises.rst:340
+#: ../../_sources/Selection/Exercises.rst:365
+#: ../../_sources/Selection/Exercises.rst:410
+#: ../../_sources/Selection/Exercises.rst:439
+#: ../../_sources/Selection/Exercises.rst:464
+#: ../../_sources/Selection/Exercises.rst:497
+#: ../../_sources/Selection/Exercises.rst:527
+#: ../../_sources/Selection/Exercises.rst:551
+msgid ""
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:27
+#: ../../_sources/Selection/Exercises.rst:53
+#: ../../_sources/Selection/Exercises.rst:138
+#: ../../_sources/Selection/Exercises.rst:152
+#: ../../_sources/Selection/Exercises.rst:527
+msgid "\n"
+""
 msgstr ""
 
 #: ../../_sources/Selection/Exercises.rst:32
@@ -130,6 +161,48 @@ msgstr ""
 msgid "Test your function by printing the mark and the grade for a number of different marks."
 msgstr ""
 
+#: ../../_sources/Selection/Exercises.rst:101
+msgid "def getGrade(grade):\n"
+"      #your code here\n"
+"\n"
+"\n"
+"====\n"
+"\n"
+"from unittest.gui import TestCaseGui\n"
+"\n"
+"class myTests(TestCaseGui):\n"
+"\n"
+"    def testOne(self):\n"
+"        self.assertEqual(getGrade(95),'A','Tested getGrade on input of 95')\n"
+"        self.assertEqual(getGrade(85),'B','Tested getGrade on input of 85')\n"
+"        self.assertEqual(getGrade(65),'D','Tested getGrade on input of 65')\n"
+"        self.assertEqual(getGrade(79.99999),'C','Tested getGrade on input of 79.9999')\n"
+"        self.assertEqual(getGrade(80),'B','Tested getGrade on input of 80')\n"
+"\n"
+"\n"
+"myTests().main()"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:123
+msgid "def grade(mark):\n"
+"    if mark >= 90:\n"
+"        return \"A\"\n"
+"    else:\n"
+"        if mark >= 80:\n"
+"            return \"B\"\n"
+"        else:\n"
+"            if mark >= 70:\n"
+"                return \"C\"\n"
+"            else:\n"
+"                if mark >= 60:\n"
+"                    return \"D\"\n"
+"                else:\n"
+"                    return \"F\"\n"
+"\n"
+"mark = 83\n"
+"print( \"Mark:\", str(mark), \"Grade:\", grade(mark))"
+msgstr ""
+
 #: ../../_sources/Selection/Exercises.rst:133
 msgid "Modify the turtle bar chart program from the previous chapter so that the bar for any value of 200 or more is filled with red, values between [100 and 200) are filled yellow, and bars representing values less than 100 are filled green."
 msgstr ""
@@ -138,20 +211,175 @@ msgstr ""
 msgid "In the turtle bar chart program, what do you expect to happen if one or more of the data values in the list is negative?   Go back and try it out.  Change the program so that when it prints the text value for the negative bars, it puts the text above the base of the bar (on the 0 axis)."
 msgstr ""
 
+#: ../../_sources/Selection/Exercises.rst:203
+msgid "import turtle\n"
+"\n"
+"def drawBar(t, height):\n"
+"    \"\"\" Get turtle t to draw one bar, of height. \"\"\"\n"
+"    t.begin_fill()               # start filling this shape\n"
+"    if height < 0:\n"
+"        t.write(str(height))\n"
+"    t.left(90)\n"
+"    t.forward(height)\n"
+"    if height >= 0:\n"
+"        t.write(str(height))\n"
+"    t.right(90)\n"
+"    t.forward(40)\n"
+"    t.right(90)\n"
+"    t.forward(height)\n"
+"    t.left(90)\n"
+"    t.end_fill()                 # stop filling this shape\n"
+"\n"
+"\n"
+"\n"
+"xs = [48, -50, 200, 240, 160, 260, 220]  # here is the data\n"
+"maxheight = max(xs)\n"
+"minheight = min(xs)\n"
+"numbars = len(xs)\n"
+"border = 10\n"
+"\n"
+"tess = turtle.Turtle()           # create tess and set some attributes\n"
+"tess.color(\"blue\")\n"
+"tess.fillcolor(\"red\")\n"
+"tess.pensize(3)\n"
+"\n"
+"wn = turtle.Screen()             # Set up the window and its attributes\n"
+"wn.bgcolor(\"lightgreen\")\n"
+"if minheight > 0:\n"
+"    lly = 0\n"
+"else:\n"
+"    lly = minheight - border\n"
+"\n"
+"wn.setworldcoordinates(0-border, lly, 40*numbars+border, maxheight+border)\n"
+"\n"
+"\n"
+"for a in xs:\n"
+"    drawBar(tess, a)\n"
+"\n"
+"wn.exitonclick()"
+msgstr ""
+
 #: ../../_sources/Selection/Exercises.rst:215
 msgid "Write a function ``findHypot``.  The function will be given the length of two sides of a right-angled triangle and it should return the length of the hypotenuse.  (Hint:  ``x ** 0.5`` will return the square root, or use ``sqrt`` from the math module)"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:235
+msgid "def findHypot(a,b):\n"
+"    # your code here\n"
+"\n"
+"====\n"
+"\n"
+"from unittest.gui import TestCaseGui\n"
+"\n"
+"class myTests(TestCaseGui):\n"
+"    def testOne(self):\n"
+"        self.assertEqual(findHypot(12.0,5.0),13.0,\"Tested findHypot on inputs of 12.0 and 5.0\")\n"
+"        self.assertEqual(findHypot(14.0,48.0),50.0,\"Tested findHypot on inputs of 14.0 and 48.0\")\n"
+"        self.assertEqual(findHypot(21.0,72.0),75.0,\"Tested findHypot on inputs of 21.0 and 72.0\")\n"
+"        self.assertAlmostEqual(findHypot(1,1.73205),1.999999,2,\"Tested findHypot on inputs of 1 and 1.73205\")\n"
+"\n"
+"myTests().main()"
 msgstr ""
 
 #: ../../_sources/Selection/Exercises.rst:243
 msgid "Write a function called ``is_even(n)`` that takes an integer as an argument and returns ``True`` if the argument is an **even number** and ``False`` if it is **odd**."
 msgstr ""
 
+#: ../../_sources/Selection/Exercises.rst:264
+msgid "def is_even(n):\n"
+"    # your code here\n"
+"\n"
+"====\n"
+"\n"
+"from unittest.gui import TestCaseGui\n"
+"\n"
+"class myTests(TestCaseGui):\n"
+"     def testOne(self):\n"
+"         self.assertEqual(is_even(10),True,\"Tested is_even on input of 10\")\n"
+"         self.assertEqual(is_even(5),False,\"Tested is_even on input of 5\")\n"
+"         self.assertEqual(is_even(1),False,\"Tested is_even on input of 1\")\n"
+"         self.assertEqual(is_even(0),True,\"Tested is_even on input of 0\")\n"
+"\n"
+"myTests().main()"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:282
+msgid "from test import testEqual\n"
+"\n"
+"def is_even(n):\n"
+"    if n % 2 == 0:\n"
+"        return True\n"
+"    else:\n"
+"        return False\n"
+"\n"
+"testEqual(is_even(10), True)\n"
+"testEqual(is_even(5), False)\n"
+"testEqual(is_even(1), False)\n"
+"testEqual(is_even(0), True)"
+msgstr ""
+
 #: ../../_sources/Selection/Exercises.rst:293
 msgid "Now write the function ``is_odd(n)`` that returns ``True`` when ``n`` is odd and ``False`` otherwise."
 msgstr ""
 
+#: ../../_sources/Selection/Exercises.rst:313
+msgid "def is_odd(n):\n"
+"    # your code here\n"
+"\n"
+"\n"
+"====\n"
+"from unittest.gui import TestCaseGui\n"
+"\n"
+"class myTests(TestCaseGui):\n"
+"     def testOne(self):\n"
+"         self.assertEqual(is_odd(10),False,\"Tested is_odd on input of 10\")\n"
+"         self.assertEqual(is_odd(5),True,\"Tested is_odd on input of 5\")\n"
+"         self.assertEqual(is_odd(1),True,\"Tested is_odd on input of 1\")\n"
+"         self.assertEqual(is_odd(0),False,\"Tested is_odd on input of 0\")\n"
+"\n"
+"myTests().main()"
+msgstr ""
+
 #: ../../_sources/Selection/Exercises.rst:321
 msgid "Modify ``is_odd`` so that it uses a call to ``is_even`` to determine if its argument is an odd integer."
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:340
+msgid "def is_odd(n):\n"
+"    # your code here\n"
+"\n"
+"====\n"
+"from unittest.gui import TestCaseGui\n"
+"\n"
+"class myTests(TestCaseGui):\n"
+"     def testOne(self):\n"
+"         self.assertEqual(is_odd(10),False,\"Tested is_odd on input of 10\")\n"
+"         self.assertEqual(is_odd(5),True,\"Tested is_odd on input of 5\")\n"
+"         self.assertEqual(is_odd(1),True,\"Tested is_odd on input of 1\")\n"
+"         self.assertEqual(is_odd(0),False,\"Tested is_odd on input of 0\")\n"
+"\n"
+"myTests().main()"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:365
+msgid "from test import testEqual\n"
+"\n"
+"def is_even(n):\n"
+"    if n % 2 == 0:\n"
+"        return True\n"
+"    else:\n"
+"        return False\n"
+"\n"
+"def is_odd(n):\n"
+"    if is_even(n):\n"
+"        return False\n"
+"    else:\n"
+"        return True\n"
+"\n"
+"testEqual(is_odd(10), False)\n"
+"testEqual(is_odd(5), True)\n"
+"testEqual(is_odd(1), True)\n"
+"testEqual(is_odd(0), False)"
 msgstr ""
 
 #: ../../_sources/Selection/Exercises.rst:376
@@ -167,12 +395,93 @@ msgid "if  abs(x - y) < 0.001:      # if x is approximately equal to y\n"
 "    ..."
 msgstr ""
 
+#: ../../_sources/Selection/Exercises.rst:410
+msgid "def is_rightangled(a, b, c):\n"
+"    # your code here\n"
+"\n"
+"====\n"
+"from unittest.gui import TestCaseGui\n"
+"\n"
+"class myTests(TestCaseGui):\n"
+"    def testOne(self):\n"
+"        self.assertEqual(is_rightangled(1.5,2.0,2.5),True,\"Tested is_rightangled on inputs of 1.5, 2.0 and 2.5\")\n"
+"        self.assertEqual(is_rightangled(4.0,8.0,16.0),False,\"Tested is_rightangled on inputs of 4.0, 8.0 and 16.0\")\n"
+"        self.assertEqual(is_rightangled(4.1,8.2,9.1678787077),True,\"Tested is_rightangled on inputs of 4.1, 8.2 and 9.1678787077\")\n"
+"        self.assertEqual(is_rightangled(4.1,8.2,9.16787),True,\"Tested is_rightangled on inputs of 4.1, 8.2, and 9.16787\")\n"
+"        self.assertEqual(is_rightangled(4.1,8.2,9.168),False,\"Tested is_rightangled on inputs of 4.1, 8.2 and 9.168\")\n"
+"        self.assertEqual(is_rightangled(0.5,0.4,0.64031),True,\"Tested is_rightangled on inputs of 0.5, 0.4 and 0.64031\")\n"
+"\n"
+"myTests().main()"
+msgstr ""
+
 #: ../../_sources/Selection/Exercises.rst:418
 msgid "Extend the above program so that the sides can be given to the function in any order."
 msgstr ""
 
+#: ../../_sources/Selection/Exercises.rst:439
+msgid "def is_rightangled(a, b, c):\n"
+"    # your code here\n"
+"\n"
+"\n"
+"====\n"
+"from unittest.gui import TestCaseGui\n"
+"\n"
+"class myTests(TestCaseGui):\n"
+"    def testOne(self):\n"
+"        self.assertEqual(is_rightangled(1.5,2.5,2.0),True,\"Tested is_rightangled on inputs of 1.5, 2.5 and 2.0\")\n"
+"        self.assertEqual(is_rightangled(16.0,4.0,8.0),False,\"Tested is_rightangled on inputs of 16.0, 4.0 and 8.0\")\n"
+"        self.assertEqual(is_rightangled(4.1,8.2,9.1678787077),True,\"Tested is_rightangled on inputs of 4.1, 8.2 and 9.1678787077\")\n"
+"        self.assertEqual(is_rightangled(4.1,9.16787,8.2),True,\"Tested is_rightangled on inputs of 4.1, 9.16787 and 8.2\")\n"
+"        self.assertEqual(is_rightangled(4.1,8.2,9.168),False,\"Tested is_rightangled on inputs of 4.1, 8.2 and 9.168\")\n"
+"        self.assertEqual(is_rightangled(0.5,0.64031,0.4),True,\"Tested is_rightangled on inputs of 0.5, 0.64031 and 0.4\")\n"
+"\n"
+"myTests().main()"
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:464
+msgid "from test import testEqual\n"
+"\n"
+"def is_rightangled(a, b, c):\n"
+"    is_rightangled = False\n"
+"\n"
+"    if a > b and a > c:\n"
+"        is_rightangled = abs(b**2 + c**2 - a**2) < 0.001\n"
+"    elif b > a and b > c:\n"
+"        is_rightangled = abs(a**2 + c**2 - b**2) < 0.001\n"
+"    else:\n"
+"        is_rightangled = abs(a**2 + b**2 - c**2) < 0.001\n"
+"    return is_rightangled\n"
+"\n"
+"testEqual(is_rightangled(1.5, 2.0, 2.5), True)\n"
+"testEqual(is_rightangled(4.0, 8.0, 16.0), False)\n"
+"testEqual(is_rightangled(4.1, 8.2, 9.1678787077), True)\n"
+"testEqual(is_rightangled(4.1, 8.2, 9.16787), True)\n"
+"testEqual(is_rightangled(4.1, 8.2, 9.168), False)\n"
+"testEqual(is_rightangled(0.5, 0.4, 0.64031), True)"
+msgstr ""
+
 #: ../../_sources/Selection/Exercises.rst:475
 msgid "A year is a **leap year** if it is divisible by 4 unless it is a century that is not divisible by 400. Write a function that takes a year as a parameter and returns ``True`` if the year is a leap year, ``False`` otherwise."
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:497
+msgid "def isLeap(year):\n"
+"    # your code here\n"
+"\n"
+"====\n"
+"from unittest.gui import TestCaseGui\n"
+"\n"
+"class myTests(TestCaseGui):\n"
+"    def testOne(self):\n"
+"        self.assertEqual(isLeap(1944),True,\"Tested isLeap on an input of 1944\")\n"
+"        self.assertEqual(isLeap(2011),False,\"Tested isLeap on an input of 2011\")\n"
+"        self.assertEqual(isLeap(1986),False,\"Tested isLeap on an input of 1986\")\n"
+"        self.assertEqual(isLeap(1800),False,\"Tested isLeap on an input of 1800\")\n"
+"        self.assertEqual(isLeap(1900),False,\"Tested isLeap on an input of 1900\")\n"
+"        self.assertEqual(isLeap(2000),True,\"Tested isLeap on an input of 2000\")\n"
+"        self.assertEqual(isLeap(2056),True,\"Tested isLeap on an input of 2056\")\n"
+"\n"
+"myTests().main()"
 msgstr ""
 
 #: ../../_sources/Selection/Exercises.rst:505
@@ -217,5 +526,26 @@ msgstr ""
 
 #: ../../_sources/Selection/Exercises.rst:525
 msgid "Your program should print an error message if the user provides a date that is out of range."
+msgstr ""
+
+#: ../../_sources/Selection/Exercises.rst:551
+msgid "year = int(input(\"Please enter a year\"))\n"
+"if year >= 1900 and year <= 2099:\n"
+"    a = year % 19\n"
+"    b = year % 4\n"
+"    c = year % 7\n"
+"    d = (19*a + 24) % 30\n"
+"    e = (2*b + 4*c + 6*d + 5) % 7\n"
+"    dateofeaster = 22 + d + e\n"
+"\n"
+"    if year == 1954 or year == 2981 or year == 2049 or year == 2076:\n"
+"        dateofeaster = dateofeaster - 7\n"
+"\n"
+"    if dateofeaster > 31:\n"
+"        print(\"April\", dateofeaster - 31)\n"
+"    else:\n"
+"        print(\"March\", dateofeaster)\n"
+"else:\n"
+"    print(\"ERROR...year out of range\")"
 msgstr ""
 

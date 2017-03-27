@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,6 +29,16 @@ msgid ""
 "in a list by accessing it directly as part of the assignment statement. "
 "Using the indexing operator (square brackets) on the left side of an "
 "assignment, we can update one of the list items."
+msgstr ""
+
+#: ../../_sources/Lists/ListsareMutable.rst:30
+msgid ""
+"fruit = [\"banana\", \"apple\", \"cherry\"]\n"
+"print(fruit)\n"
+"\n"
+"fruit[0] = \"pear\"\n"
+"fruit[-1] = \"orange\"\n"
+"print(fruit)"
 msgstr ""
 
 #: ../../_sources/Lists/ListsareMutable.rst:31
@@ -120,16 +130,39 @@ msgid ""
 "elements at once."
 msgstr ""
 
+#: ../../_sources/Lists/ListsareMutable.rst:53
+msgid ""
+"alist = ['a', 'b', 'c', 'd', 'e', 'f']\n"
+"alist[1:3] = ['x', 'y']\n"
+"print(alist)"
+msgstr ""
+
 #: ../../_sources/Lists/ListsareMutable.rst:54
 msgid ""
 "We can also remove elements from a list by assigning the empty list to "
 "them."
 msgstr ""
 
+#: ../../_sources/Lists/ListsareMutable.rst:61
+msgid ""
+"alist = ['a', 'b', 'c', 'd', 'e', 'f']\n"
+"alist[1:3] = []\n"
+"print(alist)"
+msgstr ""
+
 #: ../../_sources/Lists/ListsareMutable.rst:62
 msgid ""
 "We can even insert elements into a list by squeezing them into an empty "
 "slice at the desired location."
+msgstr ""
+
+#: ../../_sources/Lists/ListsareMutable.rst:72
+msgid ""
+"alist = ['a', 'd', 'f']\n"
+"alist[1:1] = ['b', 'c']\n"
+"print(alist)\n"
+"alist[4:4] = ['e']\n"
+"print(alist)"
 msgstr ""
 
 #: ../../_sources/Lists/ListsareMutable.rst:73

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,6 +76,14 @@ msgid ""
 "the same.  Try our example from above."
 msgstr ""
 
+#: ../../_sources/Lists/ObjectsandReferences.rst:51
+msgid ""
+"a = \"banana\"\n"
+"b = \"banana\"\n"
+"\n"
+"print(a is b)"
+msgstr ""
+
 #: ../../_sources/Lists/ObjectsandReferences.rst:52
 msgid ""
 "The answer is ``True``.  This tells us that both ``a`` and ``b`` refer to"
@@ -90,6 +98,16 @@ msgid ""
 "This is not the case with lists.  Consider the following example.  Here, "
 "``a`` and ``b`` refer to two different lists, each of which happens to "
 "have the same element values."
+msgstr ""
+
+#: ../../_sources/Lists/ObjectsandReferences.rst:67
+msgid ""
+"a = [81, 82, 83]\n"
+"b = [81, 82, 83]\n"
+"\n"
+"print(a is b)\n"
+"\n"
+"print(a == b)"
 msgstr ""
 
 #: ../../_sources/Lists/ObjectsandReferences.rst:68

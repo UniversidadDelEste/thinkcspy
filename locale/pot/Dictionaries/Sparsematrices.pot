@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,6 +71,17 @@ msgstr ""
 
 #: ../../_sources/Dictionaries/Sparsematrices.rst:65
 msgid "There is one problem. If we specify an element that is zero, we get an error, because there is no entry in the dictionary with that key. The alternative version of the ``get`` method solves this problem. The first argument will be the key.  The second argument is the value ``get`` should return if the key is not in the dictionary (which would be 0 since it is sparse)."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Sparsematrices.rst:78
+msgid ""
+msgstr ""
+
+#: ../../_sources/Dictionaries/Sparsematrices.rst:78
+msgid "matrix = {(0, 3): 1, (2, 1): 2, (4, 3): 3}\n"
+"print(matrix.get((0,3)))\n"
+"\n"
+"print(matrix.get((1, 3), 0))"
 msgstr ""
 
 #: ../../_sources/Dictionaries/Sparsematrices.rst:79

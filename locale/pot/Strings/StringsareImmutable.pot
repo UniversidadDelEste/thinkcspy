@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,12 +24,30 @@ msgstr ""
 msgid "One final thing that makes strings different from some other Python collection types is that you are not allowed to modify the individual characters in the collection.  It is tempting to use the ``[]`` operator on the left side of an assignment, with the intention of changing a character in a string.  For example, in the following code, we would like to change the first letter of ``greeting``."
 msgstr ""
 
+#: ../../_sources/Strings/StringsareImmutable.rst:26
+#: ../../_sources/Strings/StringsareImmutable.rst:39
+msgid ""
+msgstr ""
+
+#: ../../_sources/Strings/StringsareImmutable.rst:26
+msgid "greeting = \"Hello, world!\"\n"
+"greeting[0] = 'J'            # ERROR!\n"
+"print(greeting)"
+msgstr ""
+
 #: ../../_sources/Strings/StringsareImmutable.rst:27
 msgid "Instead of producing the output ``Jello, world!``, this code produces the runtime error ``TypeError: 'str' object does not support item assignment``."
 msgstr ""
 
 #: ../../_sources/Strings/StringsareImmutable.rst:30
 msgid "Strings are **immutable**, which means you cannot change an existing string. The best you can do is create a new string that is a variation on the original."
+msgstr ""
+
+#: ../../_sources/Strings/StringsareImmutable.rst:39
+msgid "greeting = \"Hello, world!\"\n"
+"newGreeting = 'J' + greeting[1:]\n"
+"print(newGreeting)\n"
+"print(greeting)            # same as it was"
 msgstr ""
 
 #: ../../_sources/Strings/StringsareImmutable.rst:40

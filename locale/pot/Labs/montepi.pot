@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,6 +66,32 @@ msgstr ""
 
 #: ../../_sources/Labs/montepi.rst:44
 msgid "The program has been started for you.  You need to fill in the part that will \"throw the dart\".  Once you know the x,y coordinate, have the turtle move to that location and make a ``dot``.  Note that the tail is already up so it will not leave a line."
+msgstr ""
+
+#: ../../_sources/Labs/montepi.rst:69
+msgid ""
+msgstr ""
+
+#: ../../_sources/Labs/montepi.rst:69
+msgid "import turtle\n"
+"import math\n"
+"import random\n"
+"\n"
+"fred = turtle.Turtle()\n"
+"fred.up()\n"
+"\n"
+"wn = turtle.Screen()\n"
+"wn.setworldcoordinates(-1,-1,1,1)\n"
+"\n"
+"numdarts = 10\n"
+"for i in range(numdarts):\n"
+"    randx = random.random()\n"
+"    randy = random.random()\n"
+"\n"
+"    x =\n"
+"    y =\n"
+"\n"
+"wn.exitonclick()"
 msgstr ""
 
 #: ../../_sources/Labs/montepi.rst:71

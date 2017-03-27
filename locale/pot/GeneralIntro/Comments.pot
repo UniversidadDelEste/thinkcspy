@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,21 @@ msgstr ""
 
 #: ../../_sources/GeneralIntro/Comments.rst:23
 msgid "A **comment** in a computer program is text that is intended only for the human reader - it is completely ignored by the interpreter. In Python, the `#` token starts a comment.  The rest of the line is ignored. Here is a new version of *Hello, World!*."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Comments.rst:37
+#: ../../_sources/GeneralIntro/Comments.rst:63
+msgid ""
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Comments.rst:37
+msgid "#---------------------------------------------------\n"
+"# This demo program shows off how elegant Python is!\n"
+"# Written by Joe Soap, December 2010.\n"
+"# Anyone may freely copy or modify this program.\n"
+"#---------------------------------------------------\n"
+"\n"
+"print(\"Hello, World!\")     # Isn't this easy!"
 msgstr ""
 
 #: ../../_sources/GeneralIntro/Comments.rst:38
@@ -74,5 +89,10 @@ msgstr ""
 
 #: ../../_sources/GeneralIntro/Comments.rst:61
 msgid "This workspace is provided for your convenience.  You can use this activecode window to try out anything you like."
+msgstr ""
+
+#: ../../_sources/GeneralIntro/Comments.rst:63
+msgid "\n"
+""
 msgstr ""
 

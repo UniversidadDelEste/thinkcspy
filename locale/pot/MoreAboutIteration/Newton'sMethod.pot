@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,6 +38,23 @@ msgstr ""
 
 #: ../../_sources/MoreAboutIteration/Newton'sMethod.rst:34
 msgid "The following implementation of Newton's method requires two parameters.  The first is the value whose square root will be approximated.  The second is the number of times to iterate the calculation yielding a better result."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Newton'sMethod.rst:51
+msgid ""
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Newton'sMethod.rst:51
+msgid "def newtonSqrt(n, howmany):\n"
+"    approx = 0.5 * n\n"
+"    for i in range(howmany):\n"
+"        betterapprox = 0.5 * (approx + n/approx)\n"
+"        approx = betterapprox\n"
+"    return betterapprox\n"
+"\n"
+"print(newtonSqrt(10, 3))\n"
+"print(newtonSqrt(10, 5))\n"
+"print(newtonSqrt(10, 10))"
 msgstr ""
 
 #: ../../_sources/MoreAboutIteration/Newton'sMethod.rst:52

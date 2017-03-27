@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,12 +24,31 @@ msgstr ""
 msgid "A substring of a string is called a **slice**. Selecting a slice is similar to selecting a character:"
 msgstr ""
 
+#: ../../_sources/Strings/TheSliceOperator.rst:27
+#: ../../_sources/Strings/TheSliceOperator.rst:44
+#: ../../_sources/Strings/TheSliceOperator.rst:95
+msgid ""
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:27
+msgid "singers = \"Peter, Paul, and Mary\"\n"
+"print(singers[0:5])\n"
+"print(singers[7:11])\n"
+"print(singers[17:21])"
+msgstr ""
+
 #: ../../_sources/Strings/TheSliceOperator.rst:28
 msgid "The `slice` operator ``[n:m]`` returns the part of the string from the n'th character to the m'th character, including the first but excluding the last. In other words,  start with the character at index n and go up to but do not include the character at index m. This behavior may seem counter-intuitive but if you recall the ``range`` function, it did not include its end point either."
 msgstr ""
 
 #: ../../_sources/Strings/TheSliceOperator.rst:35
 msgid "If you omit the first index (before the colon), the slice starts at the beginning of the string. If you omit the second index, the slice goes to the end of the string."
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:44
+msgid "fruit = \"banana\"\n"
+"print(fruit[:3])\n"
+"print(fruit[3:])"
 msgstr ""
 
 #: ../../_sources/Strings/TheSliceOperator.rst:45
@@ -124,6 +143,11 @@ msgstr ""
 
 #: ../../_sources/Strings/TheSliceOperator.rst:93
 msgid "This workspace is provided for your convenience.  You can use this activecode window to try out anything you like."
+msgstr ""
+
+#: ../../_sources/Strings/TheSliceOperator.rst:95
+msgid "\n"
+""
 msgstr ""
 
 #: ../../_sources/Strings/TheSliceOperator.rst:99

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,6 +73,12 @@ msgid ""
 "and displays the result."
 msgstr ""
 
+#: ../../_sources/SimplePythonData/StatementsandExpressions.rst:42
+msgid ""
+"print(1 + 1)\n"
+"print(len(\"hello\"))"
+msgstr ""
+
 #: ../../_sources/SimplePythonData/StatementsandExpressions.rst:43
 msgid ""
 "In this example ``len`` is a built-in Python function that returns the "
@@ -86,6 +92,14 @@ msgid ""
 "expressions can appear on the right hand side of assignment statements. A"
 " value all by itself is a simple expression, and so is a variable.  "
 "Evaluating a variable gives the value that the variable refers to."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/StatementsandExpressions.rst:58
+msgid ""
+"y = 3.14\n"
+"x = len(\"hello\")\n"
+"print(x)\n"
+"print(y)"
 msgstr ""
 
 #: ../../_sources/SimplePythonData/StatementsandExpressions.rst:59

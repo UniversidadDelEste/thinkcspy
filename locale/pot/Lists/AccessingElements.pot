@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,6 +22,18 @@ msgstr ""
 
 #: ../../_sources/Lists/AccessingElements.rst:17
 msgid "The syntax for accessing the elements of a list is the same as the syntax for accessing the characters of a string.  We use the index operator ( ``[]`` -- not to be confused with an empty list). The expression inside the brackets specifies the index. Remember that the indices start at 0.  Any integer expression can be used as an index and as with strings, negative index values will locate items from the right instead of from the left."
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:31
+msgid ""
+msgstr ""
+
+#: ../../_sources/Lists/AccessingElements.rst:31
+msgid "numbers = [17, 123, 87, 34, 66, 8398, 44]\n"
+"print(numbers[2])\n"
+"print(numbers[9 - 8])\n"
+"print(numbers[-2])\n"
+"print(numbers[len(numbers) - 1])"
 msgstr ""
 
 #: ../../_sources/Lists/AccessingElements.rst:32

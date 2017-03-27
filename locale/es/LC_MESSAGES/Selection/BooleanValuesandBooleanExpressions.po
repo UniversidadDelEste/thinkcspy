@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,6 +71,13 @@ msgid ""
 "boolean values (remember Python is case sensitive)."
 msgstr ""
 
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:37
+msgid ""
+"print(True)\n"
+"print(type(True))\n"
+"print(type(False))"
+msgstr ""
+
 #: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:38
 msgid "Boolean values are not strings!"
 msgstr ""
@@ -82,11 +89,23 @@ msgid ""
 "the data type ``bool``.  Take a close look at the types shown below."
 msgstr ""
 
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:49
+msgid ""
+"print(type(True))\n"
+"print(type(\"True\"))"
+msgstr ""
+
 #: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:50
 msgid ""
 "A **boolean expression** is an expression that evaluates to a boolean "
 "value. The equality operator, ``==``, compares two values and produces a "
 "boolean value related to whether the two values are equal to one another."
+msgstr ""
+
+#: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:58
+msgid ""
+"print(5 == 5)\n"
+"print(5 == 6)"
 msgstr ""
 
 #: ../../_sources/Selection/BooleanValuesandBooleanExpressions.rst:59

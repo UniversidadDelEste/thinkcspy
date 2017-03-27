@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,6 +22,19 @@ msgstr ""
 
 #: ../../_sources/Lists/ConcatenationandRepetition.rst:17
 msgid "Again, as with strings, the ``+`` operator concatenates lists. Similarly, the ``*`` operator repeats the items in a list a given number of times."
+msgstr ""
+
+#: ../../_sources/Lists/ConcatenationandRepetition.rst:29
+msgid ""
+msgstr ""
+
+#: ../../_sources/Lists/ConcatenationandRepetition.rst:29
+msgid "fruit = [\"apple\", \"orange\", \"banana\", \"cherry\"]\n"
+"print([1, 2] + [3, 4])\n"
+"print(fruit + [6, 7, 8, 9])\n"
+"\n"
+"print([0] * 4)\n"
+"print([1, 2, [\"hello\", \"goodbye\"]] * 2)"
 msgstr ""
 
 #: ../../_sources/Lists/ConcatenationandRepetition.rst:30

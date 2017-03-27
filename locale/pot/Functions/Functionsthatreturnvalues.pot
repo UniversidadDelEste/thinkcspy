@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,6 +24,19 @@ msgstr ""
 msgid "Most functions require arguments, values that control how the function does its job. For example, if you want to find the absolute value of a number, you have to indicate what the number is. Python has a built-in function for computing the absolute value:"
 msgstr ""
 
+#: ../../_sources/Functions/Functionsthatreturnvalues.rst:28
+#: ../../_sources/Functions/Functionsthatreturnvalues.rst:46
+#: ../../_sources/Functions/Functionsthatreturnvalues.rst:59
+#: ../../_sources/Functions/Functionsthatreturnvalues.rst:102
+msgid ""
+msgstr ""
+
+#: ../../_sources/Functions/Functionsthatreturnvalues.rst:28
+msgid "print(abs(5))\n"
+"\n"
+"print(abs(-5))"
+msgstr ""
+
 #: ../../_sources/Functions/Functionsthatreturnvalues.rst:29
 msgid "In this example, the arguments to the ``abs`` function are 5 and -5."
 msgstr ""
@@ -32,12 +45,25 @@ msgstr ""
 msgid "Some functions take more than one argument. For example the math module contains a function called ``pow`` which takes two arguments, the base and the exponent."
 msgstr ""
 
+#: ../../_sources/Functions/Functionsthatreturnvalues.rst:46
+msgid "import math\n"
+"print(math.pow(2, 3))\n"
+"\n"
+"print(math.pow(7, 4))"
+msgstr ""
+
 #: ../../_sources/Functions/Functionsthatreturnvalues.rst:49
 msgid "Of course, we have already seen that raising a base to an exponent can be done with the ** operator."
 msgstr ""
 
 #: ../../_sources/Functions/Functionsthatreturnvalues.rst:51
 msgid "Another built-in function that takes more than one argument is ``max``."
+msgstr ""
+
+#: ../../_sources/Functions/Functionsthatreturnvalues.rst:59
+msgid "print(max(7, 11))\n"
+"print(max(4, 1, 17, 2, 12))\n"
+"print(max(3 * 11, 5 ** 3, 512 - 9, 1024 ** 0))"
 msgstr ""
 
 #: ../../_sources/Functions/Functionsthatreturnvalues.rst:60
@@ -70,6 +96,16 @@ msgstr ""
 
 #: ../../_sources/Functions/Functionsthatreturnvalues.rst:92
 msgid ".. image:: Functions/Figures/squarefun.png"
+msgstr ""
+
+#: ../../_sources/Functions/Functionsthatreturnvalues.rst:102
+msgid "def square(x):\n"
+"    y = x * x\n"
+"    return y\n"
+"\n"
+"toSquare = 10\n"
+"result = square(toSquare)\n"
+"print(\"The result of \", toSquare, \" squared is \", result)"
 msgstr ""
 
 #: ../../_sources/Functions/Functionsthatreturnvalues.rst:103

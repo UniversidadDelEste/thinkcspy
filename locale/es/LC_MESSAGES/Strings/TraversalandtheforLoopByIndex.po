@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -178,6 +178,13 @@ msgid ""
 "pattern for traversing any sequence by position.        Make sure you "
 "understand why the range function behaves correctly when using ``len`` of"
 " the string as its parameter value."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByIndex.rst:44
+msgid ""
+"fruit = \"apple\"\n"
+"for idx in range(len(fruit)):\n"
+"    print(fruit[idx])"
 msgstr ""
 
 #: ../../_sources/Strings/TraversalandtheforLoopByIndex.rst:45

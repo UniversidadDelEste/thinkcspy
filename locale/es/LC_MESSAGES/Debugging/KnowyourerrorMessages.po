@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,6 +31,7 @@ msgid ""
 msgstr ""
 
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:19
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:45
 msgid ""
 "current_time_str = input(\"What is the current time (in hours 0-23)?\")\n"
 "wait_time_str = input(\"How many hours do you want to wait\")\n"
@@ -321,6 +322,7 @@ msgstr ""
 msgid "Find and fix the error in the following code."
 msgstr ""
 
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:110
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:114
 msgid ""
 "current_time_str = input(\"What is the current time (in hours 0-23)?\")\n"
@@ -366,6 +368,7 @@ msgid ""
 "parenthesis."
 msgstr ""
 
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:146
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:150
 msgid ""
 "current_time_str = input(\"What is the \"current time\" (in hours "
@@ -446,6 +449,20 @@ msgstr ""
 msgid ""
 "Here's an example of a type error created by a Polish learner.  See if "
 "you can find and fix the error."
+msgstr ""
+
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:188
+#, python-format
+msgid ""
+"a = input(uu'wpisz godzine')\n"
+"x = input(uu'wpisz liczbe godzin')\n"
+"int(x)\n"
+"int(a)\n"
+"h = x // 24\n"
+"s = x % 24\n"
+"print (h, s)\n"
+"a = a + s\n"
+"print ('godzina teraz %s' %a)"
 msgstr ""
 
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:205
@@ -549,6 +566,17 @@ msgid ""
 " one.  See if you can get this program to run successfully:"
 msgstr ""
 
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:223
+msgid ""
+"str_time = input(\"What time is it now?\")\n"
+"str_wait_time = input(\"What is the number of nours to wait?\")\n"
+"time = int(str_time)\n"
+"wai_time = int(str_wait_time)\n"
+"\n"
+"time_when_alarm_go_off = time + wait_time\n"
+"print(time_when_alarm_go_off)"
+msgstr ""
+
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:229
 msgid ""
 "In this example, the student seems to be a fairly bad speller, as there "
@@ -592,6 +620,16 @@ msgstr ""
 msgid "Here is another one for you to try:"
 msgstr ""
 
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:249
+msgid ""
+"n = input(\"What time is it now (in hours)?\")\n"
+"n = imt(n)\n"
+"m = input(\"How many hours do you want to wait?\")\n"
+"m = int(m)\n"
+"q = m % 12\n"
+"print(\"The time is now\", q)"
+msgstr ""
+
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:255
 msgid ""
 "This one is once again a typo, but the typo is not in a variable name, "
@@ -604,6 +642,15 @@ msgstr ""
 
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:258
 msgid "And one last bit of code to fix."
+msgstr ""
+
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:267
+msgid ""
+"present_time = input(\"Enter the present timein hours:\")\n"
+"set_alarm = input(\"Set the hours for alarm:\")\n"
+"int (present_time, set_time, alarm_time)\n"
+"alarm_time = present_time + set_alarm\n"
+"print(alarm_time)"
 msgstr ""
 
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:273
@@ -655,6 +702,18 @@ msgid ""
 "function is expecting a certain type, but you pass it a different type.  "
 "We can illustrate that with this particular program in two different "
 "ways."
+msgstr ""
+
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:310
+msgid ""
+"current_time_str = input(\"What is the current time (in hours 0-23)?\")\n"
+"current_time_int = int(current_time_str)\n"
+"\n"
+"wait_time_str = input(\"How many hours do you want to wait\")\n"
+"wait_time_int = int(wait_time_int)\n"
+"\n"
+"final_time_int = current_time_int + wait_time_int\n"
+"print(final_time_int)"
 msgstr ""
 
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:311

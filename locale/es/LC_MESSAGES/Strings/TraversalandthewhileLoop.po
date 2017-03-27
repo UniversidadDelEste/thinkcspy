@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,6 +30,16 @@ msgid ""
 "condition, making sure that the condition is correct, and making sure "
 "that something changes inside the body to guarantee that the condition "
 "will eventually fail."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandthewhileLoop.rst:34
+msgid ""
+"fruit = \"apple\"\n"
+"\n"
+"position = 0\n"
+"while position < len(fruit):\n"
+"    print(fruit[position])\n"
+"    position = position + 1"
 msgstr ""
 
 #: ../../_sources/Strings/TraversalandthewhileLoop.rst:35
@@ -220,6 +230,10 @@ msgstr ""
 msgid ""
 "This workspace is provided for your convenience.  You can use this "
 "activecode window to try out anything you like."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandthewhileLoop.rst:79
+msgid "\n"
 msgstr ""
 
 #: ../../_sources/Strings/TraversalandthewhileLoop.rst:83

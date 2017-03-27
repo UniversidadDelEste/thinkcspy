@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,12 +40,34 @@ msgstr ""
 msgid "For this lab, we will use the math library to generate the values that we need. To help you understand the sine function, consider the following Python program. As you can see, the ``sin`` function from the math library takes a single parameter.  This parameter must be a value in \"radians\" (you may remember this from trigonometry class).  Since most of us are used to stating the size of an angle in \"degrees\", the math module provides a function, ``radians`` that will convert from degrees to radians for us."
 msgstr ""
 
+#: ../../_sources/Labs/sinlab.rst:37
+#: ../../_sources/Labs/sinlab.rst:50
+#: ../../_sources/Labs/sinlab.rst:92
+#: ../../_sources/Labs/sinlab.rst:119
+msgid ""
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:37
+msgid "import math\n"
+"\n"
+"y = math.sin(math.radians(90))\n"
+"print(y)"
+msgstr ""
+
 #: ../../_sources/Labs/sinlab.rst:38
 msgid "The program above shows us that the sine of 90 degrees is 1.  Note that the figure above agrees with that.  Try a few other values, like 0 degrees, 180 degrees, 38 degrees, and so on.  You should be able to match the results up with the picture shown above."
 msgstr ""
 
 #: ../../_sources/Labs/sinlab.rst:40
 msgid "It might be even more interesting to iterate through a sequence of angles and see the value of the sine function change.  Try it for angles between 0 and 180 degrees.  What do you notice about the results?"
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:50
+msgid "import math\n"
+"\n"
+"for angle in range(????):\n"
+"    y = math.sin(math.radians(angle))\n"
+"    print(y)"
 msgstr ""
 
 #: ../../_sources/Labs/sinlab.rst:51
@@ -76,6 +98,20 @@ msgstr ""
 msgid "Let's try the ``goto`` method.  Experiment with the method to make sure you understand the coordinate system of the screen.  Try both positive and negative numbers."
 msgstr ""
 
+#: ../../_sources/Labs/sinlab.rst:92
+msgid "import math\n"
+"import turtle\n"
+"\n"
+"wn = turtle.Screen()\n"
+"wn.bgcolor('lightblue')\n"
+"\n"
+"fred = turtle.Turtle()\n"
+"\n"
+"fred.goto(50,60)\n"
+"\n"
+"wn.exitonclick()"
+msgstr ""
+
 #: ../../_sources/Labs/sinlab.rst:93
 msgid "Now we can put the two previous programs together to complete our plot.  Here is our sequence of steps."
 msgstr ""
@@ -98,6 +134,20 @@ msgstr ""
 
 #: ../../_sources/Labs/sinlab.rst:104
 msgid "Here is a partial program for you to complete."
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:119
+msgid "import math\n"
+"import turtle\n"
+"\n"
+"wn = turtle.Screen()\n"
+"wn.bgcolor('lightblue')\n"
+"\n"
+"fred = turtle.Turtle()\n"
+"\n"
+"#your code here\n"
+"\n"
+"wn.exitonclick()"
 msgstr ""
 
 #: ../../_sources/Labs/sinlab.rst:121

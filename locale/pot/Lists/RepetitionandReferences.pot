@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,12 +24,32 @@ msgstr ""
 msgid "We have already seen the repetition operator working on strings as well as lists.  For example,"
 msgstr ""
 
+#: ../../_sources/Lists/RepetitionandReferences.rst:23
+#: ../../_sources/Lists/RepetitionandReferences.rst:36
+#: ../../_sources/Lists/RepetitionandReferences.rst:61
+msgid ""
+msgstr ""
+
+#: ../../_sources/Lists/RepetitionandReferences.rst:23
+msgid "origlist = [45, 76, 34, 55]\n"
+"print(origlist * 3)"
+msgstr ""
+
 #: ../../_sources/Lists/RepetitionandReferences.rst:24
 msgid "With a list, the repetition operator creates copies of the references.  Although this may seem simple enough, when we allow a list to refer to another list, a subtle problem can arise."
 msgstr ""
 
 #: ../../_sources/Lists/RepetitionandReferences.rst:26
 msgid "Consider the following extension on the previous example."
+msgstr ""
+
+#: ../../_sources/Lists/RepetitionandReferences.rst:36
+msgid "origlist = [45, 76, 34, 55]\n"
+"print(origlist * 3)\n"
+"\n"
+"newlist = [origlist] * 3\n"
+"\n"
+"print(newlist)"
 msgstr ""
 
 #: ../../_sources/Lists/RepetitionandReferences.rst:37
@@ -43,6 +63,18 @@ msgstr ""
 
 #: ../../_sources/Lists/RepetitionandReferences.rst:47
 msgid "Now, what happens if we modify a value in ``origlist``."
+msgstr ""
+
+#: ../../_sources/Lists/RepetitionandReferences.rst:61
+msgid "origlist = [45, 76, 34, 55]\n"
+"\n"
+"newlist = [origlist] * 3\n"
+"\n"
+"print(newlist)\n"
+"\n"
+"origlist[1] = 99\n"
+"\n"
+"print(newlist)"
 msgstr ""
 
 #: ../../_sources/Lists/RepetitionandReferences.rst:62

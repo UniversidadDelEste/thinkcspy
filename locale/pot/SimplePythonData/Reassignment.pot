@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,6 +52,18 @@ msgstr ""
 msgid "As we have mentioned previously, it is legal to make more than one assignment to the same variable. A new assignment makes an existing variable refer to a new value (and stop referring to the old value)."
 msgstr ""
 
+#: ../../_sources/SimplePythonData/Reassignment.rst:36
+#: ../../_sources/SimplePythonData/Reassignment.rst:60
+msgid ""
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Reassignment.rst:36
+msgid "bruce = 5\n"
+"print(bruce)\n"
+"bruce = 7\n"
+"print(bruce)"
+msgstr ""
+
 #: ../../_sources/SimplePythonData/Reassignment.rst:37
 msgid "The first time ``bruce`` is printed, its value is 5, and the second time, its value is 7.  The assignment statement changes the value (the object) that ``bruce`` refers to."
 msgstr ""
@@ -67,6 +79,14 @@ msgstr ""
 
 #: ../../_sources/SimplePythonData/Reassignment.rst:48
 msgid "It is important to note that in mathematics, a statement of equality is always true.  If ``a is equal to b`` now, then ``a will always equal to b``. In Python, an assignment statement can make two variables refer to the same object and therefore have the same value.  They appear to be equal.  However, because of the possibility of reassignment, they don't have to stay that way:"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Reassignment.rst:60
+msgid "a = 5\n"
+"b = a    # after executing this line, a and b are now equal\n"
+"print(a, b)\n"
+"a = 3    # after executing this line, a and b are no longer equal\n"
+"print(a, b)"
 msgstr ""
 
 #: ../../_sources/SimplePythonData/Reassignment.rst:61

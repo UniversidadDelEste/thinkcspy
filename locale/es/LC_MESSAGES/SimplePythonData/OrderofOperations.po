@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -137,6 +137,12 @@ msgid ""
 "associative rule is the exponentiation operator `**`. A useful hint is to"
 " always use parentheses to force exactly the order you want when "
 "exponentiation is involved:"
+msgstr ""
+
+#: ../../_sources/SimplePythonData/OrderofOperations.rst:78
+msgid ""
+"print(2 ** 3 ** 2)     # the right-most ** operator gets done first!\n"
+"print((2 ** 3) ** 2)   # use parentheses to force the order you want!"
 msgstr ""
 
 #: ../../_sources/SimplePythonData/OrderofOperations.rst:83

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,6 +59,14 @@ msgid ""
 " radians for us."
 msgstr ""
 
+#: ../../_sources/Labs/sinlab.rst:37
+msgid ""
+"import math\n"
+"\n"
+"y = math.sin(math.radians(90))\n"
+"print(y)"
+msgstr ""
+
 #: ../../_sources/Labs/sinlab.rst:38
 msgid ""
 "The program above shows us that the sine of 90 degrees is 1.  Note that "
@@ -72,6 +80,15 @@ msgid ""
 "It might be even more interesting to iterate through a sequence of angles"
 " and see the value of the sine function change.  Try it for angles "
 "between 0 and 180 degrees.  What do you notice about the results?"
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:50
+msgid ""
+"import math\n"
+"\n"
+"for angle in range(????):\n"
+"    y = math.sin(math.radians(angle))\n"
+"    print(y)"
 msgstr ""
 
 #: ../../_sources/Labs/sinlab.rst:51
@@ -115,6 +132,21 @@ msgid ""
 "and negative numbers."
 msgstr ""
 
+#: ../../_sources/Labs/sinlab.rst:92
+msgid ""
+"import math\n"
+"import turtle\n"
+"\n"
+"wn = turtle.Screen()\n"
+"wn.bgcolor('lightblue')\n"
+"\n"
+"fred = turtle.Turtle()\n"
+"\n"
+"fred.goto(50,60)\n"
+"\n"
+"wn.exitonclick()"
+msgstr ""
+
 #: ../../_sources/Labs/sinlab.rst:93
 msgid ""
 "Now we can put the two previous programs together to complete our plot.  "
@@ -139,6 +171,21 @@ msgstr ""
 
 #: ../../_sources/Labs/sinlab.rst:104
 msgid "Here is a partial program for you to complete."
+msgstr ""
+
+#: ../../_sources/Labs/sinlab.rst:119
+msgid ""
+"import math\n"
+"import turtle\n"
+"\n"
+"wn = turtle.Screen()\n"
+"wn.bgcolor('lightblue')\n"
+"\n"
+"fred = turtle.Turtle()\n"
+"\n"
+"#your code here\n"
+"\n"
+"wn.exitonclick()"
 msgstr ""
 
 #: ../../_sources/Labs/sinlab.rst:121

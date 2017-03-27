@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,6 +27,14 @@ msgstr ""
 msgid ""
 "``in`` and ``not in`` are boolean operators that test membership in a "
 "sequence. We used them previously with strings and they also work here."
+msgstr ""
+
+#: ../../_sources/Lists/ListMembership.rst:26
+msgid ""
+"fruit = [\"apple\", \"orange\", \"banana\", \"cherry\"]\n"
+"\n"
+"print(\"apple\" in fruit)\n"
+"print(\"pear\" in fruit)"
 msgstr ""
 
 #: ../../_sources/Lists/ListMembership.rst:27

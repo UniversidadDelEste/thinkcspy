@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,6 +30,34 @@ msgstr ""
 
 #: ../../_sources/ClassesDiggingDeeper/Fractions.rst:23
 msgid "To design our class, we simply need to use the analysis above to realize that the `state` of a fraction object can be completely described by representing two integers.  We can begin by implementing the ``Fraction`` class and the ``__init__`` method which will allow the user to provide a numerator and a denominator for the fraction being created."
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Fractions.rst:54
+msgid ""
+msgstr ""
+
+#: ../../_sources/ClassesDiggingDeeper/Fractions.rst:54
+msgid "class Fraction:\n"
+"\n"
+"    def __init__(self, top, bottom):\n"
+"\n"
+"        self.num = top        # the numerator is on top\n"
+"        self.den = bottom     # the denominator is on the bottom\n"
+"\n"
+"    def __str__(self):\n"
+"        return str(self.num) + \"/\" + str(self.den)\n"
+"\n"
+"    def getNum(self):\n"
+"        return self.num\n"
+"\n"
+"    def getDen(self):\n"
+"        return self.den\n"
+"\n"
+"myfraction = Fraction(3, 4)\n"
+"print(myfraction)\n"
+"\n"
+"print(myfraction.getNum())\n"
+"print(myfraction.getDen())"
 msgstr ""
 
 #: ../../_sources/ClassesDiggingDeeper/Fractions.rst:55

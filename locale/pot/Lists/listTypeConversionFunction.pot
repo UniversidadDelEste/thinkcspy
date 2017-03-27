@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,6 +22,15 @@ msgstr ""
 
 #: ../../_sources/Lists/listTypeConversionFunction.rst:17
 msgid "Python has a built-in type conversion function called ``list`` that tries to turn whatever you give it into a list.  For example, try the following:"
+msgstr ""
+
+#: ../../_sources/Lists/listTypeConversionFunction.rst:26
+msgid ""
+msgstr ""
+
+#: ../../_sources/Lists/listTypeConversionFunction.rst:26
+msgid "xs = list(\"Crunchy Frog\")\n"
+"print(xs)"
 msgstr ""
 
 #: ../../_sources/Lists/listTypeConversionFunction.rst:27

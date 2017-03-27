@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,8 +91,34 @@ msgstr ""
 msgid "The ``keys`` method returns what Python 3 calls a **view** of its underlying keys. We can iterate over the view or turn the view into a list by using the ``list`` conversion function."
 msgstr ""
 
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:45
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:57
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:78
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:96
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:116
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:121
+msgid ""
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:45
+msgid "inventory = {'apples': 430, 'bananas': 312, 'oranges': 525, 'pears': 217}\n"
+"\n"
+"for akey in inventory.keys():     # the order in which we get the keys is not defined\n"
+"   print(\"Got key\", akey, \"which maps to value\", inventory[akey])\n"
+"\n"
+"ks = list(inventory.keys())\n"
+"print(ks)"
+msgstr ""
+
 #: ../../_sources/Dictionaries/Dictionarymethods.rst:46
 msgid "It is so common to iterate over the keys in a dictionary that you can omit the ``keys`` method call in the ``for`` loop --- iterating over a dictionary implicitly iterates over its keys."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:57
+msgid "inventory = {'apples': 430, 'bananas': 312, 'oranges': 525, 'pears': 217}\n"
+"\n"
+"for k in inventory:\n"
+"   print(\"Got key\", k)"
 msgstr ""
 
 #: ../../_sources/Dictionaries/Dictionarymethods.rst:58
@@ -103,12 +129,36 @@ msgstr ""
 msgid "The ``values`` and ``items`` methods are similar to ``keys``. They return  view objects which can be turned into lists or iterated over directly.  Note that the items are shown as tuples containing the key and the associated value."
 msgstr ""
 
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:78
+msgid "inventory = {'apples': 430, 'bananas': 312, 'oranges': 525, 'pears': 217}\n"
+"\n"
+"print(list(inventory.values()))\n"
+"print(list(inventory.items()))\n"
+"\n"
+"for (k,v) in inventory.items():\n"
+"    print(\"Got\", k, \"that maps to\", v)\n"
+"\n"
+"for k in inventory:\n"
+"    print(\"Got\", k, \"that maps to\", inventory[k])"
+msgstr ""
+
 #: ../../_sources/Dictionaries/Dictionarymethods.rst:79
 msgid "Note that tuples are often useful for getting both the key and the value at the same time while you are looping.  The two loops do the same thing."
 msgstr ""
 
 #: ../../_sources/Dictionaries/Dictionarymethods.rst:83
 msgid "The ``in`` and ``not in`` operators can test if a key is in the dictionary:"
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:96
+msgid "inventory = {'apples': 430, 'bananas': 312, 'oranges': 525, 'pears': 217}\n"
+"print('apples' in inventory)\n"
+"print('cherries' in inventory)\n"
+"\n"
+"if 'bananas' in inventory:\n"
+"    print(inventory['bananas'])\n"
+"else:\n"
+"    print(\"We have no bananas\")"
 msgstr ""
 
 #: ../../_sources/Dictionaries/Dictionarymethods.rst:97
@@ -119,8 +169,22 @@ msgstr ""
 msgid "The ``get`` method allows us to access the value associated with a key, similar to the ``[ ]`` operator. The important difference is that ``get`` will not cause a runtime error if the key is not present.  It will instead return None.  There exists a variation of ``get`` that allows a second parameter that serves as an alternative return value in the case where the key is not present.  This can be seen in the final example below.  In this case, since \"cherries\" is not a key, return 0 (instead of None)."
 msgstr ""
 
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:116
+msgid "inventory = {'apples': 430, 'bananas': 312, 'oranges': 525, 'pears': 217}\n"
+"\n"
+"print(inventory.get(\"apples\"))\n"
+"print(inventory.get(\"cherries\"))\n"
+"\n"
+"print(inventory.get(\"cherries\", 0))"
+msgstr ""
+
 #: ../../_sources/Dictionaries/Dictionarymethods.rst:119
 msgid "This workspace is provided for your convenience.  You can use this activecode window to try out anything you like."
+msgstr ""
+
+#: ../../_sources/Dictionaries/Dictionarymethods.rst:121
+msgid "\n"
+""
 msgstr ""
 
 #: ../../_sources/Dictionaries/Dictionarymethods.rst:124

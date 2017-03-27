@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,12 +83,34 @@ msgid ""
 "slice off the parts we want and concatenate them with the new tuple."
 msgstr ""
 
+#: ../../_sources/Lists/TuplesandMutability.rst:68
+msgid ""
+"julia = (\"Julia\", \"Roberts\", 1967, \"Duplicity\", 2009, \"Actress\", "
+"\"Atlanta, Georgia\")\n"
+"print(julia[2])\n"
+"print(julia[2:6])\n"
+"\n"
+"print(len(julia))\n"
+"\n"
+"julia = julia[:3] + (\"Eat Pray Love\", 2010) + julia[5:]\n"
+"print(julia)"
+msgstr ""
+
 #: ../../_sources/Lists/TuplesandMutability.rst:69
 msgid ""
 "To create a tuple with a single element (but you're probably not likely "
 "to do that too often), we have to include the final comma, because "
 "without the final comma, Python treats the ``(5)`` below as an integer in"
 " parentheses:"
+msgstr ""
+
+#: ../../_sources/Lists/TuplesandMutability.rst:81
+msgid ""
+"tup = (5,)\n"
+"print(type(tup))\n"
+"\n"
+"x = (5)\n"
+"print(type(x))"
 msgstr ""
 
 #: ../../_sources/Lists/TuplesandMutability.rst:82

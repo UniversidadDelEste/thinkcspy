@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,6 +66,27 @@ msgstr ""
 
 #: ../../_sources/MoreAboutIteration/ThewhileStatement.rst:38
 msgid "Here is a new version of the summation program that uses a while statement."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/ThewhileStatement.rst:57
+#: ../../_sources/MoreAboutIteration/ThewhileStatement.rst:131
+msgid ""
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/ThewhileStatement.rst:57
+msgid "def sumTo(aBound):\n"
+"    \"\"\" Return the sum of 1+2+3 ... n \"\"\"\n"
+"\n"
+"    theSum  = 0\n"
+"    aNumber = 1\n"
+"    while aNumber <= aBound:\n"
+"        theSum = theSum + aNumber\n"
+"        aNumber = aNumber + 1\n"
+"    return theSum\n"
+"\n"
+"print(sumTo(4))\n"
+"\n"
+"print(sumTo(1000))"
 msgstr ""
 
 #: ../../_sources/MoreAboutIteration/ThewhileStatement.rst:58
@@ -175,6 +196,11 @@ msgstr ""
 
 #: ../../_sources/MoreAboutIteration/ThewhileStatement.rst:129
 msgid "This workspace is provided for your convenience.  You can use this activecode window to try out anything you like."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/ThewhileStatement.rst:131
+msgid "\n"
+""
 msgstr ""
 
 #: ../../_sources/MoreAboutIteration/ThewhileStatement.rst:134

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,6 +90,14 @@ msgstr ""
 msgid "To test the new function, we call it with sample values."
 msgstr ""
 
+#: ../../_sources/Functions/ProgramDevelopment.rst:62
+msgid ""
+"def distance(x1, y1, x2, y2):\n"
+"    return 0.0\n"
+"\n"
+"print(distance(1, 2, 4, 6))"
+msgstr ""
+
 #: ../../_sources/Functions/ProgramDevelopment.rst:63
 msgid ""
 "We chose these values so that the horizontal distance equals 3 and the "
@@ -144,6 +152,18 @@ msgstr ""
 msgid ""
 "Finally, using the fractional exponent ``0.5`` to find the square root, "
 "we compute and return the result."
+msgstr ""
+
+#: ../../_sources/Functions/ProgramDevelopment.rst:111
+msgid ""
+"def distance(x1, y1, x2, y2):\n"
+"    dx = x2 - x1\n"
+"    dy = y2 - y1\n"
+"    dsquared = dx**2 + dy**2\n"
+"    result = dsquared**0.5\n"
+"    return result\n"
+"\n"
+"print(distance(1, 2, 4, 6))"
 msgstr ""
 
 #: ../../_sources/Functions/ProgramDevelopment.rst:112

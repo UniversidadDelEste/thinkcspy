@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,6 +46,13 @@ msgid ""
 "For example:"
 msgstr ""
 
+#: ../../_sources/Strings/OperationsonStrings.rst:38
+msgid ""
+"fruit = \"banana\"\n"
+"bakedGood = \" nut bread\"\n"
+"print(fruit + bakedGood)"
+msgstr ""
+
 #: ../../_sources/Strings/OperationsonStrings.rst:39
 msgid ""
 "The output of this program is ``banana nut bread``. The space before the "
@@ -58,6 +65,18 @@ msgid ""
 "The ``*`` operator also works on strings.  It performs repetition. For "
 "example, ``'Fun'*3`` is ``'FunFunFun'``. One of the operands has to be a "
 "string and the other has to be an integer."
+msgstr ""
+
+#: ../../_sources/Strings/OperationsonStrings.rst:58
+msgid ""
+"print(\"Go\" * 6)\n"
+"\n"
+"name = \"Packers\"\n"
+"print(name * 3)\n"
+"\n"
+"print(name + \"Go\" * 3)\n"
+"\n"
+"print((name + \"Go\") * 3)"
 msgstr ""
 
 #: ../../_sources/Strings/OperationsonStrings.rst:59

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,6 +54,17 @@ msgstr ""
 
 #: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:31
 msgid "Another form of the ``if`` statement is one in which the ``else`` clause is omitted entirely. This creates what is sometimes called **unary selection**. In this case, when the condition evaluates to ``True``, the statements are executed.  Otherwise the flow of execution continues to the statement after the body of the ``if``."
+msgstr ""
+
+#: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:44
+msgid ""
+msgstr ""
+
+#: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:44
+msgid "x = 10\n"
+"if x < 0:\n"
+"    print(\"The negative number \",  x, \" is not valid here.\")\n"
+"print(\"This is always printed\")"
 msgstr ""
 
 #: ../../_sources/Selection/OmittingtheelseClauseUnarySelection.rst:45

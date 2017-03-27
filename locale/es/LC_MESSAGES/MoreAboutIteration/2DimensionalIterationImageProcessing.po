@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -271,6 +271,18 @@ msgid ""
 "be the same as the current amount of green."
 msgstr ""
 
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:95
+msgid ""
+"import image\n"
+"\n"
+"p = image.Pixel(45, 76, 200)\n"
+"print(p.getRed())\n"
+"p.setRed(66)\n"
+"print(p.getRed())\n"
+"p.setBlue(p.getGreen())\n"
+"print(p.getGreen(), p.getBlue())"
+msgstr ""
+
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:96
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:172
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:327
@@ -437,6 +449,18 @@ msgstr ""
 msgid "<img src=\"../_static/LutherBellPic.jpg\" id=\"luther.jpg\">"
 msgstr ""
 
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:168
+msgid ""
+"import image\n"
+"img = image.Image(\"luther.jpg\")\n"
+"\n"
+"print(img.getWidth())\n"
+"print(img.getHeight())\n"
+"\n"
+"p = img.getPixel(45, 55)\n"
+"print(p.getRed(), p.getGreen(), p.getBlue())"
+msgstr ""
+
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:169
 msgid ""
 "When you run the program you can see that the image has a width of 400 "
@@ -526,6 +550,7 @@ msgid ""
 msgstr ""
 
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:208
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:225
 msgid ""
 "for i in range(5):\n"
 "    for j in range(3):\n"
@@ -843,6 +868,31 @@ msgid ""
 "``exitonclick`` method call at the very end which will close the window "
 "when you click on it.  This will allow you to \"clear the screen\" before"
 " drawing the next negative."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:295
+msgid ""
+"import image\n"
+"\n"
+"img = image.Image(\"luther.jpg\")\n"
+"win = image.ImageWin(img.getWidth(), img.getHeight())\n"
+"img.draw(win)\n"
+"img.setDelay(1,15)   # setDelay(0) turns off animation\n"
+"\n"
+"for row in range(img.getHeight()):\n"
+"    for col in range(img.getWidth()):\n"
+"        p = img.getPixel(col, row)\n"
+"\n"
+"        newred = 255 - p.getRed()\n"
+"        newgreen = 255 - p.getGreen()\n"
+"        newblue = 255 - p.getBlue()\n"
+"\n"
+"        newpixel = image.Pixel(newred, newgreen, newblue)\n"
+"\n"
+"        img.setPixel(col, row, newpixel)\n"
+"\n"
+"img.draw(win)\n"
+"win.exitonclick()"
 msgstr ""
 
 #: ../../_sources/MoreAboutIteration/2DimensionalIterationImageProcessing.rst:296

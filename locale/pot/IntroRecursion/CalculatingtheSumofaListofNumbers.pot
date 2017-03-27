@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,6 +22,20 @@ msgstr ""
 
 #: ../../_sources/IntroRecursion/CalculatingtheSumofaListofNumbers.rst:13
 msgid "We will begin our investigation with a simple problem that you already know how to solve without using recursion. Suppose that you want to calculate the sum of a list of numbers such as: :math:`[1, 3, 5, 7, 9]`. An iterative function that computes the sum is shown below. The function uses an accumulator variable (``theSum``) to compute a running total of all the numbers in the list by starting with :math:`0` and adding each number in the list."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/CalculatingtheSumofaListofNumbers.rst:33
+msgid "data-caption='Iterative Summation'"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/CalculatingtheSumofaListofNumbers.rst:33
+msgid "def listsum(numList):\n"
+"    theSum = 0\n"
+"    for i in numList:\n"
+"        theSum = theSum + i\n"
+"    return theSum\n"
+"\n"
+"print(listsum([1,3,5,7,9]))"
 msgstr ""
 
 #: ../../_sources/IntroRecursion/CalculatingtheSumofaListofNumbers.rst:34
@@ -42,6 +56,20 @@ msgstr ""
 
 #: ../../_sources/IntroRecursion/CalculatingtheSumofaListofNumbers.rst:79
 msgid "In this equation :math:`first(numList)` returns the first element of the list and :math:`rest(numList)` returns a list of everything but the first element. This is easily expressed in Python."
+msgstr ""
+
+#: ../../_sources/IntroRecursion/CalculatingtheSumofaListofNumbers.rst:94
+msgid "data-caption='Recursive Summation'"
+msgstr ""
+
+#: ../../_sources/IntroRecursion/CalculatingtheSumofaListofNumbers.rst:94
+msgid "def listsum(numList):\n"
+"   if len(numList) == 1:\n"
+"        return numList[0]\n"
+"   else:\n"
+"        return numList[0] + listsum(numList[1:])\n"
+"\n"
+"print(listsum([1,3,5,7,9]))"
 msgstr ""
 
 #: ../../_sources/IntroRecursion/CalculatingtheSumofaListofNumbers.rst:95

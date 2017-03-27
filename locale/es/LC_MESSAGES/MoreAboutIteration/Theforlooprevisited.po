@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,6 +30,13 @@ msgid ""
 "executed. We saw this example in an earlier chapter."
 msgstr ""
 
+#: ../../_sources/MoreAboutIteration/Theforlooprevisited.rst:26
+msgid ""
+"for f in [\"Joe\", \"Amy\", \"Brad\", \"Angelina\", \"Zuki\", \"Thandi\","
+" \"Paris\"]:\n"
+"    print(\"Hi\", f, \"Please come to my party on Saturday\")"
+msgstr ""
+
 #: ../../_sources/MoreAboutIteration/Theforlooprevisited.rst:27
 msgid ""
 "We have also seen iteration paired with the update idea to form the "
@@ -39,6 +46,20 @@ msgid ""
 "running total variable initialized to 0 and on each iteration, add the "
 "current value of the loop variable.  A function to compute this sum is "
 "shown below."
+msgstr ""
+
+#: ../../_sources/MoreAboutIteration/Theforlooprevisited.rst:44
+msgid ""
+"def sumTo(aBound):\n"
+"    theSum = 0\n"
+"    for aNumber in range(1, aBound + 1):\n"
+"        theSum = theSum + aNumber\n"
+"\n"
+"    return theSum\n"
+"\n"
+"print(sumTo(4))\n"
+"\n"
+"print(sumTo(1000))"
 msgstr ""
 
 #: ../../_sources/MoreAboutIteration/Theforlooprevisited.rst:45

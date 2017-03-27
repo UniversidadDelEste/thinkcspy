@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,6 +72,30 @@ msgstr ""
 msgid "``0 % 7``"
 msgstr ""
 
+#: ../../_sources/SimplePythonData/Exercises.rst:38
+#: ../../_sources/SimplePythonData/Exercises.rst:69
+#: ../../_sources/SimplePythonData/Exercises.rst:85
+#: ../../_sources/SimplePythonData/Exercises.rst:104
+#: ../../_sources/SimplePythonData/Exercises.rst:123
+#: ../../_sources/SimplePythonData/Exercises.rst:136
+#: ../../_sources/SimplePythonData/Exercises.rst:156
+#: ../../_sources/SimplePythonData/Exercises.rst:170
+#: ../../_sources/SimplePythonData/Exercises.rst:191
+#: ../../_sources/SimplePythonData/Exercises.rst:208
+#: ../../_sources/SimplePythonData/Exercises.rst:222
+#: ../../_sources/SimplePythonData/Exercises.rst:234
+#: ../../_sources/SimplePythonData/Exercises.rst:248
+#: ../../_sources/SimplePythonData/Exercises.rst:262
+#: ../../_sources/SimplePythonData/Exercises.rst:273
+#: ../../_sources/SimplePythonData/Exercises.rst:287
+#: ../../_sources/SimplePythonData/Exercises.rst:299
+msgid ""
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:38
+msgid "print(5 ** 2)"
+msgstr ""
+
 #: ../../_sources/SimplePythonData/Exercises.rst:42
 msgid "``5 ** 2  = 25``"
 msgstr ""
@@ -124,16 +148,68 @@ msgstr ""
 msgid "What is the order of the arithmetic operations in the following expression.  Evaluate the expression by hand and then check your work."
 msgstr ""
 
+#: ../../_sources/SimplePythonData/Exercises.rst:69
+#: ../../_sources/SimplePythonData/Exercises.rst:85
+#: ../../_sources/SimplePythonData/Exercises.rst:136
+#: ../../_sources/SimplePythonData/Exercises.rst:170
+#: ../../_sources/SimplePythonData/Exercises.rst:191
+#: ../../_sources/SimplePythonData/Exercises.rst:222
+#: ../../_sources/SimplePythonData/Exercises.rst:234
+#: ../../_sources/SimplePythonData/Exercises.rst:262
+#: ../../_sources/SimplePythonData/Exercises.rst:273
+#: ../../_sources/SimplePythonData/Exercises.rst:299
+msgid "\n"
+""
+msgstr ""
+
 #: ../../_sources/SimplePythonData/Exercises.rst:79
 msgid "Many people keep time using a 24 hour clock (11 is 11am and 23 is 11pm, 0 is midnight). If it is currently 13 and you set your alarm to go off in 50 hours, it will be 15 (3pm). Write a Python program to solve the general version of the above problem. Ask the user for the time now (in hours), and then ask for the number of hours to wait for the alarm. Your program should output what the time will be on the clock when the alarm goes off."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:104
+msgid "## question 3 solution ##\n"
+"\n"
+"current_time_string = input(\"What is the current time (in hours)? \")\n"
+"waiting_time_string = input(\"How many hours do you have to wait? \")\n"
+"\n"
+"current_time_int = int(current_time_string)\n"
+"waiting_time_int = int(waiting_time_string)\n"
+"\n"
+"hours = current_time_int + waiting_time_int\n"
+"\n"
+"timeofday = hours % 24\n"
+"\n"
+"print(timeofday)"
 msgstr ""
 
 #: ../../_sources/SimplePythonData/Exercises.rst:115
 msgid "It is possible to name the days 0 through 6 where day 0 is Sunday and day 6 is Saturday.  If you go on a wonderful holiday leaving on day number 3 (a Wednesday) and you return home after 10 nights. Write a general version of the program which asks for the starting day number, and the length of your stay, and it will tell you the number of day of the week you will return on."
 msgstr ""
 
+#: ../../_sources/SimplePythonData/Exercises.rst:123
+msgid "# Problem 4\n"
+"# My Name:"
+msgstr ""
+
 #: ../../_sources/SimplePythonData/Exercises.rst:132
 msgid "Take the sentence: *All work and no play makes Jack a dull boy.* Store each word in a separate variable, then print out the sentence on one line using ``print``."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:156
+msgid "## question 5 solution ##\n"
+"\n"
+"word1 = \"All\"\n"
+"word2 = \"work\"\n"
+"word3 = \"and\"\n"
+"word4 = \"no\"\n"
+"word5 = \"play\"\n"
+"word6 = \"makes\"\n"
+"word7 = \"Jack\"\n"
+"word8 = \"a\"\n"
+"word9 = \"dull\"\n"
+"word10 = \"boy.\"\n"
+"\n"
+"print(word1, word2, word3, word4, word5, word6, word7, word8, word9, word10)"
 msgstr ""
 
 #: ../../_sources/SimplePythonData/Exercises.rst:167
@@ -153,6 +229,20 @@ msgstr ""
 msgid "Write a Python program that assigns the principal amount of 10000 to variable `P`, assign to `n` the value 12, and assign to `r` the interest rate of 8% (0.08).  Then have the program prompt the user for the number of years, `t`, that the money will be compounded for.  Calculate and print the final amount after `t` years."
 msgstr ""
 
+#: ../../_sources/SimplePythonData/Exercises.rst:208
+msgid "## question 7 solution ##\n"
+"\n"
+"P = 10000\n"
+"n = 12\n"
+"r = 0.08\n"
+"\n"
+"t = int(input(\"Compound for how many years? \"))\n"
+"\n"
+"final = P * ( ((1 + (r/n)) ** (n * t)) )\n"
+"\n"
+"print (\"The final amount after\", t, \"years is\", final)"
+msgstr ""
+
 #: ../../_sources/SimplePythonData/Exercises.rst:219
 msgid "Write a program that will compute the area of a circle.  Prompt the user to enter the radius and print a nice message back to the user with the answer."
 msgstr ""
@@ -161,12 +251,34 @@ msgstr ""
 msgid "Write a program that will compute the area of a rectangle.  Prompt the user to enter the width and height of the rectangle. Print a nice message with the answer."
 msgstr ""
 
+#: ../../_sources/SimplePythonData/Exercises.rst:248
+msgid "## question 9 solution\n"
+"\n"
+"width = int(input(\"Width? \"))\n"
+"height = int(input(\"Height? \"))\n"
+"\n"
+"area = width * height\n"
+"\n"
+"print(\"The area of the rectangle is\", area)"
+msgstr ""
+
 #: ../../_sources/SimplePythonData/Exercises.rst:259
 msgid "Write a program that will compute MPG for a car.  Prompt the user to enter the number of miles driven and the number of gallons used.  Print a nice message with the answer."
 msgstr ""
 
 #: ../../_sources/SimplePythonData/Exercises.rst:271
 msgid "Write a program that will convert degrees celsius to degrees fahrenheit."
+msgstr ""
+
+#: ../../_sources/SimplePythonData/Exercises.rst:287
+msgid "## question 11 solution ##\n"
+"\n"
+"deg_c = int(input(\"What is the temperature in Celsius? \"))\n"
+"\n"
+"# formula to convert C to F is: (degrees Celcius) times (9/5) plus (32)\n"
+"deg_f = deg_c * (9 / 5) + 32\n"
+"\n"
+"print(deg_c, \" degrees Celsius is\", deg_f, \" degrees Farenheit.\")"
 msgstr ""
 
 #: ../../_sources/SimplePythonData/Exercises.rst:297

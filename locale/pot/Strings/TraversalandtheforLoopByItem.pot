@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,12 +28,34 @@ msgstr ""
 msgid "We have previously seen that the ``for`` statement can iterate over the items of a sequence (a list of names in the case below)."
 msgstr ""
 
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:31
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:40
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:48
+msgid ""
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:31
+msgid "for aname in [\"Joe\", \"Amy\", \"Brad\", \"Angelina\", \"Zuki\", \"Thandi\", \"Paris\"]:\n"
+"    invitation = \"Hi \" + aname + \".  Please come to my party on Saturday!\"\n"
+"    print(invitation)"
+msgstr ""
+
 #: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:32
 msgid "Recall that the loop variable takes on each value in the sequence of names.  The body is performed once for each name.  The same was true for the sequence of integers created by the ``range`` function."
 msgstr ""
 
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:40
+msgid "for avalue in range(10):\n"
+"    print(avalue)"
+msgstr ""
+
 #: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:41
 msgid "Since a string is simply a sequence of characters, the ``for`` loop iterates over each character automatically."
+msgstr ""
+
+#: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:48
+msgid "for achar in \"Go Spot Go\":\n"
+"    print(achar)"
 msgstr ""
 
 #: ../../_sources/Strings/TraversalandtheforLoopByItem.rst:49

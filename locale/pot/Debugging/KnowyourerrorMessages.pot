@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,7 @@ msgid "Many problems in your program will lead to an error message.  For example
 msgstr ""
 
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:19
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:45
 msgid "current_time_str = input(\"What is the current time (in hours 0-23)?\")\n"
 "wait_time_str = input(\"How many hours do you want to wait\")\n"
 "\n"
@@ -41,6 +42,17 @@ msgstr ""
 
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:32
 msgid "Let's try the program again, but this time in an activecode:"
+msgstr ""
+
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:45
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:110
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:146
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:188
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:223
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:249
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:267
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:310
+msgid ""
 msgstr ""
 
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:46
@@ -272,6 +284,7 @@ msgstr ""
 msgid "Find and fix the error in the following code."
 msgstr ""
 
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:110
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:114
 msgid "current_time_str = input(\"What is the current time (in hours 0-23)?\")\n"
 "wait_time_str = input(\"How many hours do you want to wait\"\n"
@@ -291,6 +304,7 @@ msgstr ""
 msgid "**Finding Clues**  How can you help yourself find these problems?  One trick that can be very valuable in this situation is to simply start by commenting out the line number that is flagged as having the error.  If you comment out line four, the error message now changes to point to line 5.  Now you ask yourself, am I really that bad that I have two lines in a row that have errors on them?  Maybe, so taken to the extreme, you could comment out all of the remaining lines in the program. Now the error message changes to ``TokenError: EOF in multi-line statement``  This is a very technical way of saying that Python got to the end of file (EOF) while it was still looking for something.  In this case a right parenthesis."
 msgstr ""
 
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:146
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:150
 msgid "current_time_str = input(\"What is the \"current time\" (in hours 0-23)?\")\n"
 "wait_time_str = input(\"How many hours do you want to wait\")\n"
@@ -324,6 +338,18 @@ msgstr ""
 
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:173
 msgid "Here's an example of a type error created by a Polish learner.  See if you can find and fix the error."
+msgstr ""
+
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:188
+msgid "a = input(uu'wpisz godzine')\n"
+"x = input(uu'wpisz liczbe godzin')\n"
+"int(x)\n"
+"int(a)\n"
+"h = x // 24\n"
+"s = x % 24\n"
+"print (h, s)\n"
+"a = a + s\n"
+"print ('godzina teraz %s' %a)"
 msgstr ""
 
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:205
@@ -372,6 +398,16 @@ msgstr ""
 msgid "Name errors almost always mean that you have used a variable before it has a value.  Often NameErrors are simply caused by typos in your code.  They can be hard to spot if you don't have a good eye for catching spelling mistakes.  Other times you may simply mis-remember the name of a variable or even a function you want to call.    You have seen one example of a NameError at the beginning of this section.  Here is another one.  See if you can get this program to run successfully:"
 msgstr ""
 
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:223
+msgid "str_time = input(\"What time is it now?\")\n"
+"str_wait_time = input(\"What is the number of nours to wait?\")\n"
+"time = int(str_time)\n"
+"wai_time = int(str_wait_time)\n"
+"\n"
+"time_when_alarm_go_off = time + wait_time\n"
+"print(time_when_alarm_go_off)"
+msgstr ""
+
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:229
 msgid "In this example, the student seems to be a fairly bad speller, as there are a number of typos to fix.  The first one is identified as wait_time is not defined on line 6.  Now in this example you can see that there is ``str_wait_time`` on line 2, and  ``wai_time`` on line 4 and ``wait_time`` on line 6.   If you do not have very sharp eyes its easy to miss that there is a typo on line 4."
 msgstr ""
@@ -392,12 +428,29 @@ msgstr ""
 msgid "Here is another one for you to try:"
 msgstr ""
 
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:249
+msgid "n = input(\"What time is it now (in hours)?\")\n"
+"n = imt(n)\n"
+"m = input(\"How many hours do you want to wait?\")\n"
+"m = int(m)\n"
+"q = m % 12\n"
+"print(\"The time is now\", q)"
+msgstr ""
+
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:255
 msgid "This one is once again a typo, but the typo is not in a variable name, but rather, the name of a function.  The search strategy would help you with this one easily, but there is another clue for you as well.  The editor in the textbook, as well as almost all Python editors in the world provide you with color clues.  Notice that on line 2 the function ``imt`` is not highlighted blue like the word ``int`` on line 4."
 msgstr ""
 
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:258
 msgid "And one last bit of code to fix."
+msgstr ""
+
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:267
+msgid "present_time = input(\"Enter the present timein hours:\")\n"
+"set_alarm = input(\"Set the hours for alarm:\")\n"
+"int (present_time, set_time, alarm_time)\n"
+"alarm_time = present_time + set_alarm\n"
+"print(alarm_time)"
 msgstr ""
 
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:273
@@ -426,6 +479,17 @@ msgstr ""
 
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:297
 msgid "Value errors occur when you pass a parameter to a function and the function is expecting a certain type, but you pass it a different type.  We can illustrate that with this particular program in two different ways."
+msgstr ""
+
+#: ../../_sources/Debugging/KnowyourerrorMessages.rst:310
+msgid "current_time_str = input(\"What is the current time (in hours 0-23)?\")\n"
+"current_time_int = int(current_time_str)\n"
+"\n"
+"wait_time_str = input(\"How many hours do you want to wait\")\n"
+"wait_time_int = int(wait_time_int)\n"
+"\n"
+"final_time_int = current_time_int + wait_time_int\n"
+"print(final_time_int)"
 msgstr ""
 
 #: ../../_sources/Debugging/KnowyourerrorMessages.rst:311

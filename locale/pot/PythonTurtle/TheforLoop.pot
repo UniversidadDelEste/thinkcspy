@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-26 18:20-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,6 +58,19 @@ msgstr ""
 
 #: ../../_sources/PythonTurtle/TheforLoop.rst:32
 msgid "In Python, the **for** statement allows us to write programs that implement iteration.   As a simple example, let's say we have some friends, and we'd like to send them each an email inviting them to our party.  We don't quite know how to send email yet, so for the moment we'll just print a message for each friend."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TheforLoop.rst:44
+msgid ""
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TheforLoop.rst:44
+msgid "\"Overall Tour\"; 1-2: Example04_Tour01_Line01; 2: Example04_Tour01_Line02; 1: Example04_Tour01_Line03;"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/TheforLoop.rst:44
+msgid "for name in [\"Joe\", \"Amy\", \"Brad\", \"Angelina\", \"Zuki\", \"Thandi\", \"Paris\"]:\n"
+"    print(\"Hi\", name, \"Please come to my party on Saturday!\")"
 msgstr ""
 
 #: ../../_sources/PythonTurtle/TheforLoop.rst:45

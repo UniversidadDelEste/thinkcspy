@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 14:52-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,12 @@ msgstr ""
 
 #: ../../_sources/PythonTurtle/Exercises.rst:23
 msgid "Write a program that prints ``We like Python's turtles!`` 100 times."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Exercises.rst:32
+msgid ""
+"for i in range(100):\n"
+"    print(\"We like Python's turtles!\")"
 msgstr ""
 
 #: ../../_sources/PythonTurtle/Exercises.rst:59
@@ -45,6 +51,13 @@ msgstr ""
 
 #: ../../_sources/PythonTurtle/Exercises.rst
 msgid "etc ..."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Exercises.rst:69
+msgid ""
+"for amonth in ['January', 'February', 'March', 'April', 'May', 'June', "
+"'July', 'August', 'September', 'November', 'December']:\n"
+"    print(\"One of the months of the year is\", amonth)"
 msgstr ""
 
 #: ../../_sources/PythonTurtle/Exercises.rst:83
@@ -162,6 +175,46 @@ msgid ""
 "After the pirate is done walking, print the current heading."
 msgstr ""
 
+#: ../../_sources/PythonTurtle/Exercises.rst:222
+msgid ""
+"import turtle\n"
+"\n"
+"wn = turtle.Screen()\n"
+"lovelace = turtle.Turtle()\n"
+"\n"
+"# move the turtle forward a little so that the whole path fits on the "
+"screen\n"
+"lovelace.penup()\n"
+"lovelace.forward(60)\n"
+"\n"
+"# now draw the drunk pirate's path\n"
+"lovelace.pendown()\n"
+"for angle in [160, -43, 270, -97, -43, 200, -940, 17, -86]:\n"
+"\n"
+"    # we use .left() so that positive angles are counter-clockwise\n"
+"    # and negative angles are clockwise\n"
+"    lovelace.left(angle)\n"
+"    lovelace.forward(100)\n"
+"\n"
+"# the .heading() method gives us the turtle's current heading in degrees\n"
+"print(\"The pirate's final heading was\", lovelace.heading())\n"
+"\n"
+"wn.exitonclick()"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Exercises.rst:246
+msgid ""
+"import turtle\n"
+"wn = turtle.Screen()\n"
+"tess = turtle.Turtle()\n"
+"tess.right(90)\n"
+"tess.left(3600)\n"
+"tess.right(-90)\n"
+"tess.left(3600)\n"
+"tess.left(3645)\n"
+"tess.forward(-100)"
+msgstr ""
+
 #: ../../_sources/PythonTurtle/Exercises.rst:235
 msgid ""
 "On a piece of scratch paper, trace the following program and show the "
@@ -172,15 +225,26 @@ msgstr ""
 msgid "Write a program to draw a shape like this:"
 msgstr ""
 
-#: ../../_sources/PythonTurtle/Exercises.rst
+#: ../../_sources/PythonTurtle/Exercises.rst:261
 msgid ".. image:: PythonTurtle/Figures/star.png"
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Exercises.rst:274
+msgid ""
+"import turtle\n"
+"\n"
+"turing = turtle.Turtle()\n"
+"\n"
+"for i in range(5):\n"
+"    turing.forward(110)\n"
+"    turing.left(216)"
 msgstr ""
 
 #: ../../_sources/PythonTurtle/Exercises.rst:288
 msgid "Write a program to draw a face of a clock that looks something like this:"
 msgstr ""
 
-#: ../../_sources/PythonTurtle/Exercises.rst
+#: ../../_sources/PythonTurtle/Exercises.rst:291
 msgid ".. image:: PythonTurtle/Figures/tess_clock1.png"
 msgstr ""
 
@@ -188,6 +252,20 @@ msgstr ""
 msgid ""
 "Write a program to draw some kind of picture.  Be creative and experiment"
 " with the turtle methods provided in :ref:`turtle_methods`."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Exercises.rst:320
+msgid ""
+"import turtle\n"
+"\n"
+"tanenbaum = turtle.Turtle()\n"
+"\n"
+"tanenbaum.hideturtle()\n"
+"tanenbaum.speed(20)\n"
+"\n"
+"for i in range(350):\n"
+"    tanenbaum.forward(i)\n"
+"    tanenbaum.right(98)"
 msgstr ""
 
 #: ../../_sources/PythonTurtle/Exercises.rst:334
@@ -206,5 +284,33 @@ msgstr ""
 msgid ""
 "Write a program to draw a sprite where the number of legs is provided by "
 "the user."
+msgstr ""
+
+#: ../../_sources/PythonTurtle/Exercises.rst:380
+msgid ""
+"import turtle\n"
+"\n"
+"wn = turtle.Screen()\n"
+"\n"
+"babbage = turtle.Turtle()\n"
+"babbage.shape(\"triangle\")\n"
+"\n"
+"n = int(input(\"How many legs should this sprite have? \"))\n"
+"angle = 360 / n\n"
+"\n"
+"for i in range(n):\n"
+"    # draw the leg\n"
+"    babbage.right(angle)\n"
+"    babbage.forward(65)\n"
+"    babbage.stamp()\n"
+"\n"
+"    # go back to the middle and turn back around\n"
+"    babbage.right(180)\n"
+"    babbage.forward(65)\n"
+"    babbage.right(180)\n"
+"\n"
+"babbage.shape(\"circle\")\n"
+"\n"
+"wn.exitonclick()"
 msgstr ""
 

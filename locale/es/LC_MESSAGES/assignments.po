@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: How to Think Like a Computer Scientist 3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 13:36-0300\n"
+"POT-Creation-Date: 2017-03-26 21:02-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,5 +33,9 @@ msgstr ""
 
 #: ../../_sources/assignments.rst:11
 msgid "Write a program that counts from 1 to 10"
+msgstr ""
+
+#: ../../_sources/assignments.rst:16
+msgid "# your code here"
 msgstr ""
 
